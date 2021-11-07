@@ -1,0 +1,23 @@
+## Part 1
+
+3. The lexicon can't be used as an MFA pronunciation dictionary, as is. Why not?
+
+MFA pronunciation dictionaries are two-column files, where the columns represent a many to many mapping from words to pronunciations. The lexicon from the Cantonese speech corpus seems to be noncompliant with MFA pronunciation dictionaries in two ways: it includes tone markers (which do not correspond to phonemes), and it contains an extra column, containing what I believe to be latin-script transliterations of the utterance pronunciations.
+
+Assuming tag markers can be expressed in regex, the Cantonese lexicon is easy to reduce to an MFA pronunciation dictionary using standard shell commands (cut and sed).
+
+5. Any changes made to the Cantonese audio transcripts?
+
+None were necessary. I wrote a quick bash script to verify the sample rates are 19kHz before proceeding.
+
+On the first go, MFA was able to train and align one of the 10 speech files. I've included this in the git submission for now. For the other 9, MFA produced an error log indicating "Beam too narrow". I'll experiment with configuring this and see if I can get any more of them to work.
+
+## Part 2:
+
+There's an R library for extracting code chunks from R workborks:
+
+> install.package('knitr')
+> f <- 'somefile.Rnw'
+> knitr::purl(f)
+
+The default configuration seemed to keep comments in front of each chunk as you described. To my understanding, this behavior is easy to configure, though I didn't experiment with it.

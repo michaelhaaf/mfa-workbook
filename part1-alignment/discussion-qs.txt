@@ -1,9 +1,0 @@
-3. The lexicon can't be used as an MFA pronunciation dictionary, as is. Why not?
-
-MFA pronunciation dictionaries are two-column many to many mappings from words to pronunciations. The lexicon from the Cantonese speech corpus seems to be noncompliant in two ways: it includes tone markers (which do not correspond to phonemes), and it contains an extra first column, containing what I believe to be latin-script transliterations of the utterance pronunciations.
-
-To transform the lexicon, I wrote a simple bash script -- under the simplifying assumption that excess tag markers could be removed by regex subsitution, this is a reasonable and extensible approach.
-
-5. Any changes made to the Cantonese audio transcripts?
-
-None were necessary. I wrote a quick bash script to verify the sample rates before proceeding.
