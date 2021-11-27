@@ -8,13 +8,13 @@ Assuming tag markers can be expressed in regex, the Cantonese lexicon is easy to
 
 5. Any changes made to the Cantonese audio transcripts?
 
-None were necessary. I wrote a quick bash script to verify the sample rates are 19kHz before proceeding.
+None were necessary. I wrote a quick bash script to verify the sample rates are 16kHz before proceeding.
 
 On the first go, MFA was able to train and align one of the 10 speech files. I've included this in the git submission for now. For the other 9, MFA produced an error log indicating "Beam too narrow". I'll experiment with configuring this and see if I can get any more of them to work.
 
 ## Part 2:
 
-There's an R library for extracting code chunks from R workborks:
+There's an R library for extracting code chunks from R workbooks:
 
 > install.package('knitr')
 > f <- 'somefile.Rnw'

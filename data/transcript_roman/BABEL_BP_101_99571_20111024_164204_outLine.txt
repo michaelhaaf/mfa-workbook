@@ -1,0 +1,185 @@
+[0.0]
+<no-speech>
+[4.03]
+<no-speech>
+[7.83]
+<int> <no-speech>
+[14.47]
+<int> <no-speech>
+[18.87]
+wai3 (()) a1 <int> <no-speech>
+[26.31]
+fan3 gan2 gok3 pei6 lei5 chaau2sing2 jo2
+[30.19]
+<int> <no-speech>
+[35.57]
+<int> <no-speech>
+[38.64]
+<int> me1 si6 a1 gam3 ge3 si4gaan3 loi4 da2din6wa2
+[47.26]
+<int> <no-speech>
+[55.78]
+<hes> gam3 lei5 gong2 la1
+[61.11]
+m6 <no-speech>
+[65.7]
+mou5 me1 gaau2 <no-speech>
+[71.93]
+tai2 din6si6 <no-speech> mou5 me1 din2 tai2 wo3 <no-speech>
+[80.37]
+<int> <no-speech>
+[84.83]
+kau4kei4 (()) tai2 me1 toi4 lo1
+[91.16]
+<no-speech>
+[95.65]
+(()) tai2 din6si6 ge3 wo3
+[104.0]
+<no-speech> tai2syu1 <no-speech>
+[109.07]
+hai2 mong5seung6 tai2syu1 tai2 jaap6ji3 <no-speech>
+[115.51]
+<no-speech> yau5 yeng4 tai2 me1
+[121.48]
+dou2chin2 a1 <no-speech>
+[128.55]
+<no-speech>
+[132.59]
+<no-speech>
+[141.59]
+jeun2bei6 sing1kap1 hai6 mai6 a1 <no-speech>
+[149.88]
+(()) jeui3 gou1 ling5dou6 m4 hai6 sing1kap1 me1
+[153.15]
+<no-speech>
+[161.8]
+<no-speech> tai2 ji6gei2 yan4 tai2 ma3
+[169.91]
+(())
+[175.61]
+gam3 keui5 (()) me1 o5 mai6 tai2 me1 lo1
+[179.54]
+o5 (()) mong5seung6 (()) mong5 taai3 sai3 go3 <no-speech>
+[187.55]
+<no-speech> gaak3 jyu6 dou1 tai2 (()) fong3daai6 ge3 ma3 <no-speech>
+[194.34]
+ho2yi5 fong3daai6 ge3 ma3 <no-speech>
+[202.78]
+<no-speech> gam3 lei5 cheui4jo2 tai2 keui5- (()) yau5 me1 dei6fong1 heui3 a1
+[215.02]
+<no-speech>
+[221.14]
+(()) ya6sei3 siu2si4 a1 <no-speech> <int>
+[229.94]
+<int> <no-speech>
+[236.48]
+m4 si5 maai5sung3 lei5 dou1 jeun2bei6 a1 hung1wan6 ga3
+[244.86]
+<int> <no-speech>
+[251.66]
+<no-speech> <no-speech>
+[262.86]
+<int> <no-speech>
+[271.82]
+<no-speech> a1 <foreign> a1 o1 <no-speech>
+[277.43]
+guk1 seui3 hai6 gong2dung1 toi4 ge3 hai6 mai6 a1 gong2dung1 toi4
+[281.35]
+(()) <no-speech>
+[289.56]
+guk1 seui3 m4 hai6 jyu1gong1 toi4 ga3 me1
+[293.55]
+gong2dung1 m4 hai6 gong2dung1 sam1jan3 ge3 guk1 jau6 hai6 jyu1gong1 san1man2 la1
+[300.19]
+<int> <no-speech>
+[308.69]
+yau5 <no-speech> m6 <no-speech> m6 <no-speech>
+[317.24]
+lei5 dou1 wa2 gong2 gu2jai2 lo1 gam3 lei5 din2 fan1yan4 jan1si6
+[321.08]
+<no-speech>
+[326.44]
+<no-speech>
+[333.96]
+<no-speech>
+[339.5]
+<no-speech>
+[347.37]
+<laugh> <no-speech>
+[351.52]
+<laugh> gam3 lei5 gam3 lei5 cheui4jo2 hai6 (()) tai2 din6si6 seung5mong5 lei5 mou5 ye5 tai2 la1
+[356.74]
+mou5 ye5 gaau2 la1
+[361.16]
+<no-speech>
+[368.69]
+<no-speech>
+[374.13]
+<no-speech>
+[378.72]
+m6 <no-speech> <no-speech>
+[391.18]
+m6 <no-speech>
+[399.24]
+<int> <breath> <no-speech>
+[403.3]
+gam3- gam3 nei5- lei5 da2din6wa2 gang2hai6 yau5 ye5 gong2 la1 mou5 ye5 gong2 lei5 gong2 din6wa2 bei2 o5 jo6 me1 je2 <no-speech>
+[411.55]
+<int> o5 m4 o5 m4 chi5 gong2 gei1 geui3 la1
+[420.14]
+gam3 o5 teng1 lei5 gong2 ma3 o5 teng1 gan2 lei5 gong2 ma3
+[425.28]
+(()) gong2 wa2 mou5 lai5maau6 ga3
+[431.82]
+hai6 a1 da2tyun5 yan4dei6 gong2wa6 mou5 lai5maau6 a1 ma3 o5 mai6 m4 da2tyun5 lei5 gong2wa6 dang2 lei5 gong2 dak1 hoi1sam1 di1 lo1 <no-speech>
+[439.44]
+<no-speech>
+[445.63]
+<int> <no-speech>
+[453.73]
+lei5 dou1 cheut1sin3 ga3 gam2yeung2 tai2 <laugh> lei5 cheut1sin3
+[460.12]
+<int> <no-speech>
+[466.36]
+yau5 yu4 yau5 yuk6 daai6yu4daai6yuk6
+[474.28]
+sik6 saai3 la1
+[478.08]
+sik6 daai6yu4daai6yuk6 sin1ji3 fan3gok3 yeung5 fei4 di1 <no-speech>
+[486.88]
+<laugh> gam3 yan4 hai6 bei2 lei5 chou4sing2 ge3 ma3 gam3 o5 da2ha1him3 yau5 jeui6 a1 <no-speech>
+[492.29]
+<int> <no-speech>
+[498.1]
+<no-speech>
+[502.96]
+hai6 la1 (()) jan1hai6
+[507.26]
+<no-speech>
+[516.24]
+<int> <no-speech>
+[524.03]
+<no-speech> ming4 la1
+[528.87]
+(()) jo6 dong2yun4 ge3 je2 a1 ma3
+[534.81]
+(()) leui5 ge3 hai6 ma3
+[543.27]
+<hes> hoi1chi2 liu5 me1
+[549.85]
+hoi1chi2 liu5 me1 wai3 o1
+[556.15]
+tai2 jo2 gei1 jaap6 a1 me1 toi4 tai2 a1
+[559.29]
+<no-speech>
+[565.63]
+<no-speech>
+[573.65]
+<hes> (())
+[582.44]
+<int> <no-speech>
+[586.28]
+<no-speech>
+[591.99]
+(()) lei5 m4 hai6 wa2 lei5 m4 seung2 cheut1 mun4hau2 ga3 me1 lei5 m4 hai6 <laugh> wa2 lei5 ji6gei2 sing4yat6 jung1yi3 (()) tai2 din6si6 ma3
+[600.3]

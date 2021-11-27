@@ -1,0 +1,414 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 600.26 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 600.26 
+        intervals: size = 100 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.09 
+            text = "" 
+        intervals [2]:
+            xmin = 3.09 
+            xmax = 6.1 
+            text = "wai3" 
+        intervals [3]:
+            xmin = 6.1 
+            xmax = 10.9 
+            text = "wai3" 
+        intervals [4]:
+            xmin = 10.9 
+            xmax = 17.53 
+            text = "tai2 din6geui3ging1wan4" 
+        intervals [5]:
+            xmin = 17.53 
+            xmax = 21.59 
+            text = "din6geui3ging1wan4 chat1" 
+        intervals [6]:
+            xmin = 21.59 
+            xmax = 28.38 
+            text = "chat1 yeung4tin1wai1 tai2 ge3" 
+        intervals [7]:
+            xmin = 28.38 
+            xmax = 36.68 
+            text = "hai6 a1 jau6 tai2 dai6chat1 yat1 bou6 a1 ma3 wa1" 
+        intervals [8]:
+            xmin = 36.68 
+            xmax = 41.44 
+            text = "keui5 yau6 tai2 je1 ma3 o5 dou1 mou5 tai2 o5 jeun2bei6 chung1leung4 la1 dang2 jan6gaan1" 
+        intervals [9]:
+            xmin = 41.44 
+            xmax = 49.65 
+            text = "dang2ha2 haang4 haang4 dung1mun4 a1 m4 maai5 me1 a1 haang4ha5 je1 ma3" 
+        intervals [10]:
+            xmin = 49.65 
+            xmax = 56.74 
+            text = "mou5 ye5 jo6" 
+        intervals [11]:
+            xmin = 56.74 
+            xmax = 64.05 
+            text = "hai6 lo1" 
+        intervals [12]:
+            xmin = 64.05 
+            xmax = 68.41 
+            text = "gam2yan1jit3" 
+        intervals [13]:
+            xmin = 68.41 
+            xmax = 77.41 
+            text = "go2 go3 hai6 gam2yan1jit3 me1" 
+        intervals [14]:
+            xmin = 77.41 
+            xmax = 82 
+            text = "ha6" 
+        intervals [15]:
+            xmin = 82 
+            xmax = 86.44 
+            text = "ni1 go3 sing1kei4 wo3" 
+        intervals [16]:
+            xmin = 86.44 
+            xmax = 91.52 
+            text = "ni1 go3 sing1kei4luk6 wo3 hang2ding6 ja1che1 go3heui3 a1" 
+        intervals [17]:
+            xmin = 91.52 
+            xmax = 97.26 
+            text = "ni1 go3 sing1kei4m5 jau6 yiu1 heui3 a1" 
+        intervals [18]:
+            xmin = 97.26 
+            xmax = 102.08 
+            text = "hai6 wo3 hou3 do1 yan4 wo3" 
+        intervals [19]:
+            xmin = 102.08 
+            xmax = 108.28 
+            text = "sing1kei4luk6 chiu1 do1 yan4 heui3 o5 biu2suk1" 
+        intervals [20]:
+            xmin = 108.28 
+            xmax = 112.76 
+            text = "ni1 go3 yi4ga1 jo6 gan2 ye5 ni1 go3 go1" 
+        intervals [21]:
+            xmin = 112.76 
+            xmax = 117.57 
+            text = "ji1hau6 o5 heung1gong2 go2di1 biu2dai2 a1 go2di1 biu2go1 keui5 dou1 heui3 wo3" 
+        intervals [22]:
+            xmin = 117.57 
+            xmax = 120.68 
+            text = "di1 tong4go1 dou1 heui3 wo3" 
+        intervals [23]:
+            xmin = 120.68 
+            xmax = 127.83 
+            text = "" 
+        intervals [24]:
+            xmin = 127.83 
+            xmax = 135.08 
+            text = "hai6 a1 heui3 sing1kei4luk6 maai5ye5 faan1lai4 a1 sing1kei4m5 go2 maan5 heui3 ji1hau6 dai6yi6 yat6 jip3 san1yan4 ji1hau6 ji1hau6 jau6 faan1hok6 a1" 
+        intervals [25]:
+            xmin = 135.08 
+            xmax = 138.99 
+            text = "ji1hau6 sik6 yun4 yun4 faan6 jau6 faan1 a1" 
+        intervals [26]:
+            xmin = 138.99 
+            xmax = 144.1 
+            text = "o5 sing1kei4yat6 hou2chi3 jung6 yiu1 seung5baan1 a1" 
+        intervals [27]:
+            xmin = 144.1 
+            xmax = 149.79 
+            text = "yin4ji1hau6 o5 m4 ji1 seung6 me1 baan1 wo3" 
+        intervals [28]:
+            xmin = 149.79 
+            xmax = 154.82 
+            text = "mou5 ga3 fong3 a1" 
+        intervals [29]:
+            xmin = 154.82 
+            xmax = 159.2 
+            text = "chyun4bou6 yi5ging1 fong3 saai3 la1" 
+        intervals [30]:
+            xmin = 159.2 
+            xmax = 165.22 
+            text = "a1 yau5paai4 a1 lei5" 
+        intervals [31]:
+            xmin = 165.22 
+            xmax = 173.98 
+            text = "lei5 lei5 lam2 lei5 gei2si4 go3 heung1gong2 lei5 yau5 mou5 jing2" 
+        intervals [32]:
+            xmin = 173.98 
+            xmax = 179.53 
+            text = "o1 jing2 jo2 a1" 
+        intervals [33]:
+            xmin = 179.53 
+            xmax = 188.03 
+            text = "a1 sap6yi6yut6 cho1 heui3" 
+        intervals [34]:
+            xmin = 188.03 
+            xmax = 196.63 
+            text = "fa3jong1ban2 mou5 o5 hai6 giu3 o5 ma1 maai5 go2 go3" 
+        intervals [35]:
+            xmin = 196.63 
+            xmax = 202.74 
+            text = "go2 go3 hai6 fa3jong1ban2 keui5 wa6 keui5 m4 yiu1" 
+        intervals [36]:
+            xmin = 202.74 
+            xmax = 207.51 
+            text = "gam3 o5 chi4 di1 heui3 tai2yat1ha5 la1 tai2ha5 yau5 me1 maai5 la1" 
+        intervals [37]:
+            xmin = 207.51 
+            xmax = 211.96 
+            text = "hai6 a1 haang4ha5 faan2jing3 hou3 loi6 mei6 heui3 go3 heung1gong2" 
+        intervals [38]:
+            xmin = 211.96 
+            xmax = 220.22 
+            text = "o1 keui5dei6 dou1 heui3 a1 jau6 chat1jai2 dou1 heui3 a1" 
+        intervals [39]:
+            xmin = 220.22 
+            xmax = 228.03 
+            text = "ha6 o5 laai1maai4 keui5 yat1chai4 heui3" 
+        intervals [40]:
+            xmin = 228.03 
+            xmax = 234.02 
+            text = "o5 dou1 hai6 haang4ha5 je1 ma3 yau5 mat1ye5 tai2 mai6 tai2 lo1" 
+        intervals [41]:
+            xmin = 234.02 
+            xmax = 238.93 
+            text = "m4 si5 geng1 haang4ha5 sin1" 
+        intervals [42]:
+            xmin = 238.93 
+            xmax = 246.38 
+            text = "yau6 m4 hai6 heui3 jyu6" 
+        intervals [43]:
+            xmin = 246.38 
+            xmax = 253.19 
+            text = "o5 seung2 heui3 a1" 
+        intervals [44]:
+            xmin = 253.19 
+            xmax = 256.47 
+            text = "o5 jan1hai6 seung5heui3 a1 heui3 cheung4wing4" 
+        intervals [45]:
+            xmin = 256.47 
+            xmax = 261.85 
+            text = "o5 dou3 yi4ga1 o5 chung4sai3dou3daai6 lin4 gong2jau1 dou1 mei6 lin4 gong2jau1 dou1 mei6 heui3 go3" 
+        intervals [46]:
+            xmin = 261.85 
+            xmax = 267.27 
+            text = "" 
+        intervals [47]:
+            xmin = 267.27 
+            xmax = 275.24 
+            text = "hai6 wo3 o5 lam2 jyu6 o5 tung4 o5 uk1kei2yan4 gong2 jo2 a1 wa6 wa6 heui3 cheung4lung4 wo3 keui5 m4 bei2 wo3" 
+        intervals [48]:
+            xmin = 275.24 
+            xmax = 281.19 
+            text = "keui5dei6 hang2 wo3 hai6 wo3 yat1 mou5 heui3 waan2ha5 lo1 dan6hai6 dan6hai6" 
+        intervals [49]:
+            xmin = 281.19 
+            xmax = 289.3 
+            text = "dan6hai6 yun4daan3 hang2ding6 hou3 do1 yan4 wo3" 
+        intervals [50]:
+            xmin = 289.3 
+            xmax = 296.9 
+            text = "hai6 a1 ji1hau6 yun4daan3 go2 yat6 hai6 jing1yut6 yat1hou6 a1 ma3 gam3 o5dei6 saam1a6yat1hou6 go2 yat6" 
+        intervals [51]:
+            xmin = 296.9 
+            xmax = 300.99 
+            text = "hai6 o5dei6 o5dei6 hai6 gei2si4 heui3 a1 yun4daan3 yat1yut6 yat1hou6 go3heui3 a1 ding6hai6 me1 a1" 
+        intervals [52]:
+            xmin = 300.99 
+            xmax = 306.75 
+            text = "" 
+        intervals [53]:
+            xmin = 306.75 
+            xmax = 312.58 
+            text = "" 
+        intervals [54]:
+            xmin = 312.58 
+            xmax = 318.33 
+            text = "ga3 a1 o5 gan1 dai6 dou1 m4 ji1 fong3 gei2 yat6" 
+        intervals [55]:
+            xmin = 318.33 
+            xmax = 325.17 
+            text = "dou1 m4 ji1 fong3 gei2do1 yat6" 
+        intervals [56]:
+            xmin = 325.17 
+            xmax = 329.7 
+            text = "jau6 hai6 m4 ji1 waan2 gei2do1 yat6 a1 yu4go2 hai6 yu4go2 hai6mai6" 
+        intervals [57]:
+            xmin = 329.7 
+            xmax = 334.32 
+            text = "jik1hai6wa6 m4 ji1 fong3 gei2do1 yat6 yu4go2 hai6 fong3 yat1 yat6 ge3 wa2 hou2chi3 fong3 yat1hou6" 
+        intervals [58]:
+            xmin = 334.32 
+            xmax = 338.05 
+            text = "yat1hou6 ga3 wa6 saam1a6yat1hou6 go2 maan5 jau6 yiu1 heui3 liu5 wo3" 
+        intervals [59]:
+            xmin = 338.05 
+            xmax = 347.05 
+            text = "yiu1 tai4chin4 heui3 liu5 wo3" 
+        intervals [60]:
+            xmin = 347.05 
+            xmax = 350.66 
+            text = "" 
+        intervals [61]:
+            xmin = 350.66 
+            xmax = 354.19 
+            text = "yau1 gei2 loi6 ja1 ma3 o5 sap6yi6yut6fan6 o5 sin1 ho2yi5 tai2dou3 o5 go3" 
+        intervals [62]:
+            xmin = 354.19 
+            xmax = 358.94 
+            text = "o5 sap6yi6yut6fan6 sin1 tai2dou3 o5 seung6 me1 baan1" 
+        intervals [63]:
+            xmin = 358.94 
+            xmax = 365.65 
+            text = "yi4ga1 dou1 m4 ji1 m4 hai6 o5 hai6 wa6" 
+        intervals [64]:
+            xmin = 365.65 
+            xmax = 372.15 
+            text = "hai6 sap6yi6yut6fan6 sin1 tai2dou3 a1 yan1wai6 ga1seung6 yat1yut6 yat1hou6 dou1 m4 ji1 fong3 gei2do1 yat6" 
+        intervals [65]:
+            xmin = 372.15 
+            xmax = 380.97 
+            text = "dou3si4 man6ha5 o5 ting1yat6 seung6 deng2 yi5chin4 o5dei6 yat6yat6 hai2 hai2" 
+        intervals [66]:
+            xmin = 380.97 
+            xmax = 389.69 
+            text = "hai2 hok6haau6 hai6 m4 tung4 a1 ma3 gam3 o5dei6 yi4ga1 yiu1 yiu1 seung5baan1 ga3 wa6 fong3 yat1 yat6 waak6je2 saam1 yat6 dou1 m4 yat1ding6 wo3" 
+        intervals [67]:
+            xmin = 389.69 
+            xmax = 393.26 
+            text = "hou3 laan6gong2 wo3 le1di1 ye5" 
+        intervals [68]:
+            xmin = 393.26 
+            xmax = 401.42 
+            text = "ha6 m4 gan2yiu3 yau6 m4 hai6 dak1 o5 yat1 go3" 
+        intervals [69]:
+            xmin = 401.42 
+            xmax = 406.41 
+            text = "hou3 faai3 ga3 ma3 go3heui3 leung5 go3 leng4 jung1 leung5 go3 leng4 jung1 a1 ma3 go3heui3 hai6 wa1" 
+        intervals [70]:
+            xmin = 406.41 
+            xmax = 413.54 
+            text = "" 
+        intervals [71]:
+            xmin = 413.54 
+            xmax = 420.4 
+            text = "cho5che1 cho5 gei2 loi6" 
+        intervals [72]:
+            xmin = 420.4 
+            xmax = 424.2 
+            text = "m4 geng1 yau5 dou6hong4 ga3 ma3" 
+        intervals [73]:
+            xmin = 424.2 
+            xmax = 429.51 
+            text = "gam3 gam3 o5 heui3 gong2jau1 si5 gei2 loi6 je1 o5 teng1gong2 wa6 cho5 go3" 
+        intervals [74]:
+            xmin = 429.51 
+            xmax = 437.88 
+            text = "go2 me1 wo4haai4hou2 hai6 cho5 gei2 loi6 a1" 
+        intervals [75]:
+            xmin = 437.88 
+            xmax = 443.98 
+            text = "m4 hai6 a1 o5 wa6 dei6dai2ha6 gei2do1 gung1lei5 je1 go3heui3 gong2jau1" 
+        intervals [76]:
+            xmin = 443.98 
+            xmax = 452.07 
+            text = "ying1goi1 m4 wui5 yun5 dak1 gei2do1 ga3 ma3 m4 ga3 jau6 hai6 go3 gei2 jung1 o5dei6 cho5" 
+        intervals [77]:
+            xmin = 452.07 
+            xmax = 460.91 
+            text = "o5 hai6 jo6 yat1 leng4 sei3 cho5 gam3 a1 go3 bun3 jung1 lo1" 
+        intervals [78]:
+            xmin = 460.91 
+            xmax = 468.81 
+            text = "mai6 la1 o5 hai6 cho5 dou1 go3 bun3 jung1 liu5 a1 ma3" 
+        intervals [79]:
+            xmin = 468.81 
+            xmax = 475.02 
+            text = "hai6 a1" 
+        intervals [80]:
+            xmin = 475.02 
+            xmax = 483.52 
+            text = "faan2jing3 jau6 lei5 o5" 
+        intervals [81]:
+            xmin = 483.52 
+            xmax = 487.52 
+            text = "ha1jai2" 
+        intervals [82]:
+            xmin = 487.52 
+            xmax = 492.82 
+            text = "a3ma1mi4 hai6 ma3" 
+        intervals [83]:
+            xmin = 492.82 
+            xmax = 499.23 
+            text = "gam3 a1 gam3 jung6yau5 bin1go3 a1 o5 lei5" 
+        intervals [84]:
+            xmin = 499.23 
+            xmax = 506.19 
+            text = "wong4ji2yu6 ha1jai2" 
+        intervals [85]:
+            xmin = 506.19 
+            xmax = 509.53 
+            text = "hai6 lo1 ji1hau6 ga1maai4 ga1maai4" 
+        intervals [86]:
+            xmin = 509.53 
+            xmax = 518.27 
+            text = "ma5min6 yu4go2 ma5min6 heui3 jo2 jau6 m5 go3 je1 ma3 ga1maai4 yat1 ga3 che1" 
+        intervals [87]:
+            xmin = 518.27 
+            xmax = 522.24 
+            text = "" 
+        intervals [88]:
+            xmin = 522.24 
+            xmax = 527.45 
+            text = "cha1m4do1" 
+        intervals [89]:
+            xmin = 527.45 
+            xmax = 532.63 
+            text = "" 
+        intervals [90]:
+            xmin = 532.63 
+            xmax = 540.9 
+            text = "go3 go3 dou1 mei6 heui3 go3heui3" 
+        intervals [91]:
+            xmin = 540.9 
+            xmax = 549.12 
+            text = "heui3" 
+        intervals [92]:
+            xmin = 549.12 
+            xmax = 554.13 
+            text = "lei5dei6 gam1maan5 cheut1m4cheut1lai4 cheut1 m4 cheut1m4cheut1lai4 da2paai2 a1 gam1maan5 lei5dei6" 
+        intervals [93]:
+            xmin = 554.13 
+            xmax = 562.02 
+            text = "yan4 la1 lei5" 
+        intervals [94]:
+            xmin = 562.02 
+            xmax = 565.02 
+            text = "wong4ji2yu6 ji1hau6 lei5gin3 ji1hau6" 
+        intervals [95]:
+            xmin = 565.02 
+            xmax = 571.21 
+            text = "tai2 a3 ma5min6 cheut1m4cheut1 je1 ma3 ma5min6 cheut1 ga3 wa6 lei5 mai6 da1 bei2 keui5dei6 gam3 keui5dei6 sei3 go3 ho2yi5 da2paai2 a1" 
+        intervals [96]:
+            xmin = 571.21 
+            xmax = 576.69 
+            text = "ji1hau6 o5 aan3 di1 haang4 yun4 dung1mun4 mai6 faan1lai4 ga3 lau4ha6 cho5faan1 jan6 lo1 o5dei6 yiu1 cheut1heui2 a1" 
+        intervals [97]:
+            xmin = 576.69 
+            xmax = 584.68 
+            text = "keui5 gam1yat6 yau1sik1 m4 ji1 wo3" 
+        intervals [98]:
+            xmin = 584.68 
+            xmax = 587.88 
+            text = "keui5 m4 hai6 hai2 uk1kei2 me1" 
+        intervals [99]:
+            xmin = 587.88 
+            xmax = 595.77 
+            text = "hai6 lo1 gam3 mai6 dak1 lo1" 
+        intervals [100]:
+            xmin = 595.77 
+            xmax = 600.26 
+            text = "yan1wai6 o5 dang2jan6gaan1 jeun2bei6 chung1leung4 a1 o5" 
