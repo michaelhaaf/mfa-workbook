@@ -1,4 +1,4 @@
-# Modified from:
+# Adapted from:
 # https://nbviewer.org/github/timmahrt/praatIO/blob/main/tutorials/tutorial1_intro_to_praatio.ipynb
 
 import os
@@ -14,6 +14,7 @@ def process_timestamp(line):
     return re.sub('[\[\]]', '', line)
 
 
+# TODO: are these the only extra artifacts to remove?
 def process_text(line):
     find_replace_chain = ('\<.*\>', ''), ('\(\(\)\)', ''), ('[ ]{1,}', ' ')
     return reduce(lambda s, kv: re.sub(*kv, s), find_replace_chain, line)
@@ -36,7 +37,6 @@ def process_intervals(filePath):
     return intervals
 
 
-### TODO: give running instructions or allow parameters
 inputPath = os.path.join('data', 'transcript_roman')
 outputPath = os.path.join(inputPath, "generated_textgrids")
 
