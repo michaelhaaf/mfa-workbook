@@ -1,8 +1,0 @@
-2021-11-27 06:06:21,564 - train_acoustic_model - DEBUG - There were 1 kaldi processing files that had errors:
-2021-11-27 06:06:21,566 - train_acoustic_model - DEBUG - 	ERROR (add-deltas[5.5.985]:SequentialTableReader():util/kaldi-table-inl.h:860) Error constructing TableReader: rspecifier is scp:/home/ubuntu/Documents/MFA/cantonese_subset/corpus_data/split1/feats.mfa-canto-tones.0.scp
-2021-11-27 06:06:21,566 - train_acoustic_model - DEBUG - 	kaldi::KaldiFatalErrorapply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 ark:- ark:-
-2021-11-27 06:06:21,566 - train_acoustic_model - DEBUG - 	LOG (apply-cmvn-sliding[5.5.985]:main():featbin/apply-cmvn-sliding.cc:75) Applied sliding-window cepstral mean normalization to 0 utterances, 0 had errors.
-2021-11-27 06:06:21,567 - train_acoustic_model - DEBUG - 	ERROR (gmm-acc-stats-ali[5.5.985]:RandomAccessTableReader():util/kaldi-table-inl.h:2512) Error opening RandomAccessTableReader object  (rspecifier is: ark,s,cs:/home/ubuntu/Documents/MFA/cantonese_subset/mono/ali.mfa-canto-tones.0.ark)
-2021-11-27 06:06:21,567 - train_acoustic_model - DEBUG - 	ERROR (gmm-acc-stats-ali[5.5.985]:~SequentialTableReaderArchiveImpl():util/kaldi-table-inl.h:678) TableReader: error detected closing archive 'add-deltas scp:/home/ubuntu/Documents/MFA/cantonese_subset/corpus_data/split1/feats.mfa-canto-tones.0.scp ark:- | apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 ark:- ark:- |'
-2021-11-27 06:06:21,567 - train_acoustic_model - DEBUG - 	terminate called after throwing an instance of 'kaldi::KaldiFatalError'
-2021-11-27 06:06:21,567 - train_acoustic_model - DEBUG - 	what():  kaldi::KaldiFatalError
