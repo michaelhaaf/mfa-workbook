@@ -1,9 +1,18 @@
+import argparse
 import csv
+import os
+import sys
+
+from pathlib import Path
+path_root = Path(__file__).parents[1]
+sys.path.append(str(path_root))
+
 from src.syllable import SyllableBuilder, Syllable
 
-
 # TODO: refactor a bit (program by intention)
-def convert_lexicon_element(element):
+
+
+def convert_lexicon_element(element, use_tones=True):
     word = element[1]
     pronunciations = [element[2]]  # TODO: handle the extra columns when ready
 
@@ -14,7 +23,7 @@ def convert_lexicon_element(element):
         syllables = [SyllableBuilder.from_phonemes(phonemes)
                      for phonemes in syllable_phonemes]
         mfa_pronunciation = " ".join(
-            [syllable.serialize() for syllable in syllables]).replace("_", "")
+            [syllable.serialize(use_tones) for syllable in syllables]).replace("_", "")
         converted_elements += [word, mfa_pronunciation]
 
     return converted_elements
@@ -31,8 +40,8 @@ def main(args):
         tsvout = csv.writer(tsvout, delimiter='\t')
 
         for row in tsvin:
-            mfa_elements = convert_lexicon_element(row)
-            tsvout.writerows(mfa_elements)
+            mfa_elements = convert_lexicon_element(row, args.use_tones)
+            tsvout.writerow(mfa_elements)
 
 
 # Usage
@@ -54,11 +63,11 @@ if __name__ == "__main__":
                         type=str,
                         dest='outputFile'
                         )
-    parser.add_argument('-t', '--tones', dest='tones', action='store_true',
-                        help='include tones in the output (default: included)'
-                        )
-    parser.add_argument('-nt', '--no-tones', dest='tones', action='store_false',
+    parser.add_argument('-nt', '--no-tones', dest='use_tones', action='store_false',
                         help='do not include tones in the output (default: included)'
+                        )
+    parser.add_argument('-t', '--tones', dest='use_tones', action='store_true',
+                        help='include tones in the output (default: included)'
                         )
     parser.set_defaults(tones=True)
     args = parser.parse_args()

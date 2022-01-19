@@ -62,6 +62,19 @@ class SyllableTest(unittest.TestCase):
         # assert
         self.assertEqual(result, expectation)
 
+    def test_serialize_without_tones(self):
+
+        # setup
+        four_phoneme_syllable = Syllable(
+            onset="s", nucleus="i:", coda="n", tone="_1")
+
+        # test
+        expectation = "s i: n"
+        result = four_phoneme_syllable.serialize(use_tones=False)
+
+        # assert
+        self.assertEqual(result, expectation)
+
 
 class SyllableBuilderTest(unittest.TestCase):
     def setUp(self):
