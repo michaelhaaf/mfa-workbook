@@ -1,0 +1,205 @@
+[0.0]
+<no-speech>
+[3.97]
+<no-speech>
+[11.62]
+<no-speech>
+[20.62]
+wai3
+[27.53]
+teng1m4ting3dou3 a1 teng1m4ting3dou3
+[31.31]
+teng1dou2 a1 teng1dou2 a1 teng1dou2 a1 wai3 a3 king4je2 go3 leui5 cheut1yun2 mei6 je1 <no-speech>
+[39.79]
+wai3 <no-speech> (())
+[44.39]
+o1 mou5 a1 gam3 a1 yau5 mou5 wa6 daai6koi3 gei2si4 heui3 dou3 sik6 ye5 a1
+[52.74]
+ha6 <no-speech> <int> (())
+[60.88]
+ha6 <no-speech> o1
+[67.14]
+<sta> mei6 man6 a1 gam3 gam3 o5 man6 man6 <no-speech>
+[71.72]
+gam3 o5 man6 man6 keui5dei6 daai6koi3 gei2si4 heui3 dou3 lo1 yat1hai6 m6 <no-speech>
+[80.28]
+o1 o1 o1 o1 m6 <no-speech>
+[87.8]
+jik1hai6 yiu1 go3 sap6yi6 sin1 gam3 heui3dak1dou3 a1 <no-speech>
+[92.62]
+ha6 (()) <sta> a1 hai6 a1 hai6 a1 o5
+[101.01]
+<sta> m6 o5 jau6 cham4yat6 a3 a3- a3 ai6 lo2 faan6 go2si4 jau6 gin3dou2 keui5 jau6 wa6 bei2 jo2 bei2 keui5 teng1
+[109.64]
+ha6 <no-speech> me1 a1
+[113.79]
+<sta> hai6 a1 wa6 bei2 keui5dei6 teng1 lo1 <no-speech> ha6 <no-speech> me1 <no-speech>
+[121.46]
+<sta> mou5 a1 mou5 a1 mou5 a1 gam3 keui5
+[124.6]
+<sta> keui5 yat6yat6 lo2 faan6 sin1 go3lai4 sei3 lau2 ge3 la1 gam1yat6 sing4yat6 man6 o5 a1 ma3 gam3 o5 mai6 cham4yat6 gong2 jo2 keui5dei6 teng1 lo1 <no-speech>
+[132.24]
+o1 m6 <no-speech>
+[140.76]
+o1 <no-speech>
+[146.24]
+o1 <no-speech> (()) <no-speech>
+[152.83]
+a1 <no-speech>
+[157.51]
+o1 lei5 heui3 jo2 a1 <no-speech>
+[160.56]
+o1 o1 o1 o1 a1 a1 a1 jik1hai6 dou3 dou3- dou3 dai6yi6 jiu1 <laugh>
+[169.3]
+hai6 a1 hai6 a1 hai6 a1 <no-speech>
+[173.44]
+<no-speech>
+[179.42]
+hai6- <no-speech>
+[184.49]
+wa1 gam3 heui5- hai6 hai6 hai6
+[188.15]
+gam3 keui5 yi4ga1 yi4ga1 yi4 m4 dou3 wo3 yi4ga1 <no-speech>
+[191.71]
+yi5chin4 le1 jau6 ji2hai6 go2si4 leung5 go3 leung5 go3 bei2 yap6 yi4ga1 jau6 juk6 go3 juk6 go3 sin1 bei2 yap6 lo1 <no-speech>
+[200.71]
+hai6 lo1 hai6 lo1 <no-speech>
+[203.95]
+hai6 a1 hai6 a1 hai6 a1 hai6 a1
+[207.03]
+jeui3 do1 keui5 hai6 cha4yat1cha4 lei5 lo2 lo2 ye5 yap6heui3 go2dou6 hai6 mat1ye5 lai4 ja1 ma3
+[212.5]
+m4 si5 haang4 (()) yap6heui3 ga3 hai6 a1
+[216.15]
+o1 a1 gam3 mai6 lo1
+[219.47]
+gam3 yi4ga1 yim4 jo2 la1 yi4ga1 jan1hai6 <no-speech>
+[224.59]
+ha6 din2gaai2 m4 hai6 go2 dung6 ge3 <no-speech>
+[232.88]
+ha6 din2gaai2 ge3 chin1 jo2 me1 (()) <no-speech>
+[240.81]
+wa1 gam3 hou3 gam3 (()) a1 <no-speech>
+[244.64]
+hai6 a1 leung5 go3 yan4 yat1 go3 fong2 a1 ma3 <no-speech> hai6 lo1 hai6 lo1 hai6 lo1
+[252.53]
+gam3 keui5 go2dou6 hai6 daai6 fong2 me1 <no-speech> ha6 <no-speech>
+[259.74]
+o1 <no-speech>
+[268.48]
+<sta> hai6 a1 hai6 a1 hai6 a1 hai6 a1 hai6 hai6 hai6 hai6 <no-speech>
+[275.47]
+<sta> <laugh> a1 a1 a1 m6
+[279.84]
+<sta> aai1a1 gam3 do1 lin4 yi4ga1 go2bin6 dou1 leng3 jo2 ge3 la1 a1
+[287.48]
+<sta> (()) ga3 o5 m4 gei3dak1 la3 ha6 <no-speech>
+[295.36]
+o5 ji1 (()) <no-speech>
+[299.54]
+seui3 hau6 hou2chi3 saam1chin1 gei2 man1 a1 ma3 (()) <no-speech>
+[302.85]
+hai6 a1 saam1chin1 gei2 a1 jung6 hai6 hai6 a1 hai6 a1 <int> m6 <no-speech>
+[309.05]
+hai6 a1 <no-speech> a1 ha6 <no-speech> <laugh>
+[317.85]
+<laugh> ha6 <no-speech>
+[326.19]
+<laugh> hou3 gwai2 haak3hei3 a1 jan1hai6
+[329.53]
+<laugh> a1 <no-speech>
+[338.4]
+<no-speech> a1 a1 gam3 a1 gan1jyu6 (()) hai2 dou6 sik6 gan2 ye5 gam3 a1
+[344.74]
+<laugh> gam3 mou5 mat1ye5 a1 ma3 hai6mai6 m6
+[349.5]
+hai6 a1 <no-speech>
+[354.07]
+<no-speech>
+[360.86]
+ha6 <no-speech>
+[365.51]
+<laugh> a1 <no-speech>
+[370.0]
+a1 a1 a1 <no-speech>
+[377.06]
+<no-speech> (()) <no-speech>
+[381.76]
+jan1hai6 <no-speech>
+[388.48]
+hai6 a1 hai6 a1 hai6 a1 gam3 (()) ge3 me1 <no-speech>
+[395.38]
+m6 m6 m6 (())
+[399.02]
+<sta> hou2chi3 o5dei6 go2si4 dou1 mou5 a1 jau6 gam3 dou1 hai6 yam2ban2 seui2 je1 <no-speech>
+[405.25]
+<sta> bin1 yau5 gam3 do1 ye5 mat1ye5 ga3
+[408.83]
+<sta> hai6- <no-speech>
+[417.19]
+<no-speech>
+[420.2]
+<no-speech> <sta> gam3 mai6 hai6 <laugh>
+[424.67]
+<sta> hai6 hai6 hai6 hai6 <no-speech>
+[429.54]
+<sta> hai6 hai6 hai6 <no-speech>
+[436.58]
+<sta> hai6 hai6 hai6 <no-speech>
+[439.78]
+o1 <no-speech> hai6 <no-speech>
+[448.51]
+<sta> hai6 a1 <no-speech> m6 gam3 do1 ye5 <no-speech>
+[455.38]
+<no-speech> <sta> ying1goi1 faan2heui3 go2dou6 la1 go2dou6-
+[463.06]
+<sta> go2dou6 waan4ging2 hou3 gam3 do1 go2dou6 hai6 a1
+[468.85]
+gam3 mai6 hai6 lo1 <no-speech>
+[475.26]
+<no-speech>
+[478.6]
+hai6mai6 a1 <no-speech>
+[482.25]
+<no-speech>
+[486.14]
+<no-speech>
+[492.01]
+<no-speech>
+[495.22]
+<no-speech> <sta> hai6 a1 <laugh> <no-speech>
+[503.95]
+(()) <no-speech>
+[506.95]
+hai6 la3 hai6 la3 hai6 la3 hai6 lo1 ying1goi1 hai6 go2 go3 gam3 a1 hou3 di1 lo1 <no-speech>
+[515.17]
+<sta> gang2hai6 la1 bin1go3 dou1 jung1yi3 go3 lou5mou5 heui3 sik6 jyu6 ge3 la1 bin1 yau5 jung1 yi3 ga1po5 do1 di1 ge3 je1
+[522.55]
+a1 <laugh> jeui3 gan2yiu3 dou1 hai6 wa6
+[526.38]
+<sta> (()) <no-speech> m4 hai6
+[531.99]
+<sta> hai6 hai6 hai6 o5 ji1 <no-speech> hai6 hai6
+[537.96]
+<sta> m6 (()) go2si4 go2si4 <hes> chiu4jau1 a1 ma3 <no-speech> chiu4jau1 ge3
+[544.85]
+hai6 a1 <no-speech>
+[548.5]
+hai6 lo1 hai6 lo1 (())
+[551.68]
+<sta> hai6 lo1 <no-speech>
+[555.73]
+<sta> <laugh> <no-speech> hai6mai6 a1 (())
+[562.82]
+<sta> keui5 go3 lou5gung1 a1 o1
+[568.26]
+<sta> o1 baak6baak6jeng6jing6 gam3 a1 yau6 hai6 o1
+[573.4]
+<laugh> <no-speech>
+[576.62]
+<sta> hai6 ma3 <laugh> <no-speech>
+[584.79]
+<sta> gang2hai6 la3 laam4jai2 yau6 (()) <no-speech>
+[591.21]
+<sta> gin3 go3 la1 hai6 a1 gang2hai6 gang2hai6 laam4jai2 chi5 a3 wing6 (()) gam2yeung2 keui5 go3 lou5gung1 faai3 min6 ~
+[600.04]

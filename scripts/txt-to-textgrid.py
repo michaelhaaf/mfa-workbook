@@ -27,18 +27,18 @@ def process_intervals(filePath):
         while loopLine:
             startLine = process_timestamp(loopLine)
             textLine = process_text(f.readline())
-            
-            # each call to readline() advances the for loop. 
+
+            # each call to readline() advances the for loop.
             loopLine = f.readline()
             endLine = process_timestamp(loopLine)
 
-            if textLine and endLine:  
+            if textLine and endLine:
                 intervals.append(Interval(startLine, endLine, textLine))
     return intervals
 
 
-inputPath = os.path.join('data', 'transcript_roman')
-outputPath = os.path.join(inputPath, "generated_textgrids")
+inputPath = os.path.join('data', 'pre-experiment', 'transcript-roman')
+outputPath = os.path.join('data', 'mfa-ready', 'textgrid-corpus')
 
 if not os.path.exists(outputPath):
     os.mkdir(outputPath)
@@ -48,14 +48,15 @@ for fn in os.listdir(inputPath):
     if ext != ".txt":
         continue
     print(f"Processing {fn}...")
-     
+
     intervals = process_intervals(os.path.join(inputPath, fn))
-    duration = intervals[-1].end 
+    duration = intervals[-1].end
     wordTier = textgrid.IntervalTier('words', intervals, 0, duration)
 
     tg = textgrid.Textgrid()
     tg.addTier(wordTier)
-    tg.save(os.path.join(outputPath, name + ".TextGrid"), format="long_textgrid", includeBlankSpaces=True)
+    tg.save(os.path.join(outputPath, name + ".TextGrid"),
+            format="long_textgrid", includeBlankSpaces=True)
 
 # Did it work?
 for fn in os.listdir(outputPath):
