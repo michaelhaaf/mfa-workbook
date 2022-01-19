@@ -45,7 +45,7 @@ class SyllableBuilder:
 
         if len(phonemes) == 2:
             return Syllable(
-                nucleus=phonemes[0], 
+                nucleus=phonemes[0],
                 tone=phonemes[1]
             )
 
@@ -74,7 +74,8 @@ class SyllableBuilder:
                 )
 
         else:
-            raise SyllableException("Syllable can have 2, 3, or 4 phonemes only.")
+            raise SyllableException(
+                "Syllable can have 2, 3, or 4 phonemes only.")
 
 
 class SyllableException(ValueError):

@@ -1,7 +1,9 @@
 import unittest
 from pathlib import Path
-import os, sys
-import csv, itertools
+import os
+import sys
+import csv
+import itertools
 
 from src.process_lexicon import convert_lexicon_element
 
@@ -16,14 +18,16 @@ class ProcessLexiconTest(unittest.TestCase):
     def test_convert_lexicon_entry(self):
 
         # setup
-        sample_lexicon_path = os.path.join(self.test_dir, 'fixtures', 'sample_lexicon.txt')
-        sample_result_path = os.path.join(self.test_dir, 'fixtures', 'sample_result.txt')
-        
-        # test & assert 
+        sample_lexicon_path = os.path.join(
+            self.test_dir, 'fixtures', 'sample_lexicon.txt')
+        sample_result_path = os.path.join(
+            self.test_dir, 'fixtures', 'sample_result.txt')
+
+        # test & assert
         with open(sample_lexicon_path, "r") as test_input, open(sample_result_path, "r") as expected_output:
             test_input = csv.reader(test_input, delimiter='\t')
             expected_output = csv.reader(expected_output, delimiter='\t')
 
             for (input_element, expected_result) in zip(test_input, expected_output):
                 test_result = convert_lexicon_element(input_element)
-                self.assertEqual(test_result, expected_result)    
+                self.assertEqual(test_result, expected_result)
