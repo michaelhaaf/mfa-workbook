@@ -1,12 +1,24 @@
 # MFA installation/alignment workbook notes
 
 ## General
-- See discussion-qs.txt for written answers to task questions. 
+- This repository contains a set of scripts and data types to prepare pronunciation dictionaries and audio/transcript files for alignment using the Montreal Forced Aligner (link).
 
-## Installation Notes
-- Installation went smoothly on Ubuntu 20.04 clean virtual machine
-- Note: conda's openblas package did not work. I installed openblas from Debian repo instead (sudo apt install libopenblas-dev) 
+## Capabilities
+- Convert .txt transcripts to .TextGrids
+- Convert Iarpa corpus lexicon to MFA-ready lexicon
+
+## Future work
+- General serializer/deserializer pattern to adapt to any public corpus for MFA lexicon prep
+- Incorporate into polyglotDB (link)
+
+## Installation
+- pip install -r requirements.txt
+- python -m unittest
 
 ## Usage
-- python -m unittest
-- (more to come)
+
+### .txt to .TextGrid
+- From the root directory of the repository:
+- python scripts/txt-to-textgrid.py --input <path to folder containing .txts> --dest <path where output .TextGrids will be placed>
+
+### Iarpa lexicon to MFA lexicon

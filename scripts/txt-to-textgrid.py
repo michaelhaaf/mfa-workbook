@@ -3,11 +3,19 @@
 
 import os
 import re
+import argparse
 
 from praatio import textgrid
 from praatio.utilities.constants import Interval
 
 from functools import reduce
+
+
+def dir_path(path):
+    if os.path.isdir(path):
+        return path
+    else:
+        raise argparse.ArgumentTypeError(f"readable_dir:{path} is not a valid path")
 
 
 def process_timestamp(line):
@@ -37,30 +45,54 @@ def process_intervals(filePath):
     return intervals
 
 
-inputPath = os.path.join('data', 'pre-experiment', 'transcript-roman')
-outputPath = os.path.join('data', 'mfa-ready', 'textgrid-corpus')
+def main(args):
 
-if not os.path.exists(outputPath):
-    os.mkdir(outputPath)
+    inputPath = args.input
+    outputPath = args.dest
 
-for fn in os.listdir(inputPath):
-    name, ext = os.path.splitext(fn)
-    if ext != ".txt":
-        continue
-    print(f"Processing {fn}...")
+    for fn in os.listdir(inputPath):
+        name, ext = os.path.splitext(fn)
+        if ext != ".txt":
+            continue
+        print(f"Processing {fn}...")
 
-    intervals = process_intervals(os.path.join(inputPath, fn))
-    duration = intervals[-1].end
-    wordTier = textgrid.IntervalTier('words', intervals, 0, duration)
+        intervals = process_intervals(os.path.join(inputPath, fn))
+        duration = intervals[-1].end
+        wordTier = textgrid.IntervalTier('words', intervals, 0, duration)
 
-    tg = textgrid.Textgrid()
-    tg.addTier(wordTier)
-    tg.save(os.path.join(outputPath, name + ".TextGrid"),
-            format="long_textgrid", includeBlankSpaces=True)
+        tg = textgrid.Textgrid()
+        tg.addTier(wordTier)
+        tg.save(os.path.join(outputPath, name + ".TextGrid"),
+                format="long_textgrid", includeBlankSpaces=True)
 
-# Did it work?
-for fn in os.listdir(outputPath):
-    ext = os.path.splitext(fn)[1]
-    if ext != ".TextGrid":
-        continue
-    print(fn)
+    # Did it work?
+    for fn in os.listdir(outputPath):
+        ext = os.path.splitext(fn)[1]
+        if ext != ".TextGrid":
+            continue
+        print(fn)
+
+
+# Usage
+# python txt-to-textgrid.py --input input/ --dest dest/ 
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(
+        description='converts text transcript files to .TextGrids')
+    parser.add_argument('--input',
+                        required=True,
+                        help='path to directory containing .txt transcripts',
+                        type=dir_path,
+                        dest='input'
+                        )
+    parser.add_argument('--dest',
+                        required=True,
+                        help='output dictionary path',
+                        type=dir_path,
+                        dest='dest'
+                        )
+    args = parser.parse_args()
+
+    main(args)
+
+
