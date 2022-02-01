@@ -1,26 +1,64 @@
 #!/bin/bash
 
-# Input: ($1) the directory containing the .wav files to verify 
-# Output: for each file in $1
-#   - if sample rate is 16KHz, indicate that no changes need to be made
-#   - otherwise, attempt resample
+### Script Usage and Parameters ###
 
-# audio_dir=$1
-# find "$audio_dir" -maxdepth 1 -type f -name "*.wav" -exec sox --info {} \; |
-#     awk '/Input File/ {printf $4"\t"} /Sample Rate/ {print $4"\t"}' |
-#     xargs -n1 [[ $(awk '{print $2}') == "16000" ]] && echo "yes" || echo "no"
+help_message()
+{
+    echo "Usage: verify_sample_rates [-h] DIRECTORY"
+    echo "Checks .wav files located in DIRECTORY."
+    echo 
+    echo "Helper script to automatically scan the sample rates of a directory of .wav files."
+    echo "If the sample rate is not 16kHz, prompt the user to generate new .wavs with 16kHz sample rate"
+    echo
+    echo "options:"
+    echo "-h     Print this help message."
+    echo
+}
 
-# TODO: divide in two stages, one where we just count to see if any are not 16kHz; print success if they all are
-#       otherwise, prompt to ask if generating upsamples is what you want to do.
+while getopts ":h" o; do case "${o}" in
+	h) help_message && exit ;;
+	\?) printf "Invalid option: -%s\\n" "$OPTARG" && exit 1 ;;
+esac done
 
-audio_dir=$1
-output_dir=$2
-for f in "$audio_dir"*.wav; do
-    sample_rate="$(sox --info "$f" | awk '/Sample Rate/ {print $4}')";
-    echo "$f: sample rate $sample_rate Hz";
-    if [[ $sample_rate != "26000" ]] ; then 
-        mkdir -p "$output_dir";
-        echo "... resampling to 16kHz";
-        sox -r 16000 "$f" "$output_dir${f##*/}"
-    fi
-done
+shift $((OPTIND - 1));  
+
+[[ -z $1 ]] && help_message && exit 1;
+audio_dir=$1 
+
+### Functions ###
+
+error() { printf "%s\n" "$1" >&2; exit 1; }
+
+check_sample_rates() { \
+    echo "[Number of files] [sample rate in Hz]:"
+    find "$audio_dir" -maxdepth 1 -type f -name "*.wav" -exec sox --info {} \; |
+        awk '/Sample Rate/ {print $4}' | sort | uniq -c 
+}
+
+confirm_before_resample() { \
+    echo "Create new directory with .wav files resampled at 16kHz? (y/n)"
+    read -r input
+    [[ ! $input = "y" ]] && return 1
+    return 0
+}
+
+prompt_output_directory() { \
+    echo "Enter the path of the directory where the new .wav files will be stored:"
+    read -r -e -p "" output_dir
+    mkdir -p -v "$output_dir"
+}
+
+generate_resamples() { \
+    for f in "$audio_dir"*.wav; do
+        local output_path="$output_dir/${f##*/}"
+        sox -r 16000 "$f" "$output_path" 
+        echo "Created new 16kHz .wav file at $output_path."
+    done
+}
+
+### Script ###
+check_sample_rates 
+confirm_before_resample || error "No resampling will be performed. Exiting."
+prompt_output_directory
+generate_resamples 
+exit 0
