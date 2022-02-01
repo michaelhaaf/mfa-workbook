@@ -30,6 +30,7 @@ audio_dir=$1
 error() { printf "%s\n" "$1" >&2; exit 1; }
 
 check_sample_rates() { \
+    echo "Checking (may take a minute if >10k files)..."
     echo "[Number of files] [sample rate in Hz]:"
     find "$audio_dir" -maxdepth 1 -type f -name "*.wav" -exec sox --info {} \; |
         awk '/Sample Rate/ {print $4}' | sort | uniq -c 
