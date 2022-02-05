@@ -1,0 +1,164 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 15.78 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 15.78 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.76 
+            text = "" 
+        intervals [2]:
+            xmin = 1.76 
+            xmax = 2.11 
+            text = "ti1" 
+        intervals [3]:
+            xmin = 2.11 
+            xmax = 2.56 
+            text = "a1lou4" 
+        intervals [4]:
+            xmin = 2.56 
+            xmax = 2.89 
+            text = "ei1" 
+        intervals [5]:
+            xmin = 2.89 
+            xmax = 3.7 
+            text = "wi1" 
+        intervals [6]:
+            xmin = 3.7 
+            xmax = 4.13 
+            text = "aai1" 
+        intervals [7]:
+            xmin = 4.13 
+            xmax = 4.42 
+            text = "e1si4" 
+        intervals [8]:
+            xmin = 4.42 
+            xmax = 4.69 
+            text = "" 
+        intervals [9]:
+            xmin = 4.69 
+            xmax = 5.11 
+            text = "si1" 
+        intervals [10]:
+            xmin = 5.11 
+            xmax = 5.7 
+            text = "ei1chu3" 
+        intervals [11]:
+            xmin = 5.7 
+            xmax = 6.16 
+            text = "aai1" 
+        intervals [12]:
+            xmin = 6.16 
+            xmax = 6.61 
+            text = "en1" 
+        intervals [13]:
+            xmin = 6.61 
+            xmax = 15.78 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 15.78 
+        intervals: size = 23 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.76 
+            text = "" 
+        intervals [2]:
+            xmin = 1.76 
+            xmax = 1.81 
+            text = "t" 
+        intervals [3]:
+            xmin = 1.81 
+            xmax = 2.11 
+            text = "i:1" 
+        intervals [4]:
+            xmin = 2.11 
+            xmax = 2.41 
+            text = "a:1" 
+        intervals [5]:
+            xmin = 2.41 
+            xmax = 2.46 
+            text = "l" 
+        intervals [6]:
+            xmin = 2.46 
+            xmax = 2.56 
+            text = "ow4" 
+        intervals [7]:
+            xmin = 2.56 
+            xmax = 2.89 
+            text = "ej1" 
+        intervals [8]:
+            xmin = 2.89 
+            xmax = 3.09 
+            text = "w" 
+        intervals [9]:
+            xmin = 3.09 
+            xmax = 3.7 
+            text = "i:1" 
+        intervals [10]:
+            xmin = 3.7 
+            xmax = 4.13 
+            text = "a:j1" 
+        intervals [11]:
+            xmin = 4.13 
+            xmax = 4.32 
+            text = "E:1" 
+        intervals [12]:
+            xmin = 4.32 
+            xmax = 4.35 
+            text = "s" 
+        intervals [13]:
+            xmin = 4.35 
+            xmax = 4.42 
+            text = "i:4" 
+        intervals [14]:
+            xmin = 4.42 
+            xmax = 4.69 
+            text = "" 
+        intervals [15]:
+            xmin = 4.69 
+            xmax = 4.73 
+            text = "s" 
+        intervals [16]:
+            xmin = 4.73 
+            xmax = 5.11 
+            text = "i:1" 
+        intervals [17]:
+            xmin = 5.11 
+            xmax = 5.28 
+            text = "ej1" 
+        intervals [18]:
+            xmin = 5.28 
+            xmax = 5.43 
+            text = "ts" 
+        intervals [19]:
+            xmin = 5.43 
+            xmax = 5.7 
+            text = "u:3" 
+        intervals [20]:
+            xmin = 5.7 
+            xmax = 6.16 
+            text = "a:j1" 
+        intervals [21]:
+            xmin = 6.16 
+            xmax = 6.58 
+            text = "E:" 
+        intervals [22]:
+            xmin = 6.58 
+            xmax = 6.61 
+            text = "n1" 
+        intervals [23]:
+            xmin = 6.61 
+            xmax = 15.78 
+            text = "" 

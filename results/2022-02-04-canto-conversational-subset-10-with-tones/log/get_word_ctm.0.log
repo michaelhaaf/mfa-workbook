@@ -1,0 +1,5 @@
+/home/ubuntu/miniconda3/envs/aligner/bin/linear-to-nbest ark:/home/ubuntu/Documents/MFA/random_subset_10_train_acoustic_model/sat_2_ali/ali.canto-tones.0.ark ark:/home/ubuntu/Documents/MFA/random_subset_10_train_acoustic_model/random_subset_10/split1/text.canto-tones.0.int.scp '' '' ark:- 
+/home/ubuntu/miniconda3/envs/aligner/bin/lattice-align-words /home/ubuntu/Documents/MFA/random_subset_10_train_acoustic_model/dictionary/phones/word_boundary.int /home/ubuntu/Documents/MFA/random_subset_10_train_acoustic_model/sat_2_ali/final.mdl ark:- ark:- 
+LOG (linear-to-nbest[5.5.992]:main():latbin/linear-to-nbest.cc:130) Done 1389 n-best entries ,0 had errors.
+LOG (lattice-align-words[5.5.992]:main():latbin/lattice-align-words.cc:126) Successfully aligned 1389 lattices; 0 had errors.
+LOG (nbest-to-ctm[5.5.992]:main():latbin/nbest-to-ctm.cc:119) Converted 1389 linear lattices to ctm format; 0 had errors.
