@@ -11,7 +11,7 @@ for dir in "${dirs[@]}"; do
         printf "echo Running resamples on .wavs in %s...;", $0
         printf "praat --run ./connie.praat;"
         printf "cd ../;"
-        printf "sleep 10;"
+        printf "sleep 2;"
     }' | bash
 done
 
