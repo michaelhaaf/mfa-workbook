@@ -1,4 +1,3 @@
-from src.dictionary import WikiPronPronunciationDict, GlobalPhonePronunciationDict
 import os
 import re
 import sys
@@ -9,6 +8,7 @@ from pathlib import Path
 path_root = Path(__file__).parents[1]
 sys.path.append(str(path_root))
 
+from src.dictionary import WikiPronPronunciationDict, GlobalPhonePronunciationDict
 
 source_dictionary_map = {
     "wikiPron": WikiPronPronunciationDict(),
@@ -20,10 +20,10 @@ def tone_lookup(word, df, tone_dict):
     try:
         pronunciation = str(df.loc[word].pronunciation)
     except KeyError:
-        return ["N/A"]
+        return "N/A"
 
     tones = [tone_dict.get(token) for token in pronunciation.split(" ")]
-    return list(filter(None, tones))
+    return ",".join(list(filter(None, tones)))
 
 
 def file_path(path):
@@ -35,7 +35,7 @@ def file_path(path):
 
 def main(args):
 
-    df = pd.read_csv(args.intrinsicf0_path, delimiter=",")
+    df = pd.read_csv(args.intrinsicf0_path, delimiter=",", dtype=str, na_filter=False)
     pronunciation_dict = source_dictionary_map[args.source]
 
     df[pronunciation_dict.col_name] = df['word'].apply(tone_lookup,
@@ -44,14 +44,13 @@ def main(args):
                                                        tone_dict=pronunciation_dict.tone_dict)
 
     print(f"{args.source} tone information computed.")
+    print("Preview: (row # column will not be included in file)")
+    print(df)
     command = input(
-        "Preview results, or overwrite {args.intrinsicf0_path}? [p/o]\r\n")
-    if command.lower() != 'o':
-        print("Preview:")
-        print(df)
-    else:
+        f"Overwrite {args.intrinsicf0_path}? [y/n]\r\n")
+    if command.lower() == 'y':
         print(f"Overwriting {args.intrinsicf0_path}...")
-        df.to_csv(args.intrinsicf0_path)
+        df.to_csv(args.intrinsicf0_path, index=False)
 
 
 if __name__ == "__main__":
