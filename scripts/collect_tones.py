@@ -23,7 +23,7 @@ def tone_lookup(word, df, tone_dict):
         return "N/A"
 
     tones = [tone_dict.get(token) for token in pronunciation.split(" ")]
-    return ",".join(list(filter(None, tones)))
+    return "_".join(list(filter(None, tones)))
 
 
 def file_path(path):
