@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 # Adapted from:
 # https://nbviewer.org/github/timmahrt/praatIO/blob/main/tutorials/tutorial1_intro_to_praatio.ipynb
 
@@ -22,10 +23,34 @@ def process_timestamp(line):
     return re.sub('[\[\]]', '', line)
 
 
+# {LG} spn  unknown word
+# {SL} sil  silence
+
 # TODO: are these the only extra artifacts to remove?
 def process_text(line):
-    find_replace_chain = ('\<.*\>', ''), ('\(\(\)\)', ''), ('[ ]{1,}', ' ')
-    return reduce(lambda s, kv: re.sub(*kv, s), find_replace_chain, line)
+    find_replace_chain = \
+        ('<hes>', '{hes}'), \
+        ('<breath>', '{LG}'), \
+        ('<no-speech>', '{SL}'), \
+        ('<sta>', '{LG}'), \
+        ('<cough>', '{LG}'), \
+        ('<lipsmack>', '{LG}'), \
+        ('<int>', '{LG}'), \
+        ('<click>', '{LG}'), \
+        ('<prompt>', '{LG}'), \
+        ('<female-to-male>', '{LG}'), \
+        ('<male-to-female>', '{LG}'), \
+        ('<cough>', '{LG}'), \
+        ('<dtmf>', '{LG}'), \
+        ('<foreign>', '{LG}'), \
+        ('<overlap>', '{LG}'), \
+        ('<ring>', '{LG}'), \
+        ('\(\(\)\)', '{SL}'), \
+        ('<[^>]*>', '{LG}'), \
+        ('{hes}', '<hes>'), \
+        ('[ ]{1,}', ' ')
+
+    return reduce(lambda s, kv: re.sub(*kv, s), find_replace_chain, line).strip()
 
 
 def process_intervals(filePath):
