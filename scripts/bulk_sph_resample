@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+set -u
 
 ### Script Usage and Parameters ###
 
@@ -72,7 +74,7 @@ generate_resamples() { \
     cp "$praat_script" "$output_dir" || error "$praat_script not found. Exiting."
     export output_dir praat_script
     find "$output_dir" -maxdepth 1 -type f -name "*.wav" -exec \
-        sh -c 'cd "$output_dir"; for f do praat resample.praat "${f##*/}"; done' {} +
+        sh -c 'cd "$output_dir"; for f do praat resample.praat "${f##*/}"; printf "\t$f\n"; done' _ {} +
     rm -f "$output_dir/resample.praat"
     echo "Resampling complete, see results in $output_dir"
 }
