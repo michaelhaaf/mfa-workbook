@@ -20,6 +20,13 @@ def convert_lexicon_element(element, use_tones=True):
     for pronunciation in pronunciations:
         syllable_phonemes = [syllable.split(" ")
                              for syllable in pronunciation.split(" . ")]
+    
+        # temp workaround
+        for i, elem in enumerate(syllable_phonemes):
+            if len(elem) < 2 or len(elem) > 4:
+                print(f"Syllable {elem} has {len(elem)} phonemes, dropping from dict")
+                syllable_phonemes.pop(i)
+                
         syllables = [SyllableBuilder.from_phonemes(phonemes)
                      for phonemes in syllable_phonemes]
         mfa_pronunciation = " ".join(
