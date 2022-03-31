@@ -1,0 +1,3 @@
+[0.000000]
+yat1 leng4 luk6 yat1 m5 m5 chat1 baat3 saam1 saam1 <int>
+[12.619875]
