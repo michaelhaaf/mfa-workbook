@@ -1,0 +1,88 @@
+#!/bin/bash
+
+### Script Usage and Parameters ###
+
+help_message()
+{
+    echo "Usage: bulk_sph_resample [-h] DIRECTORY"
+    echo "Converts .sph files located in DIRECTORY to .wav"
+    echo
+    echo "options:"
+    echo "-h     Print this help message."
+    echo
+}
+
+while getopts ":h" o; do case "${o}" in
+	h) help_message && exit ;;
+	\?) printf "Invalid option: -%s\\n" "$OPTARG" && exit 1 ;;
+esac done
+
+shift $((OPTIND - 1));
+
+[[ -z $1 ]] && help_message && exit 1;
+audio_dir=$1
+praat_script="$(dirname "$0")/resample.praat"
+
+
+### Functions ###
+
+error() { printf "%s\n" "$1" >&2; exit 1; }
+
+# Note: not being used in this script, may use to support handling .wav resample without .sph
+check_wav_files() { \
+    echo "Checking sample rates of .wav files..."
+    echo "[Number of .wav files] [sample rate in Hz]:"
+    find "$audio_dir" -maxdepth 1 -type f -name "*.wav" -exec sox --info {} \; |
+        awk '/Sample Rate/ {print $4}' | sort | uniq -c
+}
+
+check_sph_files() { \
+    echo "Checking if there are .sph files in $audio_dir..."
+    count=$(find "$audio_dir" -maxdepth 1 -type f -name "*.sph" | wc -l)
+    echo "Found $count .sph files (note: with >1000, some steps may take several minutes)"
+}
+
+confirm_before_resample() { \
+    echo "Convert .sph files to .wav? (y/n)"
+    read -r input
+    [[ ! $input = "y" ]] && return 1
+    return 0
+}
+
+prompt_output_directory() { \
+    echo "Enter the path of the directory where the new .wav files will be stored:"
+    read -r -e -p "" output_dir
+    mkdir -p -v "$output_dir"
+}
+
+convert_sph_to_wav() { \
+    echo "Copying files..."
+    find "$audio_dir" -maxdepth 1 -type f -name "*.sph" -exec cp {} "$output_dir" \;
+
+    echo "Converting to .wav..."
+    find "$output_dir" -maxdepth 1 -type f -name "*.sph" -exec sh -c \
+        'for f do sph2pipe -f wav "$f" > "${f%.*}.wav"; done' _ {} +
+
+    echo "Cleaning up .sph copies..."
+    find "$output_dir" -maxdepth 1 -type f -name "*.sph" -exec rm {} \;
+}
+
+generate_resamples() { \
+    echo "Resampling..."
+    cp "$praat_script" "$output_dir" || error "$praat_script not found. Exiting."
+    export output_dir praat_script
+    find "$output_dir" -maxdepth 1 -type f -name "*.wav" -exec \
+        sh -c 'cd "$output_dir"; for f do praat resample.praat "${f##*/}"; done' {} +
+    rm -f "$output_dir/resample.praat"
+    echo "Resampling complete, see results in $output_dir"
+}
+
+### Script ###
+
+# check_wav_files
+check_sph_files
+confirm_before_resample || error "No resampling will be performed. Exiting."
+prompt_output_directory
+convert_sph_to_wav
+generate_resamples
+exit 0
