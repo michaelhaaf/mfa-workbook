@@ -70,7 +70,7 @@ There exist many tools to convert and resample audio formats, but none that can 
 
 The `bulk_sph_resample` script performs all three functions using (1) [sph2pipe](https://github.com/burrmill/sph2pipe) for conversion (2) [praat](https://www.fon.hum.uva.nl/praat/) for resampling and (3) bash to manage praat scripts as independent shell processes. This allows praat to run resampling on each file individually, preventing all files in the directory from loading into memory at the same time.
 
-The script interactive. Open a terminal in this repository and run
+The script interactive. Open a terminal in this repository and run:
 ```shell_session
 $ bash ./scripts/bulk_sph_resample ./corpus/scripted/training/audio/
 ```
@@ -93,16 +93,28 @@ Note that this script could take anywhere from several minutes to a few hours (t
 
 You can verify that the conversion/resampling was successful by checking the new .wav files using `sox --info`:
 ```shell_session
-$ sox --info ./textgrid_corpus/BABEL_BP_101_31393_20111018_151856_M1_scripted.wav
+$ find sample-data/textgrid_corpus/ -name "*.wav" -exec sox --info {} \; | grep -e "Input File" -e "Sample Rate"
 
-Input File     : 'textgrid_corpus/BABEL_BP_101_31393_20111018_151856_M1_scripted.wav'
-Channels       : 1
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_38698_20111025_181550_C6_scripted.wav'
 Sample Rate    : 16000
-Precision      : 16-bit
-Duration       : 00:00:08.42 = 134720 samples ~ 631.5 CDDA sectors
-File Size      : 269k
-Bit Rate       : 256k
-Sample Encoding: 16-bit Signed Integer PCM
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_90313_20111019_153045_O3_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_84543_20111124_194834_SC_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_94149_20111027_122829_L1_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_74395_20111117_132438_T2_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_31441_20111026_001007_C5_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_34961_20111027_173059_S5_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_79495_20111017_194334_O2_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_92735_20111024_165237_SB_scripted.wav'
+Sample Rate    : 16000
+Input File     : 'sample-data/textgrid_corpus/BABEL_BP_101_31393_20111018_151856_M1_scripted.wav'
+Sample Rate    : 16000
 ```
 
 Your audio files are now ready for MFA.
@@ -116,6 +128,7 @@ To use `txt-to-textgrid.py`, open a terminal in this repository and run:
 
 ```shell_session
 $ python3 scripts/txt-to-textgrid.py --input corpus/scripted/training/transcript_roman/ --dest textgrid_corpus/
+
 Processing BABEL_BP_101_38698_20111025_181550_C6_scripted.txt...
 Processing BABEL_BP_101_84543_20111124_194834_SC_scripted.txt...
 Processing BABEL_BP_101_94149_20111027_122829_L1_scripted.txt...
