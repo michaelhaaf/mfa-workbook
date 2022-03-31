@@ -122,7 +122,7 @@ Your audio files are now ready for MFA.
 ### Bulk transcript conversion
 Iarpa transcript files are stored as `.txt`. These files need to be converted to `.TextGrid`.
 
-The python library `praatio` has useful utilities for performing this conversion. The `txt-to-textgrid.py` script makes use of these utilities to convert a specified directory of `.txt` files to the `.TextGrid` format. The script also converts Iarpa tags (e.g. '<breath>') to their MFA equivalent (e.g. '{LG}') along with other syntax related substitutions.
+The python library `praatio` has useful utilities for performing this conversion. The `txt-to-textgrid.py` script makes use of these utilities to convert a specified directory of `.txt` files to the `.TextGrid` format. The script also converts Iarpa tags (e.g. '\<breath\>') to their MFA equivalent (e.g. '{LG}') along with other syntax related substitutions.
 
 To use `txt-to-textgrid.py`, open a terminal in this repository and run:
 
