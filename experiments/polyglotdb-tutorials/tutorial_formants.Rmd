@@ -1,0 +1,143 @@
+---
+title: "Plotting formants"
+author: "Michael Haaf"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading the data & packages
+
+```{r}
+library(tidyverse)
+
+v <- read_csv("tutorial_formants.csv")
+```
+
+## Plotting the vowels
+
+```{r}
+ggplot(v, aes(x=F2, y=F1, col=phone)) +
+  facet_wrap(~speaker) +
+  geom_text(aes(label=phone)) +
+  scale_y_reverse() +
+  scale_x_reverse()
+```
+
+## Vowel means:
+
+```{r}
+v %>%
+  group_by(speaker, phone) %>%
+  summarise(F1=mean(F1),
+            F2=mean(F2)) %>%
+  ungroup() %>%
+ggplot(aes(x=F2, y=F1, col=phone)) +
+  facet_wrap(~speaker) +
+  geom_text(aes(label=phone)) +
+  scale_y_reverse() +
+  scale_x_reverse()
+```
+
+```{r}
+v %>%
+  group_by(speaker, phone) %>%
+  summarise(F1=mean(F1),
+            F2=mean(F2)) %>%
+  ungroup() %>%
+  filter(!str_detect(phone, "[iuoea]")) %>%
+ggplot(aes(x=F2, y=F1, col=phone)) +
+  facet_wrap(~speaker) +
+  geom_text(aes(label=phone)) +
+  scale_y_reverse() +
+  scale_x_reverse()
+```
+
+## Postprocessing (some bugs here, not all of this works properly)
+
+Filter csv to only include monophthongs
+
+```{r}
+v <- v %>%
+  # keeping only monophthongs - using a regex
+  # that finds all lowercase characters, which
+  # indicate glides
+  filter(!str_detect(phone, "[iuoea]")) %>%
+  # creating a duration variable
+  mutate(dur = phone_end - phone_start) %>%
+  # removing everything longer than 250 ms
+  # (already very long!)
+  filter(dur < 0.25)
+
+# this loads a helper file with a few manually
+# defined functions that we'll use today
+source("helper.r")
+```
+
+Plotting durations.
+
+```{r}
+# setting up plot
+ggplot(v, aes(y=dur, x=phone)) +
+  # faceting by speaker
+  facet_grid(.~speaker) +
+  # using violins to show distributions per vowel
+  geom_violin() +
+  # adding the median separately as a point
+  stat_summary(fun=median, geom="point", shape=16)
+```
+
+Let's plot the raw formant measurements.
+
+```{r}
+# setting up plot; separate phones will be shown
+# by colour
+ggplot(v, aes(x=F2, y=F1, col=phone)) +
+  # faceting by speaker
+  facet_grid(.~speaker) +
+  # using phone labels in plot
+  geom_text(aes(label=phone)) +
+  # setting up vowel-chart-like F1 / F2 axes
+  scale_y_reverse() +
+  scale_x_reverse()
+```
+
+Token processing/outlier removal (not working)
+
+```{r}
+v_filt <- v %>%
+  # grouping by phone / speaker
+  group_by(phone, speaker) %>%
+  # only keeping stuff between 60th / 90th duration percentiles
+  filter(dur > quantile(dur, 0.6) & dur < quantile(dur, 0.9)) %>%
+  # removing obvious outliers
+  filter(F1 < 1250,
+         !(phone %in% c("I","U","EU","UE") & F1 > 750)) %>%
+  # removing outliers outside of 4 SD vowel ellipses
+  ### NOTE: sd removal commented out,  this step needs to be debugged
+  # filter(!mvt_outlier(F1, F2)) %>%
+  ungroup()
+
+  # plotting
+ggplot(v_filt, aes(x=F2, y=F1, col=phone)) +
+  facet_grid(.~speaker) +
+  geom_text(aes(label=phone)) +
+  scale_y_reverse() +
+  scale_x_reverse()
+```
+
+Now plot centroids:
+
+```{r}
+v_filt %>%
+  group_by(speaker, phone) %>%
+  summarise(F1=mean(F1),
+            F2=mean(F2)) %>%
+ggplot(aes(x=F2, y=F1, col=phone)) +
+  facet_wrap(~speaker) +
+  geom_text(aes(label=phone)) +
+  scale_y_reverse() +
+  scale_x_reverse()
+```
