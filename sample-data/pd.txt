@@ -1,4 +1,7 @@
 <hes>	a:6
+<hes>	6 m6
+<hes>	m5
+<hes>	ej6
 ei1	ej1
 bi1	b i:1
 si1	s i:1
@@ -28,20 +31,26 @@ yi1set1	j i:1 s E:1 t
 ga3	g a:3
 yat1	j 61 t
 yat1yat1yat1ng5nin4	j 61 t j 61 t j 61 t N5 n i:4 n
+yat1yat1yat1ng5nin4	j 61 t j 61 t j 61 t m5 n i:4 n
 yat1chat1leng4saam1nin4	j 61 t ts 61 t l E:4 N s a:1 m n i:4 n
 yat1maan6	j 61 t m a:6 n
 yat1ha5	j 61 t h a:5
 yat1ha5ji2	j 61 t h a:5 dz i:2
 yat1gau2chat1yat1nin4	j 61 t g 6w2 ts 61 t j 61 t l i:4 n
+yat1gau2chat1yat1nin4	j 61 t g 6w2 ts 61 t j 61 t n i:4 n
 yat1gau2chat1chat1nin4	j 61 t g 6w2 ts 61 t ts 61 t n i:4 n
 yat1gau2chat1saam1	j 61 t g 6w2 ts 61 t s a:1 m
 yat1gau2chat1saam1nin4	j 61 t g 6w2 ts 61 t s a:1 m l i:4 n
+yat1gau2chat1saam1nin4	j 61 t g 6w2 ts 61 t s a:1 m n i:4 n
 yat1gau2chat1gau2	j 61 t g 6w2 ts 61 t g 6w2
 yat1gau2chat1gau2nin4	j 61 t g 6w2 ts 61 t g 6w2 l i:4 n
+yat1gau2chat1gau2nin4	j 61 t g 6w2 ts 61 t g 6w2 n i:4 n
 yat1gau2chat1yi6	j 61 t g 6w2 ts 61 t j i:6
 yat1gau2chat1yi6nin4	j 61 t g 6w2 ts 61 t j i:6 n i:4 n
 yat1gau2chat1ng5	j 61 t g 6w2 ts 61 t N5
+yat1gau2chat1ng5	j 61 t g 6w2 ts 61 t m5
 yat1gau2chat1ng5nin4	j 61 t g 6w2 ts 61 t N5 n i:4 n
+yat1gau2chat1ng5nin4	j 61 t g 6w2 ts 61 t m5 n i:4 n
 yat1gau2chat1baat3nin4	j 61 t g 6w2 ts 61 t b a:3 t n i:4 n
 yat1gau2chat1luk6nin4	j 61 t g 6w2 ts 61 t l u:6 k n i:4 n
 yat1gau2chat1sei3nin4	j 61 t g 6w2 ts 61 t s ej3 n i:4 n
@@ -49,13 +58,16 @@ yat1gau2chat1leng4	j 61 t g 6w2 ts 61 t l E:4 N
 yat1gau2chat1leng4nin4	j 61 t g 6w2 ts 61 t l E:4 N n i:4 n
 yat1gau2gau2yat1	j 61 t g 6w2 g 6w2 j 61 t
 yat1gau2gau2yat1nin4	j 61 t g 6w2 g 6w2 j 61 t l i:4 n
+yat1gau2gau2yat1nin4	j 61 t g 6w2 g 6w2 j 61 t n i:4 n
 yat1gau2gau2chat1	j 61 t g 6w2 g 6w2 ts 61 t
 yat1gau2gau2chat1nin4	j 61 t g 6w2 g 6w2 ts 61 t n i:4 n
 yat1gau2gau2saam1nin4	j 61 t g 6w2 g 6w2 s a:1 m n i:4 n
 yat1gau2gau2gau2nin4	j 61 t g 6w2 g 6w2 g 6w2 l i:4 n
+yat1gau2gau2gau2nin4	j 61 t g 6w2 g 6w2 g 6w2 n i:4 n
 yat1gau2gau2yi6	j 61 t g 6w2 g 6w2 j i:6
 yat1gau2gau2yi6nin4	j 61 t g 6w2 g 6w2 j i:6 n i:4 n
 yat1gau2gau2ng5nin4	j 61 t g 6w2 g 6w2 N5 n i:4 n
+yat1gau2gau2ng5nin4	j 61 t g 6w2 g 6w2 m5 n i:4 n
 yat1gau2gau2baat3nin4	j 61 t g 6w2 g 6w2 b a:3 t n i:4 n
 yat1gau2gau2luk6nin4	j 61 t g 6w2 g 6w2 l u:6 k n i:4 n
 yat1gau2gau2sei3nin4	j 61 t g 6w2 g 6w2 s ej3 n i:4 n
@@ -64,32 +76,51 @@ yat1gau2gau2leng4	j 61 t g 6w2 g 6w2 l E:4 N
 yat1gau2gau2leng4nin4	j 61 t g 6w2 g 6w2 l E:4 N n i:4 n
 yat1gau2yi6yat1nin4	j 61 t g 6w2 j i:6 j 61 t n i:4 n
 yat1gau2yi6ng5nin4	j 61 t g 6w2 j i:6 N5 n i:4 n
+yat1gau2yi6ng5nin4	j 61 t g 6w2 j i:6 m5 n i:4 n
 yat1gau2ng5yat1	j 61 t g 6w2 N5 j 61 t
+yat1gau2ng5yat1	j 61 t g 6w2 m5 j 61 t
 yat1gau2ng5chat1nin4	j 61 t g 6w2 N5 ts 61 t n i:4 n
+yat1gau2ng5chat1nin4	j 61 t g 6w2 m5 ts 61 t n i:4 n
 yat1gau2ng5saam1	j 61 t g 6w2 N5 s a:1 m
+yat1gau2ng5saam1	j 61 t g 6w2 m5 s a:1 m
 yat1gau2ng5saam1nin4	j 61 t g 6w2 N5 s a:1 m n i:4 n
+yat1gau2ng5saam1nin4	j 61 t g 6w2 m5 s a:1 m n i:4 n
 yat1gau2ng5gau2	j 61 t g 6w2 N5 g 6w2
+yat1gau2ng5gau2	j 61 t g 6w2 m5 g 6w2
 yat1gau2ng5gau2nin4	j 61 t g 6w2 N5 g 6w2 n i:4 n
+yat1gau2ng5gau2nin4	j 61 t g 6w2 m5 g 6w2 n i:4 n
 yat1gau2ng5yi6	j 61 t g 6w2 N5 j i:6
+yat1gau2ng5yi6	j 61 t g 6w2 m5 j i:6
 yat1gau2ng5yi6nin4	j 61 t g 6w2 N5 j i:6 n i:4 n
+yat1gau2ng5yi6nin4	j 61 t g 6w2 m5 j i:6 n i:4 n
 yat1gau2m5m5nin4	j 61 t g 6w2 m5 m5 l i:4 n
+yat1gau2m5m5nin4	j 61 t g 6w2 m5 m5 n i:4 n
 yat1gau2ng5baat3nin4	j 61 t g 6w2 N5 b a:3 t n i:4 n
+yat1gau2ng5baat3nin4	j 61 t g 6w2 m5 b a:3 t n i:4 n
 yat1gau2ng5baat3leng4	j 61 t g 6w2 N5 b a:3 t l E:4 N
+yat1gau2ng5baat3leng4	j 61 t g 6w2 m5 b a:3 t l E:4 N
 yat1gau2ng5luk6nin4	j 61 t g 6w2 N5 l u:6 k n i:4 n
+yat1gau2ng5luk6nin4	j 61 t g 6w2 m5 l u:6 k n i:4 n
 yat1gau2ng5sei3	j 61 t g 6w2 N5 s ej3
+yat1gau2ng5sei3	j 61 t g 6w2 m5 s ej3
 yat1gau2m5sei3nin4	j 61 t g 6w2 m5 s ej3 l i:4 n
+yat1gau2m5sei3nin4	j 61 t g 6w2 m5 s ej3 n i:4 n
 yat1gau2ng5leng4	j 61 t g 6w2 N5 l E:4 N
+yat1gau2ng5leng4	j 61 t g 6w2 m5 l E:4 N
 yat1gau2baat3yat1	j 61 t g 6w2 b a:3 t j 61 t
 yat1gau2baat3yat1nin4	j 61 t g 6w2 b a:3 t j 61 t n i:4 n
 yat1gau2baat3chat1nin4	j 61 t g 6w2 b a:3 t ts 61 t l i:4 n
+yat1gau2baat3chat1nin4	j 61 t g 6w2 b a:3 t ts 61 t n i:4 n
 yat1gau2baat3saam1	j 61 t g 6w2 b a:3 t s a:1 m
 yat1gau2baat3saam1nin4	j 61 t g 6w2 b a:3 t s a:1 m n i:4 n
 yat1gau2baat3gau2	j 61 t g 6w2 b a:3 t g 6w2
 yat1gau2baat3gau2nin4	j 61 t g 6w2 b a:3 t g 6w2 n i:4 n
 yat1gau2baat3yi6nin4	j 61 t g 6w2 b a:3 t j i:6 n i:4 n
 yat1gau2baat3ng5nin4	j 61 t g 6w2 b a:3 t N5 n i:4 n
+yat1gau2baat3ng5nin4	j 61 t g 6w2 b a:3 t m5 n i:4 n
 yat1gau2baat3baat3	j 61 t g 6w2 b a:3 t b a:3 t
 yat1gau2baat3baat3nin4	j 61 t g 6w2 b a:3 t b a:3 t l i:4 n
+yat1gau2baat3baat3nin4	j 61 t g 6w2 b a:3 t b a:3 t n i:4 n
 yat1gau2baat3luk6nin4	j 61 t g 6w2 b a:3 t l u:6 k n i:4 n
 yat1gau2baat3sei3	j 61 t g 6w2 b a:3 t s ej3
 yat1gau2baat3sei3nin4	j 61 t g 6w2 b a:3 t s ej3 n i:4 n
@@ -103,7 +134,9 @@ yat1gau2luk6saam1nin4	j 61 t g 6w2 l u:6 k s a:1 m n i:4 n
 yat1gau2luk6gau2nin4	j 61 t g 6w2 l u:6 k g 6w2 n i:4 n
 yat1gau2luk6yi6nin4	j 61 t g 6w2 l u:6 k j i:6 n i:4 n
 yat1gau2luk6ng5	j 61 t g 6w2 l u:6 k N5
+yat1gau2luk6ng5	j 61 t g 6w2 l u:6 k m5
 yat1gau2luk6ng5nin4	j 61 t g 6w2 l u:6 k N5 n i:4 n
+yat1gau2luk6ng5nin4	j 61 t g 6w2 l u:6 k m5 n i:4 n
 yat1gau2luk6baat3	j 61 t g 6w2 l u:6 k b a:3 t
 yat1gau2luk6baat3nin4	j 61 t g 6w2 l u:6 k b a:3 t n i:4 n
 yat1gau2luk6luk6	j 61 t g 6w2 l u:6 k l u:6 k
@@ -117,6 +150,7 @@ yat1gau2leng4leng4	j 61 t g 6w2 l E:4 N l E:4 N
 yat1gau2leng4leng4nin4	j 61 t g 6w2 l E:4 N l E:4 N n i:4 n
 yat1yi6nin4	j 61 t j i:6 n i:4 n
 yat1ng5nin4	j 61 t N5 n i:4 n
+yat1ng5nin4	j 61 t m5 n i:4 n
 yat1se1	j 61 t s E:1
 yat1yik1	j 61 t j i:1 k
 yat1tai2	j 61 t t 6j2
@@ -134,7 +168,9 @@ yat1sap6saam1maan6	j 61 t s 66 p s a:1 m m a:6 n
 yat1sap6gau2	j 61 t s 66 p g 6w2
 yat1sap6yi6	j 61 t s 66 p j i:6
 yat1sap6ng5	j 61 t s 66 p N5
+yat1sap6ng5	j 61 t s 66 p m5
 yat1sap6ng5maan6	j 61 t s 66 p N5 m a:6 n
+yat1sap6ng5maan6	j 61 t s 66 p m5 m a:6 n
 yat1sap6baat3	j 61 t s 66 p b a:3 t
 yat1sap6luk6	j 61 t s 66 p l u:6 k
 yat1sap6sei3	j 61 t s 66 p s ej3
@@ -157,6 +193,7 @@ yat1chang4	j 61 t ts 64 N
 yat1jin2pou5fu6	j 61 t dz i:2 n p ow5 f u:6
 yat1daai3	j 61 t d a:j3
 yat1gon1yi6jing6	j 61 t g O:1 n j i:6 dz E:6 N
+yat1gon1yi6jing6	j 61 t g O:1 n j i:6 dz i:6 N
 yat1dou6	j 61 t d ow6
 yat1leut6	j 61 t l 9:6 t
 yat1sam1	j 61 t s 61 m
@@ -200,8 +237,11 @@ chat1chat1nin4	ts 61 t ts 61 t n i:4 n
 chat1maan6	ts 61 t m a:6 n
 chat1saam1nin4	ts 61 t s a:1 m n i:4 n
 chat1gau2nin4	ts 61 t g 6w2 n i:2 n
+chat1gau2nin4	ts 61 t g 6w2 n i:4 n
 chat1yi6nin4	ts 61 t j i:6 n i:2 n
+chat1yi6nin4	ts 61 t j i:6 n i:4 n
 chat1ng5nin4	ts 61 t N5 n i:4 n
+chat1ng5nin4	ts 61 t m5 n i:4 n
 chat1yik1	ts 61 t j i:1 k
 chat1baat3nin2	ts 61 t b a:3 t n i:2 n
 chat1sap6	ts 61 t s 66 p
@@ -217,8 +257,11 @@ chat1sap6gau2maan6	ts 61 t s 66 p g 6w2 m a:6 n
 chat1sap6yi6	ts 61 t s 66 p j i:6
 chat1sap6yi6maan6	ts 61 t s 66 p j i:6 m a:6 n
 chat1sap6ng5	ts 61 t s 66 p N5
+chat1sap6ng5	ts 61 t s 66 p m5
 chat1sap6ng5maan6	ts 61 t s 66 p N5 m a:6 n
+chat1sap6ng5maan6	ts 61 t s 66 p m5 m a:6 n
 chat1sap6ng5yik1	ts 61 t s 66 p N5 j i:1 k
+chat1sap6ng5yik1	ts 61 t s 66 p m5 j i:1 k
 chat1sap6baat3	ts 61 t s 66 p b a:3 t
 chat1sap6baat3maan6	ts 61 t s 66 p b a:3 t m a:6 n
 chat1sap6luk6	ts 61 t s 66 p l u:6 k
@@ -230,6 +273,7 @@ chat1toi4ho4	ts 61 t t O:j4 h O:4
 chat1hou6	ts 61 t h ow6
 chat1hei2	ts 61 t h ej2
 chat1sei3nin4	ts 61 t s ej3 n i:2 n
+chat1sei3nin4	ts 61 t s ej3 n i:4 n
 chat1bou2heung1	ts 61 t b ow2 h 9:1 N
 chat1bou2heung1yan4	ts 61 t b ow2 h 9:1 N j 64 n
 chat1ching4luk6yuk6	ts 61 t ts i:4 N l u:6 k j y:6 k
@@ -248,6 +292,7 @@ jeung6fu1	dz 9:6 N f u:1
 saam1	s a:1 m
 saam1maan6	s a:1 m m a:6 n
 saam1ng5ji1gei2	s a:1 m N5 dz i:1 g ej2
+saam1ng5ji1gei2	s a:1 m m5 dz i:1 g ej2
 saam1nga3	s a:1 m N a:3
 saam1yik1	s a:1 m j i:1 k
 saam1doi6	s a:1 m d O:j6
@@ -267,7 +312,9 @@ saam1sap6gau2maan6	s a:1 m s 66 p g 6w2 m a:6 n
 saam1sap6yi6	s a:1 m s 66 p j i:6
 saam1sap6yi6maan6	s a:1 m s 66 p j i:6 m a:6 n
 saam1sap6ng5	s a:1 m s 66 p N5
+saam1sap6ng5	s a:1 m s 66 p m5
 saam1sap6ng5maan6	s a:1 m s 66 p N5 m a:6 n
+saam1sap6ng5maan6	s a:1 m s 66 p m5 m a:6 n
 saam1sap6baat3	s a:1 m s 66 p b a:3 t
 saam1sap6baat3maan6	s a:1 m s 66 p b a:3 t m a:6 n
 saam1sap6luk6	s a:1 m s 66 p l u:6 k
@@ -280,6 +327,7 @@ saam1chin1	s a:1 m ts i:1 n
 saam1chin1maan6	s a:1 m ts i:1 n m a:6 n
 saam1yau5	s a:1 m j 6w5
 saam1hou6	s a:1 m h ow6
+saam1hou6	s a:1 m h ow2
 saam1daai6	s a:1 m d a:j6
 saam1haap6	s a:1 m h a:6 p
 saam1mou4	s a:1 m m ow4
@@ -298,6 +346,7 @@ saam1gok3	s a:1 m g O:3 k
 saam1yin4leung5yu5	s a:1 m j i:4 n l 9:5 N j y:5
 saam1mun4haap6	s a:1 m m u:4 n h a:6 p
 seung6	s 9:6 N
+seung6	s 9:5 N
 seung6yat1chi3	s 9:6 N j 61 t ts i:3
 seung6ha6	s 9:6 N h a:6
 seung6sing1	s 9:6 N s i:1 N
@@ -327,7 +376,9 @@ ha6	h a:6
 ha2yat1doi6	h a:2 j 61 t d O:j6
 ha6ling6	h a:6 l i:6 N
 ha6m5	h a:6 m5
+ha6m5	h a:6 N5
 ha6m5cha4	h a:6 m5 ts a:4
+ha6m5cha4	h a:6 N5 ts a:4
 ha6heui3	h a:6 h 9y3
 ha6suk6	h a:6 s u:6 k
 ha6nin2	h a:6 n i:2 n
@@ -361,6 +412,7 @@ bat1ji2si6	b 61 t dz i:2 s i:6
 bat1ho2	b 61 t h O:2
 bat1ho2gou3yan4	b 61 t h O:2 g ow3 j 64 n
 bat1ho2si1yi5	b 61 t h O:2 s i:1 j i:5
+bat1ho2si1yi5	b 61 t h O:2 s i:1 j i:6
 bat1ho2waak6kyut3	b 61 t h O:2 w a:6 k k y:3 t
 bat1ho2nang4	b 61 t h O:2 n 64 N
 bat1ho2yik6jyun2	b 61 t h O:2 j i:6 k dz y:2 n
@@ -403,8 +455,11 @@ bat1ji1bat1gok3	b 61 t dz i:1 b 61 t g O:3 k
 bat1ji1bat1gok3gaan1	b 61 t dz i:1 b 61 t g O:3 k g a:1 n
 bat1gam3	b 61 t g 63 m
 bat1noi6sau6jing3	b 61 t n O:j6 s 6w6 dz i:1 N
+bat1noi6sau6jing3	b 61 t n O:j6 s 6w6 dz i:3 N
 bat1chiu3	b 61 t s iw3
+bat1chiu3	b 61 t ts iw3
 bat1sing1	b 61 t s i:1 N
+bat1sing1	b 61 t s i:3 N
 bat1nang4	b 61 t n 64 N
 bat1ji3yu1	b 61 t dz i:3 j y:1
 bat1leung4	b 61 t l 9:4 N
@@ -422,7 +477,10 @@ yu5yan4	j y:5 j 64 n
 yu5yan4wai4sin6	j y:5 j 64 n w 6j4 s i:6 n
 yu2wui5	j y:2 w u:j5
 yu5wui5je2	j y:5 w u:j5 dz E:2
+yu5wui5je2	j y:5 w u:j6 dz E:2
 yu5wui2wa6	j y:5 w u:j2 w a:6
+yu5wui2wa6	j y:5 w u:j6 w a:2
+yu5wui2wa6	j y:5 w u:j6 w a:6
 yu5kei4	j y:5 k ej4
 yu5chi2tung4si4	j y:5 ts i:2 t u:4 N s i:4
 chau2	ts 6w2
@@ -468,6 +526,7 @@ dung1bak1	d u:1 N b 61 k
 dung1bak1fong1	d u:1 N b 61 k f O:1 N
 dung1keui1	d u:1 N k 9y1
 dung1naam4nga3	d u:1 N n a:4 m N a:3
+dung1naam4nga3	d u:1 N n a:4 m a:3
 dung1toi4	d u:1 N t O:j4
 dung1ga1	d u:1 N g a:1
 dung1ga1cheung4sai1ga1dyun2	d u:1 N g a:1 ts 9:4 N s 6j1 g a:1 d y:2 n
@@ -495,24 +554,34 @@ leung5chin1	l 9:5 N ts i:1 n
 leung5gik6fa3	l 9:5 N g i:6 k f a:3
 leung5baak3	l 9:5 N b a:3 k
 leung5laak6	l 9:5 N l 66 k
+leung5laak6	l 9:5 N l a:6 k
 leung5laak6chaap3dou1	l 9:5 N l 66 k ts a:3 p d ow1
+leung5laak6chaap3dou1	l 9:5 N l a:6 k ts a:3 p d ow1
 yim4	j i:4 m
+yim4	j i:4 n
 yim4lai6	j i:4 m l 6j6
 yim4hon4	j i:4 m h O:4 n
 yim4jeun3	j i:4 m dz 9:3 n
 yim4gaak3	j i:4 m g a:3 k
+yim4gaak3	j i:4 n g a:3 k
 yim4suk1	j i:4 m s u:1 k
+yim4suk1	j i:4 n s u:1 k
 yim4jung6	j i:4 m dz u:6 N
+yim4jung6	j i:4 n dz u:6 N
 bing6	b i:6 N
 song3	s O:3 N
+song3	s O:1 N
 song3sat1	s O:3 N s 61 t
 go3	g O:3
 go3jung1yun4yan1	g O:3 dz u:1 N j y:4 n j 61 n
 go3bit6	g O:3 b i:6 t
 go3sing3	g O:3 s i:3 N
 go3ngon3	g O:3 N O:3 n
+go3ngon3	g O:3 O: n3
 a1wu1	N a:1 w u:1
+a1wu1	a:1 w u:1
 jung1	dz u:1 N
+jung1	dz u:3 N
 jung1seung6yau4	dz u:1 N s 9:6 N j 6w4
 jung1sai3gei2	dz u:1 N s 6j3 g ej2
 jung1ging1	dz u:1 N g i:1 N
@@ -522,11 +591,14 @@ jung1gun3	dz u:1 N g u:3 n
 jung1yi1	dz u:1 N j i:1
 jung1yi1si1	dz u:1 N j i:1 s i:1
 jung1m5	dz u:1 N m5
+jung1m5	dz u:1 N N5
 jung1wa4	dz u:1 N w a:4
 jung1wai6	dz u:1 N w 6j6
 jung1yun4	dz u:1 N j y:4 n
 jung1gok3	dz u:1 N g O:3 k
+jung1gok3	dz u:1 N gw O:3 k
 jung1gok3yan4	dz u:1 N g O:3 k j 64 n
+jung1gok3yan4	dz u:1 N gw O:3 k j 64 n
 jung1ying4	dz u:1 N j i:4 N
 jung1ngoi6	dz u:1 N N O:j6
 jung1yeung1	dz u:1 N j 9:1 N
@@ -551,6 +623,7 @@ jung1si6	dz u:1 N s i:6
 jung1ji1	dz u:1 N dz i:1
 jung1bou6	dz u:1 N b ow6
 jung1ngan4	dz u:1 N N 62 n
+jung1ngan4	dz u:1 N N 64 n
 jung1gaan1	dz u:1 N g a:1 n
 jung1fei1	dz u:1 N f ej1
 jung1lou5	dz u:1 N l ow5
@@ -560,6 +633,7 @@ fung1fu3do1choi2	f u:1 N f u:3 d O:1 ts O:j2
 fung1jan3	f u:1 N dz 63 n
 chyun3lin4	ts y:3 n l i:4 n
 lam4	l 64 m
+lam4	l 64 n
 lam4mo1	l 64 m m O:1
 lam4gong1	l 64 m g O:1 N
 lam4fan4	l 64 m f 64 n
@@ -571,6 +645,7 @@ yun2	j y:2 n
 daan1dung1	d a:1 n d u:1 N
 daan1yeung4	d a:1 n j 9:4 N
 wai4	w 6j4
+wai4	w 6j6
 wai6sam6mo1	w 6j6 s 66 m m O:1
 wai6ho4	w 6j6 h O:4
 wai4kei4	w 6j4 k ej4
@@ -582,6 +657,7 @@ jyu2dung6	dz y:2 d u:6 N
 jyu2cheung4	dz y:2 ts 9:4 N
 jyu2joi2	dz y:2 dz O:j2
 jyu2dou5	dz y:2 d ow5
+jyu2dou5	dz y:2 d ow6
 jyu2jik6	dz y:2 dz i:6 k
 jyu2jeung1	dz y:2 dz 9:1 N
 jyu2yi3	dz y:2 j i:3
@@ -614,6 +690,7 @@ naai5si6	n a:j5 s i:6
 naai5ji3	n a:j5 dz i:3
 gau2	g 6w2
 mo1	m O:1
+mo1	j iw1
 yi6wu1	j i:6 w u:1
 yi6mou6	j i:6 m ow6
 yi6gung1	j i:6 g u:1 N
@@ -635,10 +712,12 @@ fat6mei6	f 66 t m ej6
 fat6sin6ho2chan4	f 66 t s i:6 n h O:2 ts 64 n
 fat6si6	f 66 t s i:6
 lok6	l O:6 k
+lok6	N O:6 k
 lok6yu1	l O:6 k j y:1
 lok6saan1	l O:6 k s a:1 n
 lok6lam4	l O:6 k l 64 m
 lok6ching1	l O:6 k ts E:1 N
+lok6ching1	l O:6 k ts i:1 N
 lok6gun1	l O:6 k g u:1 n
 lok6gun1je2	l O:6 k g u:1 n dz E:2
 lok6cheui3	l O:6 k ts 9y3
@@ -652,30 +731,50 @@ sing4yun4	s i:4 N j y:4 n
 sing4haak3	s i:4 N h a:3 k
 sing4che1	s i:4 N ts E:1
 mat1ye5	m 61 t j E:5
+mat1ye5	m E:1 j E:5
 gau2	g 6w2
 gau2yat1nin4	g 6w2 j 61 t n i:4 n
 gau2maan6	g 6w2 m a:6 n
 gau2yik1	g 6w2 j i:1 k
 gau2sap6	g 6w2 s 66 p
 gau2sap6yat1	g 6w2 a:6 j 61 t
+gau2sap6yat1	g 6w2 s 66 p j 61 t
 gau2sap6yat1maan6	g 6w2 s 66 p j 61 t m a:6 n
 gau2sap6chat1	g 6w2 a:6 ts 61 t
+gau2sap6chat1	g 6w2 s 66 p ts 61 t
 gau2sap6chat1maan6	g 6w2 a:6 ts 61 t m a:6 n
+gau2sap6chat1maan6	g 6w2 s 66 p ts 61 t m a:6 n
 gau2sap6maan6	g 6w2 a:6 m a:6 n
+gau2sap6maan6	g 6w2 s 66 p m a:6 n
 gau2sap6saam1	g 6w2 a:6 s a:1 m
+gau2sap6saam1	g 6w2 s 66 p s a:1 m
 gau2sap6saam1maan6	g 6w2 a:6 s a:1 m m a:6 n
+gau2sap6saam1maan6	g 6w2 s 66 p s a:1 m m a:6 n
 gau2sap6gau2	g 6w2 s 66 p g 6w2
 gau2sap6gau2maan6	g 6w2 a:6 g 6w2 m a:6 n
+gau2sap6gau2maan6	g 6w2 s 66 p g 6w2 m a:6 n
 gau2sap6yi6	g 6w2 a:6 j i:6
+gau2sap6yi6	g 6w2 s 66 p j i:6
 gau2sap6yi6maan6	g 6w2 a:6 j i:6 m a:6 n
+gau2sap6yi6maan6	g 6w2 s 66 p j i:6 m a:6 n
 gau2sap6ng5	g 6w2 a:6 m5
+gau2sap6ng5	g 6w2 s 66 p N5
+gau2sap6ng5	g 6w2 s 66 p m5
 gau2sap6ng5maan6	g 6w2 a:6 m5 m a:6 n
+gau2sap6ng5maan6	g 6w2 s 66 p N5 m a:6 n
+gau2sap6ng5maan6	g 6w2 s 66 p m5 m a:6 n
 gau2sap6baat3	g 6w2 a:6 b a:3 t
+gau2sap6baat3	g 6w2 s 66 p b a:3 t
 gau2sap6baat3maan6	g 6w2 a:6 b a:3 t m a:6 n
+gau2sap6baat3maan6	g 6w2 s 66 p b a:3 t m a:6 n
 gau2sap6luk6	g 6w2 a:6 l u:6 k
+gau2sap6luk6	g 6w2 s 66 p l u:6 k
 gau2sap6luk6maan6	g 6w2 a:6 l u:6 k m a:6 n
+gau2sap6luk6maan6	g 6w2 s 66 p l u:6 k m a:6 n
 gau2sap6sei3	g 6w2 a:6 s ej3
+gau2sap6sei3	g 6w2 s 66 p s ej3
 gau2sap6sei3maan6	g 6w2 a:6 s ej3 m a:6 n
+gau2sap6sei3maan6	g 6w2 s 66 p s ej3 m a:6 n
 gau2chin1	g 6w2 ts i:1 n
 gau2hou2	g 6w2 h ow2
 gau2sei3nin4	g 6w2 s ej3 n i:4 n
@@ -710,16 +809,20 @@ syu1min6yu5	s y:1 m i:6 n j y:5
 maai5	m a:j5
 maai5jyu2	m a:j5 dz y:2
 lyun6chyun3	l y:6 n ts y:2 n
+lyun6chyun3	l y:6 n ts y:3 n
 yu5yip6	j y:5 j i:6 p
 yu5saan1	j y:5 s a:1 n
 yu5tong2	j y:5 t O:2 N
 liu5	l iw5
 liu5mou4gwa3nim6	l iw5 m ow4 gw a:3 l i:6 m
+liu5mou4gwa3nim6	l iw5 m ow4 gw a:3 n i:6 m
 liu5gaai2	l iw5 g a:j2
 jang1	dz 61 N
+jang1	dz a:1 N
 jang1cheui2	dz 61 N ts 9y2
 jang1dyut6	dz 61 N d y:6 t
 jang1kyun4	dz 61 N k y:4 n
+jang1kyun4	dz a:1 N k y:4 n
 jang1dyun1	dz 61 N d y:1 n
 jang1yi5	dz 61 N j i:5
 jang1yi5sing3	dz 61 N j i:5 s i:3 N
@@ -767,8 +870,11 @@ yi6sap6yi6maan6	j i:6 s 66 p j i:6 m a:6 n
 yi6sap6yi6yat6	j i:6 s 66 p j i:6 j 66 t
 yi6sap6m5	j i:6 s 66 p m5
 yi6sap6ng5maan6	j i:6 s 66 p N5 m a:6 n
+yi6sap6ng5maan6	j i:6 s 66 p m5 m a:6 n
 yi6sap6ng5hou2	j i:6 s 66 p N5 h ow2
+yi6sap6ng5hou2	j i:6 s 66 p m5 h ow2
 yi6sap6ng5yat6	j i:6 s 66 p N5 j 66 t
+yi6sap6ng5yat6	j i:6 s 66 p m5 j 66 t
 yi6sap6baat3	j i:6 s 66 p b a:3 t
 yi6sap6baat3maan6	j i:6 s 66 p b a:3 t m a:6 n
 yi6sap6baat3hou2	j i:6 s 66 p b a:3 t h ow2
@@ -802,38 +908,50 @@ yi6leng4yat1saam0nin4	j i:6 l E:4 N j 61 t s a:1 m n i:4 n
 yi6leng4yat1gau2nin4	j i:6 l E:4 N j 61 t g 6w2 n i:4 n
 yi6leng4yat1yi6nin4	j i:6 l E:4 N j 61 t j i:6 n i:4 n
 yi6leng4yat1ng5nin4	j i:6 l E:4 N j 61 t N5 n i:4 n
+yi6leng4yat1ng5nin4	j i:6 l E:4 N j 61 t m5 n i:4 n
 yi6ling4yat1baat3nin4	j i:6 l i:4 N j 61 t b a:3 t l i:4 n
+yi6ling4yat1baat3nin4	j i:6 l i:4 N j 61 t b a:3 t n i:4 n
 yi6leng4yat1luk6nin4	j i:6 l E:4 N j 61 t l u:6 k n i:4 n
 yi6ling4yat1sei3nin4	j i:6 l i:4 N j 61 t s ej3 l i:4 n
+yi6ling4yat1sei3nin4	j i:6 l i:4 N j 61 t s ej3 n i:4 n
 yi6leng4yat1leng4nin4	j i:6 l E:4 N j 61 t l E:4 N n i:4 n
 yi6leng4saam0yat1nin4	j i:6 l E:4 N s a:1 m j 61 t n i:4 n
 yi6leng4saam0chat1nin4	j i:6 l E:4 N s a:1 m ts 61 t n i:4 n
 yi6leng4saam0saam0nin4	j i:6 l E:4 N s a:1 m s a:1 m n i:4 n
 yi6leng4saam0gau2nin4	j i:6 l E:4 N s a:1 m g 6w2 n i:4 n
 yi6ling4saam1yi6nin4	j i:6 l i:4 N s a:1 m j i:6 l i:4 n
+yi6ling4saam1yi6nin4	j i:6 l i:4 N s a:1 m j i:6 n i:4 n
 yi6leng4saam0ng5nin4	j i:6 l E:4 N s a:1 m N5 n i:4 n
+yi6leng4saam0ng5nin4	j i:6 l E:4 N s a:1 m m5 n i:4 n
 yi6leng4saam0baat3nin4	j i:6 l E:4 N s a:1 m b a:3 t n i:4 n
 yi6leng4saam0luk6nin4	j i:6 l E:4 N s a:1 m l u:6 k n i:4 n
 yi6leng4saam0sei3nin4	j i:6 l E:4 N s a:1 m s ej3 n i:4 n
 yi6leng4saam0leng4nin4	j i:6 l E:4 N s a:1 m l E:4 N n i:4 n
 yi6ling4yi6yat1nin4	j i:6 l i:4 N j i:6 j 61 t l i:4 n
+yi6ling4yi6yat1nin4	j i:6 l i:4 N j i:6 j 61 t n i:4 n
 yi6leng4yi6chat1nin4	j i:6 l E:4 N j i:6 ts 61 t n i:4 n
 yi6ling4yi6saam1nin4	j i:6 l i:4 N j i:6 s a:1 m l i:4 n
+yi6ling4yi6saam1nin4	j i:6 l i:4 N j i:6 s a:1 m n i:4 n
 yi6leng4yi6gau2nin4	j i:6 l E:4 N j i:6 g 6w2 n i:4 n
 yi6leng4yi6yi6nin4	j i:6 l E:4 N j i:6 j i:6 n i:4 n
 yi6leng4yi6ng5nin4	j i:6 l E:4 N j i:6 N5 n i:4 n
+yi6leng4yi6ng5nin4	j i:6 l E:4 N j i:6 m5 n i:4 n
 yi6leng4yi6baat3nin4	j i:6 l E:4 N j i:6 b a:3 t n i:4 n
 yi6leng4yi6luk6nin4	j i:6 l E:4 N j i:6 l u:6 k n i:4 n
 yi6leng4yi6sei3nin4	j i:6 l E:4 N j i:6 s ej3 n i:4 n
 yi6leng4yi6leng4nin4	j i:6 l E:4 N j i:6 l E:4 N n i:4 n
 yi6leng4ng5leng4nin4	j i:6 l E:4 N N5 l E:4 N n i:4 n
+yi6leng4ng5leng4nin4	j i:6 l E:4 N m5 l E:4 N n i:4 n
 yi6leng4sei3yat1nin4	j i:6 l E:4 N s ej3 j 61 t n i:4 n
 yi6ling4sei3chat1nin4	j i:6 l i:4 N s ej3 ts 61 t l i:4 n
+yi6ling4sei3chat1nin4	j i:6 l i:4 N s ej3 ts 61 t n i:4 n
 yi6leng4sei3saam0nin4	j i:6 l E:4 N s ej3 s a:1 m n i:4 n
 yi6leng4sei3gau2nin4	j i:6 l E:4 N s ej3 g 6w2 n i:4 n
 yi6leng4sei3yi6nin4	j i:6 l E:4 N s ej3 j i:6 n i:4 n
 yi6leng4sei3ng5nin4	j i:6 l E:4 N s ej3 N5 n i:4 n
+yi6leng4sei3ng5nin4	j i:6 l E:4 N s ej3 m5 n i:4 n
 yi6ling4sei3baat3nin4	j i:6 l i:4 N s ej3 b a:3 t l i:4 n
+yi6ling4sei3baat3nin4	j i:6 l i:4 N s ej3 b a:3 t n i:4 n
 yi6leng4sei3luk6nin4	j i:6 l E:4 N s ej3 l u:6 k n i:4 n
 yi6leng4sei3sei3nin4	j i:6 l E:4 N s ej3 s ej3 n i:4 n
 yi6leng4sei3leng4nin4	j i:6 l E:4 N s ej3 l E:4 N n i:4 n
@@ -844,11 +962,13 @@ yi6leng4leng4saam0nin4	j i:6 l E:4 N l E:4 N s a:1 m n i:4 n
 yi6leng4leng4gau2nin4	j i:6 l E:4 N l E:4 N g 6w2 n i:4 n
 yi6leng4leng4yi6nin4	j i:6 l E:4 N l E:4 N j i:6 n i:4 n
 yi6ling4ling4m5nin4	j i:6 l i:4 N l i:4 N m5 l i:4 n
+yi6ling4ling4m5nin4	j i:6 l i:4 N l i:4 N m5 n i:4 n
 yi6leng4leng4baat3nin4	j i:6 l E:4 N l E:4 N b a:3 t n i:4 n
 yi6leng4leng4luk6nin4	j i:6 l E:4 N l E:4 N l u:6 k n i:4 n
 yi6leng4leng4sei3nin4	j i:6 l E:4 N l E:4 N s ej3 n i:4 n
 yi6leng4leng4nin4	j i:6 l E:4 N l E:4 N n i:4 n
 yi6ling4ling4ling4nin4	j i:6 l i:4 N l i:4 N l i:4 N l i:4 n
+yi6ling4ling4ling4nin4	j i:6 l i:4 N l i:4 N l i:4 N n i:4 n
 yu1	j y:1
 yu1si6	j y:1 s i:6
 wan4	w 64 n
@@ -866,42 +986,76 @@ wu6seung1	w u:6 s 9:1 N
 wu6lyun4	w u:6 l y:4 n
 wu6lyun4mong5	w u:6 l y:4 n m O:5 N
 m5	m5
+m5	N5
 ng5yat1	N5 j 61 t
+ng5yat1	m5 j 61 t
 ng5yat1lou4dung6jit3	N5 j 61 t l ow4 d u:6 N dz i:3 t
+ng5yat1lou4dung6jit3	m5 j 61 t l ow4 d u:6 N dz i:3 t
 ng5chat1	N5 ts 61 t
+ng5chat1	m5 ts 61 t
 m5maan6	m5 m a:6 n
+m5maan6	N5 m a:6 n
 ng5yik1	N5 j i:1 k
+ng5yik1	m5 j i:1 k
 ng5gwong1sap6sik1	N5 gw O:1 N s 66 p s i:1 k
+ng5gwong1sap6sik1	m5 gw O:1 N s 66 p s i:1 k
 m5sap6	m5 s 66 p
+m5sap6	N5 s 66 p
 ng5sap6yat1	N5 s 66 p j 61 t
+ng5sap6yat1	m5 s 66 p j 61 t
 m5sap6yat1maan6	m5 s 66 p j 61 t m a:6 n
 ng5sap6chat1	N5 s 66 p ts 61 t
+ng5sap6chat1	m5 s 66 p ts 61 t
 ng5sap6chat1maan6	N5 s 66 p ts 61 t m a:6 n
+ng5sap6chat1maan6	m5 s 66 p ts 61 t m a:6 n
 ng5sap6maan6	N5 s 66 p m a:6 n
+ng5sap6maan6	m5 s 66 p m a:6 n
 ng5sap6saam1	N5 s 66 p s a:1 m
+ng5sap6saam1	m5 s 66 p s a:1 m
 ng5sap6saam1maan6	N5 s 66 p s a:1 m m a:6 n
+ng5sap6saam1maan6	m5 s 66 p s a:1 m m a:6 n
 ng5sap6gau2	N5 s 66 p g 6w2
+ng5sap6gau2	m5 s 66 p g 6w2
 ng5sap6gau2maan6	N5 s 66 p g 6w2 m a:6 n
+ng5sap6gau2maan6	m5 s 66 p g 6w2 m a:6 n
 ng5sap6yi6	N5 s 66 p j i:6
+ng5sap6yi6	m5 s 66 p j i:6
 ng5sap6yi6maan6	N5 s 66 p j i:6 m a:6 n
+ng5sap6yi6maan6	m5 s 66 p j i:6 m a:6 n
 m5sap6m5	m5 s 66 p m5
 ng5sap6ng5maan6	N5 s 66 p N5 m a:6 n
+ng5sap6ng5maan6	m5 s 66 p m5 m a:6 n
 ng5sap6baat3	N5 s 66 p b a:3 t
+ng5sap6baat3	m5 s 66 p b a:3 t
 ng5sap6baat3maan6	N5 s 66 p b a:3 t m a:6 n
+ng5sap6baat3maan6	m5 s 66 p b a:3 t m a:6 n
 ng5sap6luk6	N5 s 66 p l u:6 k
+ng5sap6luk6	m5 s 66 p l u:6 k
 ng5sap6luk6maan6	N5 s 66 p l u:6 k m a:6 n
+ng5sap6luk6maan6	m5 s 66 p l u:6 k m a:6 n
 m5sap6sei3	m5 s 66 p s ej3
 ng5sap6sei3maan6	N5 s 66 p s ej3 m a:6 n
+ng5sap6sei3maan6	m5 s 66 p s ej3 m a:6 n
 m5chin1	m5 ts i:1 n
+m5chin1	N5 ts i:1 n
 ng5choi2ban1fan1	N5 ts O:j2 b 61 n f 61 n
+ng5choi2ban1fan1	m5 ts O:j2 b 61 n f 61 n
 ng5yat6	N5 j 66 t
+ng5yat6	m5 j 66 t
 m5yut6	m5 j y:6 t
+m5yut6	N5 j y:6 t
 m5baak3	m5 b a:3 k
+m5baak3	N5 b a:3 k
 ng5baak3maan6	N5 b a:3 k m a:6 n
+ng5baak3maan6	m5 b a:3 k m a:6 n
 ng5baak3yik1	N5 b a:3 k j i:1 k
+ng5baak3yik1	m5 b a:3 k j i:1 k
 ng5gok3	N5 g O:3 k
+ng5gok3	m5 g O:3 k
 ng5guk1	N5 g u:1 k
+ng5guk1	m5 g u:1 k
 ng5guk1jaap6leung4	N5 g u:1 k dz a:6 p l 9:4 N
+ng5guk1jaap6leung4	m5 g u:1 k dz a:6 p l 9:4 N
 nga3	N a:3
 nga3gin6hong1	N a:3 g i:6 n h O:1 N
 nga3taai3	N a:3 t a:j3
@@ -911,6 +1065,7 @@ se1	s E:1
 se1siu2	s E:1 s iw2
 gaau1	g a:w1
 gaau1seung6	g a:w1 s 9:5 N
+gaau1seung6	g a:w1 s 9:6 N
 gaau1jyu6	g a:w1 dz y:6
 gaau1cha1	g a:w1 ts a:1
 gaau1yau5	g a:w1 j 6w5
@@ -994,6 +1149,7 @@ yan4kwan4	j 64 n kw 64 n
 yan4hang4dou6	j 64 n h 64 N d ow6
 yan4choi4leung5hung1	j 64 n ts O:j4 l 9:5 N h u:1 N
 yan4ji3	j 64 n dz 63 t
+yan4ji3	j 64 n dz i:3
 yan4jou3	j 64 n dz ow3
 yan4jai3	j 64 n dz 6j3
 yan4jai3gwaan1hai6	j 64 n dz 6j3 gw a:1 n h 6j6
@@ -1001,12 +1157,17 @@ yik1	j i:1 k
 yik1wai5	j i:1 k w 6j5
 sam6mo1	s 66 m m O:1
 sam6mo1yeung6	s 66 m m O:1 j 9:2 N
+sam6mo1yeung6	s 66 m m O:1 j 9:6 N
 yan4je2ngoi3saan1	j 64 n dz E:2 N O:j3 s a:1 n
 gan2	g 62 n
 sau4yun3	s 6w4 j y:3 n
+sau4yun3	ts 6w4 j y:3 n
 gam1	g 61 m
 gam1tin1	g 61 m t i:1 n
 gam1nin4	g 61 m l i:2 n
+gam1nin4	g 61 m l i:4 n
+gam1nin4	g 61 m n i:2 n
+gam1nin4	g 61 m n i:4 n
 gam1yat6	g 61 m j 66 t
 gam1jou2	g 61 m dz ow2
 gam1maan5	g 61 m m a:5 n
@@ -1092,6 +1253,7 @@ kei5dak1wan2	k ej5 d 61 k w 62 n
 yi1lik6dak6	j i:1 l i:6 k d 66 k
 yi1ning4	j i:1 n i:4 N
 yi1la1hak1	j i:1 l a:1 h 61 k
+yi1la1hak1	j i:1 l a:j1 h 61 k
 yi1si1taan2bou3yi5	j i:1 s i:1 t a:2 n b ow3 j i:5
 yi1cheun1	j i:1 ts 9:1 n
 yi1long5	j i:1 l O:5 N
@@ -1109,7 +1271,9 @@ yau1sai3	j 6w1 s 6j3
 yau1fa3	j 6w1 f a:3
 yau1joi1yau4joi1	j 6w1 dz O:j1 j 6w4 dz O:j1
 yau1wai6	j 6w1 w 6j6
+yau1wai6	j 6w1 w 6j3
 yau1dim2	j 6w1 d i:2 m
+yau1dim2	j 6w1 d i:2 n
 yau1sau3	j 6w1 s 6w3
 yau1mei5	j 6w1 m ej5
 yau1jat1	j 6w1 dz 61 t
@@ -1133,15 +1297,21 @@ wai5daai6	w 6j5 d a:j6
 wai5keung5	w 6j5 k 9:5 N
 wai5jung1	w 6j5 dz u:1 N
 wai5man6	w 6j5 m 62 n
+wai5man6	w 6j5 m 66 n
 wai5ming4	w 6j5 m i:4 N
 wai5hung4	w 6j5 h u:4 N
 chyun4	ts y:4 n
+chyun4	dz y:6 n
+chyun4	dz y:2 n
 jyun6kei4	dz y:6 n k ej4
+jyun6kei4	ts y:6 n k ej4
 chyun4mui4	ts y:4 n m u:j4
 chyun6jun1jip3doi6	dz y:6 n dz u:1 n dz i:3 p d O:j6
+chyun6jun1jip3doi6	ts y:6 n dz u:1 n dz i:3 p d O:j6
 chyun4yim5beng6	ts y:4 n j i:5 m b E:6 N
 chyun4tung2	ts y:4 n t u:2 N
 chyun4dai6	dz y:6 n d 6j6
+chyun4dai6	ts y:4 n d 6j6
 seung1	s 9:1 N
 seung1mong4	s 9:1 N m O:4 N
 seung1yan4	s 9:1 N j 64 n
@@ -1159,6 +1329,7 @@ leun4leun4leun4hin2	l 9:4 n l 9:4 n l 9:4 n h i:2 n
 leun4ba1dai6	l 9:4 n b a:1 d 6j6
 leun4deun1	l 9:4 n d 9:1 n
 leun4man4jeui6	l 9:4 n m 62 n dz 9y6
+leun4man4jeui6	l 9:4 n m 64 n dz 9y6
 leun4ming4yan4	l 9:4 n m i:4 N j 64 n
 leun4hin2	l 9:4 n h i:2 n
 leun4lei5	l 9:4 n l ej5
@@ -1169,6 +1340,7 @@ gu2gai3	g u:2 g 6j3
 bun6	b u:6 n
 bun6leui5	b u:6 n l 9y5
 bun6hong2	b u:6 n h 64 N
+bun6hong2	b u:6 n h O:2 N
 san1cheut1	s 61 n ts 9:1 t
 san1jeung1	s 61 n dz 9:1 N
 san1jeung1jing3yi6	s 61 n dz 9:1 N dz i:3 N j i:6
@@ -1178,6 +1350,7 @@ chi5fu4	ts i:5 f u:4
 daan6	d a:6 n
 dan6hai6	d 66 n h 6j6
 wai2	w 6j2
+wai2	w 6j6
 wai6	w 6j6
 wai6yu1	w 6j6 j y:1
 wai6ji3	w 6j6 dz i:3
@@ -1191,6 +1364,7 @@ jyu6	dz y:6
 jyu6jaak6	dz y:6 dz a:6 k
 jyu6wu6	dz y:6 w u:6
 jyu6fong2	dz y:6 f O:2 N
+jyu6fong2	dz y:6 f O:4 N
 tai2	t 6j2
 tai2wui6	t 6j2 w u:j6
 tai2noi6	t 6j2 n O:j6
@@ -1209,11 +1383,13 @@ tai2jat1	t 6j2 dz 61 t
 tai2tip3	t 6j2 t i:3 p
 tai2chung5	t 6j2 ts u:5 N
 tai2yim6	t 6j2 j i:6 m
+tai2yim6	t 6j2 j i:6 n
 tai2paak3	t 6j2 p a:3 k
 ho4	h O:4
 ho4kai2fun1	h O:4 k 6j2 f u:1 n
 ho4ji2cheung4	h O:4 dz i:2 ts 9:4 N
 ho4tung4tung2	h O:4 t u:4 N t u:2 N
+ho4tung4tung2	h O:4 t u:4 N t u:4 N
 ho4bit1	h O:4 b i:1 t
 ho4si4	h O:4 s i:4
 ho4loi4	h O:4 l O:j4
@@ -1225,6 +1401,7 @@ yu4yiu4	j y:4 j iw4
 yu4gam2	j y:4 g 62 m
 fat6	f 66 t
 fat6ji2	f 66 t dz i:2
+fat6ji2	f 66 t dz i:6
 fat6saan1	f 66 t s a:1 n
 fat6saan1si5	f 66 t s a:1 n s i:5
 fat6gaau3	f 66 t g a:w3
@@ -1242,6 +1419,7 @@ jok3je2	dz O:3 k dz E:2
 nei5	n ej5
 nei5mun4	n ej5 m u:4 n
 keui5	k 9y5
+keui5	h 9y5
 heui5dei6	h 9y5 d ej6
 pui3	p u:j3
 gaai1	g a:j1
@@ -1250,6 +1428,7 @@ gaai1yung4	g a:j1 j y:4 N
 gaai1lung4	g a:j1 l u:4 N
 si5	s i:5
 sai2yung6	s 6j2 j y:6 N
+sai2yung6	s i:2 j y:6 N
 lai6wui2	l 6j6 w u:j2
 lai6yu4	l 6j6 j y:4
 lai6ji2	l 6j6 dz i:2
@@ -1267,9 +1446,11 @@ yi1laai6	j i:1 l a:j6
 yi1kaau3	j i:1 k a:w3
 jing1chaat3	dz i:1 N ts a:3 t
 cham1	ts 61 m
+cham1	ts 61 n
 cham1jaap6	ts 61 m dz a:6 p
 bin3	b i:3 n
 bin6lei6dim3	b i:6 n l ej6 d i:3 m
+bin6lei6dim3	b i:6 n l ej6 d i:3 n
 pin4yi4	p i:4 n j i:4
 bin6si6	b i:6 n s i:6
 chuk1	ts u:1 k
@@ -1299,6 +1480,7 @@ seun3yam6	s 9:3 n j 66 m
 seun3hou6dang1	s 9:3 n h ow6 d 61 N
 seun3sam1	s 9:3 n s 61 m
 seun3lim6	s 9:3 n l i:6 m
+seun3lim6	s 9:3 n n i:6 m
 seun3sik1	s 9:3 n s i:1 k
 seun3yung6	s 9:3 n j y:6 N
 seun3yung6ka1	s 9:3 n j y:6 N k a:1
@@ -1309,20 +1491,29 @@ sau1	s 6w1
 sau1yeung5	s 6w1 j 9:5 N
 sau1fuk6	s 6w1 f u:6 k
 sau1hang4	s 6w1 h 64 N
+sau1hang4	s 6w1 h 66 N
 sau1hang4je2	s 6w1 h 64 N dz E:2
+sau1hang4je2	s 6w1 h 66 N dz E:2
 sau1bou2	s 6w1 b ow2
 sau1cheung4	s 6w1 ts 9:4 N
 fu2ham3	f u:2 h 63 m
 keui1	g 9y1
+keui1	k 9y1
 keui1chyun4	k 9y1 ts y:4 n
 keui1chyun4	k 9y1 ts y:4 n
 pui5	p u:j5
 dou3	d ow3
 dou3taap3	d ow2 t a:3 p
+dou3taap3	d ow3 t a:3 p
 dou2sou3	d ow2 s ow3
+dou2sou3	d ow2 s ow2
+dou2sou3	d ow3 s ow2
 dou3jong1	d ow2 dz O:1 N
+dou3jong1	d ow3 dz O:1 N
 dou3jong1dik1	d ow2 dz O:1 N d i:1 k
+dou3jong1dik1	d ow3 dz O:1 N d i:1 k
 dou3teui3	d ow2 t 9y3
+dou3teui3	d ow3 t 9y3
 tong2yeuk6	t O:2 N j 9:6 k
 hau6	h 6w6
 yi2jung6	j i:2 dz u:6 N
@@ -1331,9 +1522,12 @@ je3hau2	dz E:3 h 6w2
 je3gu3	dz E:3 g u:3
 je3yung6	dz E:3 j y:6 N
 je3gaam3	dz E:3 g a:3 m
+je3gaam3	dz E:3 g a:3 n
 je3chin2	dz E:3 ts i:2 n
+je3chin2	dz E:3 ts i:4 n
 ngai4gun3sing1	N 6j4 g u:3 n s i:1 N
 ngai4bei6kai1	6j4 b ej6 k 6j1
+ngai4bei6kai1	N 6j4 b ej6 k 6j1
 jik6	dz i:6 k
 jik6dak1	dz i:6 k d 61 k
 king1tou3	k i:1 N t ow3
@@ -1350,6 +1544,7 @@ pin1	p i:1 n
 pin1gin3	p i:1 n g i:3 n
 pin1yun5	p i:1 n j y:5 n
 jo6	dz O:6
+jo6	dz ow6
 jou6yat1jou6	dz ow6 j 61 t dz ow6
 jou6bat1dou3	dz ow6 b 61 t d ow3
 jou6bat1sing4	dz ow6 b 61 t s i:4 N
@@ -1357,12 +1552,14 @@ jou6si6	dz ow6 s i:6
 jou6yan4	dz ow6 j 64 n
 jou6cheut1	dz ow6 ts 9:1 t
 jou6dou3	dz ow6 d ow3
+jou6dou3	dz ow6 d ow2
 jou6dak1dou3	dz ow6 d 61 k d ow3
 jou6faat3	dz ow6 f a:3 t
 jou6choi3	dz ow6 ts O:j3
 jo6wan6dung6	dz O:6 w 66 n d u:6 N
 ting4	t i:4 N
 ting4ha6	t i:4 N h a:6
+ting4ha6	t i:4 N h a:5
 ting4ji2	t i:4 N dz i:2
 ting4jai6bat1chin4	t i:4 N dz 6j6 b 61 t ts i:4 n
 ting4lau4	t i:4 N l 6w4
@@ -1385,6 +1582,7 @@ cheui1min4	ts 9y1 m i:4 n
 so4gwa1	s O:4 gw a:1
 jeung6	dz 9:6 N
 jeung6wa2	dz 9:6 N w a:2
+jeung6wa2	dz 9:6 N w a:6
 geung1guk6	g 9:1 N g u:6 k
 geung1sei2	g 9:1 N s ej2
 geung1ngaang6	g 9:1 N N a:6 N
@@ -1405,6 +1603,7 @@ yun4daan3	j y:4 n d a:3 n
 yun4sou3	j y:4 n s ow3
 hing1	h i:1 N
 hing1mui2	h i:1 N m u:j2
+hing1mui2	h i:1 N m u:j6
 hing1dai6	h i:1 N d 6j6
 chung1fan6	ts u:1 N f 66 n
 chung1pui3	ts u:1 N p u:j3
@@ -1469,31 +1668,51 @@ chyun4min6	ts y:4 n m i:6 n
 baat3	b a:3 t
 baat3chat1nin4	b a:3 t ts 61 t n i:4 n
 baat3maan6	b a:3 t m a:6 n
+baat3maan6	b a:3 t m a:6 N
 baat3yi6nin4	b a:3 t j i:6 n i:4 n
 baat3ng5leng4nin4	b a:3 t N5 l E:4 N n i:4 n
+baat3ng5leng4nin4	b a:3 t m5 l E:4 N n i:4 n
 baat3yik1	b a:3 t j i:1 k
 baat3baat3nin2	b a:3 t b a:3 t l i:2 n
+baat3baat3nin2	b a:3 t b a:3 t n i:2 n
 baat3luk6nin4	b a:3 t l u:6 k n i:4 n
 baat3sap6	b a:3 t s 66 p
 baat3sap6yat1	b a:3 t s 66 p j 61 t
 baat3sap6yat1maan6	b a:3 t a:6 j 61 t m a:6 n
+baat3sap6yat1maan6	b a:3 t s 66 p j 61 t m a:6 n
 baat3sap6chat1	b a:3 t a:6 ts 61 t
+baat3sap6chat1	b a:3 t s 66 p ts 61 t
 baat3sap6chat1maan6	b a:3 t a:6 ts 61 t m a:6 n
+baat3sap6chat1maan6	b a:3 t s 66 p ts 61 t m a:6 n
 baat3sap6maan6	b a:3 t a:6 m a:6 n
+baat3sap6maan6	b a:3 t s 66 p m a:6 n
 baat3sap6saam1	b a:3 t a:6 s a:1 m
+baat3sap6saam1	b a:3 t s 66 p s a:1 m
 baat3sap6saam1maan6	b a:3 t a:6 s a:1 m m a:6 n
+baat3sap6saam1maan6	b a:3 t s 66 p s a:1 m m a:6 n
 baat3sap6gau2	b a:3 t a:6 g 6w2
+baat3sap6gau2	b a:3 t s 66 p g 6w2
 baat3sap6gau2maan6	b a:3 t s 66 p g 6w2 m a:6 n
 baat3sap6yi6	b a:3 t a:6 j i:6
+baat3sap6yi6	b a:3 t s 66 p j i:6
 baat3sap6yi6maan6	b a:3 t a:6 j i:6 m a:6 n
+baat3sap6yi6maan6	b a:3 t s 66 p j i:6 m a:6 n
 baat3sap6m5	b a:3 t s 66 p m5
 baat3sap6ng5maan6	b a:3 t a:6 m5 m a:6 n
+baat3sap6ng5maan6	b a:3 t s 66 p N5 m a:6 n
+baat3sap6ng5maan6	b a:3 t s 66 p m5 m a:6 n
 baat3sap6baat3	b a:3 t a:6 b a:3 t
+baat3sap6baat3	b a:3 t s 66 p b a:3 t
 baat3sap6baat3maan6	b a:3 t a:6 b a:3 t m a:6 n
+baat3sap6baat3maan6	b a:3 t s 66 p b a:3 t m a:6 n
 baat3sap6luk6	b a:3 t a:6 l u:6 k
+baat3sap6luk6	b a:3 t s 66 p l u:6 k
 baat3sap6luk6maan6	b a:3 t a:6 l u:6 k m a:6 n
+baat3sap6luk6maan6	b a:3 t s 66 p l u:6 k m a:6 n
 baat3sap6sei3	b a:3 t a:6 s ej3
+baat3sap6sei3	b a:3 t s 66 p s ej3
 baat3sap6sei3maan6	b a:3 t a:6 s ej3 m a:6 n
+baat3sap6sei3maan6	b a:3 t s 66 p s ej3 m a:6 n
 baat3chin1	b a:3 t ts i:1 n
 baat3hou2	b a:3 t h ow2
 baat3sei3nin4	b a:3 t s ej3 n i:4 n
@@ -1523,36 +1742,60 @@ gung1ping4	g u:1 N p i:4 N
 gung1jyu1yu1sai3	g u:1 N dz y:1 j y:1 s 6j3
 gung1lei5	g u:1 N l ej5
 gung1king2	g u:1 N k i:2 N
+gung1king2	g u:1 N t i:2 N
 luk6	l u:6 k
 luk6maan6	l u:6 k m a:6 n
 luk6saam1	l u:6 k s a:1 m
 luk6gau2nin4	l u:6 k g 6w2 n i:4 n
 luk6ng5	l u:6 k N5
+luk6ng5	l u:6 k m5
 luk6ng5nin4	l u:6 k N5 n i:4 n
+luk6ng5nin4	l u:6 k m5 n i:4 n
 luk6yik1	l u:6 k j i:1 k
 luk6baat3	l u:6 k b a:3 t
 luk6luk6	l u:6 k l u:6 k
 luk6luk6nin4	l u:6 k l u:6 k n i:4 n
 luk6sap6	l u:6 k s 66 p
 luk6sap6yat1	l u:6 k a:6 j 61 t
+luk6sap6yat1	l u:6 k s 66 p j 61 t
 luk6sap6yat1maan6	l u:6 k a:6 j 61 t m a:6 n
+luk6sap6yat1maan6	l u:6 k s 66 p j 61 t m a:6 n
 luk6sap6chat1	l u:6 k a:6 ts 61 t
+luk6sap6chat1	l u:6 k s 66 p ts 61 t
 luk6sap6maan6	l u:6 k a:6 m a:6 n
+luk6sap6maan6	l u:6 k s 66 p m a:6 n
 luk6sap6saam0	l u:6 k a:6 s a:1 m
+luk6sap6saam0	l u:6 k s 66 p s a:1 m
 luk6sap6saam0maan6	l u:6 k a:6 s a:1 m m a:6 n
+luk6sap6saam0maan6	l u:6 k s 66 p s a:1 m m a:6 n
 luk6sap6gau2	l u:6 k a:6 g 6w2
+luk6sap6gau2	l u:6 k s 66 p g 6w2
 luk6sap6gau2maan6	l u:6 k a:6 g 6w2 m a:6 n
+luk6sap6gau2maan6	l u:6 k s 66 p g 6w2 m a:6 n
 luk6sap6yi6	l u:6 k a:6 j i:6
+luk6sap6yi6	l u:6 k s 66 p j i:6
 luk6sap6yi6maan6	l u:6 k a:6 j i:6 m a:6 n
+luk6sap6yi6maan6	l u:6 k s 66 p j i:6 m a:6 n
 luk6sap6ng5	l u:6 k a:6 m5
+luk6sap6ng5	l u:6 k s 66 p N5
+luk6sap6ng5	l u:6 k s 66 p m5
 luk6sap6ng5maan6	l u:6 k a:6 m5 m a:6 n
+luk6sap6ng5maan6	l u:6 k s 66 p N5 m a:6 n
+luk6sap6ng5maan6	l u:6 k s 66 p m5 m a:6 n
 luk6sap6ng5yik1	l u:6 k a:6 m5 j i:1 k
+luk6sap6ng5yik1	l u:6 k s 66 p N5 j i:1 k
+luk6sap6ng5yik1	l u:6 k s 66 p m5 j i:1 k
 luk6sap6baat3	l u:6 k a:6 b a:3 t
+luk6sap6baat3	l u:6 k s 66 p b a:3 t
 luk6sap6baat3maan6	l u:6 k a:6 b a:3 t m a:6 n
+luk6sap6baat3maan6	l u:6 k s 66 p b a:3 t m a:6 n
 luk6sap6luk6	l u:6 k s 66 p l u:6 k
 luk6sap6luk6maan6	l u:6 k a:6 l u:6 k m a:6 n
+luk6sap6luk6maan6	l u:6 k s 66 p l u:6 k m a:6 n
 luk6sap6sei3	l u:6 k a:6 s ej3
+luk6sap6sei3	l u:6 k s 66 p s ej3
 luk6sap6sei3maan6	l u:6 k a:6 s ej3 m a:6 n
+luk6sap6sei3maan6	l u:6 k s 66 p s ej3 m a:6 n
 luk6chin1	l u:6 k ts i:1 n
 luk6hou6	l u:6 k h ow6
 luk6sei3nin4	l u:6 k s ej3 n i:4 n
@@ -1590,6 +1833,7 @@ gwaan1mun4	gw a:1 n m u:4 n
 gwaan1bai3	gw a:1 n b 6j3
 gwaan1jing6	gw a:1 n dz i:6 N
 hing1	h i:1 N
+hing1	h i:3 N
 hing1hing1fa3	h i:1 N h i:1 N f a:3
 hing1fan5	h i:1 N f 65 n
 hing1ping4si5	h i:1 N p i:4 N s i:5
@@ -1657,7 +1901,9 @@ gun1min5	g u:1 n m i:5 n
 gun3kwan1	g u:3 n kw 61 n
 gun1nung4	g u:1 n n u:4 N
 gun1sing1	g u:1 n s i:1 N
+gun1sing1	g u:3 n s i:1 N
 gun1hou4	g u:1 n h ow4
+gun1hou4	g u:3 n h ow4
 ming4ming4	m i:4 N m i:4 N
 dung1tin1	d u:1 N t i:1 n
 dung1ji3	d u:1 N dz i:3
@@ -1713,10 +1959,12 @@ pang4	p 64 N
 pang4jeuk6	p 64 N dz 9:6 k
 pang4cheung4	p 64 N ts 9:4 N
 hoi2ji2	h O:j2 dz i:2
+hoi2ji2	k 6j1 dz i:2
 hoi2dik6	h O:j2 d i:6 k
 dang3	d 63 N
 hung1	h u:1 N
 chuet1	ts 9:1 t
+chuet1	
 cheut1chau2	ts 9:1 t ts 6w2
 cheut1sai3	ts 9:1 t s 6j3
 chuet1yan4yi3biu1	j 64 n j i:3 b iw1
@@ -1755,7 +2003,9 @@ gik1teui3	g i:1 k t 9y3
 haam4	h a:4 m
 dou1	d ow1
 fan1	f 61 n
+fan1	f 66 n
 fan6ji1	f 66 n dz i:1
+fan6ji1	f 61 n dz i:1
 fan1heung2	f 61 n h 9:2 N
 fan1bit6	f 61 n b i:6 t
 fan6ji2	f 66 n dz i:2
@@ -1770,6 +2020,7 @@ fan1lit6	f 61 n l i:6 t
 fan1bin6	f 61 n b i:6 n
 fan1pui3	f 61 n p u:j3
 fan1leung6	f 61 n l 9:4 N
+fan1leung6	f 61 n l 9:6 N
 fan1jung1	f 61 n dz u:1 N
 fan1siu1	f 61 n s iw1
 fan1gaak3	f 61 n g a:3 k
@@ -1784,8 +2035,10 @@ ying4si6	j i:4 N s i:6
 wa1	w a:1
 waak6si4doi6	w a:6 k s i:4 d O:j6
 wa1syun3	w a:1 s y:3 n
+wa1syun3	w a:6 k s y:3 n
 lit6ning4	l i:6 t n i:4 N
 lit6ning4gaak3laak6	l i:6 t l i:4 N g a:3 k l a:6 k
+lit6ning4gaak3laak6	l i:6 t n i:4 N g a:3 k l a:6 k
 lit6che1	l i:6 t ts E:1
 lau4pui5yi1	l 6w4 p u:j5 j i:1
 lau4jak1saan1	l 6w4 dz 61 k s a:1 n
@@ -1809,21 +2062,25 @@ cho1	ts O:1
 cho1lyun2	ts O:1 l y:2 n
 cho1bou6	ts O:1 b ow6
 cho1saang1	ts O:1 s a:1 N
+cho1saang1	ts O:1 s 61 N
 cho1sang1yi4	ts O:1 s 61 N j i:4
 pun3dyun6	p u:3 n d y:6 n
 lei6	l ej6
 lei6fung6	l ej6 f u:6 N
 lei6yeun6	l ej6 j 9:6 n
 lei6leut2	l ej6 l 9:2 t
+lei6leut2	l ej6 l 9:6 t
 lei6yung6	l ej6 j y:6 N
 lei6yik1	l ej6 j i:1 k
 lei6daat6	l ej6 d a:6 t
 bit6	b i:6 t
 bit6yan4	b i:6 t j 64 n
 bit6seui5	b i:6 t s 9y5
+bit6seui5	b i:6 t s 9y6
 bit6chyu3	b i:6 t ts y:3
 bit6si1laan4	b i:6 t s i:1 l a:4 n
 gwaat3muk6seung1hon3	gw a:3 t m u:6 k s 9:1 N h O:1 n
+gwaat3muk6seung1hon3	gw a:3 t m u:6 k s 9:1 N h O:3 n
 dou3	d ow3
 dou3cheung4	d ow3 ts 9:4 N
 dou3tau4loi4	d ow3 t 6w4 l O:j4
@@ -1851,9 +2108,12 @@ chi3jung3	ts i:3 dz u:3 N
 chi3yap6	ts i:3 j 66 p
 chi3gik1	ts i:3 g i:1 k
 hak1bat1yung4wun6	h 61 k b 61 t j y:4 N w u:4 n
+hak1bat1yung4wun6	h 61 k b 61 t j y:4 N w u:6 n
 hak1yi3	h 61 k j i:3
 hak1fu2noi6lou4	h 61 k f u:2 l O:j6 l ow4
+hak1fu2noi6lou4	h 61 k f u:2 n O:j6 l ow4
 hak1gwat1ming4sam1	h 61 k gw 61 t m i:4 N s 61 m
+hak1gwat1ming4sam1	h 61 k gw 61 t m i:5 N s 61 m
 seuk3yeuk6	s 9:3 k j 9:6 k
 chin4	ts i:4 n
 chin4yan4	ts i:4 n j 64 n
@@ -1867,6 +2127,7 @@ chin4san1	ts i:4 n s 61 n
 chin4min6	ts i:4 n m i:6 n
 chin4tai4	ts i:4 n t 6j4
 gim3ying1	g i:3 m j 61 n
+gim3ying1	g i:3 m j i:1 N
 gim3fai1	g i:3 m f 6j1
 mok1	m O:1 k
 mok1seuk3	m O:1 k s 9:3 k
@@ -1920,6 +2181,7 @@ dung6gei1	d u:6 N g ej1
 dung6jik6mat6	d u:6 N dz i:6 k m 66 t
 dung6mat6	d u:6 N m 66 t
 dung6mat6yun4	d u:6 N m 66 t j y:4 n
+dung6mat6yun4	d u:6 N m 66 t j y:2 n
 dung6mat6hang4wai4hok6ga1	d u:6 N m 66 t h 64 N w 6j4 h O:6 k g a:1
 dung6nou5	d u:6 N n ow5
 jo6	dz O:6
@@ -1953,13 +2215,16 @@ kan4lou4	k 64 n l ow4
 kan4kan4han2han2	k 64 n k 64 n h 62 n h 62 n
 kan4fan5	k 64 n f 65 n
 gau1	g 6w1
+gau1	N 6w1
 gau1sam1dau3gok3	g 6w1 s 61 m d 6w3 g O:3 k
+gau1sam1dau3gok3	N 6w1 s 61 m d 6w3 g O:3 k
 mat6	m 66 t
 baau1	b a:w1
 baau1ham4	b a:w1 h 64 m
 baau1wai4	b a:w1 w 6j4
 baau1tau4	b a:w1 t 6w4
 baau1jung4	b a:w1 dz u:4 N
+baau1jung4	b a:w1 j y:4 N
 baau1kut3	b a:w1 k u:3 t
 baau1jong1	b a:w1 dz O:1 N
 chung1chung1	ts u:1 N ts u:1 N
@@ -1977,14 +2242,17 @@ bak1ging1	b 61 k g i:1 N
 bak1ging1si5	b 61 k g i:1 N s i:5
 bak1daai6fong1	b 61 k d a:j6 f O:1 N
 bak1ngon1	b 61 k N O:1 n
+bak1ngon1	b 61 k O: n1
 bak1fong1	b 61 k f O:1 N
 bak1au1	b 61 k 6w1
 bak1lau4	b 61 k l 6w4
 bak1hoi2	b 61 k h O:j2
 bak1kwong3	b 61 k k O:3 N
+bak1kwong3	b 61 k kw O:3 N
 bak1bou6	b 61 k b ow6
 bak1jan3	b 61 k dz 63 n
 keui1	k 9y1
+keui1	N 6w1
 keui1bit6	k 9y1 b i:6 t
 keui1wik6	k 9y1 w i:6 k
 keui1jai3	k 9y1 dz 6j3
@@ -2031,10 +2299,15 @@ sap6yi6hou6	s 66 p j i:6 h ow6
 sap6yi6yat6	s 66 p j i:6 j 66 t
 sap6yi6yut6	s 66 p j i:6 j y:6 t
 sap6m5	s 66 p m5
+sap6m5	s 66 p N5
 sap6ng5maan6	s 66 p N5 m a:6 n
+sap6ng5maan6	s 66 p m5 m a:6 n
 sap6ng5yik1	s 66 p N5 j i:1 k
+sap6ng5yik1	s 66 p m5 j i:1 k
 sap6ng5hou6	s 66 p N5 h ow6
+sap6ng5hou6	s 66 p m5 h ow6
 sap6m5yat6	s 66 p m5 j 66 t
+sap6m5yat6	s 66 p N5 j 66 t
 sap6yik1	s 66 p j i:1 k
 sap6baat3	s 66 p b a:3 t
 sap6baat3maan6	s 66 p b a:3 t m a:6 n
@@ -2061,6 +2334,7 @@ chin1fong1baak3gai3	ts i:1 n f O:1 N b a:3 k g 6j3
 chin1baak3nin4	ts i:1 n b a:3 k n i:4 n
 chin1lei5	ts i:1 n l ej5
 chin1gam1	ts i:1 n g 61 m
+chin1gam1	ts i:1 n g 61 n
 chin1gam1naan6maai5	ts i:1 n g 61 m n a:6 n m a:j5
 sa1	s a:1
 sa1yat1yat6	s a:1 j 61 t j 66 t
@@ -2084,6 +2358,7 @@ bun3dou2	b u:3 n d ow2
 bun3heung2	b u:3 n h 9:2 N
 bun3tou4yi4fai3	b u:3 n t ow4 j i:4 f 6j3
 se3ng5	s E:3 N5
+se3ng5	s E:3 m5
 wa4	w a:4
 wa4dung1	w a:4 d u:1 N
 wa4lai6	w a:4 l 6j6
@@ -2102,6 +2377,7 @@ wa4yi4hing1dai6	w a:4 j i:4 h i:1 N d 6j6
 wa4ding2gam2leun4	w a:4 d i:2 N g 62 m l 9:4 n
 hip3	h i:3 p
 hip6wui2	h i:6 p w u:j2
+hip6wui2	h i:6 p w u:j6
 hip3jo6	h i:3 p dz O:6
 hip3wo4gaai1	h i:3 p w O:4 g a:j1
 hip6ding6	h i:6 p d i:6 N
@@ -2144,6 +2420,7 @@ bok3seun3	b O:3 k s 9:3 n
 bok3haak3	b O:3 k h a:3 k
 bok3mat6	b O:3 k m 66 t
 jim1	dz i:1 m
+jim1	dz i:3 m
 jim3heui3	dz i:3 m h 9y3
 jim3ling5	dz i:3 m l i:5 N
 ka1	k a:1
@@ -2160,6 +2437,7 @@ wai6sang1bou6	w 6j6 s 61 N b ow6
 yan3	j 63 n
 yan3chaat3	j 63 n ts a:3 t
 yan3nei4	j 63 n n ej4
+yan3nei4	j 63 n l ej4
 yan3dou6	j 63 n d ow6
 yan3yim5	j 63 n j i:5 m
 yan3fa1	j 63 n f a:1
@@ -2192,6 +2470,7 @@ lai6hoi6	l 6j6 h O:j6
 ngaat3lik6	N a:3 t l i:6 k
 ngaat3yik1	N a:3 t j i:1 k
 ngaat3baak1	N a:3 t b a:1 k
+ngaat3baak1	N a:3 t b i:1 k
 ngaat3bik1	N a:3 t b i:1 k
 lei4	l ej4
 lei4gun2	l ej4 g u:2 n
@@ -2200,6 +2479,7 @@ yun4	j y:4 n
 yun4jak1	j y:4 n dz 61 k
 yun4yan1	j y:4 n j 61 n
 yun4chyu5	j y:4 n ts y:3
+yun4chyu5	j y:4 n ts y:5
 yun4chi2yan4	j y:4 n ts i:2 j 64 n
 yun4chi2sam1lam4	j y:4 n ts i:2 s 61 m l 64 m
 yun4ying4	j y:4 n j i:4 N
@@ -2216,7 +2496,9 @@ heui3sai3	h 9y3 s 6j3
 heui3yap6	h 9y3 j 66 p
 heui3nin2	h 9y3 n i:2 n
 yun2	j y:2 n
+yun2	j y:6 n
 yun2sing4	j y:2 n s i:4 N
+yun2sing4	j y:6 n s i:4 N
 chaam1	ts a:1 m
 chaam1yu5	ts a:1 m j y:5
 chaam1ga1	ts a:1 m g a:1
@@ -2247,6 +2529,7 @@ faan2jing3	f a:2 n dz i:3 N
 faan2sing2	f a:2 n s i:2 N
 faan2yi4	f a:2 n j i:4
 faan2min6	f a:2 n m i:6 n
+faan2min6	f a:2 n m i:2 n
 faat3	f a:3 t
 faat3gwong1	f a:3 t gw O:1 N
 faat3jai3ban2	f a:3 t dz 6j3 b 62 n
@@ -2274,6 +2557,7 @@ faat3bun6	f a:3 t b u:6 n
 faat3pei4hei3	f a:3 t p ej4 h ej3
 faat3biu2	f a:3 t b iw2
 faat3gok3	f a:3 t g O:3 k
+faat3gok3	f a:3 t g a:w3
 faat3yin4	f a:3 t j i:4 n
 faat3yin4yan4	f a:3 t j i:4 n j 64 n
 faat3hei2	f a:3 t h ej2
@@ -2346,6 +2630,7 @@ ji2seung2	dz i:2 s 9:2 N
 ji2si6	dz i:2 s i:6
 ji2yau5	dz i:2 j 6w5
 ji2nang4	dz i:2 l 64 N
+ji2nang4	dz i:2 n 64 N
 ji2yiu3	dz i:2 j iw3
 ji2gu3	dz i:2 g u:3
 giu3	g iw3
@@ -2359,11 +2644,13 @@ ho2sik1	h O:2 s i:1 k
 ho2si6	h O:2 s i:6
 ho2yung4sing3	h O:2 j y:4 N s i:3 N
 ho2ngoi3	h O:2 N O:j3
+ho2ngoi3	h O:2 O:j3
 ho2siu3	h O:2 s iw3
 ho2chi2	h O:2 ts i:2
 ho2nang4	h O:2 n 64 N
 ho2nang4sing3	h O:2 n 64 N s i:3 N
 ho2hang4	h O:2 h 64 N
+ho2hang4	h O:2 h a:4 N
 ho2gun1	h O:2 g u:1 n
 ho2gwai3	h O:2 gw 6j3
 ho2kaau3	h O:2 k a:w3
@@ -2400,16 +2687,19 @@ gok3jung2dei6	g O:3 k dz u:2 N d ej6
 hap6	h 66 p
 hap6jok3	h 66 p dz O:3 k
 hap6hing1	h 66 p h i:1 N
+hap6hing1	h 66 p h i:3 N
 hap6tung4	h 66 p t u:4 N
 hap6saan1	h 66 p s a:1 n
 hap6sing4	h 66 p s i:4 N
 hap6lung5	h 66 p l u:2 N
+hap6lung5	h 66 p l u:5 N
 hap6faat3	h 66 p f a:3 t
 hap6faat3fa3	h 66 p f a:3 t f a:3
 hap6lei5	h 66 p l ej5
 hap6yung6	h 66 p j y:6 N
 hap6yeuk3	h 66 p j 9:3 k
 hap6jung3	h 66 p dz u:1 N
+hap6jung3	h 66 p dz u:3 N
 hap6fei4	h 66 p f ej4
 hap6sik1	h 66 p s i:1 k
 gat1	g 61 t
@@ -2463,6 +2753,7 @@ hau6loi4	h 6w6 l O:j4
 hau6gwo2	h 6w6 gw O:2
 hau6min6	h 6w6 m i:6 n
 tou3lou5faan1	t ow3 l ow5 f a:1 n
+tou3lou5faan1	t ow3 l ow5 f a:4 n
 heung3	h 9:3 N
 heung3ha6	h 9:3 N h a:6
 heung2dou6	h 9:2 N d ow6
@@ -2482,15 +2773,18 @@ fau2jak1	f 6w2 dz 61 k
 fau2ding6	f 6w2 d i:6 N
 fau2ying6	f 6w2 j i:6 N
 ba1	b a:1
+ba1	b a:3
 deun1	d 9:1 n
 ham4yau5	h 64 m j 6w5
 ham4leung6	h 64 m l 9:6 N
 teng1	t E:1 N
+teng1	t i:1 N
 teng1chung4	t E:1 N ts u:4 N
 ting3dou3	t i:3 N d ow3
 teng1cheui2	t E:1 N ts 9y2
 ting1yat6	t i:1 N j 66 t
 teng1gok3	t E:1 N g O:3 k
+teng1gok3	t i:1 N g O:3 k
 kai2	k 6j2
 kai2dung1	k 6j2 d u:1 N
 kai2dung6	k 6j2 d u:6 N
@@ -2506,6 +2800,7 @@ ng4bit1ling4	N4 b i:1 t l i:4 N
 ng4jung1	N4 dz u:1 N
 ng4man4ming4	N4 m 64 n m i:4 N
 m4kiu4	N4 k iw4
+m4kiu4	m4 k iw4
 ng4gong1	N4 g O:1 N
 ng4saan1yam6	N4 s a:1 n j 66 m
 ng4baak3ling4	N4 b a:3 k l i:4 N
@@ -2513,6 +2808,7 @@ ng4nga5sing1	N4 N a:5 s i:1 N
 ng4nga5man4	N4 N a:5 m 64 n
 chaau2ga3	ts a:w2 g a:3
 chaau2naau6	ts a:w2 l a:w6
+chaau2naau6	ts a:w2 n a:w6
 kap1	k 61 p
 kap1cheui2	k 61 p ts 9y2
 kap1yan5	k 61 p j 65 n
@@ -2523,7 +2819,9 @@ cheui1	ts 9y1
 cheui1hei3	ts 9y1 h ej3
 ngaak1	N a:1 k
 ngaak1ngaak1	N a:1 k N a:1 k
+ngaak1ngaak1	a:1 k a:1 k
 ngoi4	N O:j4
+ngoi4	d a:j1
 ching4	ts i:4 N
 ching4gaau1	ts i:4 N g a:w1
 ching4yin6	ts i:4 N j i:6 n
@@ -2534,22 +2832,28 @@ gou3chi4	g ow3 ts i:4
 yun4	j y:4 n
 yun4gung1	j y:4 n g u:1 N
 ni1	n i:1
+ni1	n ej1
+ni1	n E:2
+ni1	l ej1
 ne1	n E:1
 ni1dou6	n i:1 d ow6
 jau1	dz 6w1
 jau1ng5	dz 6w1 N5
+jau1ng5	dz 6w1 m5
 jau1ging1gwai3	dz 6w1 g i:1 N gw 6j3
 jau1chyun4	dz 6w1 ts y:4 n
 jau1hau2	dz 6w1 h 6w2
 jau1wai4	dz 6w1 w 6j4
 jau1chyu2	dz 6w1 ts y:2
 jau1nin4	dz 6w1 l i:4 n
+jau1nin4	dz 6w1 n i:4 n
 jau1gin3ji3	dz 6w1 g i:3 n dz i:3
 jau1mut6	dz 6w1 m u:6 t
 jau1bin1	dz 6w1 b i:1 n
 jau1jou1	dz 6w1 dz ow1
 gwa1gwa1do6dei6	gw a:1 gw a:1 d O:6 d ej6
 mei6	m ej6
+mei6	m ej2
 mei6dou6	m ej6 d ow6
 ho1wu6	h O:1 w u:6
 san1yam4	s 61 n j 64 m
@@ -2566,7 +2870,10 @@ ming6lei5	m i:6 N l ej5
 ming6wan6	m i:6 N w 66 n
 gam3	g 63 m
 gam2yeung2	g 62 m j 9:2 N
+gam2yeung2	g 62 n j 9:2 N
 ja1	dz a:1
+ja1	dz a:3
+ja1	dz a:1 k
 ja3sit6	dz a:3 s i:6 t
 wo4	w O:4
 wo4sin6	w O:4 s i:6 n
@@ -2574,6 +2881,7 @@ wo4ping4	w O:4 p i:4 N
 wo4hei3	w O:4 h ej3
 wo4haai4	w O:4 h a:j4
 wo4ngaan4yut6sik1	w O:4 N a:4 n j y:6 t s i:1 k
+wo4ngaan4yut6sik1	w O:4 a:4 n j y:6 t s i:1 k
 ga3fe1	g a:3 f E:1
 ga3fe1yan1	g a:3 f E:1 j 61 n
 ji1seun1	dz i:1 s 9:1 n
@@ -2605,14 +2913,18 @@ go1dak1bou2	g O:1 d 61 k b ow2
 go1lok6man2na4si1	g O:1 l O:6 k m 62 n n a:4 s i:1
 o6	O:6
 le1	l E:1
+le1	l ej1
+le1	l i:1
 li1	l i:1
 na3	n a:3
+na3	n a:5
 huk1	h u:1 k
 huk1sou3	h u:1 k s ow3
 jit3	dz i:3 t
 jit3hok6	dz i:3 t h O:6 k
 so1baai2	s O:1 b a:j2
 aai1	a:j1
+aai1	a:j3
 tong4	t O:4 N
 tong4ga1	t O:4 N g a:1
 tong4saan1	t O:4 N s a:1 n
@@ -2621,6 +2933,7 @@ tong4chiu4	t O:4 N ts iw4
 m4	m4
 m4siu2	m4 s iw2
 wun6seng2	w u:6 n s E:2 N
+wun6seng2	w u:6 n s i:2 N
 sau6cheut1	s 6w6 ts 9:1 t
 sau6maai6	s 6w6 m a:j6
 wai4yat1	w 6j4 j 61 t
@@ -2634,20 +2947,25 @@ seung1yan4	s 9:1 N j 64 n
 seung1mou6bou6	s 9:1 N m ow6 b ow6
 seung1ban2	s 9:1 N b 62 n
 seung1ban2fong4	s 9:1 N b 62 n f O:4 N
+seung1ban2fong4	s 9:1 N b 62 n f O:2 N
 seung1cheung4	s 9:1 N ts 9:4 N
 seung1sing4	s 9:1 N s i:4 N
 seung1ding6	s 9:1 N d i:6 N
 seung1ga1	s 9:1 N g a:1
 seung1dim3	s 9:1 N d i:3 m
+seung1dim3	s 9:1 N d i:3 n
 seung1wu6	s 9:1 N w u:6
 seung1lok6	s 9:1 N l O:6 k
 seung1piu3	s 9:1 N p iw3
 seung1mau6	s 9:1 N m 6w6
 seung1leung4	s 9:1 N l 9:4 N
 a1	a:1
+a1	a:6
 be1jau2	b E:1 dz 6w2
 la1	l a:1
+la1	l a:3
 jaak3jaak3ching1kei4	dz a:3 k dz a:3 k ts i:1 N k ej4
+jaak3jaak3ching1kei4	dz i:3 k dz i:3 k ts i:1 N k ej4
 ngaat6ngaau5	N a:6 t N a:w5
 ngaam1	N a:1 m
 di1	d i:1
@@ -2669,6 +2987,7 @@ hau4lung4	h 6w4 l u:4 N
 chyun2sik1	ts y:2 n s i:1 k
 chyun2hei3	ts y:2 n h ej3
 hei1	h ej1
+hei1	h ej2
 hei2yut6	h ej2 j y:6 t
 hei2fun1	h ej2 f u:1 n
 hei2ngoi3	h ej2 N O:j3
@@ -2684,6 +3003,7 @@ yu6	j y:6
 si3hou3	s i:3 h ow3
 je1	dz E:1
 m6	m6
+m6	N6
 bat1	b 61 t
 ge3	g E:3
 gei3	g ej3
@@ -2697,14 +3017,19 @@ ga1lei6	g a:1 l ej6
 ga1leun4git6	g a:1 l 9:4 n g i:6 t
 ma5	m a:5
 ma3	m a:3
+ma3	m a:5
+ma3	m a:4
 juk1fu3	dz u:1 k f u:3
+juk1fu3	dz u:1 k f u:6
 jaau1siu3	dz a:w1 s iw3
 jeui2	dz 9y2
 liu4leung6	l iw4 l 9:6 N
 o1	O:1
+o1	O:3
 hei3gun1	h ej3 g u:1 n
 lei4	l ej4
 lai4ji6	l 6j4 dz i:6
+lai4ji6	l ej4 dz i:6
 chau4gam3	ts 6w4 g 63 m
 sei3	s ej3
 sei3maan6	s ej3 m a:6 n
@@ -2724,6 +3049,7 @@ sei3sap6gau2maan6	s ej3 s 66 p g 6w2 m a:6 n
 sei3sap6yi6	s ej3 s 66 p j i:6
 sei3sap6yi6maan6	s ej3 s 66 p j i:6 m a:6 n
 sei3sap6ng5maan6	s ej3 s 66 p N5 m a:6 n
+sei3sap6ng5maan6	s ej3 s 66 p m5 m a:6 n
 sei3sap6baat3	s ej3 s 66 p b a:3 t
 sei3sap6baat3maan6	s ej3 s 66 p b a:3 t m a:6 n
 sei3sap6luk6	s ej3 s 66 p l u:6 k
@@ -2733,6 +3059,7 @@ sei3chin1	s ej3 ts i:1 n
 sei3jau1	s ej3 dz 6w1
 sei3daai6	s ej3 d a:j6
 sei3mui6	s ej3 m u:j1
+sei3mui6	s ej3 m u:j6
 sei3gwai3	s ej3 gw 6j3
 sei3chyun1	s ej3 ts y:1 n
 sei3yat6	s ej3 j 66 t
@@ -2741,6 +3068,7 @@ sei3yut6fan6	s ej3 j y:6 t f 66 n
 sei3baak3	s ej3 b a:3 k
 sei3muk6gaau1tau4	s ej3 m u:6 k g a:w1 t 6w4
 sei3min6baat3fong1	s ej3 m i:6 n b a:3 t f O:1 N
+sei3min6baat3fong1	s ej3 m i:2 n b a:3 t f O:1 N
 wui4	w u:j4
 wui4dou3	w u:j4 d ow3
 wui4heui3	w u:j4 h 9y3
@@ -2760,6 +3088,7 @@ wui4bei6	w u:j4 b ej6
 wui4seun6	w u:j4 s 9:6 n
 wui4gu3	w u:j4 g u:3
 wui4gwai3	w u:j4 gw 6j3
+wui4gwai3	w u:j4 gw 6j6
 yan1	j 61 n
 yan1wai6	j 61 n w 6j6
 yan1choi4si1gaau3	j 61 n ts O:j4 s i:1 g a:w3
@@ -2771,7 +3100,9 @@ tyun4fo2	t y:4 n f O:2
 tyun4tai2	t y:4 n t 6j2
 tyun4jeung2	t y:4 n dz 9:2 N
 tyun4deui2	t y:4 n d 9y2
+tyun4deui2	t y:4 n d 9y6
 yun4	j y:4 n
+yun4	j y:2 n
 kwan3	kw 63 n
 kwan3ging2	kw 63 n g i:2 N
 kwan3yiu2	kw 63 n j iw2
@@ -2794,6 +3125,7 @@ gwok3tou2	gw O:3 k t ow2
 gwok3ngoi6	gw O:3 k N O:j6
 gwok3ngoi6loi4haak3	gw O:3 k N O:j6 l O:j4 h a:3 k
 gwok3ngon1	gw O:3 k N O:1 n
+gwok3ngon1	gw O:3 k O: n1
 gwok3ga1	gw O:3 k g a:1
 gwok3hing3	gw O:3 k h i:3 N
 gwok3hing3jit3	gw O:3 k h i:3 N dz i:3 t
@@ -2843,6 +3175,7 @@ dei6jyu2	d ej6 dz y:2
 dei6wai6	d ej6 w 6j6
 dei6keui1	d ej6 k 9y1
 dei6ming4	d ej6 m E:2 N
+dei6ming4	d ej6 m i:4 N
 dei6faai3	d ej6 f a:j3
 dei6wik6	d ej6 w i:6 k
 dei6chyu2	d ej6 ts y:2
@@ -2851,6 +3184,7 @@ dei6ying4	d ej6 j i:4 N
 dei6jing3	d ej6 dz i:3 N
 dei6fong1	d ej6 f O:1 N
 dei6yeung2	d ej6 j 9:2 N
+dei6yeung2	d ej6 j 9:6 N
 dei6dim2	d ej6 d i:2 m
 dei6kau4	d ej6 k 6w4
 dei6lei5	d ej6 l ej5
@@ -2885,11 +3219,14 @@ leui5bik1	l 9y5 b i:1 k
 kwa1	kw a:1
 aai1	a:j1
 aai1choi3ngo4bei2nga3	O:j1 ts O:j3 N O:4 b ej2 N a:3
+aai1choi3ngo4bei2nga3	a:j1 ts O:j3 N O:4 b ej2 N a:3
 maai4	m a:j4
 maai4yun3	m a:j4 j y:3 n
 maai4mut6	m a:j4 m u:6 t
 seng2	s E:2 N
+seng2	s i:2 N
 seng2ha2ding1	s E:2 N h a:2 d i:1 N
+seng2ha2ding1	s E:2 N h a:2 t i:2 N
 sing4keui1	s i:4 N k 9y1
 sing4leui5	s i:4 N l 9y5
 sing4bou2	s i:4 N b ow2
@@ -2913,10 +3250,12 @@ tong4	t O:4 N
 deui1	d 9y1
 bou2wai6	b ow2 w 6j6
 sok3liu2	s O:3 k l iw2
+sok3liu2	s O:3 k l iw6
 sou3jou3	s ow3 dz ow3
 taap3	t a:3 p
 taap3lei5muk6	t a:3 p l ej5 m u:6 k
 choi3	ts O:j3
+choi3	s 61 k
 choi3yi5dak6yu5	ts O:j3 j i:5 d 66 k j y:5
 ging2	g i:2 N
 ging2ngoi6	g i:2 N N O:j6
@@ -2942,19 +3281,25 @@ si6bing1	s i:6 b i:1 N
 si6hei3	s i:6 h ej3
 jong3	dz O:3 N
 seng1	s E:1 N
+seng1	s i:1 N
 seng1heung2	s E:1 N h 9:2 N
 seng1ching1	s E:1 N ts i:1 N
+seng1ching1	s i:1 N ts i:1 N
 seng1diu6	s E:1 N d iw6
+seng1diu6	s i:1 N d iw6
 seng1yam1	s E:1 N j 61 m
 wu4hau2buk6bou3	w u:4 h 6w2 b u:6 k b ow3
 chyu2	ts y:2
+chyu2	ts y:5
 chyu3	ts y:3
 chyu5yu1	ts y:5 j y:1
 chyu3chyu3	ts y:3 ts y:3
 chyu2fong1	ts y:2 f O:1 N
 chyu5lei5	ts y:5 l ej5
+chyu5lei5	ts y:2 l ej5
 chyu2fat6	ts y:2 f 66 t
 chyu5ji3	ts y:2 dz i:3
+chyu5ji3	ts y:5 dz i:3
 bei6	b ej6
 fuk1jaap6	f u:1 k dz a:6 p
 fuk6hing1	f u:6 k h i:1 N
@@ -2962,6 +3307,7 @@ fuk6yun4	f u:6 k j y:4 n
 fuk6faat3	f u:6 k f a:3 t
 fuk1jaap6	f u:1 k dz a:6 p
 fuk6paai4	f u:6 k p a:j2
+fuk6paai4	f u:6 k p a:j4
 ngoi2	N O:j2
 ngoi6gaau1	N O:j6 g a:w1
 ngoi6gaau1daai6san4	N O:j6 g a:w1 d a:j6 s 64 n
@@ -3011,6 +3357,7 @@ daai6fung1	d a:j6 f u:1 N
 daai6wai4	d a:j6 w 6j4
 daai6si6	d a:j6 s i:6
 daai6a3	d a:j6 N a:3
+daai6a3	d a:j6 a:3
 daai6jung3	d a:j6 dz u:3 N
 daai6wui2	d a:j6 w u:j2
 daai6jok3	d a:j6 dz O:3 k
@@ -3040,6 +3387,7 @@ daai6jeung2	d a:j6 dz 9:2 N
 daai6ma1	d a:j6 m a:1
 daai6hok6	d a:j6 h O:6 k
 daai6on1	d a:j6 O: n1
+daai6on1	d a:j6 N O:1 n
 daai6ga1	d a:j6 g a:1
 daai6siu2	d a:j6 s iw2
 daai6fuk1	d a:j6 f u:1 k
@@ -3051,6 +3399,7 @@ daai6pai1	d a:j6 p 6j1
 daai6fong1	d a:j6 f O:1 N
 daai6yeung4	d a:j6 j 9:4 N
 daai6lau4	d a:j6 l 6w4
+daai6lau4	d a:j6 l 6w2
 daai6koi3	d a:j6 k O:j3
 daai6hei3	d a:j6 h ej3
 daai6gong1	d a:j6 g O:1 N
@@ -3139,16 +3488,20 @@ tau4fan1nou5jeung3	t 6w4 f 61 n n ow5 dz 9:3 N
 tau4tung3	t 6w4 t u:3 N
 tau4pei4	t 6w4 p ej4
 tau4goi3	t 6w4 g O:j3
+tau4goi3	t 6w4 k O:j3
 tau4goi3gwat1	t 6w4 g O:j3 gw 61 t
+tau4goi3gwat1	t 6w4 k O:j3 gw 61 t
 tau4seui5	t 6w4 s 9y5
 tau4nou5	t 6w4 n ow5
 tau4deng2	t 6w4 d E:2 N
 kwa1daai6	kw a:1 d a:j6
 gaap3	g a:3 p
+gaap3	g a:6 p
 gaap3jyu6	g a:3 p dz y:6
 gaap3jaap6	g a:3 p dz a:6 p
 dyut6	d y:6 t
 dyut6wai2	d y:6 t w 6j2
+dyut6wai2	d y:6 t w 6j6
 dyut6dak1	d y:6 t d 61 k
 kei4	k ej4
 kei4miu6	k ej4 m iw6
@@ -3171,12 +3524,21 @@ tou3yin6	t ow3 j i:6 n
 din6ding6	d i:6 n d i:6 N
 che1chi2ban2	ts E:1 ts i:2 b 62 n
 ou3miu6	N ow3 m iw6
+ou3miu6	ow3 m iw6
 ou3jek3	N ow3 dz E:3 k
+ou3jek3	ow3 dz E:3 k
 ou3sa1san1na4	N ow3 s a:1 s 61 n l a:4
+ou3sa1san1na4	N ow3 s a:1 s 61 n n a:4
+ou3sa1san1na4	ow3 s a:1 s 61 n l a:4
+ou3sa1san1na4	ow3 s a:1 s 61 n n a:4
 ou3bei3	N ow3 b ej3
+ou3bei3	ow3 b ej3
 ou3jou2wai1	N ow3 dz ow2 w 6j1
+ou3jou2wai1	ow3 dz ow2 w 6j1
 ou3wan6	N ow3 w 66 n
+ou3wan6	ow3 w 66 n
 ou3wan6wui2	N ow3 w 66 n w u:j2
+ou3wan6wui2	ow3 w 66 n w u:j2
 neui5	n 9y5
 neui5yan2	n 9y5 j 62 n
 neui5yan2mun4	n 9y5 j 62 n m u:4 n
@@ -3196,6 +3558,7 @@ hou3	h ow3
 hou2si6	h ow2 s i:6
 hou2jeung6	h ow2 dz 9:6 N
 hou2chyu3	h ow2 ts y:3
+hou2chyu3	h ow2 ts y:5
 hou3dong1ga1	h ow3 d O:1 N g a:1
 hou2sam1	h ow2 s 61 m
 hou3bei2	h ow3 b ej2
@@ -3203,6 +3566,7 @@ hou3sing3	h ow3 s i:3 N
 hou2jyun2	h ow2 dz y:2 n
 yu4	j y:4
 yu4gam1	j y:4 g 61 m
+yu4gam1	j y:4 g 61 n
 yu4ho4	j y:4 h O:4
 yu4yi3	j y:4 j i:3
 yu4gwo2	j y:4 gw O:2
@@ -3221,6 +3585,7 @@ chai1	ts 6j1
 chai1ji2	ts 6j1 dz i:2
 chip3si6	ts i:3 p s i:6
 je2	dz E:2
+je2	dz i:2
 ji2mui6	dz i:2 m u:j6
 chi2	ts i:2
 chi2gin3	ts i:2 g i:3 n
@@ -3247,6 +3612,7 @@ yu4lok6	j y:4 l O:6 k
 cheui2	ts 9y2
 po4	p O:4
 po4po4	p O:4 p O:4
+po4po4	p O:4 p O:2
 po4yau5po4lei5	p O:4 j 6w5 p O:4 l ej5
 fan1yan1	f 61 n j 61 n
 ying1yi4	j i:1 N j i:4
@@ -3267,6 +3633,7 @@ ji6	dz i:6
 ji6din2	dz i:6 d i:2 n
 ji6hou6	dz i:6 h ow6
 ji6wa2	dz i:6 w a:2
+ji6wa2	dz i:6 w a:6 k
 ji6ngaan5	dz i:6 N a:5 n
 ji6yam1	dz i:6 j 61 m
 chyun4	ts y:4 n
@@ -3276,6 +3643,7 @@ chyun4fun2	ts y:4 n f u:2 n
 syun1	s y:1 n
 syun1jung1saan1	s y:1 n dz u:1 N s a:1 n
 syun1hon3hing3	s y:1 n h O:3 n h i:1 N
+syun1hon3hing3	s y:1 n h O:3 n h i:3 N
 syun1hon3san1	s y:1 n h O:3 n s 61 n
 syun1gei2yeui6	s y:1 n g ej2 j 9y6
 haau3gam2	h a:w3 g 62 m
@@ -3324,40 +3692,69 @@ ning4jing6lou6	n i:4 N dz i:6 N l ow6
 ta1	t a:1
 ta1mun4	t a:1 m u:4 n
 jaak6naam4	dz a:6 k l a:4 m
+jaak6naam4	dz a:6 k n a:4 m
 yu5	j y:5
 yu5jau6	j y:5 dz 6w6
 sau2	s 6w2
 sau2hau6	s 6w2 h 6w6
 sau2si4	s 6w2 s i:4
 on1	O: n1
+on1	N O:1 n
 ngon1yau1	N O:1 n j 6w1
+ngon1yau1	O: n1 j 6w1
 on1lok6wo1	N O:1 n l O:6 k w O:1
+on1lok6wo1	O: n1 l O:6 k w O:1
 ngon1chyun4	N O:1 n ts y:4 n
 on1chyun4gam2	O: n1 ts y:4 n g 62 m
+on1chyun4gam2	N O:1 n ts y:4 n g 62 m
+on1chyun4gam2	N O:1 n ts y:4 n g 62 n
 on1ning4	N O:1 n n i:4 N
+on1ning4	O: n1 n i:4 N
 on1ngon1wan2wan2	N O:1 n N O:1 n w 62 n w 62 n
+on1ngon1wan2wan2	O: n1 N O:1 n w 62 n w 62 n
 on1on1yeung4	N O:1 n O: n1 j 9:4 N
+on1on1yeung4	O: n1 O: n1 j 9:4 N
 on1geui1	N O:1 n g 9y1
+on1geui1	O: n1 g 9y1
 on1geui1lok6yip6	N O:1 n g 9y1 l O:6 k j i:6 p
+on1geui1lok6yip6	O: n1 g 9y1 l O:6 k j i:6 p
 on1geui1ou2	N O:1 n g 9y1 b ow2
+on1geui1ou2	O: n1 g 9y1 ow2
 on1hing3	N O:1 n h i:3 N
+on1hing3	O: n1 h i:3 N
 on1hong1	N O:1 n h O:1 N
+on1hong1	O: n1 h O:1 N
 on1fai1	O: n1 f 6j1
+on1fai1	N O:1 n f 6j1
 on1wai3	O: n1 w 6j3
+on1wai3	N O:1 n w 6j3
 on1paai4	O: n1 p a:j4
+on1paai4	N O:1 n p a:j4
 on1gim2	O: n1 g i:2 m
+on1gim2	N O:1 n g i:2 m
 on1bei2	N O:1 n b ej2
+on1bei2	O: n1 b ej2
 on1yin4mou4yeung6	N O:1 n j i:4 n m ow4 j 9:6 N
+on1yin4mou4yeung6	O: n1 j i:4 n m ow4 j 9:6 N
 on1lei5wui6	N O:1 n l ej5 w u:j6
+on1lei5wui6	O: n1 l ej5 w u:j6
 on1kei4	O: n1 k ej4
+on1kei4	N O:1 n k ej4
 on1chau1	N O:1 n ts 6w1
+on1chau1	O: n1 ts 6w1
 on1ji3	O: n1 dz i:3
 on1lei6	N O:1 n l ej6
+on1lei6	O: n1 l ej6
 on1tang4baak3fuk1	N O:1 n t 64 N b a:3 k f u:1 k
+on1tang4baak3fuk1	O: n1 t 64 N b a:3 k f u:1 k
 on1jong1	O: n1 dz O:1 N
+on1jong1	N O:1 n dz O:1 N
 on1san1laap6ming6	N O:1 n s 61 n l a:6 p m i:6 N
+on1san1laap6ming6	O: n1 s 61 n l a:6 p m i:6 N
 on1yeung4	N O:1 n j 9:4 N
+on1yeung4	O: n1 j 9:4 N
 on1seun6	N O:1 n s 9:6 n
+on1seun6	O: n1 s 9:6 n
 yun4	j y:4 n
 yun4chyun4	j y:4 n ts y:4 n
 yun4sin6	j y:4 n s i:6 n
@@ -3410,6 +3807,7 @@ sat6yin6	s 66 t j i:6 n
 sat6jai3	s 66 t dz 6j3
 sat6jai3seung6	s 66 t dz 6j3 s 9:6 N
 chung2ngoi3	ts u:2 N N O:j3
+chung2ngoi3	ts u:2 N O:j3
 chung2mat6	ts u:2 N m 66 t
 sam2san6	s 62 m s 66 n
 sam2mei5	s 62 m m ej5
@@ -3450,6 +3848,7 @@ ga1suk6	g a:1 s u:6 k
 ga1laam4	g a:1 l a:4 m
 ga1jong1	g a:1 dz O:1 N
 ga1ting4	g a:1 t i:4 N
+ga1ting4	g a:1 t i:4 n
 ga1gaau3	g a:1 g a:w3
 ga1juk6	g a:1 dz u:6 k
 ga1leung4	g a:1 l 9:4 N
@@ -3474,6 +3873,7 @@ ban1	b 61 n
 ban1yeung4	b 61 n j 9:4 N
 suk1	s u:1 k
 suk1wai2chyu2	s u:1 k w 6j2 ts y:2
+suk1wai2chyu2	s u:1 k w 6j6 ts y:2
 jik6	dz i:6 k
 jik6mok6	dz i:6 k m O:6 k
 jik6jing6	dz i:6 k dz i:6 N
@@ -3493,6 +3893,7 @@ fu3si6	f u:3 s i:6
 fu3si6yun4	f u:3 s i:6 j y:4 n
 fu3si6tung1	f u:3 s i:6 t u:1 N
 fu3on1na4	f u:3 N O:1 n n a:4
+fu3on1na4	f u:3 O: n1 n a:4
 fu3cheun1gong1	f u:3 ts 9:1 n g O:1 N
 fu3yau5	f u:3 j 6w5
 fu3yeun6	f u:3 j 9:6 n
@@ -3533,6 +3934,7 @@ dou6yin2	d ow6 j i:2 n
 dou6ji3	d ow6 dz i:3
 fung1hou2	f u:1 N h ow2
 fung1gin3	f u:1 N g i:3 n
+fung1gin3	f u:1 N g i:6 n
 fung1cha4	f u:1 N ts a:4
 fung1so2	f u:1 N s O:2
 fung1bai3	f u:1 N b 6j3
@@ -3541,6 +3943,7 @@ jeung1	dz 9:1 N
 jeung1loi4	dz 9:1 N l O:j4
 jeung1gan6	dz 9:1 N g 66 n
 jeun1	dz 9:1 n
+jeun1	dz y:1 n
 jyun1yim4	dz y:1 n j i:4 m
 jyun1sam1	dz y:1 n s 61 m
 jyun1ging3	dz y:1 n g i:3 N
@@ -3552,6 +3955,7 @@ siu2dung6mat6	s iw2 d u:6 N m 66 t
 siu2mui2	s iw2 m u:j2
 siu2je2	s iw2 dz E:2
 siu2ngo4	s iw2 N O:4
+siu2ngo4	s iw2 O:4
 siu2haan4	s iw2 h a:4 n
 siu2ji2	s iw2 dz i:2
 siu2hok6sang1	s iw2 h O:6 k s 61 N
@@ -3570,6 +3974,7 @@ siu2pang4yau5	s iw2 p 64 N j 6w5
 siu2mui4	s iw2 m u:j4
 siu2gaai1	s iw2 g a:j1
 siu2wong2	s iw2 w O:2 N
+siu2wong2	s iw2 w O:4 N
 siu2waan4	s iw2 w a:4 n
 siu2ling4	s iw2 l i:4 N
 siu2yiu4	s iw2 j iw4
@@ -3587,6 +3992,7 @@ siu2ha4	s iw2 h a:4
 siu2sik6	s iw2 s i:6 k
 siu2lung4neui5	s iw2 l u:4 N n 9y5
 siu2	s iw2
+siu2	s iw3
 siu2bat1min5	s iw2 b 61 t m i:5 n
 siu2siu2	s iw2 s iw2
 siu3nin4	s iw3 n i:4 n
@@ -3608,9 +4014,11 @@ jau6	dz 6w6
 jau6yip6	dz 6w6 j i:6 p
 jau6duk6	dz 6w6 d u:6 k
 gaam3gaai3	g a:3 m g a:j3
+gaam3gaai3	g a:3 n g a:j3
 nei4	n ej4
 nei4pok6yi5	n ej4 p O:6 k j i:5
 jeun6	dz 9:6 n
+jeun6	dz 9:2 n
 jeun6lik6	dz 9:6 n l i:6 k
 jeun6sam1jeun6lik6	dz 9:6 n s 61 m dz 9:6 n l i:6 k
 jeun6faai3	dz 9:6 n f a:j3
@@ -3624,6 +4032,7 @@ guk6jeung2	g u:6 k dz 9:2 N
 guk6min6	g u:6 k m i:6 n
 chang4	ts 64 N
 chang4min2	ts 64 N m i:2 n
+chang4min2	ts 64 N m i:6 n
 geui1	g 9y1
 geui1jyu6	g 9y1 dz y:6
 geui1man4	g 9y1 m 64 n
@@ -3631,8 +4040,11 @@ wat1hei3	w 61 t h ej3
 gaai3	g a:j3
 gaai3si4	g a:j3 s i:4
 nguk1	N u:1 k
+nguk1	u:1 k
 nguk1jyu2	N u:1 k dz y:2
+nguk1jyu2	u:1 k dz y:2
 nguk1deng2	N u:1 k d E:2 N
+nguk1deng2	u:1 k d E:2 N
 si2	s i:2
 jin2	dz i:2 n
 jin2cheut1	dz i:2 n ts 9:1 t
@@ -3649,6 +4061,7 @@ leui5gaau3	l 9y5 g a:w3
 lei5lik6	l ej5 l i:6 k
 leui5hang4	l 9y5 h 64 N
 tyun4ho2	dz 9:1 n h O:2
+tyun4ho2	t y:4 n h O:2
 saan1	s a:1 n
 saan1seung6	s a:1 n s 9:6 N
 saan1dung1	s a:1 n d u:1 N
@@ -3664,6 +4077,7 @@ saan1sai1saang2	s a:1 n s 6j1 s a:2 N
 saan1deng2	s a:1 n d E:2 N
 ngat6laap6bat1dou3	N 66 t l a:6 p b 61 t d ow3
 jeui6	dz 9y6
+jeui6	dz u:4
 seui3	s 9y3
 seui3yut6	s 9y3 j y:6 t
 seui3yut6chung1chung1	s 9y3 j y:6 t ts u:1 N ts u:1 N
@@ -3677,6 +4091,7 @@ ling5	l i:5 N
 ngok6yeung4	N O:6 k j 9:4 N
 man4gong1	m 64 n g O:1 N
 jaang1wing4saan1	dz 61 N w i:4 N s a:1 n
+jaang1wing4saan1	dz a:1 N w i:4 N s a:1 n
 fung1	f u:1 N
 fung1wui5	f u:1 N w u:j5
 sing6	s i:6 N
@@ -3714,8 +4129,10 @@ geui6yan4	g 9y6 j 64 n
 geui6daai6	g 9y6 d a:j6
 geui6jeung6	g 9y6 dz 9:6 N
 geui6ngaak2	g 9y6 N a:2 k
+geui6ngaak2	g 9y6 N a:6 k
 gung2gu3	g u:2 N g u:3
 cha1	ts a:1
+cha1	ts a:j1
 cha1bat1do1	ts a:1 b 61 t d O:1
 cha1bit6	ts a:1 b i:6 t
 cha1yi6	ts a:1 j i:6
@@ -3753,6 +4170,7 @@ si1naai5	s i:1 n a:j5
 si1mui2	s i:1 m u:j2
 si1je2	s i:1 dz E:2
 si1dai6	s i:1 d 6j6
+si1dai6	s i:1 d 6j2
 hei1	h ej1
 hei1mong6	h ej1 m O:6 N
 hei1laap6	h ej1 l a:6 p
@@ -3781,6 +4199,7 @@ seung4gin3	s 9:4 N g i:3 n
 fuk1	f u:1 k
 fuk1jang1	f u:1 k dz 61 N
 gon1	g O:1 n
+gon1	g O:3 n
 gon1sip3	g O:1 n s i:3 p
 gon1jiu3	g O:1 n dz iw3
 ping4	p i:4 N
@@ -3799,8 +4218,10 @@ ping4dou6	p i:4 N d ow6
 ping4yung4	p i:4 N j y:4 N
 ping4sik1	p i:4 N s i:1 k
 ping4fong4	p i:4 N f O:2 N
+ping4fong4	p i:4 N f O:4 N
 ping4fong1gung1lei5	p i:4 N f O:1 N g u:1 N l ej5
 ping4fong1mai1	p i:4 N f O:1 N m 6j1
+ping4fong1mai1	p i:4 N f O:1 N m 6j5
 ping4si4	p i:4 N s i:4
 ping4chyun4	p i:4 N ts y:4 n
 ping4chyun4si5	p i:4 N ts y:4 n s i:5
@@ -3812,6 +4233,9 @@ ping4jing6	p i:4 N dz i:6 N
 ping4deng2	p i:4 N d E:2 N
 ping4ding2saan1	p i:4 N d i:2 N s a:1 n
 nin4	l i:2 n
+nin4	l i:4 n
+nin4	n i:2 n
+nin4	n i:4 n
 nin4doi6	n i:4 n d O:j6
 nin4cho1jat1	n i:4 n ts O:1 dz 61 t
 nin4wa4yau5haan6	n i:4 n w a:4 j 6w5 h a:6 n
@@ -3842,35 +4266,61 @@ yau1nga5	j 6w1 N a:5
 yau1mak6	j 6w1 m 66 k
 yau1mak6gam2	j 6w1 m 66 k g 62 m
 gwong2	gw O:2 N
+gwong2	k O:2 N
 gwong2dung1	gw O:2 N d u:1 N
+gwong2dung1	k O:2 N d u:1 N
 gwong2dung1saang2	gw O:2 N d u:1 N s a:2 N
+gwong2dung1saang2	k O:2 N d u:1 N s a:2 N
 gwong2dung1wa2	gw O:2 N d u:1 N w a:2
+gwong2dung1wa2	gw O:2 N d u:1 N w a:6
+gwong2dung1wa2	k O:2 N d u:1 N w a:2
+gwong2dung1wa2	k O:2 N d u:1 N w a:6
 gwong2yun4	gw O:2 N j y:4 n
+gwong2yun4	k O:2 N j y:4 n
 gwong2gou3	gw O:2 N g ow3
+gwong2gou3	k O:2 N g ow3
 gwong2gou3pin2	gw O:2 N g ow3 p i:2 n
+gwong2gou3pin2	gw O:2 N g ow3 p i:3 n
+gwong2gou3pin2	k O:2 N g ow3 p i:2 n
+gwong2gou3pin2	k O:2 N g ow3 p i:3 n
 gwong2daai6	gw O:2 N d a:j6
+gwong2daai6	k O:2 N d a:j6
 gwong2jau1	gw O:2 N dz 6w1
 gwong2jau1yan4	gw O:2 N dz 6w1 j 64 n
+gwong2jau1yan4	k O:2 N dz 6w1 j 64 n
 gwong2jau1si5	gw O:2 N dz 6w1 s i:5
 gwong2jau1wa2	gw O:2 N dz 6w1 w a:2
+gwong2jau1wa2	k O:2 N dz 6w1 w a:2
 gwong2fu2	gw O:2 N f u:2
+gwong2fu2	k O:2 N f u:2
 gwong2wang4	gw O:2 N w 64 N
+gwong2wang4	k O:2 N w 64 N
 gwong2chiu1	gw O:2 N ts iw1
+gwong2chiu1	k O:2 N ts iw1
 gwong2gong1	gw O:2 N g O:1 N
+gwong2gong1	k O:2 N g O:1 N
 gwong2faan3	gw O:2 N f a:3 n
+gwong2faan3	k O:2 N f a:3 n
 gwong2sam1sin3	gw O:2 N s 61 m s i:3 n
+gwong2sam1sin3	k O:2 N s 61 m s i:3 n
 gwong2din6	gw O:2 N d i:6 n
+gwong2din6	k O:2 N d i:6 n
 gwong2sai1	gw O:2 N s 6j1
+gwong2sai1	k O:2 N s 6j1
 gwong2sai1saang2	gw O:2 N s 6j1 s a:2 N
+gwong2sai1saang2	k O:2 N s 6j1 s a:2 N
 gwong2fut3	gw O:2 N f u:3 t
+gwong2fut3	k O:2 N f u:3 t
 jong1wo4	dz O:1 N w O:4
 jong1wai6ling4	dz O:1 N w 6j6 l i:4 N
 jong1ho2	dz O:1 N h O:2
+jong1ho2	dz O:1 N h O:4
 hing3yeung4	h i:3 N j 9:4 N
 chong4	ts O:4 N
 jeui6mok6	dz 9y6 m O:6 k
 fu3yi5lak6	f u:3 j i:5 l 66 k
 ying1	j i:1 N
+ying1	j i:3 N
 ying3fu6	j i:3 N f u:6
 ying3deui3	j i:3 N d 9y3
 ying1dong1	j i:1 N d O:1 N
@@ -3900,6 +4350,7 @@ jo6	dz O:6
 jo6seung1ying4	dz O:6 s 9:1 N j i:4 N
 jo6lok6	dz O:6 l O:6 k
 ting4yun4	t i:4 N j y:2 n
+ting4yun4	t i:4 N j y:4 n
 ting4jeung2	t i:4 N dz 9:2 N
 hong1	h O:1 N
 hong1ning4dou6	h O:1 N n i:4 N d ow6
@@ -3926,6 +4377,7 @@ gin3chong3	g i:3 n ts O:3 N
 gin3wa4	g i:3 n w a:4
 gin3ping4	g i:3 n p i:4 N
 gin3keung4	g i:3 n k 9:4 N
+gin3keung4	g i:3 n k 9:5 N
 gin3dak1	g i:3 n d 61 k
 gin3sing4	g i:3 n s i:4 N
 gin3choi4	g i:3 n ts O:j4
@@ -3952,7 +4404,9 @@ ya6gau2	j a:6 g 6w2
 ya6gau2yat6	j a:6 g 6w2 j 66 t
 ya6yi6yat6	j a:6 j i:6 j 66 t
 ya6ng5	j a:6 N5
+ya6ng5	j a:6 m5
 ya6ng5yat6	j a:6 N5 j 66 t
+ya6ng5yat6	j a:6 m5 j 66 t
 ya6baat3	j a:6 b a:3 t
 ya6baat3yat6	j a:6 b a:3 t j 66 t
 ya6luk6	j a:6 l u:6 k
@@ -3979,6 +4433,7 @@ hoi1wu6	h O:j1 w u:6
 hoi1ji1	h O:j1 dz i:1
 hoi1fong3	h O:j1 f O:3 N
 hoi1fong3ha2	h O:j1 f O:3 N h a:2
+hoi1fong3ha2	h O:j1 f O:3 N h a:5
 hoi1ming4	h O:j1 m i:4 N
 hoi1dang1	h O:j1 d 61 N
 hoi1syun4	h O:j1 s y:4 n
@@ -3988,6 +4443,7 @@ hoi1pik1	h O:j1 p i:1 k
 hoi1tung1	h O:j1 t u:1 N
 hoi1choi2	h O:j1 ts O:j2
 hoi1ngaan4	h O:j1 N a:4 n
+hoi1ngaan4	h O:j1 a:4 n
 yi6	j i:6
 yi6yeung6	j i:6 j 9:6 N
 yi6mat6	j i:6 m 66 t
@@ -3995,10 +4451,15 @@ hei3	h ej3
 hei3yau5	h ej3 j 6w5
 hei3ying1	h ej3 j i:1 N
 lung6	l u:6 N
+lung6	n u:6 N
 lung6seung1	l u:6 N s 9:1 N
+lung6seung1	n u:6 N s 9:1 N
 lung6haau2sing4jyut6	l u:6 N h a:w2 s i:4 N dz y:6 t
+lung6haau2sing4jyut6	n u:6 N h a:w2 s i:4 N dz y:6 t
 lung6ching1	l u:6 N ts i:1 N
+lung6ching1	n u:6 N ts i:1 N
 lung6chiu4	l u:6 N ts iw4
+lung6chiu4	n u:6 N ts iw4
 lung6chiu4yi4	l u:6 N ts iw4 j i:4
 sik1	s i:1 k
 yan5	j 65 n
@@ -4029,6 +4490,7 @@ jeung1siu2ling4	dz 9:1 N s iw2 l i:4 N
 jeung1sam1yi4	dz 9:1 N s 61 m j i:4
 jeung1yi4saan1	dz 9:1 N j i:4 s a:1 n
 jeung1yat6	dz 9:1 N j 66 t
+jeung1yat6	dz 9:1 N j i:6 k
 jeung1man4chaan3	dz 9:1 N m 64 n ts a:3 n
 jeung1man4chaan3	dz 9:1 N m 64 n ts a:3 n
 jeung1yiu6yu5	dz 9:1 N j iw6 j y:5
@@ -4040,9 +4502,11 @@ jeung1gang2ying1	dz 9:1 N g 62 N j i:1 N
 jeung1yun2saang1	dz 9:1 N j y:2 n s a:1 N
 jeung1dik6yu5	dz 9:1 N d i:6 k j y:5
 jeung1nga5gou2	dz 9:1 N N a:5 g ow2
+jeung1nga5gou2	dz 9:1 N N a:5 h ow6
 wu4dou6	w u:4 d ow6
 waan1	w a:1 n
 waan1dak1ha5	w a:1 n d 61 k h a:5
+waan1dak1ha5	w a:1 n d 61 k h a:6
 yeuk6sai3	j 9:6 k s 6j3
 yeuk6dim2	j 9:6 k d i:2 m
 yeuk6yuk6keung5sik6	j 9:6 k j y:6 k k 9:5 N s i:6 k
@@ -4063,6 +4527,7 @@ gwai1suk6	gw 6j1 s u:6 k
 gwai1suk6gam2	gw 6j1 s u:6 k g 62 m
 gwai1jeui6	gw 6j1 dz 9y6
 dong1	d O:1 N
+dong1	d O:3 N
 dong1ha2	d O:1 N h a:2
 dong1jung1	d O:1 N dz u:1 N
 dong1ji1mou4kwai5	d O:1 N dz i:1 m ow4 kw 6j5
@@ -4077,6 +4542,7 @@ dong1tin1	d O:1 N t i:1 n
 dong1tau4	d O:1 N t 6w4
 dong1guk6	d O:1 N g u:6 k
 dong1nin4	d O:1 N l i:4 n
+dong1nin4	d O:1 N n i:4 n
 dong1yat6	d O:1 N j 66 t
 dong1si4	d O:1 N s i:4
 dong1yin4	d O:1 N j i:4 n
@@ -4164,6 +4630,7 @@ sam1seung6	s 61 m s 9:6 N
 sam1jung1	s 61 m dz u:1 N
 sam1si6	s 61 m s i:6
 sam1ging2	s 61 m g i:2 N
+sam1ging2	s 61 m g i:3 N
 sam1tau4	s 61 m t 6w4
 sam1chyun4gam2gik1	s 61 m ts y:4 n g 62 m g i:1 k
 sam1dai2	s 61 m d 6j2
@@ -4249,6 +4716,7 @@ taai3dou6	t a:j3 d ow6
 sung2yung2	s u:2 N j y:2 N
 jam2mo1	dz 62 m m O:1
 jam2yeung6	dz 62 m j 9:2 N
+jam2yeung6	dz 62 m j 9:6 N
 nou6	n ow6
 nou6hei3	n ow6 h ej3
 pa3	p a:3
@@ -4264,6 +4732,7 @@ yi4ching4yeung5sing3	j i:4 ts i:4 N j 9:5 N s i:3 N
 gap1	g 61 p
 gap1bat1loi4	g 61 p b 61 t l O:j4
 gap1yu1kau4sing4	g 61 p j y:1 k 6w4 s E:4 N
+gap1yu1kau4sing4	g 61 p j y:1 k 6w4 s i:4 N
 gap1dung3	g 61 p d u:3 N
 gap1gung1gan6lei6	g 61 p g u:1 N g 66 n l ej6
 gap1gap1	g 61 p g 61 p
@@ -4287,18 +4756,24 @@ jung2ging1lei5	dz u:2 N g i:1 N l ej5
 jung2tung2	dz u:2 N t u:2 N
 jung2choi4	dz u:2 N ts O:j4
 jung2ngaak6	dz u:2 N N a:2 k
+jung2ngaak6	dz u:2 N N a:6 k
+jung2ngaak6	dz u:2 N a:2 k
+jung2ngaak6	dz u:2 N a:6 k
 lyun2yan4	l y:2 n j 64 n
 lyun2oi3	l y:2 n O:j3
+lyun2oi3	l y:2 n N O:j3
 fong2yin1daai6ng6	f O:2 N j i:1 n d a:j6 N6
 hung2bou3	h u:2 N b ow3
 hung2bou3fan6ji2	h u:2 N b ow3 f 66 n dz i:2
 hung2geui6	h u:2 N g 9y6
 hung2fong1	h u:2 N f O:1 N
 hang4	h 64 N
+hang4	h 64 n
 hang4gau2	h 64 N g 6w2
 hang4faat3	h 64 N f a:3 t
 hang4gei1dei6chaan2	h 64 N g ej1 d ej6 ts a:2 n
 hang4bou2	h 64 N b ow2
+hang4bou2	h 64 n b ow2
 hang4sang1	h 64 N s 61 N
 hang4yeung4	h 64 N j 9:4 N
 hang4seun6	h 64 N s 9:6 n
@@ -4321,6 +4796,7 @@ ngok3fa3	N O:3 k f a:3
 ngok3sing3	N O:3 k s i:3 N
 ngok3gwo2	N O:3 k gw O:2
 ngok3man4	N O:3 k m 62 n
+ngok3man4	N O:3 k m 64 n
 ngok3ba3	N O:3 k b a:3
 sik1	s i:1 k
 fui3	f u:j3
@@ -4335,7 +4811,9 @@ nei5	n ej5
 yun4ngaai4	j y:4 n N a:j4
 yun4syu4	j y:4 n s y:4
 yun4hung1ji6	j y:4 n h u:1 N dz i:2
+yun4hung1ji6	j y:4 n h u:1 N dz i:6
 yun4naau6	j y:4 n l a:w6
+yun4naau6	j y:4 n n a:w6
 haan1	h a:1 n
 bei1	b ej1
 bei1seung1	b ej1 s 9:1 N
@@ -4354,12 +4832,15 @@ ching4waai4	ts i:4 N w a:j4
 ching4gam2	ts i:4 N g 62 m
 ching4bou3fo1	ts i:4 N b ow3 f O:1
 ching4oi3	ts i:4 N N O:j3
+ching4oi3	ts i:4 N O:j3
 ching4seui5	ts i:4 N s 9y5
 ching4seui5fa3je2	ts i:4 N s 9y5 f a:3 dz E:2
 geng1	g E:1 N
+geng1	g i:1 N
 ging1yan4	g i:1 N j 64 n
 ging1hei2	g i:1 N h ej2
 geng1gung1ji1niu5	g E:1 N g u:1 N dz i:1 l iw5
+geng1gung1ji1niu5	g E:1 N g u:1 N dz i:1 n iw5
 waak6	w a:6 k
 sik1	s i:1 k
 wai6	w 6j6
@@ -4375,6 +4856,7 @@ chaam2	ts a:2 m
 ching4fat6	ts i:4 N f 66 t
 do6sing3	d O:6 s i:3 N
 seung2	s 9:2 N
+seung2	s 9:5 N
 seung2jeung6lik6	s 9:2 N dz 9:6 N l i:6 k
 seung2dou3	s 9:2 N d ow3
 seung2dak1dou3	s 9:2 N d 61 k d ow3
@@ -4394,6 +4876,7 @@ yu6hap6	j y:6 h 66 p
 yu4faai3	j y:4 f a:j3
 yi3yi6	j i:3 j i:6
 yi3hing3laan4saan1	j i:3 h i:1 N l a:4 n s a:1 n
+yi3hing3laan4saan1	j i:3 h i:3 N l a:4 n s a:1 n
 yi3mei6	j i:3 m ej6
 yi3ngoi6	j i:3 N O:j6
 yi3daai6lei6	j i:3 d a:j6 l ej6
@@ -4408,20 +4891,30 @@ yi3cheui3	j i:3 ts 9y3
 yu4ban6	j y:4 b 66 n
 yu4je2	j y:4 dz E:2
 gam2	g 62 m
+gam2	g 62 n
 gam2yan4	g 62 m j 64 n
+gam2yan4	g 62 n j 64 n
 gam2hing3cheui3	g 62 m h i:3 N ts 9y3
+gam2hing3cheui3	g 62 n h i:3 N ts 9y3
 gam2mou6	g 62 m m ow6
+gam2mou6	g 62 n m ow6
 gam2dou3	g 62 m d ow3
 gam2dung6	g 62 m d u:6 N
+gam2dung6	g 62 n d u:6 N
 gam2sau6	g 62 m s 6w6
+gam2sau6	g 62 n s 6w6
 gam2sau6dou3	g 62 m s 6w6 d ow3
 gam2sing3	g 62 m s i:3 N
 gam2yan1	g 62 m j 61 n
+gam2yan1	g 62 n j 61 n
 gam2ching4	g 62 m ts i:4 N
+gam2ching4	g 62 n ts i:4 N
 gam2ching4bat1dyun1	g 62 m ts i:4 N b 61 t d y:1 n
 gam2yim5	g 62 m j i:5 m
+gam2yim5	g 62 n j i:5 m
 gam2gik1	g 62 m g i:1 k
 gam2gok3	g 62 m g O:3 k
+gam2gok3	g 62 n g O:3 k
 yun6	j y:6 n
 yun6yi3	j y:6 n j i:3
 yun6mong6	j y:6 n m O:6 N
@@ -4440,6 +4933,7 @@ chiu4seui6	ts iw4 s 9y6
 dung2	d u:2 N
 dung2dak1	d u:2 N d 61 k
 ou3fui3	N ow3 f u:j3
+ou3fui3	ow3 f u:j3
 laan5do6	l a:5 n d O:6
 no6yeuk6	n O:6 j 9:6 k
 hei3	h ej3
@@ -4458,6 +4952,7 @@ sing4fan6	s i:4 N f 66 n
 sing4gung1	s i:4 N g u:1 N
 sing4fa3	s i:4 N f a:3
 sing4seung1sing4deui3	s E:4 N s 9:1 N s E:4 N d 9y3
+sing4seung1sing4deui3	s i:4 N s 9:1 N s i:4 N d 9y3
 sing4yun4	s i:4 N j y:4 n
 sing4yun4gwok3	s i:4 N j y:4 n gw O:3 k
 sing4jau6	s i:4 N dz 6w6
@@ -4466,6 +4961,7 @@ sing4nin4yan4	s i:4 N n i:4 n j 64 n
 sing4haau6	s i:4 N h a:w6
 sing4bun2	s i:4 N b u:2 n
 sing4gwo2	s i:4 N g O:2
+sing4gwo2	s i:4 N gw O:2
 sing4suk6	s i:4 N s u:6 k
 sing4lap6	s i:4 N l 66 p
 sing4jik1	s i:4 N dz i:1 k
@@ -4489,6 +4985,7 @@ jin3leuk6	dz i:3 n l 9:6 k
 jin3sing3	dz i:3 n s i:3 N
 daai3	d a:j3
 daai3on1na4	d a:j3 N O:1 n n a:4
+daai3on1na4	d a:j3 O: n1 n a:4
 wu6	w u:6
 wu6ying4	w u:6 j i:4 N
 wu6ngoi6	w u:6 N O:j6
@@ -4538,6 +5035,9 @@ da2kwa1	d a:2 kw a:1
 da2fung1	d a:2 f u:1 N
 tok3	t O:3 k
 kau3aap3	k 6w3 N a:3 p
+kau3aap3	k 6w3 N a:3 t
+kau3aap3	k 6w3 a:3 p
+kau3aap3	k 6w3 a:3 t
 jap1jing3	dz 61 p dz i:3 N
 jap1faat3	dz 61 p f a:3 t
 jap1jiu3	dz 61 p dz iw3
@@ -4556,6 +5056,8 @@ pai1faat3	p 6j1 f a:3 t
 pai1ping4	p 6j1 p i:4 N
 pai1ping4je2	p 6j1 p i:4 N dz E:2
 aak1sau2	6 k1 s 6w2
+aak1sau2	N a:1 k s 6w2
+aak1sau2	a:1 k s 6w2
 jaau2	dz a:w2
 jaau2bat1dou3	dz a:w2 b 61 t d ow3
 jaau2cheut1	dz a:w2 ts 9:1 t
@@ -4569,6 +5071,7 @@ sing4gai3yan4	s i:4 N g 6j3 j 64 n
 sing4ying6	s i:4 N j i:6 N
 sing4nok6	s i:4 N n O:6 k
 sing4joi2	s i:4 N dz O:j2
+sing4joi2	s i:4 N dz O:j3
 sing4wan6yan4	s i:4 N w 66 n j 64 n
 sing4wan6yan4yiu3	s i:4 N w 66 n j 64 n j iw3
 gei6haau2	g ej6 h a:w2
@@ -4581,6 +5084,7 @@ yik1ngaat3	j i:1 k N a:3 t
 yik1waak6	j i:1 k w a:6 k
 yik1wat1	j i:1 k w 61 t
 yik1wat1jing1	j i:1 k w 61 t dz i:1 N
+yik1wat1jing1	j i:1 k w 61 t dz i:3 N
 syu1faat3	s y:1 f a:3 t
 syu1ching4	s y:1 ts i:4 N
 tau4	t 6w4
@@ -4633,6 +5137,7 @@ daam1dong1	d a:1 m d O:1 N
 daam1dak1hei2	d a:1 m d 61 k h ej2
 daam1sam1	d a:1 m s 61 m
 laai1	l a:j1
+laai1	l a:1
 laai1laai1che2che2	l a:j1 l a:j1 ts E:2 ts E:2
 laai1mei5	l a:j1 m ej5
 laai1saat3	l a:j1 s a:3 t
@@ -4661,9 +5166,11 @@ yung2yau5	j y:2 N j 6w5
 but6	b u:6 t
 but6fun2	b u:6 t f u:2 n
 jaak6ngau5	dz a:6 k 6w5
+jaak6ngau5	dz a:6 k N 6w5
 git3geui1	g i:3 t g 9y1
 ping3ming6	p i:3 N m i:6 N
 ping3yam1	p i:3 N j 61 m
+ping3yam1	p i:3 N j 61 n
 na4	n a:4
 na4dak1dou3	n a:4 d 61 k d ow3
 na4loi4	n a:4 l O:j4
@@ -4687,15 +5194,25 @@ ji2sou3	dz i:2 s ow3
 ji2biu1	dz i:2 b iw1
 ji2si6	dz i:2 s i:6
 on3	O: n3
+on3	N O:3 n
 on3kit3	O: n3 k i:3 t
+on3kit3	O: n3 h i:3 t
+on3kit3	N O:3 n k i:3 t
+on3kit3	N O:3 n h i:3 t
 on3kit3jaam2	N O:3 n h i:3 t dz a:2 m
+on3kit3jaam2	N O:3 n k i:3 t dz a:2 m
+on3kit3jaam2	O: n3 h i:3 t dz a:2 m
+on3kit3jaam2	O: n3 k i:3 t dz a:2 m
 on3seui3	N O:3 n s y:3 t
+on3seui3	O: n3 s 9y3
 on3bou6jau6baan1	O: n3 b ow6 dz 6w6 b a:1 n
+on3bou6jau6baan1	N O:3 n b ow6 dz 6w6 b a:1 n
 tiu1jin3	t iw1 dz i:3 n
 tiu1jin3sing3	t iw1 dz i:3 n s i:3 N
 tiu1hei2	t iw1 h ej2
 waat3gwat6	w a:3 t gw 66 t
 ji3oi3	dz i:3 N O:j3
+ji3oi3	dz i:3 O:j3
 jai1bik1	dz 6j1 b i:1 k
 fai1	f 6j1
 cho3jit3	ts O:3 dz i:3 t
@@ -4706,6 +5223,7 @@ jan3wa4	dz 63 n w a:4
 jan3chi3chung1tin1	dz 63 n ts i:3 ts u:1 N t i:1 n
 ting5	t i:5 N
 juk1mo2	dz u:1 k m O:1
+juk1mo2	dz u:1 k m O:2
 gyun1fun2	g y:1 n f u:2 n
 bou6lip6	b ow6 l i:6 p
 syun2	s y:2 n
@@ -4722,6 +5240,7 @@ sau6	s 6w6
 diu6	d iw6
 diu6ha2	d iw6 h a:2
 diu6jyun2	d iw6 dz y:2 n
+diu6jyun2	d iw6 dz y:3 n
 jeung2ngak1	dz 9:2 N N 61 k
 jeung2gun2	dz 9:2 N g u:2 n
 jeung2man4ming6lei5	dz 9:2 N m 64 n m i:6 N l ej5
@@ -4737,11 +5256,14 @@ taam3sok3	t a:3 m s O:3 k
 taam3tou2	t a:3 m t ow2
 jip3	dz i:3 p
 jip3seung6	dz i:3 p s 9:5 N
+jip3seung6	dz i:3 p s 9:6 N
 jip3sau6	dz i:3 p s 6w6
 jip3sau1	dz i:3 p s 6w1
 jip3baan1yan4	dz i:3 p b a:1 n j 64 n
 jip3naap6	dz i:3 p l a:6 p
+jip3naap6	dz i:3 p n a:6 p
 jip3juk1	dz i:3 p dz u:1 k
+jip3juk1	dz i:3 p ts u:1 k
 jip3joi2	dz i:3 p dz O:j2
 jip3gan6	dz i:3 p g 66 n
 hung3	h u:3 N
@@ -4778,12 +5300,16 @@ kit3yeung4	k i:3 t j 9:4 N
 wun4jo6	w u:4 n dz O:6
 wun4sau2	w u:4 n s 6w2
 gam6	g 66 m
+gam6	g 66 n
 gok3chin2	g O:3 k ts i:2 n
 bok3	b O:3 k
 bok3haak3	b O:3 k h a:3 k
 sau1	s 6w1
+sau1	s 6w2
 sau2sok3	s 6w2 s O:3 k
+sau2sok3	s 6w1 s O:3 k
 sau2jaap6	s 6w1 dz a:6 p
+sau2jaap6	s 6w2 dz a:6 p
 gaau2waai6	g a:w2 w a:j6
 gaau2dak1	g a:w2 d 61 k
 daap6dang3	d a:6 p d 63 N
@@ -4808,13 +5334,17 @@ mo1tin1daai6ha6	m O:1 t i:1 n d a:j6 h a:6
 mo1mo1	m O:1 m O:1
 mo1haak1	m O:1 h a:1 k
 chaang1	ts a:1 N
+chaang1	ts a:3 N
 chaang1ha5	ts a:1 N h a:5
+chaang1ha5	ts a:3 N h a:5
 chaang1ha6heui3	ts a:1 N h a:6 h 9y3
+chaang1ha6heui3	ts a:3 N h a:6 h 9y3
 saat3giu1	s a:3 t g iw1
 jong6gik1	dz O:6 N g i:1 k
 chit3lei4	ts i:3 t l ej4
 sin6yung6	s i:6 n j y:6 N
 chou1sau2	ts ow1 s 6w2
+chou1sau2	ts ow3 s 6w2
 chou1sam1	ts ow1 s 61 m
 chou1jung1	ts ow1 dz u:1 N
 paan1	p a:1 n
@@ -4850,6 +5380,7 @@ gung1gik1sing3	g u:1 N g i:1 k s i:3 N
 fong3	f O:3 N
 fong3ha6	f O:3 N h a:6
 fong3bat1ha2	f O:3 N b 61 t h a:2
+fong3bat1ha2	f O:3 N b 61 t h a:6
 fong3chuet1	f O:3 N
 fong3joi6	f O:3 N dz O:j6
 fong3daai6	f O:3 N d a:j6
@@ -4859,6 +5390,7 @@ fong3dak1ha6	f O:3 N d 61 k h a:6
 fong3sau2yat1bok3	f O:3 N s 6w2 j 61 t b O:3 k
 fong3ngaan5	f O:3 N N a:5 n
 fong3wun4	f O:3 N w u:4 n
+fong3wun4	f O:3 N w u:6 n
 jing3	dz i:3 N
 jing3dong2	dz i:3 N d O:2 N
 jing3hip3	dz i:3 N h i:3 p
@@ -4881,6 +5413,7 @@ dik6gwok3	d i:6 k gw O:3 k
 man5	m 65 n
 man5yi4	m 65 n j i:4
 man5gam2	m 65 n g 62 m
+man5gam2	m 65 n g 62 n
 man5jit3	m 65 n dz i:3 t
 gau3	g 6w3
 gau3cheut1	g 6w3 ts 9:1 t
@@ -4901,6 +5434,7 @@ gaau3yuk6	g a:w3 j y:6 k
 gaau3yuk6je2	g a:w3 j y:6 k dz E:2
 gaau3fan3	g a:w3 f 63 n
 gam2	g 62 m
+gam2	g 62 n
 gam2yu1	g 62 m j y:1
 saan3	s a:3 n
 saan2wu6	s a:2 n w u:6
@@ -4910,6 +5444,7 @@ deun1fa3	d 9:1 n f a:3
 deun1wong4	d 9:1 n w O:4 N
 sou2	s ow2
 sou3	s ow3
+sou3	s O:3 k
 sok3yi5deun1gai3	s O:3 k j i:5 d 9:1 n g 6j3
 sou3ji6	s ow3 dz i:6
 sou3hok6	s ow3 h O:6 k
@@ -4925,6 +5460,7 @@ jing2tai2	dz i:2 N t 6j2
 jing2tin1	dz i:2 N t i:1 n
 jing2ji6	dz i:2 N dz i:6
 man4	m 64 n
+man4	m 62 n
 man4jai2	m 64 n dz 6j2
 man4gin2	m 64 n g i:2 n
 man4fa3	m 64 n f a:3
@@ -4950,18 +5486,21 @@ tyun5	t y:5 n
 tyun5liu5lau4	t y:5 n l iw5 l 6w4
 tyun5jyut6	t y:5 n dz y:6 t
 tyun5le5	t y:5 n l E:5
+tyun5le5	t y:5 n l i:6 t
 si1	s i:1
 si1dak1go1yi5mo1	s i:1 d 61 k g O:1 j i:5 m O:1
 san1	s 61 n
 san1heung1	s 61 n h 9:1 N
 san1hing1	s 61 n h i:1 N
 san1ga3bo1	s 61 n g a:3 b O:1
+san1ga3bo1	s 61 n g a:3 p O:1
 san1wa4dou1	s 61 n w a:4 d ow1
 san1wa4gam2	s 61 n w a:4 g 62 m
 san1jang1	s 61 n dz 61 N
 san1kei4	s 61 n k ej4
 san1nin4	s 61 n n i:4 n
 san1choi4liu2	s 61 n ts O:j4 l iw2
+san1choi4liu2	s 61 n ts O:j4 l iw6
 san1chiu4	s 61 n ts iw4
 san1geung1	s 61 n g 9:1 N
 san1nang4yun4	s 61 n n 64 N j y:4 n
@@ -5050,7 +5589,9 @@ yat6jeun3	j 66 t dz 9:3 n
 daan3	d a:3 n
 gau6	g 6w6
 gau6nin2	g 6w6 n i:2 n
+gau6nin2	g 6w6 n i:4 n
 gau6si4	g 6w6 s i:4
+gau6si4	g 6w6 s i:2
 ji2	dz i:2
 ji2joi6	dz i:2 dz O:j6
 jou2	dz ow2
@@ -5063,6 +5604,7 @@ jou2ji1dou3	dz ow2 dz i:1 d ow3
 yuk1gwong1	j y:1 k gw O:1 N
 si4	s i:4
 si4ha2	s i:4 h a:2
+si4ha2	s i:4 h a:5
 si4bat1si4	s i:4 b 61 t s i:4
 si4doi6	s i:4 d O:j6
 si4hau6	s i:4 h 6w6
@@ -5084,7 +5626,9 @@ si4gaan3	s i:4 g a:3 n
 si4gaan3biu2	s i:4 g a:3 n b iw2
 wong6	w O:6 N
 ngong4yeung4	N O:4 N j 9:4 N
+ngong4yeung4	O: N4 j 9:4 N
 ngong4gwai3	N O:4 N gw 6j3
+ngong4gwai3	O: N4 gw 6j3
 kwan1saan1	kw 61 n s a:1 n
 kwan1ming4	kw 61 n m i:4 N
 kwan1chung4	kw 61 n ts u:4 N
@@ -5098,12 +5642,14 @@ ming4jeui2	m i:4 N dz 9y2
 ming4tin1	m i:4 N t i:1 n
 ming4chaat3	m i:4 N ts a:3 t
 ming4nin2	m i:4 N l i:2 n
+ming4nin2	m i:4 N n i:2 n
 ming4yat6	m i:4 N j 66 t
 ming4ming4	m i:4 N m i:4 N
 ming4sing1	m i:4 N s i:1 N
 ming4hin2	m i:4 N h i:2 n
 ming4ji3	m i:4 N dz i:3
 ming4jiu1	m i:4 N dz iw1
+ming4jiu1	m i:4 N ts iw4
 ming4baak6	m i:4 N b a:6 k
 ming4kok3	m i:4 N k O:3 k
 yi6	j i:6
@@ -5115,6 +5661,7 @@ sing1kei4yat1	s i:1 N k ej4 j 61 t
 sing1kei4saam1	s i:1 N k ej4 s a:1 m
 sing1kei4yi6	s i:1 N k ej4 j i:6
 sing1kei4m5	s i:1 N k ej4 m5
+sing1kei4m5	s i:1 N k ej4 N5
 sing1kei4luk6	s i:1 N k ej4 l u:6 k
 sing1kei4sei3	s i:1 N k ej4 s ej3
 sing1kei4yat6	s i:1 N k ej4 j 66 t
@@ -5143,6 +5690,7 @@ aan3	a:3 n
 aan3jau3	a:3 n dz 6w3
 saai3	s a:j3
 hiu2	h iw2
+hiu2	f u:1
 fu1yat6	f u:1 j 66 t
 fu1hung4	f u:1 h u:4 N
 maan5	m a:5 n
@@ -5182,8 +5730,11 @@ syu2	s y:2
 nyun5	n y:5 n
 nyun5yi3	n y:5 n j i:3
 am3	6 m3
+am3	N 63 m
 am3jung1	6 m3 dz u:1 N
+am3jung1	N 63 m dz u:1 N
 am3chong1	6 m3 ts O:1 N
+am3chong1	N 63 m ts O:1 N
 kei3	k ej3
 bou6	b ow6
 bou6lik6	b ow6 l i:6 k
@@ -5199,10 +5750,12 @@ kuk1fau6	k u:1 k f 6w6
 kuk1jing6	k u:1 k dz i:6 N
 gang1	g 61 N
 gang3	g 63 N
+gang3	g E:3 N
 chou4seun4git6	ts ow4 s 9:4 n g i:6 t
 chou4wai4gyun1	ts ow4 w 6j4 g y:1 n
 maan6dak1yi5sam1	m a:6 n d 61 k j i:5 s 61 m
 chang4	ts 64 N
+chang4	dz 61 N
 jang1ying4syu1	dz 61 N j i:4 N s y:1
 chang4ging1	ts 64 N g i:1 N
 jang1yuk1tim1	dz 61 N j y:1 k t i:1 m
@@ -5213,10 +5766,12 @@ jeui3	dz 9y3
 jeui3hau6	dz 9y3 h 6w6
 jeui3jung1	dz 9y3 dz u:1 N
 jeui3gan6	dz 9y3 g 66 n
+jeui3gan6	dz 9y3 k 65 n
 yut6	j y:6 t
 yut6hung4	j y:6 t h u:4 N
 yau6	j 6w6
 yau5	j 6w5
+yau5	j 6w6
 yau5wai4	j 6w5 w 6j4
 yau5se1	j 6w5 s E:1
 yau5yan4	j 6w5 j 64 n
@@ -5246,6 +5801,7 @@ yau5yik1	j 6w5 j i:1 k
 yau6jung2	j 6w6 dz u:2 N
 yau5cheui3	j 6w5 ts 9y3
 yau5chin2yan4	j 6w5 ts i:2 n j 64 n
+yau5chin2yan4	j 6w5 ts i:4 n j 64 n
 yau5haan6	j 6w5 h a:6 n
 pang4yau5	p 64 N j 6w5
 fuk6chung4	f u:6 k ts u:4 N
@@ -5260,6 +5816,7 @@ sok3	s O:3 k
 long5ji1	l O:5 N dz i:1
 mong6	m O:6 N
 mong6yi4sang1wai3	m O:6 N j i:4 s 61 N w 6j3
+mong6yi4sang1wai3	m O:6 N j i:4 s a:1 N w 6j3
 jiu1	dz iw1
 jiu1gau2	dz iw1 g 6w2
 jiu1tau4	dz iw1 t 6w4
@@ -5323,6 +5880,7 @@ kyun4jai2	k y:4 n dz 6j2
 kyun4lei6	k y:4 n l ej6
 kyun4lik6	k y:4 n l i:6 k
 chaam3chaam3	s a:3 m s a:3 m
+chaam3chaam3	ts a:3 m ts a:3 m
 lei5gaai1seun4	l ej5 g a:j1 s 9:4 n
 lei5si6wang4	l ej5 s i:6 w 64 N
 lei5wai1seng2	l ej5 w 6j1 s E:2 N
@@ -5372,14 +5930,18 @@ git6hak1seun3wai4yi5si5	g i:6 t h 61 k s 9:3 n w 6j4 j i:5 s i:5
 sung1ha2	s u:1 N h a:2
 sung1ha6lei4	s u:1 N h a:6 l ej4
 sung1dou2	s u:1 N d ow2
+sung1dou2	ts u:4 N d ow2
 sung1chi4	s u:1 N ts i:4
 gik6	g i:6 k
 gik6wai4	g i:6 k w 6j4
 gik6kei4	g i:6 k k ej4
 gik6lik6	g i:6 k l i:6 k
 kau3sing4	g 6w3 s i:4 N
+kau3sing4	k 6w3 s i:4 N
 kau3chou3	k 6w3 ts ow3
+kau3chou3	g 6w3 ts ow3
 lam4	l 64 m
+lam4	l 64 n
 lam4yu5keung5	l 64 m j y:5 k 9:5 N
 lam4yip6	l 64 m j i:6 p
 lam4fung1sing4	l 64 m f u:1 N s i:4 N
@@ -5404,6 +5966,7 @@ lam4nga5ling4	l 64 m N a:5 l i:4 N
 lam4jing6ying1	l 64 m dz i:6 N j i:1 N
 lam4jing6yam1	l 64 m dz i:6 N j 61 m
 go2	g O:2
+go2	gw O:2
 gwo2di1	gw O:2 d i:1
 gwo3jap1	gw O:3 dz 61 p
 syu1nau2	s y:1 n 6w2
@@ -5414,18 +5977,21 @@ fu1chou3	f u:1 ts ow3
 ga3ji2	g a:3 dz i:2
 ga3hung1	g a:3 h u:1 N
 paak3tin1nei4	p a:3 k t i:1 n l ej4
+paak3tin1nei4	p a:3 k t i:1 n n ej4
 paak3yau2lou6	p a:3 k j 6w2 l ow6
 mau5	m 6w5
 mau5yan4	m 6w5 j 64 n
 mau5yat6	m 6w5 j 66 t
 gwai2yun4gei1	gw 6j2 j y:4 n g ej1
 ling4hou4	l i:4 N h ow4
+ling4hou4	n i:4 N h ow4
 cha4	ts a:4
 cha4cheut1	ts a:4 ts 9:1 t
 cha4fung1	ts a:4 f u:1 N
 cha4ye4wa4lo4maan6	ts a:4 j E:4 w a:4 l O:4 m a:6 n
 cha4yut6	ts a:4 j y:6 t
 gaan2bou3jaai6	g a:2 n b ow3 dz a:j6
+gaan2bou3jaai6	g a:2 n p ow3 dz a:j6
 o1gun3git6	O:1 g u:3 n g i:6 t
 lau5	l 6w5
 lau5jau1	l 6w5 dz 6w1
@@ -5442,6 +6008,7 @@ syu6muk6	s y:6 m u:6 k
 syu6hung4	s y:6 h u:4 N
 syu6ba1	s y:6 b a:1
 chai1	s 6j1
+chai1	ts 6j1
 haau6	h a:w6
 haau6gaam1	h a:w6 g a:1 m
 haau6jeung2	h a:w6 dz 9:2 N
@@ -5481,8 +6048,11 @@ gwai3fong1	gw 6j3 f O:1 N
 kwaang1ga3	kw a:1 N g a:3
 kwaang1kwaang1	kw a:1 N kw a:1 N
 on3	O: n3
+on3	N O:3 n
 on3gin2	O: n3 g i:2 n
+on3gin2	N O:3 n g i:2 n
 on3lai6	O: n3 l 6j6
+on3lai6	N O:3 n l 6j6
 tung4	t u:4 N
 song1daat6	s O:1 N d a:6 t
 dong3hau2	d O:3 N h 6w2
@@ -5537,6 +6107,7 @@ mou2ling4leung5ho2	m ow2 l i:4 N l 9:5 N h O:2
 waang4dim3	w a:4 N d i:3 m
 ying1fa1	j i:1 N f a:1
 him3	h i:3 m
+him3	h i:3 n
 chi3	ts i:3
 chi3kap1	ts i:3 k 61 p
 fun1hei2	f u:1 n h ej2
@@ -5546,13 +6117,21 @@ yan1hei1	j 61 n h ej1
 yan1yin4	j 61 n j i:4 n
 yan1seung2	j 61 n s 9:2 N
 au1	6w1
+au1	N 6w1
 au1bei2dak6	6w1 b ej2 d 66 k
+au1bei2dak6	N 6w1 b ej2 d 66 k
 au1jau1	6w1 dz 6w1
+au1jau1	N 6w1 dz 6w1
 au1jau1che1	6w1 dz 6w1 ts E:1
+au1jau1che1	N 6w1 dz 6w1 ts E:1
 au1mang4	6w1 m 64 N
+au1mang4	N 6w1 m 64 N
 au1mei5	6w1 m ej5
+au1mei5	N 6w1 m ej5
 au1lyun4	6w1 l y:4 n
+au1lyun4	N 6w1 l y:4 n
 au1fei1	6w1 f ej1
+au1fei1	N 6w1 f ej1
 yuk6	j y:6 k
 yuk6yin4waan4yau1	j y:6 k j i:4 n w a:4 n j 6w1
 yuk6yu5waan4yau1	j y:6 k j y:5 w a:4 n j 6w1
@@ -5627,11 +6206,13 @@ duk6sou3	d u:6 k s ow3
 duk6se4	d u:6 k s E:4
 bei2	b ej2
 bei2leut6	b ej2 l 9:2 t
+bei2leut6	b ej2 l 9:6 t
 bei2lei5jik6hei3	b ej2 l ej5 dz i:6 k h ej3
 bei2choi3	b ej2 ts O:j3
 bei2gaau3	b ej2 g a:w3
 bei2chung5	b ej2 ts u:5 N
 bat1yip6sang1	b 61 t j i:6 p s 61 N
+bat1yip6sang1	b 61 t j i:6 p s a:1 N
 mou4	m ow4
 mou4jit3hou4	m ow4 dz i:3 t h ow4
 mou4beng6	m ow4 b E:6 N
@@ -5649,6 +6230,7 @@ man4gwok3	m 64 n gw O:3 k
 man4geui1	m 64 n g 9y1
 man4gung1fong1	m 64 n g u:1 N f O:1 N
 man4fong2	m 64 n f O:2 N
+man4fong2	m 64 n f O:4 N
 man4juk6	m 64 n dz u:6 k
 man4sang1	m 64 n s 61 N
 man4gaan1	m 64 n g a:1 n
@@ -5689,7 +6271,9 @@ wing5	w i:5 N
 wing5lok6geui1	w i:5 N l O:6 k g 9y1
 wing5chyun4	w i:5 N ts y:4 n
 wing5on1	w i:5 N N O:1 n
+wing5on1	w i:5 N O: n1
 wing5on1geui1	w i:5 N N O:1 n g 9y1
+wing5on1geui1	w i:5 N O: n1 g 9y1
 wing5jau1	w i:5 N dz 6w1
 wing5hong1	w i:5 N h O:1 N
 wing5keung5	w i:5 N k 9:5 N
@@ -5732,6 +6316,7 @@ gong1fung1	g O:1 N f u:1 N
 chi4	ts i:4
 chi4seui2	ts i:4 s 9y2
 wu1yim5	w u:1 j i:5 m
+wu1yim5	w u:1 j i:5 n
 wu1juk6	w u:1 dz u:6 k
 tong1	t O:1 N
 wong1	w O:1 N
@@ -5757,6 +6342,7 @@ chong1song1	ts O:1 N s O:1 N
 wu6si6	w u:6 s i:6
 jeui2song3	dz 9y2 s O:3 N
 ho4	h O:4
+ho4	h O:2
 ho4bak1	h O:4 b 61 k
 ho4bak1saang2	h O:4 b 61 k s a:2 N
 ho4naam4	h O:4 n a:4 m
@@ -5765,6 +6351,7 @@ ho4chi4	h O:4 ts i:4
 ho4waan1bun3dou2	h O:4 w a:1 n b u:3 n d ow2
 ho4yun4	h O:4 j y:4 n
 yau2	j 6w2
+yau2	j 6w4
 yau2hei3	j 6w2 h ej3
 yau4tin4	j 6w4 t i:4 n
 yau4wa2	j 6w4 w a:2
@@ -5794,6 +6381,7 @@ faat3yun2	f a:3 t j y:2 n
 faan6faan6ji1gaau1	f a:6 n f a:6 n dz i:1 g a:w1
 faan6faan6ji1bui3	f a:6 n f a:6 n dz i:1 b u:j3
 paau3mut6	p a:w3 m u:6 t
+paau3mut6	p ow5 m u:6 t
 bo1	b O:1
 bo1dung6	b O:1 d u:6 N
 bo1tou4	b O:1 t ow4
@@ -5809,6 +6397,7 @@ leui6	l 9y6
 leui6seui2	l 9y6 s 9y2
 taai3	t a:j3
 taai3ngon1	t a:j3 N O:1 n
+taai3ngon1	t a:j3 O: n1
 taai3saan1	t a:j3 s a:1 n
 wing6sau2	w i:6 N s 6w2
 lou4jau1	l ow4 dz 6w1
@@ -5816,9 +6405,11 @@ put3	p u:3 t
 jaak6	dz a:6 k
 yeung4yan4	j 9:4 N j 64 n
 yeung4ho2	j 9:4 N h O:2
+yeung4ho2	j 9:4 N h O:4
 yeung4yeung4	j 9:4 N j 9:4 N
 yeung4yat6	j 9:4 N j 66 t
 sai2	s 6j2
+sai2	s i:2 n
 lok6yeung4	l O:6 k j 9:4 N
 dung6	d u:6 N
 jeun1	dz 9:1 n
@@ -5833,6 +6424,7 @@ hung4lau4	h u:4 N l 6w4
 hung4jan1jyu1	h u:4 N dz 61 n dz y:1
 wut6	w u:6 t
 wut6bat1ha2	w u:6 t b 61 t h a:2
+wut6bat1ha2	w u:6 t b 61 t h a:6
 wut6lik6	w u:6 t l i:6 k
 wut6dung6	w u:6 t d u:6 N
 wut6fa3sek6	w u:6 t f a:3 s E:6 k
@@ -5856,6 +6448,7 @@ chin2	ts i:2 n
 chin2bok6	ts i:2 n b O:6 k
 giu1	g iw1
 chaak1si3	ts a:1 k s i:3
+chaak1si3	ts 61 k s i:3
 jai3naam4	dz 6j3 n a:4 m
 jai3ning4	dz 6j3 n i:4 N
 wan6san1	w 66 n s 61 n
@@ -5864,7 +6457,9 @@ jit3gong1	dz i:3 t g O:1 N
 pou2dung1	p ow2 d u:1 N
 hou6	h ow6
 hou6hing3	h ow6 h i:1 N
+hou6hing3	h ow6 h i:3 N
 hou6gip3	h ow3 g i:3 p
+hou6gip3	h ow6 g i:3 p
 long6maan6	l O:6 N m a:6 n
 long6sa1	l O:6 N s a:1
 long6fai3	l O:6 N f 6j3
@@ -5875,12 +6470,15 @@ hoi2san1	h O:j2 s 61 n
 hoi2gwaan1	h O:j2 gw a:1 n
 hoi2gwan1	h O:j2 gw 61 n
 hoi2naam4	h O:j2 l a:4 m
+hoi2naam4	h O:j2 n a:4 m
 hoi2mei2	h O:j2 m ej2
 hoi2ngoi6	h O:j2 N O:j6
 hoi2ning4	h O:j2 n i:4 N
 hoi2ngon6sin3	h O:j2 N O:6 n s i:3 n
+hoi2ngon6sin3	h O:j2 O: n6 s i:3 n
 hoi2si5cheung4	h O:j2 s i:5 ts 9:4 N
 hoi2ping4min2	h O:j2 p i:4 N m i:2 n
+hoi2ping4min2	h O:j2 p i:4 N m i:6 n
 hoi2sing1	h O:j2 s i:1 N
 hoi2lam4	h O:j2 l 64 m
 hoi2yan1	h O:j2 j 61 n
@@ -5891,6 +6489,7 @@ hoi2tou4	h O:j2 t ow4
 hoi2waan1	h O:j2 w a:1 n
 hoi2jyu1keui1	h O:j2 dz y:1 k 9y1
 hoi2saang1	h O:j2 s 61 N
+hoi2saang1	h O:j2 s a:1 N
 hoi2syun4	h O:j2 s y:4 n
 hoi2jong3	h O:j2 dz O:3 N
 hoi2bin1	h O:j2 b i:1 n
@@ -5899,6 +6498,7 @@ hoi2mun4	h O:j2 m u:4 n
 hoi2fut3tin1hung1	h O:j2 f u:3 t t i:1 n h u:1 N
 hoi2mou6	h O:j2 m ow6
 hoi2min6	h O:j2 m i:2 n
+hoi2min6	h O:j2 m i:6 n
 hoi2sin1	h O:j2 s i:1 n
 jam3	dz 63 m
 siu1	s iw1
@@ -5920,11 +6520,14 @@ siu1cheui4	s iw1 ts 9y4
 sip3sip3lip6	s i:3 p s i:3 p l i:6 p
 sip3lip6	s i:3 p l i:6 p
 yung2	j y:2 N
+yung2	ts u:1 N
 yung2yap6	j y:2 N j 66 p
 yung2yin6	j y:2 N j i:6 n
 lin4yun4si5	l i:4 n j y:4 n s i:5
 jeung2	dz 9:2 N
+jeung2	dz 9:3 N
 jeung2sing1	dz 9:2 N s i:1 N
+jeung2sing1	dz 9:3 N s i:1 N
 fau4ling4	f 6w4 l i:4 N
 yik6taai3	j i:6 k t a:j3
 haam4	h a:4 m
@@ -5938,14 +6541,18 @@ daam6	d a:6 m
 waai4bak1	w a:j4 b 61 k
 waai4naam4	w a:j4 n a:4 m
 waai4on1	w a:j4 N O:1 n
+waai4on1	w a:j4 O: n1
 sam1	s 61 m
+sam1	s 61 n
 sam1yat1chang4	s 61 m j 61 t ts 64 N
 sam1seun3	s 61 m s 9:3 n
 sam1chit3	s 61 m ts i:3 t
 sam1hau5	s 61 m h 6w5
 sam1sau6	s 61 m s 6w6
 sam1jan3	s 61 m dz 63 n
+sam1jan3	s 61 n dz 63 n
 sam1jan3si5	s 61 m dz 63 n s i:5
+sam1jan3si5	s 61 n dz 63 n s i:5
 sam1chyu3	s 61 m ts y:3
 sam1bou2	s 61 m b ow2
 sam1chang4	s 61 m ts 64 N
@@ -5959,6 +6566,7 @@ wan6jung2	w 66 n dz u:2 N
 yim1mut6	j i:1 m m u:6 t
 tim1ga1jai1	t i:1 m g a:1 dz 6j1
 cheng1	ts E:1 N
+cheng1	ts i:1 N
 ching1doi6	ts i:1 N d O:j6
 ching1leung4	ts i:1 N l 9:4 N
 ching1chaak3	ts i:1 N ts a:3 k
@@ -5977,6 +6585,7 @@ ching1yun5	ts i:1 N j y:5 n
 ching1yun5si5	ts i:1 N j y:5 n s i:5
 yun1yun4	j y:1 n j y:4 n
 jim1	dz i:1 m
+jim1	dz i:6 m
 jim6jim6	dz i:6 m dz i:6 m
 yu4	j y:4
 yu4yip6	j y:4 j i:6 p
@@ -6047,6 +6656,7 @@ mun5jau1lei5	m u:5 n dz 6w1 l ej5
 mun5hong1	m u:5 n h O:1 N
 mun5juk1	m u:5 n dz u:1 k
 mun5juk1gam2	m u:5 n dz u:1 k g 62 m
+mun5juk1gam2	m u:5 n dz u:1 k g 62 n
 laam6gaau1	l a:6 m g a:w1
 ban1jau1	b 61 n dz 6w1
 piu3leung6	p iw3 l 9:6 N
@@ -6060,6 +6670,8 @@ mok6si6	m O:6 k s i:6
 maan6mou4muk6dik1	m a:6 n m ow4 m u:6 k d i:1 k
 maan6yau4	m a:6 n j 6w4
 leui5	l 9y5
+leui5	l O:3 k
+leui5	t a:3 p
 jeung1jau1	dz 9:1 N dz 6w1
 jeung1ping4	dz 9:1 N p i:4 N
 jeung1jaak6	dz 9:1 N dz a:6 k
@@ -6068,7 +6680,9 @@ siu1sa2	s iw1 s a:2
 wai4	w 6j4
 chim4fuk6kei4	ts i:4 m f u:6 k k ej4
 chim4yap6	ts i:4 m j 66 p
+chim4yap6	ts i:4 n j 66 p
 chim4lik6	ts i:4 m l i:6 k
+chim4lik6	ts i:4 n l i:6 k
 chim4joi6	ts i:4 m dz O:j6
 chim4yi3sik1	ts i:4 m j i:3 s i:1 k
 chim4gong1	ts i:4 m g O:1 N
@@ -6079,7 +6693,10 @@ chiu4	ts iw4
 laan4sek6keui1	l a:4 n s E:6 k k 9y1
 ou3jau1	N ow3 dz 6w1
 ou3jau1	ow3 dz 6w1
+ou3jau1	ow3 dz 6w1
+ou3jau1	N ow3 dz 6w1
 ou3mun2	ow3 m u:2 n
+ou3mun2	N ow3 m u:2 n
 gik1	g i:1 k
 gik1gwong1	g i:1 k gw O:1 N
 gik1dung6	g i:1 k d u:6 N
@@ -6139,6 +6756,7 @@ yin4	j i:4 n
 yin4hau6	j i:4 n h 6w6
 yin4yi4	j i:4 n j i:4
 jin1ngou4	dz i:1 n N ow4
+jin1ngou4	dz i:1 n ow4
 mui4hei3	m u:j4 h ej3
 mui4hei3gun2	m u:j4 h ej3 g u:2 n
 mui4mui4hei3hei3	m u:j4 m u:j4 h ej3 h ej3
@@ -6151,6 +6769,9 @@ hung4jeung2	h u:4 N dz 9:2 N
 suk6	s u:6 k
 suk6sik1	s u:6 k s i:1 k
 ngou4ye6	6w4 j E:2
+ngou4ye6	N 6w4 j E:2
+ngou4ye6	N ow4 j E:6
+ngou4ye6	ow4 j E:6
 yin4liu2	j i:4 n l iw2
 yin3nei4	j i:3 n n ej4
 yin3ping4	j i:3 n p i:4 N
@@ -6159,14 +6780,19 @@ baau3faat3	b a:w3 f a:3 t
 pa4saan1sip3seui2	p a:4 s a:1 n s i:3 p s 9y2
 ngoi3	N O:j3
 oi3seung5	N O:j3 s 9:5 N
+oi3seung5	O:j3 s 9:5 N
 ngoi3gwok3ji1si6	N O:j3 gw O:3 k dz i:1 s i:6
 ngoi3hou3	N O:j3 h ow3
 oi3sam1	O:j3 s 61 m
+oi3sam1	N O:j3 s 61 m
 oi3lyun2	N O:j3 l y:2 n
+oi3lyun2	O:j3 l y:2 n
 ngoi3ching4	N O:j3 ts i:4 N
 oi3wu6	N O:j3 w u:6
+oi3wu6	O:j3 w u:6
 ngoi3ji1beng6	N O:j3 dz i:1 b E:6 N
 oi3ji1beng6yat6	N O:j3 dz i:1 b E:6 N j 66 t
+oi3ji1beng6yat6	O:j3 dz i:1 b E:6 N j 66 t
 jeuk3si6	dz 9:3 k s i:6
 jeuk3si6ngok6	dz 9:3 k s i:6 N O:6 k
 fu6	f u:6
@@ -6214,6 +6840,7 @@ dak6sing3	d 66 k s i:3 N
 dak6yau5	d 66 k j 6w5
 dak6syu4	d 66 k s y:4
 dak6dim2	d 66 k d i:2 m
+dak6dim2	d 66 k d i:2 n
 dak6sik1	d 66 k s i:1 k
 dak6heui2	d 66 k h 9y2
 dak6cheung4	d 66 k ts 9:4 N
@@ -6239,6 +6866,7 @@ duk6go3	d u:6 k g O:3
 duk6syu6yat1chi3	d u:6 k s y:6 j 61 t ts i:3
 duk6dak6	d u:6 k d 66 k
 duk6saang1	d u:6 k s a:1 N
+duk6saang1	d u:6 k s 61 N
 duk6ngaan5lung4	d u:6 k N a:5 n l u:4 N
 duk6lap6	d u:6 k l 66 p
 duk6ji6	d u:6 k dz i:6
@@ -6272,6 +6900,7 @@ wong4yin3lin4	w O:4 N j i:3 n l i:4 n
 wong4yik6yi2	w O:4 N j i:6 k j i:2
 wong4yu5yun4	w O:4 N j y:5 j y:4 n
 wun6geui6	w u:6 n g 9y6
+wun6geui6	w a:2 n g 9y6
 wai4	w 6j4
 waan4bou2	w a:4 n b ow2
 waan4ging2	w a:4 n g i:2 N
@@ -6325,6 +6954,7 @@ lei5gaai2lik6	l ej5 g a:j2 l i:6 k
 lei5choi4	l ej5 ts O:j4
 lam4long4mun5muk6	l 64 m l O:4 N m u:5 n m u:6 k
 kam4	k 64 m
+kam4	k 64 n
 yu4ga1	j y:4 g a:1
 seui6fung1	s 9y6 f u:1 N
 seui6din2	s 9y6 d i:2 n
@@ -6333,27 +6963,37 @@ seui6si6	s 9y6 s i:6
 seui6on1	s 9y6 O: n1
 seui6bui3ka1	s 9y6 b u:j3 k a:1
 nga5fong2dim3	N a:5 f O:2 N d i:3 m
+nga5fong2dim3	N a:5 f O:4 N d i:3 m
 nga5bou1	N a:5 b ow1
 ling4	l i:4 N
 gam1suk1	g 61 m s u:1 k
+gam1suk1	g 61 n s u:1 k
 sam6	s 66 m
 sam6ji3	s 66 m dz i:3
 tim4ban2	t i:4 m b 62 n
+tim4ban2	t i:4 n b 62 n
 tim4dim2	t i:4 m d i:2 m
 tim4mei5	t i:4 m m ej5
 saang1	s a:1 N
+saang1	s 61 N
 sang1chaan2	s 61 N ts a:2 n
 sang1chaan2lik6	s 61 N ts a:2 n l i:6 k
+sang1chaan2lik6	s a:1 N ts a:2 n l i:6 k
 saang1yan4	s a:1 N j 64 n
 saang1pik1	s a:1 N p i:1 k
 sang1ming6	s 61 N m i:6 N
 sang1ming6lik6	s 61 N m i:6 N l i:6 k
+sang1ming6lik6	s a:1 N m i:6 N l i:6 k
 saang1ji6	s a:1 N dz i:6
 sang1chyun4	s 61 N ts y:4 n
+sang1chyun4	s a:1 N ts y:4 n
 sang1chyun4kyun4	s 61 N ts y:4 n k y:4 n
+sang1chyun4kyun4	s a:1 N ts y:4 n k y:4 n
 saang1ping4	s a:1 N p i:4 N
 sang1taai3	s 61 N t a:j3
+sang1taai3	s a:1 N t a:j3
 saang1taai3saang2	s 61 N t a:j3 s a:2 N
+saang1taai3saang2	s a:1 N t a:j3 s a:2 N
 saang1sing3fok6daat6	s a:1 N s i:3 N f O:6 k d a:6 t
 saang1yi3	s a:1 N j i:3
 saang1haau6	s a:1 N h a:w6
@@ -6361,20 +7001,26 @@ saang1yat6	s a:1 N j 66 t
 saang1gwo2	s a:1 N gw O:2
 saang1sei2	s a:1 N s ej2
 sang1hei3	s 61 N h ej3
+sang1hei3	s a:1 N h ej3
 sang1wut6	s 61 N w u:6 t
 sang1wut6waan4ging2	s 61 N w u:6 t w a:4 n g i:2 N
+sang1wut6waan4ging2	s a:1 N w u:6 t w a:4 n g i:2 N
 sang1ngaai4	s 61 N N a:j4
 saang1mat6	s a:1 N m 66 t
 sang1mat6gaai3	s 61 N m 66 t g a:j3
 sang1lei5	s 61 N l ej5
+sang1lei5	s a:1 N l ej5
 saang1beng6	s 61 N b E:6 N
+saang1beng6	s a:1 N b E:6 N
 saang1sau3	s a:1 N s 6w3
 sang1jeung2	s 61 N dz 9:2 N
+sang1jeung2	s a:1 N dz 9:2 N
 yung6	j y:6 N
 yung6ji1yu1man4	j y:6 N dz i:1 j y:1 m 64 n
 yung6ban2	j y:6 N b 62 n
 yung6sam1	j y:6 N s 61 m
 yung6wu6	j y:6 N w u:6
+yung6wu6	j y:6 N w u:5
 yung6loi4	j y:6 N l O:j4
 yung6faat3	j y:6 N f a:3 t
 yung6yu5	j y:6 N j y:5
@@ -6385,6 +7031,7 @@ yau4chi2	j 6w4 ts i:2
 gaap3tin1ha6	g a:3 p t i:1 n h a:6
 san1sou3	s 61 n s ow3
 san1ching2	s 61 n ts i:2 N
+san1ching2	s 61 n ts i:1 N
 san1daat6	s 61 n d a:6 t
 din6	d i:6 n
 din6seun3	d i:6 n s 9:3 n
@@ -6414,6 +7061,8 @@ naam4ji2	n a:4 m dz i:2
 naam4haai4ji2	n a:4 m h a:j4 dz i:2
 naam4jong1	n a:4 m dz O:1 N
 wa2	w a:2
+wa2	w a:6
+wa2	w a:6 k
 bei2	b ej2
 cheung3	ts 9:3 N
 cheung3cheung3seun6	ts 9:3 N ts 9:3 N s 9:6 n
@@ -6425,6 +7074,7 @@ lau4	l 6w4
 lau4ha6	l 6w4 h a:6
 lau4ha6loi4	l 6w4 h a:6 l O:j4
 lau4hok6sang1	l 6w4 h O:6 k s 61 N
+lau4hok6sang1	l 6w4 h O:6 k s a:1 N
 lau4lyun2	l 6w4 l y:2 n
 lau4yi3	l 6w4 j i:3
 lau4yeung4	l 6w4 j 9:4 N
@@ -6440,6 +7090,7 @@ so1saan3	s O:1 s a:3 n
 so1lei4	s O:1 l ej4
 so1wan6	s O:1 w 66 n
 yi4beng6jing3	j i:4 b E:6 N dz i:1 N
+yi4beng6jing3	j i:4 b E:6 N dz i:3 N
 liu4haau6	l iw4 h a:w6
 ba1han4	b a:1 h 64 n
 yik6ching4	j i:6 k ts i:4 N
@@ -6462,26 +7113,33 @@ beng6jing3	b E:6 N dz i:3 N
 beng6je2	b E:6 N dz E:2
 beng6mo1	b E:6 N m O:1
 jing1	dz i:1 N
+jing1	dz i:3 N
 jing1siu6	dz i:1 N s iw6
 jing1jong6	dz i:1 N dz O:6 N
+jing1jong6	dz i:3 N dz O:6 N
 han4jik1	h 64 n dz i:1 k
 tung3	t u:3 N
 tung3han6	t u:3 N h 66 n
 tung3cho2	t u:3 N ts O:2
 tung3fu2	t u:3 N f u:2
 chi1daai1jing3	ts i:1 N O:4 dz i:3 N
+chi1daai1jing3	ts i:1 d a:j1 dz i:3 N
 sau3	s 6w3
 sau3san1	s 6w3 s 61 n
 ngaam4	N a:4 m
 ngaam4jing3	N a:4 m dz i:1 N
+ngaam4jing3	N a:4 m dz i:3 N
 ngaam4sai3baau1	N a:4 m s 6j3 b a:w1
 dang1saan1	d 61 N s a:1 n
 baak6	b a:6 k
 baak6sing4	b a:6 k s E:4 N
+baak6sing4	b a:6 k s i:4 N
 baak6gung1	b a:6 k g u:1 N
 baak6saan1	b a:6 k s a:1 n
 baak6mung4mung4	b a:6 k m u:4 N m u:4 N
+baak6mung4mung4	b a:6 k m u:1 N m u:1 N
 baak6ngan4	b a:6 k N 62 n
+baak6ngan4	b a:6 k N 64 n
 baak3	b a:3 k
 baak3maan6	b a:3 k m a:6 n
 baak3fan1	b a:3 k f 61 n
@@ -6492,6 +7150,7 @@ baak3bou6ji1noi6	b a:3 k b ow6 dz i:1 n O:j6
 baak3sik1	b a:3 k s i:1 k
 baak3yut6	b a:3 k j y:6 t
 baak3jyun2chin1wui4	b a:3 k dz y:2 n ts i:1 n w u:j4
+baak3jyun2chin1wui4	b a:3 k dz y:3 n ts i:1 n w u:j4
 dik1	d i:1 k
 dik1yan4	d i:1 k j 64 n
 dik1si2	d i:1 k s i:2
@@ -6515,6 +7174,7 @@ ying4lei6	j i:4 N l ej6
 yik1	j i:1 k
 yik1yeung4	j i:1 k j 9:4 N
 on1si6	N O:1 n s i:6
+on1si6	O: n1 s i:6
 jaan2	dz a:2 n
 gaam1	g a:1 m
 gaam1chaat3	g a:1 m ts a:3 t
@@ -6523,6 +7183,7 @@ gaam1duk1	g a:1 m d u:1 k
 gaam1gun2	g a:1 m g u:2 n
 gaam1si6	g a:1 m s i:6
 hap2ji2	h 62 p dz i:2
+hap2ji2	h 66 p dz i:2
 koi3	k O:j3
 koi3tau4	k O:j3 t 6w4
 koi3jau1	k O:j3 dz 6w1
@@ -6530,6 +7191,7 @@ dou6	d ow6
 pun4	p u:4 n
 pun4wut6	p u:4 n w u:6 t
 sing6wui2	s i:6 N w u:j2
+sing6wui2	s i:6 N w u:j6
 sing6gong1	s i:6 N g O:1 N
 sing6gong1si5	s i:6 N g O:1 N s i:5
 sing4gik6yat1si4	s i:4 N g i:6 k j 61 t s i:4
@@ -6571,6 +7233,7 @@ seung1gaak3	s 9:1 N g a:3 k
 paan3mong6	p a:3 n m O:6 N
 saang2	s a:2 N
 hon1	h O:1 n
+hon1	h O:3 n
 hon3seung5heui3	h O:3 n s 9:5 N h 9y3
 hon3bat1gin3	h O:3 n b 61 t g i:3 n
 hon3jung3	h O:3 n dz u:3 N
@@ -6579,6 +7242,7 @@ hon3cheut1	h O:3 n ts 9:1 t
 hon3dou3	h O:3 n d ow3
 hon1lai4	h O:1 n l 6j4
 hon1doi6	h O:1 n d O:j6
+hon1doi6	h O:3 n d O:j6
 hon3dak1hei2	h O:3 n d 61 k h ej2
 hon3faat3	h O:3 n f a:3 t
 hon3cheng1	h O:3 n ts E:1 N
@@ -6601,10 +7265,12 @@ jan1hai6	dz 61 n h 6j6
 jan1sing4	dz 61 n s i:4 N
 jan1sing4yi3	dz 61 n s i:4 N j i:3
 jan1wa2	dz 61 n w a:2
+jan1wa2	dz 61 n w a:6
 jan1dai3	dz 61 n d 6j3
 min4	m i:4 n
 ngaan5	N a:5 n
 ngaan5jung1deng1	N a:5 n dz u:1 N d E:1 N
+ngaan5jung1deng1	N a:5 n dz u:1 N d i:1 N
 ngaan5gwong1	N a:5 n gw O:1 N
 ngaan5chin4	N a:5 n ts i:4 n
 ngaan5lim4	N a:5 n l i:4 m
@@ -6628,6 +7294,7 @@ seun3gaan1	s 9:3 n g a:1 n
 maau4tau4	m a:w4 t 6w4
 chi2ji3	ts i:2 dz i:3
 ji1	dz i:1
+ji1	dz i:3
 ji1gaau1	dz i:1 g a:w1
 ji1ming4	dz i:1 m i:4 N
 ji1ming4yan4si6	dz i:1 m i:4 N j 64 n s i:6
@@ -6636,6 +7303,7 @@ ji1gei2	dz i:1 g ej2
 ji1fu1	dz i:1 f u:1
 ji3sik1	dz i:3 s i:1 k
 ji1sik1	dz i:1 s i:1 k
+ji1sik1	dz i:3 s i:1 k
 ji1sik1chaan2kyun4	dz i:1 s i:1 k ts a:2 n k y:4 n
 ji1sik1ji1sik1	dz i:1 s i:1 k dz i:1 s i:1 k
 ji1jeui3	dz i:1 dz 9y3
@@ -6647,6 +7315,7 @@ dyun2chuk1	d y:2 n ts u:1 k
 dyun2chyu2	d y:2 n ts y:2
 dyun2jaam6	d y:2 n dz a:6 m
 dyun2pin3	d y:2 n p i:3 n
+dyun2pin3	d y:2 n p i:2 n
 dyun2dyun2	d y:2 n d y:2 n
 dyun2kyut3	d y:2 n k y:3 t
 ngai2	N 6j2
@@ -6659,13 +7328,17 @@ sek6ga1jong1	s E:6 k g a:1 dz O:1 N
 sek6ho4ji2	s E:6 k h O:4 dz i:2
 sek6yau4	s E:6 k j 6w4
 sek6fui1ngaam4	s E:6 k f u:j1 N a:4 m
+sek6fui1ngaam4	s E:6 k f u:j1 a:4 m
 sek6si1	s E:6 k s i:1
 sek6fat1	s E:6 k f 61 t
 sek6biu1	s E:6 k b iw1
 sek6gok3hau2	s E:6 k g O:3 k h 6w2
 kong3yip6gu2	k O:3 N j i:6 p g u:2
+kong3yip6gu2	kw O:3 N j i:6 p g u:2
 kwong3mat6	k O:3 N m 66 t
+kwong3mat6	kw O:3 N m 66 t
 kong3mat6jat1	k O:3 N m 66 t dz 61 t
+kong3mat6jat1	kw O:3 N m 66 t dz 61 t
 ma5tau4	m a:5 t 6w4
 yin4	j i:4 n
 yin4jai3	j i:4 n dz 6j3
@@ -6680,6 +7353,7 @@ po3seui3	p O:3 s 9y3
 po3lit6	p O:3 l i:6 t
 jaak6ha6	dz a:6 k h a:6
 sek6si6sang1	s E:6 k s i:6 s 61 N
+sek6si6sang1	s E:6 k s i:6 s a:1 N
 ngaang6	N a:6 N
 kok3	k O:3 k
 kok3bou2	k O:3 k b ow2
@@ -6691,6 +7365,7 @@ seui3	s 9y3
 seui3lit6	s 9y3 l i:6 t
 pung3seung5	p u:3 N s 9:5 N
 pung3dou3	p u:3 N d ow3
+pung3dou3	p u:3 N d ow2
 pung3deng1	p u:3 N d E:1 N
 chi4tai2	ts i:4 t 6j2
 chi4sing3	ts i:4 s i:3 N
@@ -6701,6 +7376,7 @@ lai5baai3yat1	l 6j5 b a:j3 j 61 t
 lai5baai3saam1	l 6j5 b a:j3 s a:1 m
 lai5baai3yi6	l 6j5 b a:j3 j i:6
 lai5baai3ng5	l 6j5 b a:j3 N5
+lai5baai3ng5	l 6j5 b a:j3 m5
 lai5baai3luk6	l 6j5 b a:j3 l u:6 k
 lai5baai3sei3	l 6j5 b a:j3 s ej3
 lai5baai3yat6	l 6j5 b a:j3 j 66 t
@@ -6736,6 +7412,7 @@ gam1yin1	g 61 m j i:1 n
 fuk1	f u:1 k
 fuk1lei6	f u:1 k l ej6
 fuk1ngon1	f u:1 k N O:1 n
+fuk1ngon1	f u:1 k O: n1
 fuk1dou2	f u:1 k d ow2
 fuk1jau1	f u:1 k dz 6w1
 fuk1gin3	f u:1 k g i:3 n
@@ -6761,9 +7438,11 @@ wo4tin4	w O:4 t i:4 n
 sau3	s 6w3
 sau3lai6	s 6w3 l 6j6
 sau3fung6	s 6w3 f u:2 N
+sau3fung6	s 6w3 f u:6 N
 sau3jan1	s 6w3 dz 61 n
 si1	s i:1
 si1kei5	s i:1 k ej5
+si1kei5	s i:1 k ej2
 si1yau6fa3	s i:1 j 6w6 f a:3
 si1ying4	s i:1 j i:4 N
 si1yu5	s i:1 j y:5
@@ -6785,6 +7464,7 @@ fo1gung1mau6	f O:1 g u:1 N m 6w6
 fo1gei6	f O:1 g ej6
 fo1gaau3	f O:1 g a:w3
 fo1gaau3man4	f O:1 g a:w3 m 62 n
+fo1gaau3man4	f O:1 g a:w3 m 64 n
 fo1bei2	f O:1 b ej2
 fo1yin4	f O:1 j i:4 n
 miu5	m iw5
@@ -6808,6 +7488,7 @@ ching3	ts i:3 N
 ching1wai4	ts i:1 N w 6j4
 ching1hou6	ts i:1 N h ow6
 ching1ching1	ts i:1 N ts i:1 N
+ching1ching1	ts i:3 N ts i:3 N
 ching1jaan3	ts i:1 N dz a:3 n
 ching1hung4	ts i:1 N h u:4 N
 yi4	j i:4
@@ -6890,34 +7571,44 @@ dai6gau2	d 6j6 g 6w2
 dai6yi6	d 6j6 j i:6
 dai6yi6hou6	d 6j6 j i:6 h ow6
 dai6ng5	d 6j6 N5
+dai6ng5	d 6j6 m5
 dai6ng5sap6gau2	d 6j6 N5 s 66 p g 6w2
+dai6ng5sap6gau2	d 6j6 m5 s 66 p g 6w2
 dai6luk6	d 6j6 l u:6 k
 dai6sap6yi6	d 6j6 s 66 p j i:6
 dai6sei3	d 6j6 s ej3
 lung4jaau3	l u:4 N dz a:w3
 dang2	d 62 N
 dang2yu1	d 62 N j y:1
+dang2yu1	d 62 N j y:4
 dang2dou3	d 62 N d ow3
+dang2dou3	d 62 N d ow2
 dang2doi6	d 62 N d O:j6
 dang2dang2	d 62 N d 62 N
 daap3wan5	d a:3 p w 65 n
 daap3ying3	d a:3 p j i:3 N
 daap3on3	d a:3 p O: n3
+daap3on3	d a:3 p N O:3 n
 chaak3waak6	ts a:3 k w a:6 k
 chaak3leuk6	ts a:3 k l 9:6 k
 faai3ji2	f a:j3 dz i:2
 chau4mau4	ts 6w4 m 6w4
 chim1ji6	ts i:1 m dz i:6
 chim1chyu5	ts i:1 m ts y:5
+chim1chyu5	ts i:1 n ts y:5
 chim1jing3	ts i:1 m dz i:3 N
+chim1jing3	ts i:1 n dz i:3 N
 gaan2	g a:2 n
 gaan2tai2	g a:2 n t 6j2
 gaan2daan1	g a:2 n d a:1 n
 gaan2man2wui2	g a:2 n m 62 n w u:j2
+gaan2man2wui2	g a:2 n m 64 n w u:j2
+gaan2man2wui2	g a:2 n m 64 n w u:j6
 gaan2wai5syut3	g a:2 n w 6j5 s y:3 t
 gaan2lau6	g a:2 n l 6w6
 ku1bou1	k u:1 b ow1
 ku1nga4	k u:1 N a:4
+ku1nga4	k u:1 a:4
 syun3	s y:3 n
 gun2	g u:2 n
 gun2ging3	g u:2 n g i:3 N
@@ -6953,14 +7644,17 @@ jeng1dou6	dz E:1 N d ow6
 jing1choi2	dz i:1 N ts O:j2
 jing1leng4	dz i:1 N l E:4 N
 jing1ling1gwai2	dz E:1 N l E:1 N gw 6j2
+jing1ling1gwai2	dz i:1 N l i:1 N gw 6j2
 jing1san4	dz i:1 N s 64 n
 jing1san4beng6	dz i:1 N s 64 n b E:6 N
 jing1mei5	dz i:1 N m ej5
 jing1seui5	dz i:1 N s 9y5
 gou1dim2	g ow1 d i:2 m
 tong2	t O:2 N
+tong2	t O:4 N
 tong2yip6	t O:2 N j i:6 p
 tong2niu6beng6	t O:2 N n iw6 b E:6 N
+tong2niu6beng6	t O:4 N n iw6 b E:6 N
 jou1	dz ow1
 jou1gou1	dz ow1 g ow1
 hai6	h 6j6
@@ -6983,23 +7677,29 @@ faan4jik6	f a:4 n dz i:6 k
 faan4wing4	f a:4 n w i:4 N
 faan4jung6	f a:4 n dz u:6 N
 gau2jing3	d 6w2 dz i:3 N
+gau2jing3	g 6w2 dz i:3 N
 hung4yan4	h u:4 N j 64 n
 hung4ngoi6	h u:4 N N O:j6
+hung4ngoi6	h u:4 N O:j6
 hung4chyun1	h u:4 N ts y:1 n
 hung4fo2ngai5	h u:4 N f O:2 N 6j5
 hung4paai2	h u:4 N p a:j2
+hung4paai2	h u:4 N p a:j4
 hung4luk6dang1	h u:4 N l u:6 k d 61 N
 hung4fa1	h u:4 N f a:1
 hung4ngaan4ji1gei2	h u:4 N N a:4 n dz i:1 g ej2
+hung4ngaan4ji1gei2	h u:4 N a:4 n dz i:1 g ej2
 chim1wai4jat1	ts i:1 m w 6j4 dz 61 t
 yeuk3	j 9:3 k
 yeuk3chuk1	j 9:3 k ts u:1 k
 kap1	k 61 p
 gei3luk6	g ej3 l u:6 k
 gei2nim6	g ej2 l i:6 m
+gei2nim6	g ej2 n i:6 m
 gei2yuk6ching1	g ej2 j y:6 k ts i:1 N
 seun4seui6	s 9:4 n s 9y6
 naap6	l a:6 p
+naap6	n a:6 p
 naap6si1daat6hak1ji2sou3	n a:6 p s i:1 d a:6 t h 61 k dz i:2 s ow3
 jung3yung4	dz u:3 N j y:4 N
 jung1sam1	dz u:1 N s 61 m
@@ -7015,6 +7715,7 @@ lin6	l i:6 n
 lin6jaap6	l i:6 n dz a:6 p
 lin6ji6	l i:6 n dz i:6
 lin6sing4	l i:6 n s E:4 N
+lin6sing4	l i:6 n s i:4 N
 lin6go1	l i:6 n g O:1
 jou2gin6	dz ow2 g i:6 n
 jou2sing4	dz ow2 s i:4 N
@@ -7022,6 +7723,7 @@ jou2jik1	dz ow2 dz i:1 k
 jou2jeung2	dz ow2 dz 9:2 N
 sai3	s 6j3
 sai3sou3	s 6j3 s ow2
+sai3sou3	s 6j3 s ow3
 sai3sai3	s 6j3 s 6j3
 sai3baau1	s 6j3 b a:w1
 sai3jit3	s 6j3 dz i:3 t
@@ -7046,6 +7748,7 @@ ging1ying4	g i:1 N j i:4 N
 ging1mau6	g i:1 N m 6w6
 ging1gwo3	g i:1 N gw O:3
 ging1yim6	g i:1 N j i:6 m
+ging1yim6	g i:1 N j i:6 n
 bong2	b O:2 N
 bong2ga3	b O:2 N g a:3
 yung4yip6	j y:4 N j i:6 p
@@ -7093,15 +7796,20 @@ wai4wu6	w 6j4 w u:6
 wai4chi4	w 6j4 ts i:4
 min4yeung4	m i:4 n j 9:4 N
 jung1hap6	dz u:1 N h 66 p
+jung1hap6	dz u:3 N h 66 p
 jung1ji2	dz u:1 N dz i:2
 luk6fa3	l u:6 k f a:3
 luk6dang1	l u:6 k d 61 N
 min5waai4	m i:5 n w a:j4
 laam6che1	l a:6 m ts E:1
+laam6che1	l a:6 n ts E:1
 wun4	w u:4 n
+wun4	w u:6 n
 wun6wo4	w u:6 n w O:4
 wun4maan6	w u:4 n m a:6 n
+wun4maan6	w u:6 n m a:6 n
 wun6gaai2	w u:4 n g a:j2
+wun6gaai2	w u:6 n g a:j2
 dai3jou3	d 6j3 dz ow3
 pin1	p i:1 n
 pin1syu1	p i:1 n s y:1
@@ -7127,15 +7835,19 @@ mong5yau5	m O:5 N j 6w5
 mong5lok6	m O:5 N l O:6 k
 hon2yau5	h O:2 n j 6w5
 lo1	l O:1
+lo1	l O:4
 lo4wai6man4	l O:4 w 6j6 m 64 n
 lo4ma5	l O:4 m a:5
 lo4ma5si5	l O:4 m a:5 s i:5
 fat6	f 66 t
 ba6	b a:6
 jeui6faan6	dz 9y6 f a:2 n
+jeui6faan6	dz 9y6 f a:6 n
 ji3	dz i:3
 ji3san1dou6noi6	dz i:3 s 61 n d ow6 l O:j6
+ji3san1dou6noi6	dz i:3 s 61 n d ow6 n O:j6
 ji3san1dou6ngoi6	dz i:3 s 61 n d ow6 N O:j6
+ji3san1dou6ngoi6	dz i:3 s 61 n d ow6 O:j6
 chyu5	ts y:5
 lei4waan6	l ej4 w a:6 n
 yeung4yip6	j 9:4 N j i:6 p
@@ -7148,6 +7860,7 @@ mei5fa3	m ej5 f a:3
 mei5gwok3	m ej5 gw O:3 k
 mei5gwok3yan4	m ej5 gw O:3 k j 64 n
 mei5neui5	m ej5 l 9y5
+mei5neui5	m ej5 n 9y5
 mei5hou2	m ej5 h ow2
 mei5ting4	m ej5 t i:4 N
 mei5yung4	m ej5 j y:4 N
@@ -7184,6 +7897,7 @@ lou5fa3	l ow5 f a:3
 lou5tou2	l ow5 t ow2
 lou5ngoi6	l ow5 N O:j6
 lou5daai6	l ow5 d a:j6
+lou5daai6	l ow5 d a:j2
 lou5ma1ji2	l ow5 m a:1 dz i:2
 lou5sat6	l ow5 s 66 t
 lou5si1	l ow5 s i:1
@@ -7206,6 +7920,7 @@ haau2leui6	h a:w2 l 9y6
 haau2jing3	h a:w2 dz i:3 N
 haau2si5	h a:w2 s i:5
 haau2yim6	h a:w2 j i:6 m
+haau2yim6	h a:w2 j i:6 n
 je2	dz E:2
 yi4	j i:4
 yi4che2	j i:4 ts E:2
@@ -7257,6 +7972,7 @@ gei1	g ej1
 gei1yuk6	g ej1 j y:6 k
 tou5	t ow5
 gon1ngaam4	g O:1 n N a:4 m
+gon1ngaam4	g O:1 n a:4 m
 gon1sai3baau1	g O:1 n s 6j3 b a:w1
 gon1daam2	g O:1 n d a:2 m
 gon1jong6	g O:1 n dz O:6 N
@@ -7332,6 +8048,7 @@ tyut3pan4	t y:3 t p 64 n
 tyut3naan6	t y:3 t n a:6 n
 lim6	l i:6 m
 lim5hung2	l i:5 m h u:2 N
+lim5hung2	l i:6 m h u:2 N
 lim6sik1	l i:6 m s i:1 k
 pei4hei3	p ej4 h ej3
 yiu1	j iw1
@@ -7358,6 +8075,7 @@ ji6yi5	dz i:6 j i:5
 ji6dong1	dz i:6 d O:1 N
 ji6leut6	dz i:6 l 9:6 t
 ji6ngo5	dz i:6 N O:5
+ji6ngo5	dz i:6 O:5
 ji6chi4	dz i:6 ts i:4
 ji6yau6	dz i:6 j 6w6
 ji6saat3	dz i:6 s a:3 t
@@ -7408,6 +8126,7 @@ to4	t O:4
 syun4	s y:4 n
 syun4jai2	s y:4 n dz 6j2
 syun4bou6	s y:4 n b ow6
+syun4bou6	s y:4 n f 6w6
 syun4pung4	s y:4 n p u:4 N
 syun4chong1	s y:4 n ts O:1 N
 leung4	l 9:4 N
@@ -7431,6 +8150,9 @@ ngai6seut6	N 6j6 s 9:6 t
 ngai6seut6ban2	N 6j6 s 9:6 t b 62 n
 ngai6seut6ga1	N 6j6 s 9:6 t g a:1
 ngaai6si1ban1nou4	N a:j6 s i:1 b 61 n l ow4
+ngaai6si1ban1nou4	N a:j6 s i:1 b 61 n n ow4
+ngaai6si1ban1nou4	a:j6 s i:1 b 61 n l ow4
+ngaai6si1ban1nou4	a:j6 s i:1 b 61 n n ow4
 jit3	dz i:3 t
 jit3gim6	dz i:3 t g i:6 m
 jit3muk6	dz i:3 t m u:6 k
@@ -7466,6 +8188,7 @@ fu2	f u:2
 fu2jung1jok3lok6	f u:2 dz u:1 N dz O:3 k l O:6 k
 fu2ging2	f u:2 g i:2 N
 fu2chyu3	f u:2 ts y:3
+fu2chyu3	f u:2 ts y:5
 fu2sam1	f u:2 s 61 m
 fu2nou5	f u:2 n ow5
 fu2mun6	f u:2 m u:6 n
@@ -7538,6 +8261,7 @@ wok6	w O:6 k
 wok6dak1	w O:6 k d 61 k
 wok6sik1	w O:6 k s i:1 k
 ang1sing1	6 N1 s i:1 N
+ang1sing1	N 61 N s i:1 N
 kwan2	kw 62 n
 choi3sik1	ts O:j3 s i:1 k
 pou4saat3	p ow4 s a:3 t
@@ -7562,17 +8286,21 @@ lok6dak1	l O:6 k d 61 k
 lok6pok6	l O:6 k p O:6 k
 lok6che1	l O:6 k ts E:1
 jyu3meng4	dz y:3 m E:4 N
+jyu3meng4	dz y:3 m i:4 N
 pou4	p ow4
 pou4tou4jau2	p ow4 t ow4 dz 6w2
 pou4tou4jau2yip6	p ow4 t ow4 dz 6w2 j i:6 p
 dung2gin3yin4	d u:2 N g i:3 n j i:4 n
 dung2ching1yin4	d u:2 N dz i:1 N j i:4 n
+dung2ching1yin4	d u:2 N ts i:1 N j i:4 n
 wu4lou4dou2	w u:4 l ow4 d ow2
 mung4wai5leun4	m u:4 N w 6j5 l 9:4 n
 jing1hei3gei1	dz i:1 N h ej3 g ej1
 jeun1	dz 9:1 n
 laam4	l a:4 m
+laam4	l a:4 n
 laam4tin1	l a:4 m t i:1 n
+laam4tin1	l a:4 n t i:1 n
 laam4suk6yau5	l a:4 m s u:6 k j 6w5
 laam4ling4baak3	l a:4 m l i:4 N b a:3 k
 laam4chau4gu2	l a:4 m ts 6w4 g u:2
@@ -7587,6 +8315,7 @@ choi3jing6yu4	ts O:j3 dz i:6 N j y:4
 so1choi3	s O:1 ts O:j3
 wai6	w 6j6
 wan3ham4	w 63 n h 64 m
+wan3ham4	w 65 n h 64 m
 bok6	b O:6 k
 gou2sing4	g ow2 s i:4 N
 je6	dz E:6
@@ -7604,13 +8333,16 @@ heui1ga3	h 9y1 g a:3
 heui1sat6	h 9y1 s 66 t
 heui1yeuk6	h 9y1 j 9:6 k
 heui1yi5	h 9y1 j i:5
+heui1yi5	h 9y1 j i:4
 chung4	ts u:4 N
 hung4	h u:4 N
 seui1	s 9y1
 seui1yin4	s 9y1 j i:4 n
 sik6	s i:6 k
+sik6	s i:6 t
 man1	m 61 n
 pong5fou6	p O:5 N b ow6
+pong5fou6	p O:5 N f ow6
 jyu3nga4	dz y:3 N a:4
 daan2baak6jat1	d a:2 n b a:6 k dz 61 t
 wa1	w a:1
@@ -7632,18 +8364,23 @@ hyut3gun2	h y:3 t g u:2 n
 hyut3tung2	h y:3 t t u:2 N
 hong2	h O:2 N
 haang4bat1tung1	h 64 N b 61 t t u:1 N
+haang4bat1tung1	h a:4 N b 61 t t u:1 N
 hong4yip6	h O:4 N j i:6 p
 hang4wai4	h 64 N w 6j4
 hong2lok6	h O:2 N l O:6 k
 haang4yan4	h a:4 N j 64 n
+haang4yan4	h 64 N j 64 n
 hong4wui2	h O:4 N w u:j2
 hong4noi6	h O:4 N n O:j6
 hang4dung6	h 64 N d u:6 N
 hang4sin6	h 64 N s i:6 n
+hang4sin6	h a:4 N s i:6 n
 hang4jing3	h 64 N dz i:3 N
 hang4ching4	h 64 N ts i:4 N
 haang4jau2	h a:4 N dz 6w2
+haang4jau2	h 64 N dz 6w2
 haang4che1	h a:4 N ts E:1
+haang4che1	h 64 N ts E:1
 gaai1	g a:j1
 gaai1fong1	g a:j1 f O:1 N
 gaai1si5	g a:j1 s i:5
@@ -7653,12 +8390,14 @@ hang4yeung4	h 64 N j 9:4 N
 keui4	k 9y4
 yi1sok3pat1	j i:1 s O:3 k p 61 t
 yi1sok3pat1nga3	j i:1 s O:3 k p 61 t N a:3
+yi1sok3pat1nga3	j i:1 s O:3 k p 61 t a:3
 bou2seung4	b ow2 s 9:4 N
 bou2gau3	b ow2 g 6w3
 bou2yik1	b ow2 j i:1 k
 bou2sou3	b ow2 s ow3
 bou2tip3	b ow2 t i:3 p
 biu1	b iw1
+biu1	b iw2
 biu2jeun3	b iw2 dz 9:3 n
 biu2ming4	b iw2 m i:4 N
 biu2yin2	b iw2 j i:2 n
@@ -7668,13 +8407,16 @@ biu2daat6	b iw2 d a:6 t
 biu2min2	b iw2 m i:2 n
 saam1	s a:1 m
 seui1	s 9y1
+seui1	ts 9y1
 seui1lou5	s 9y1 l ow5
 seui1lok6	s 9y1 l O:6 k
 seui1teui3	s 9y1 t 9y3
 yun4yan4daan1	j y:4 n j 64 n d a:1 n
 doi6	d O:j6
+doi6	d O:j2
 doi2	d O:j2
 doi6ji2	d O:j2 dz i:2
+doi6ji2	d O:j6 dz i:2
 pei6	p ej6
 bei6bik1	b ej6 b i:1 k
 jaap6gik1	dz a:6 p g i:1 k
@@ -7699,6 +8441,7 @@ sai1seung1baan2naap6	s 6j1 s 9:1 N b a:2 n n a:6 p
 sai1tin1	s 6j1 t i:1 n
 sai1ning4	s 6j1 n i:4 N
 sai1ngon1	s 6j1 N O:1 n
+sai1ngon1	s 6j1 O: n1
 sai1sik1	s 6j1 s i:1 k
 sai1fong1	s 6j1 f O:1 N
 sai1fong1yan4	s 6j1 f O:1 N j 64 n
@@ -7718,6 +8461,7 @@ yiu3sou3	j iw3 s ow3
 fuk1koi3	f u:1 k k O:j3
 gin3	g i:3 n
 gin3dou2	g i:3 n d ow2
+gin3dou2	g i:3 n d ow3
 gin3yi6si1chin1	g i:3 n j i:6 s i:1 ts i:1 n
 gin3gwaai3bat1gwaai3	g i:3 n gw a:j3 b 61 t gw a:j3
 gin3jiu1chaak3jiu1	g i:3 n dz iw1 ts a:3 k dz iw1
@@ -7752,6 +8496,7 @@ gok3lik6	g O:3 k l i:6 k
 gok3lik6cheung4	g O:3 k l i:6 k ts 9:4 N
 gok3dou6	g O:3 k d ow6
 gok3mok2	g O:3 k m O:2 k
+gok3mok2	g O:3 k m O:6 k
 gok3sik1	g O:3 k s i:1 k
 gaai2	g a:j2
 gaai2tai2	g a:j2 t 6j2
@@ -7761,10 +8506,13 @@ gaai2duk6	g a:j2 d u:6 k
 gaai2tyut3	g a:j2 t y:3 t
 gaai2syut3	g a:j2 s y:3 t
 juk1dung6	dz u:1 k d u:6 N
+juk1dung6	ts u:1 k d u:6 N
 juk1mo2	dz u:1 k m O:2
+juk1mo2	ts u:1 k m O:2
 yin4	j i:4 n
 yin4si6jaap6tyun4	j i:4 n s i:6 dz a:6 p t y:4 n
 yin4hang4	j i:4 n h 64 N
+yin4hang4	j i:4 n h 66 N
 yin4chi4	j i:4 n ts i:4
 yin4yu5	j i:4 n j y:5
 sai6	s 6j6
@@ -7780,7 +8528,9 @@ gai3gaau3	g 6j3 g a:w3
 gai3leung4	g 6j3 l 9:4 N
 deng6lap6	d E:6 N l 66 p
 deng6chou3	d E:6 N ts ow3
+deng6chou3	d i:6 N ts ow3
 ding6yut6	d E:6 N j y:6 t
+ding6yut6	d i:6 N j y:6 t
 ying6	j i:6 N
 ying6wai4	j i:6 N w 6j4
 ying6tung4	j i:6 N t u:4 N
@@ -7791,6 +8541,7 @@ ying6sik1	j i:6 N s i:1 k
 ying6cho3	j i:6 N ts O:3
 tou2	t ow2
 tou2yim3	t ow2 j i:3 m
+tou2yim3	t ow2 j i:3 n
 tou2leun6	t ow2 l 9:6 n
 yeung6	j 9:6 N
 fan3	f 63 n
@@ -7806,7 +8557,9 @@ gei3yik1	g ej3 j i:1 k
 gei3yik1lik6	g ej3 j i:1 k l i:6 k
 gong2	g O:2 N
 gong2cheut1lai4	g O:2 N ts 9:1 t l 6j4
+gong2cheut1lai4	g O:2 N ts 9:1 t l ej4
 gong2m4seung6lai4	g O:2 N m4 s 9:6 N l 6j4
+gong2m4seung6lai4	g O:2 N m4 s 9:6 N l ej4
 gong2kau4	g O:2 N k 6w4
 gong2lei5	g O:2 N l ej5
 gong2wa6	g O:2 N w a:6
@@ -7815,6 +8568,7 @@ heui2ha2	h 9y2 h a:2
 heui2ho2jing3	h 9y2 h O:2 dz i:3 N
 heui2jit3loi4	h 9y2 dz i:3 t l O:j4
 heui2jit3ming4	h 9y2 dz i:3 t m i:4 N
+heui2jit3ming4	h 9y2 dz i:3 t m i:5 N
 heui2do1	h 9y2 d O:1
 heui2suk6jan1	h 9y2 s u:6 k dz 61 n
 heui2suk6jing1	h 9y2 s u:6 k dz i:1 N
@@ -7871,6 +8625,7 @@ yu5jung2	j y:5 dz u:2 N
 yu5yin4	j y:5 j i:4 n
 ng6	N6
 m6wui6	m6 w u:j6
+m6wui6	N6 w u:j6
 yau5waak6	j 6w5 w a:6 k
 seui3	s 9y3
 syut3bat1seung6loi4	s y:3 t b 61 t s 9:6 N l O:j4
@@ -7884,6 +8639,7 @@ syut3fong2	s y:3 t f O:2 N
 e6	E:6
 cheng2	ts E:2 N
 ching2kau4	ts E:2 N k 6w4
+ching2kau4	ts i:2 N k 6w4
 jyu1	dz y:1
 jyu1sing4	dz y:1 s i:4 N
 duk6	d u:6 k
@@ -7925,6 +8681,7 @@ jeung6jing1	dz 9:6 N dz i:1 N
 jeung6nga4	dz 9:6 N N a:4
 hou4wa4	h ow4 w a:4
 bui3ga1ching4	b u:j3 g a:1 ts E:4 N
+bui3ga1ching4	b u:j3 g a:1 ts i:4 N
 bui3yan1mei5	b u:j3 j 61 n m ej5
 fu6	f u:6
 fu6daam1	f u:6 d a:1 m
@@ -7988,6 +8745,7 @@ fai3ting4si5	f 6j3 t i:4 N s i:5
 fai3jeun2sam1si1	f 6j3 dz 9:2 n s 61 m s i:1
 fai3yung6	f 6j3 j y:6 N
 chaak2yan4	ts a:2 k j 64 n
+chaak2yan4	ts a:3 k j 64 n
 ji1	dz i:1
 ji1chaan2	dz i:1 ts a:2 n
 ji1jo6	dz i:1 dz O:6
@@ -8038,6 +8796,7 @@ jau2lok6heui3	dz 6w2 l O:6 k h 9y3
 jau2gwo3	dz 6w2 gw O:3
 fu6wui6	f u:6 w u:j6
 jiu6ying4jan1	dz iw6 j i:4 N dz 61 n
+jiu6ying4jan1	dz iw6 j i:4 N j 61 n
 jiu6ming5	dz iw6 m i:5 N
 gon2	g O:2 n
 gon2dou3	g O:2 n d ow3
@@ -8050,6 +8809,7 @@ hei2bou6	h ej2 b ow6
 hei2yun4	h ej2 j y:4 n
 hei2yun4dei6	h ej2 j y:4 n d ej6
 hei2dim2	h ej2 d i:2 m
+hei2dim2	h ej2 d i:2 n
 hei2yi4gung1ji1	h ej2 j i:4 g u:1 N dz i:1
 hei2sik1	h ej2 s i:1 k
 hei2hei2lok6lok6	h ej2 h ej2 l O:6 k l O:6 k
@@ -8058,6 +8818,7 @@ chiu1	ts iw1
 chiu1cheut1	ts iw1 ts 9:1 t
 chiu1wa4	ts iw1 w a:4
 chiu1sing1	ts iw1 s E:1 N
+chiu1sing1	ts iw1 s i:1 N
 chiu1si5	ts iw1 s i:5
 chiu1yat6	ts iw1 j 66 t
 chiu1kap1	ts iw1 k 61 p
@@ -8107,8 +8868,10 @@ lou6	l ow6
 lou6seung6	l ow6 s 9:6 N
 lou6bin1	l ow6 b i:1 n
 lou6min2	l ow6 m i:2 n
+lou6min2	l ow6 m i:6 n
 daap6	d a:6 p
 chaai2	ts a:j2
+chaai2	j a:j2
 cho1to4yan4sang1	ts O:1 t O:4 j 64 n s 61 N
 bit6geuk3	b i:6 t g 9:3 k
 san1	s 61 n
@@ -8138,17 +8901,21 @@ che1jaam6	ts E:1 dz a:6 m
 che1leung6	ts E:1 l 9:6 N
 che1lung4	ts E:1 l u:4 N
 jyun2	dz y:2 n
+jyun2	dz y:3 n
 jyun2wai4	dz y:2 n w 6j4
 jyun3liu5sing3	dz y:3 n l iw5 s i:3 N
 jyun2gaau1	dz y:2 n g a:w1
+jyun2gaau1	dz y:3 n g a:w1
 jyun2fa3	dz y:2 n f a:3
 jyun2bin3	dz y:2 n b i:3 n
 jyun2heung3	dz y:2 n h 9:3 N
+jyun2heung3	dz y:3 n h 9:3 N
 jyun2gei1yan1	dz y:2 n g ej1 j 61 n
 jyun3waan1	dz y:3 n w a:1 n
 jyun2wun6	dz y:2 n w u:6 n
 jyun2yi4	dz y:2 n j i:4
 jyun2san1	dz y:2 n s 61 n
+jyun2san1	dz y:3 n s 61 n
 leun4	l 9:4 n
 leun4tai3	l 9:4 n t 6j3
 leun4toi1	l 9:4 n t O:j1
@@ -8156,21 +8923,31 @@ yun5	j y:5 n
 yun5gin2	j y:5 n g i:2 n
 yun5fa3	j y:5 n f a:3
 yun5din3	j y:5 n d i:3 n
+yun5din3	j y:5 n dz i:3 n
 yun5yeuk6	j y:5 n j 9:6 k
 juk6	dz u:6 k
 heng1	h E:1 N
+heng1	h i:1 N
 hing1mei4	h E:1 N m ej4
+hing1mei4	h i:1 N m ej4
 heng1fat1	h E:1 N f 61 t
 hing1miu4daam6se2	h i:1 N m iw4 d a:6 m s E:2
 hing1yi6	h i:1 N j i:6
+hing1yi6	h E:1 N j i:6
 hing1sung1	h i:1 N s u:1 N
+hing1sung1	h E:1 N s u:1 N
 heng1heng1	h E:1 N h E:1 N
+heng1heng1	h i:1 N h i:1 N
 heng1chung5	h E:1 N ts u:5 N
 hing1chung5wun4gap1	h E:1 N ts u:5 N w u:4 n g 61 p
+hing1chung5wun4gap1	h i:1 N ts u:5 N w u:4 n g 61 p
 joi2geui6	dz O:j2 g 9y6
+joi2geui6	dz O:j3 g 9y6
 gaau3	g a:w3
 fu6	f u:6
 leung2	l 9:2 N
+leung2	l 9:5 N
+leung2	l 9:6 N
 fai1lung4	f 6j1 l u:4 N
 syu1	s y:1
 syu1yap6	s y:1 j 66 p
@@ -8260,10 +9037,12 @@ yun5lei4	j y:5 n l ej4
 yun5hong4	j y:5 n h O:4 N
 yun5jau2	j y:5 n dz 6w2
 yun5kan5man4ming4	j y:5 n g 66 n m 64 n m i:4 N
+yun5kan5man4ming4	j y:5 n k 65 n m 64 n m i:4 N
 yun5yun5	j y:5 n j y:5 n
 yun5siu1	j y:5 n s iw1
 wai4faan2	w 6j4 f a:2 n
 wai4yeuk3	w 6j4 j 9:3 k
+wai4yeuk3	w 6j5 j 9:3 k
 lin4	l i:4 n
 lin4jau1si5	l i:4 n dz 6w1 s i:5
 lin4jip3	l i:4 n dz i:3 p
@@ -8275,8 +9054,10 @@ chi4dou3	ts i:4 d ow3
 chi4jou2	ts i:4 dz ow2
 chi4wun6	ts i:4 w u:6 n
 baak1	b a:1 k
+baak1	b i:1 k
 bik1sai2	b i:1 k s 6j2
 bik1gan6	b i:1 k g 66 n
+bik1gan6	b i:1 k k 65 n
 mai4lei4	m 6j4 l ej4
 jik1jeung6	dz i:1 k dz 9:6 N
 jeui1	dz 9y1
@@ -8319,6 +9100,7 @@ tau3lou6	t 6w3 l ow6
 juk6yat1	dz u:6 k j 61 t
 juk6bou6	dz u:6 k b ow6
 juk6jim6	dz u:6 k dz i:6 m
+juk6jim6	dz u:6 k dz i:6 n
 dai6	d 6j6
 tou4	t ow4
 tou4jung1	t ow4 dz u:1 N
@@ -8352,9 +9134,11 @@ seui6ning4	s 9y6 n i:4 N
 yu6	j y:6
 yu6seung5	j y:6 s 9:5 N
 yu6dou3	j y:6 d ow3
+yu6dou3	j y:6 d ow2
 yu6gip3	j y:6 g i:3 p
 yu6naan6	j y:6 n a:6 n
 yu6naan6je2	j y:6 l a:6 n dz E:2
+yu6naan6je2	j y:6 n a:6 n dz E:2
 pin3	p i:3 n
 aat3ji2	a:3 t dz i:2
 ha4si1	h a:4 s i:1
@@ -8422,25 +9206,31 @@ dou1si5	d ow1 s i:5
 ngok6yi5do1si1	N O:6 k j i:5 d O:1 s i:1
 ngok6jau1	N O:6 k dz 6w1
 pui3ngau5	p u:j3 6w5
+pui3ngau5	p u:j3 N 6w5
 pui3gok3	p u:j3 g O:3 k
 pui3ngaak6	p u:j3 N a:6 k
+pui3ngaak6	p u:j3 a:6 k
 jau2	dz 6w2
 jau2yip6	dz 6w2 j i:6 p
 jau2chong2	dz 6w2 ts O:2 N
 jau2dim3	dz 6w2 d i:3 m
+jau2dim3	dz 6w2 d i:3 n
 jau2seui3	dz 6w2 s 9y3
 jau2jing1	dz 6w2 dz i:1 N
 jau2gwai2	dz 6w2 gw 6j2
 chau4gam1	ts 6w4 g 61 m
+chau4gam1	ts 6w4 g 61 n
 haau1mou5	h a:w1 m ow5
 syun1	s y:1 n
 jeui3sam1	dz 9y3 s 61 m
 chou3yip6	ts ow3 j i:6 p
 sing2lai4	s i:2 N l 6j4
+sing2lai4	s i:2 N l ej4
 choi2	ts O:j2
 choi2cheui2	ts O:j2 ts 9y2
 sik1fong3	s i:1 k f O:3 N
 lei5	l ej5
+lei5	l 9y5
 leui5min6	l 9y5 m i:6 n
 jung6	dz u:6 N
 jung6yam6	dz u:6 N j 66 m
@@ -8450,6 +9240,7 @@ chung4hing3si5	ts u:4 N h i:3 N s i:5
 chung4gin3	ts u:4 N g i:3 n
 chung4san1	ts u:4 N s 61 n
 jung6dim2	dz u:6 N d i:2 m
+jung6dim2	dz u:6 N d i:2 n
 chung4yin6	ts u:4 N j i:6 n
 chung4san1	ts u:4 N s 61 n
 chung4jou2	ts u:4 N dz ow2
@@ -8464,6 +9255,7 @@ chung4yeung4jit3	ts u:4 N j 9:4 N dz i:3 t
 ye5	j E:5
 ye5sau3	j E:5 s 6w3
 ye5saang1	j E:5 s 61 N
+ye5saang1	j E:5 s a:1 N
 leung6	l 9:6 N
 leung6ji2	l 9:6 N dz i:2
 gam1	g 61 m
@@ -8515,6 +9307,7 @@ tit3ling5	t i:3 t l i:5 N
 tit3lou6	t i:3 t l ow6
 tung4	t u:4 N
 tung4lo4waan1	t u:4 N l O:4 w a:1 n
+tung4lo4waan1	t u:4 N l O:4 w a:4 n
 ting5yi4jau2him2	t i:5 N j i:4 dz 6w2 h i:2 m
 ming4gei3	m i:4 N g ej3
 ngan4	N 64 n
@@ -8533,6 +9326,7 @@ fung1	f u:1 N
 san1	s 61 n
 cho3	ts O:3
 cho3m6	ts O:3 m6
+cho3m6	ts O:3 N6
 cho3gwo3	ts O:3 gw O:3
 gam2wa4	g 62 m w a:4
 gam2fu3	g 62 m f u:3
@@ -8546,6 +9340,8 @@ jan3toi4ji1bou2	dz 63 n t O:j4 dz i:1 b ow2
 jan3gong1	dz 63 n g O:1 N
 jan3jing6	dz 63 n dz i:6 N
 seung1haam1	s 9:1 N h 63 m
+seung1haam1	s 9:1 N h 66 m
+seung1haam1	s 9:1 N h a:1 m
 jeung2	dz 9:2 N
 cheung4	ts 9:4 N
 cheung4gau2	ts 9:4 N g 6w2
@@ -8575,6 +9371,7 @@ mun4	m u:4 n
 mun4ho2lo4jeuk3	m u:4 n h O:2 l O:4 dz 9:3 k
 mun4jeung3	m u:4 n dz 9:3 N
 sim2	s i:2 m
+sim2	s i:2 n
 sim2gwong1	s i:2 m gw O:1 N
 bai3mok6	b 6j3 m O:6 k
 bai3ha4	b 6j3 h a:4
@@ -8583,7 +9380,9 @@ man6tai4	m 66 n t 6j4
 haan4	h a:4 n
 haan4liu4	h a:4 n l iw4
 haan4wa2	h a:4 n w a:2
+haan4wa2	h a:4 n w a:6
 gaan1	g a:1 n
+gaan1	g a:3 n
 mun6	m u:6 n
 jaap6	dz a:6 p
 naau6	n a:w6
@@ -8612,6 +9411,7 @@ yeung4cheun1	j 9:4 N ts 9:1 n
 yeung4gong1	j 9:4 N g O:1 N
 yeung4chyun4	j 9:4 N ts y:4 n
 yam1cha1yeung4cho3	j 61 m ts a:1 j 9:4 N ts O:3
+yam1cha1yeung4cho3	j 61 m ts a:j1 j 9:4 N ts O:3
 yam1ying2	j 61 m j i:2 N
 yam1mau4	j 61 m m 6w4
 jan6tung3	dz 66 n t u:3 N
@@ -8638,6 +9438,7 @@ a3gwan1	a:3 gw 61 n
 a3gwok3	a:3 gw O:3 k
 a3gei1	a:3 g ej1
 a3tau4	a:3 t 6w2
+a3tau4	a:3 t 6w4
 a3hou3	a:3 h ow3
 a3je2	a:3 dz E:2
 a3po4	a:3 p O:4
@@ -8650,7 +9451,9 @@ a3ban1	a:3 b 61 n
 a3dak1	a:3 d 61 k
 a3hang4	a:3 h 64 N
 a3la1yi5	a:3 l 6j1 j i:5
+a3la1yi5	a:3 l a:1 j i:5
 a3la1tai4	a:3 l 6j1 t 6j4
+a3la1tai4	a:3 l a:1 t 6j4
 a3ban1	a:3 b 61 n
 a3ming4	a:3 m i:4 N
 a3sing1	a:3 s i:1 N
@@ -8666,6 +9469,7 @@ a3de1	a:3 d E:1
 a3ling4	a:3 l i:4 N
 a3king4	a:3 k i:4 N
 a3saang1	a:3 s 61 N
+a3saang1	a:3 s a:1 N
 a3fuk1	a:3 f u:1 k
 a3sing3	a:3 s i:3 N
 a3ji1	a:3 dz i:1
@@ -8703,6 +9507,7 @@ chan4yin6gwan1	ts 64 n j i:6 n gw 61 n
 chan4sam1yi4	ts 64 n s 61 m j i:4
 chan4ji3ping4	ts 64 n dz i:3 p i:4 N
 chan2nim6kei4	ts 62 n l i:6 m k ej4
+chan2nim6kei4	ts 62 n n i:6 m k ej4
 chan4yi4san1	ts 64 n j i:4 s 61 n
 chan4yi4sing1	ts 64 n j i:4 s i:1 N
 chan4yi4gwan1	ts 64 n j i:4 gw 61 n
@@ -8718,6 +9523,7 @@ chan4mei5hin1	ts 64 n m ej5 h i:1 n
 chan4chit3	ts 64 n ts i:3 t
 chan4choi4yan4	ts 64 n ts O:j4 j 64 n
 chan4ngaan4gwan1	ts 64 n N a:4 n gw 61 n
+chan4ngaan4gwan1	ts 64 n a:4 n gw 61 n
 mak6sang1	m 66 k s 61 N
 gong3dai1	g O:3 N d 6j1
 gong3seui2	g O:3 N s 9y2
@@ -8728,12 +9534,15 @@ haan6yu1	h a:6 n j y:1
 haan6jai3	h a:6 n dz 6j3
 sim2sai1	s i:2 m s 6j1
 yun6si6	j y:2 n s i:6
+yun6si6	j y:6 n s i:6
 yun2fong1	j y:2 n f O:1 N
 cheui4ha5	ts 9y4 h a:5
+cheui4ha5	ts 9y4 h a:6
 cheui4liu5	ts 9y4 l iw5
 cheui4jo2	ts 9y4 dz O:2
 chyu4fei1	ts y:4 f ej1
 him2ngok3	h i:2 m N O:3 k
+him2ngok3	h i:2 m O: k3
 him2ching4	h i:2 m ts i:4 N
 pui4	p u:j4
 ling4	l i:4 N
@@ -8751,6 +9560,7 @@ cheui4jau1	ts 9y4 dz 6w1
 cheui4yun4	ts 9y4 j y:4 n
 cheui4san1	ts 9y4 s 61 n
 cheui4yu6yi4ngon1	ts 9y4 j y:6 j i:4 N O:1 n
+cheui4yu6yi4ngon1	ts 9y4 j y:6 j i:4 O: n1
 yan2	j 62 n
 yan2sai3	j 62 n s 6j3
 yan2mou5	j 62 n m ow5
@@ -8760,6 +9570,7 @@ gaak3lei4keui1	g a:3 k l ej4 k 9y1
 jeung3ngoi6	dz 9:3 N N O:j6
 naan6	n a:6 n
 naan6wai4	n a:6 n w 6j4
+naan6wai4	n a:6 n w 6j6
 naan6wai4ching4	n a:6 n w 6j4 ts i:4 N
 naan4yi5	n a:4 n j i:5
 naan6bou2	n a:6 n b ow2
@@ -8776,6 +9587,7 @@ jaap6jung1	dz a:6 p dz u:1 N
 jaap6tai2	dz a:6 p t 6j2
 jaap6tyun4	dz a:6 p t y:4 n
 jaap6ngon1	dz a:6 p N O:1 n
+jaap6ngon1	dz a:6 p O: n1
 jaap6siu2sing4do1	dz a:6 p s iw2 s i:4 N d O:1
 jaap6si1gwong2yik1	dz a:6 p s i:1 gw O:2 N j i:1 k
 jaap6sing4din6	dz a:6 p s i:4 N d i:6 n
@@ -8798,6 +9610,7 @@ ling4ha6	l i:4 N h a:6
 leng4leung5yi6	l E:4 N l 9:5 N j i:6
 leng4yi6sei3nin2	l E:4 N j i:6 s ej3 n i:2 n
 leng4ng5sap6sei3	l E:4 N N5 s 66 p s ej3
+leng4ng5sap6sei3	l E:4 N m5 s 66 p s ej3
 ling4gin2	l i:4 N g i:2 n
 leng4sap6yut6	l E:4 N s 66 p j y:6 t
 ling4sau6	l i:4 N s 6w6
@@ -8821,18 +9634,25 @@ lou6lou6	l ow6 l ow6
 ba3jim1	b a:3 dz i:1 m
 ba3jau1	b a:3 dz 6w1
 cheng1	ts E:1 N
+cheng1	ts i:1 N
 ching1yip6seng2	ts i:1 N j i:6 p s E:2 N
 cheng1siu3nin4	ts E:1 N s iw3 l i:4 n
+cheng1siu3nin4	ts E:1 N s iw3 n i:4 n
+cheng1siu3nin4	ts i:1 N s iw3 l i:4 n
+cheng1siu3nin4	ts i:1 N s iw3 n i:4 n
 ching1saan1luk6seui2	ts i:1 N s a:1 n l u:6 k s 9y2
 cheng1dou2	ts E:1 N d ow2
 ching1jau1	ts i:1 N dz 6w1
 ching1nin4	ts i:1 N n i:4 n
 ching1nin4yan4	ts i:1 N n i:4 n j 64 n
 cheng1cheun1	ts E:1 N ts 9:1 n
+cheng1cheun1	ts i:1 N ts 9:1 n
 cheng1cheun1kei4	ts E:1 N ts 9:1 n k ej4
+cheng1cheun1kei4	ts i:1 N ts 9:1 n k ej4
 ching1sam1yun2	ts i:1 N s 61 m j y:2 n
 ching1sam1si5	ts i:1 N s 61 m s i:5
 ching1tung4haap6	ts E:1 N t u:4 N h a:6 p
+ching1tung4haap6	ts i:1 N t u:4 N h a:6 p
 leng3	l E:3 N
 jing6gong1	dz i:6 N g O:1 N
 jing6jik6	dz i:6 N dz i:6 k
@@ -8847,6 +9667,7 @@ fei1jau1	f ej1 dz 6w1
 fei1yiu1	f ej1 j iw1
 kaau3	k a:w3
 kaau3kan5	k a:w3 k 65 n
+kaau3kan5	k a:w3 g 66 n
 min2	m i:2 n
 min6lam4	m i:6 n l 64 m
 min2jik6	m i:2 n dz i:6 k
@@ -8915,6 +9736,8 @@ pan4faat3	p 64 n f a:3 t
 fo2	f O:2
 tai4	t 6j4
 ngaak2	N a:2 k
+ngaak2	N a:3 k
+ngaak2	N a:6 k
 ngaak6ngoi6	N a:6 k N O:j6
 ngaak2yi5gu2naap6	N a:2 k j i:5 g u:2 n a:6 p
 din1pui3	d i:1 n p u:j3
@@ -8937,10 +9760,12 @@ piu1	p iw1
 piu1yiu4	p iw1 j iw4
 fei1	f ej1
 fei1lai4	f ej1 l 6j4
+fei1lai4	f ej1 l ej4
 fei1gei1	f ej1 g ej1
 fei1gei1si1	f ej1 g ej1 s i:1
 fei1ngo4	f ej1 N O:4
 fei1haang4	f ej1 h 64 N
+fei1haang4	f ej1 h a:4 N
 fei1syu2	f ej1 s y:2
 sik6	s i:6 k
 sik6ban2	s i:6 k b 62 n
@@ -8987,7 +9812,9 @@ heung1	h 9:1 N
 heung1mei6	h 9:1 N m ej6
 heung1saan1	h 9:1 N s a:1 n
 heung1saan1yun6	h 9:1 N s a:1 n j y:2 n
+heung1saan1yun6	h 9:1 N s a:1 n j y:6 n
 heung1lei2	h 9:1 N l ej2
+heung1lei2	h 9:1 N l ej4
 heung1gong2	h 9:1 N g O:2 N
 heung1gong2geuk3	h 9:1 N g O:2 N g 9:3 k
 ma5	m a:5
@@ -9008,7 +9835,9 @@ giu1	g iw1
 giu1ngou6	g iw1 N ow6
 wa4	w a:4
 lok6gin3man2	l O:6 k g i:3 n m 62 n
+lok6gin3man2	l O:6 k g i:3 n m 66 n
 ke4lau2	k E:4 l 6w2
+ke4lau2	k E:4 l 6w5
 ke4lau5dai2	k E:4 l 6w5 d 6j2
 pin3	p i:3 n
 pin3ji2	p i:3 n dz i:2
@@ -9034,6 +9863,7 @@ gou1sau2	g ow1 s 6w2
 gou1haau6	g ow1 h a:w6
 gou1san1	g ow1 s 61 n
 gou1ong4	g ow1 N O:4 N
+gou1ong4	g ow1 O: N4
 gou1ming4	g ow1 m i:4 N
 gou1dong3	g ow1 d O:3 N
 gou1min4	g ow1 m i:4 n
@@ -9059,6 +9889,7 @@ gwai2jit3	gw 6j2 dz i:3 t
 mei6lik6	m ej6 l i:6 k
 ngai6	N 6j6
 yu4	j y:4
+yu4	j y:2
 yu4mai5ji1heung1	j y:4 m 6j5 dz i:1 h 9:1 N
 sin1fa1	s i:1 n f a:1
 niu5	n iw5
@@ -9072,6 +9903,7 @@ to4niu5	t O:4 n iw5
 hung4bok3	h u:4 N b O:3 k
 hung4gau1	h u:4 N g 6w1
 ngo4mou4	N O:4 m ow4
+ngo4mou4	O:4 m ow4
 paang4	p a:4 N
 hok6bik1	h O:6 k b i:1 k
 hok6gong1	h O:6 k g O:1 N
@@ -9129,6 +9961,7 @@ haak1sing1sing1	h a:1 k s i:1 N s i:1 N
 hak1lung4gong1	h 61 k l u:4 N g O:1 N
 mak6kai3	m 66 k k 6j3
 yi1yun2	j i:1 j y:2 n
+yi1yun2	j i:1 j y:6 n
 ding2	d i:2 N
 gu2	g u:2
 gu2lai6	g u:2 l 6j6

@@ -1,3 +1,5 @@
+# TODO incorporate config, programmable build behavior for different languages
+
 class Syllable:
 
     def __init__(self, nucleus, tone, onset="", coda=""):
@@ -6,10 +8,6 @@ class Syllable:
         self.coda = coda
         self.tone = tone
 
-    def serialize(self, use_tones=True):
-        serializer = get_serializer(use_tones)
-        return serializer(self)
-
     def __eq__(self, other):
         return (isinstance(other, Syllable) and
                 self.onset == other.onset and
@@ -17,25 +15,8 @@ class Syllable:
                 self.coda == other.coda and
                 self.tone == other.tone)
 
-
-def get_serializer(use_tones):
-    if use_tones:
-        return _serialize_with_tones
-    else:
-        return _serialize_without_tones
-
-
-def _serialize_with_tones(syllable):
-    return f"{syllable.onset} {syllable.nucleus}{syllable.tone} {syllable.coda}".strip()
-
-
-def _serialize_without_tones(syllable):
-    return f"{syllable.onset} {syllable.nucleus} {syllable.coda}".strip()
-
-
-def contains_vowel(phoneme):
-    vowels = "aeiou"
-    return any(letter in vowels for letter in phoneme)
+    def serialize(self):
+        return f"{self.onset} {self.nucleus}{self.tone} {self.coda}".strip()
 
 
 class SyllableBuilder:
@@ -59,7 +40,7 @@ class SyllableBuilder:
 
         elif len(phonemes) == 3:
 
-            if contains_vowel(phonemes[0]):
+            if _contains_vowel(phonemes[0]):
                 return Syllable(
                     nucleus=phonemes[0],
                     coda=phonemes[1],
@@ -75,8 +56,13 @@ class SyllableBuilder:
 
         else:
             raise SyllableException(
-                "Syllable can have 2, 3, or 4 phonemes only.")
+                f"Syllable {phonemes} has {len(phonemes)} phonemes; syllables can have 2, 3, or 4 phonemes only.")
 
 
 class SyllableException(ValueError):
     pass
+
+
+def _contains_vowel(phoneme):
+    vowels = "aeiou"
+    return any(letter in vowels for letter in phoneme)
