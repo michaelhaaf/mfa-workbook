@@ -15,13 +15,28 @@ from src.lexicon import Lexicon, LexiconIO, Configuration
 
 def main(args):
 
+    # # TODO: move to actual yaml files, load programmatically from user input
+    # input_cfg = yaml.safe_load(
+    #     """
+    # lexicon: IARPA_CANTO
+    # pronunciation_bound: "\t"
+    # syllable_bound: " . "
+    # phoneme_bound: " "
+    # word_column: 1
+    # tokens_to_remove: ""
+    # include_tones: true
+    # """
+    # )
+
     # TODO: move to actual yaml files, load programmatically from user input
     input_cfg = yaml.safe_load(
         """
-    lexicon: IARPA_CANTO
+    lexicon: IARPA_LITHU
     pronunciation_bound: "\t"
+    word_bound: " # "
     syllable_bound: " . "
     phoneme_bound: " "
+    word_column: 0
     tokens_to_remove: ""
     include_tones: true
     """
@@ -31,8 +46,10 @@ def main(args):
         """
     lexicon: MFA
     pronunciation_bound: "\t"
+    word_bound: ""
     syllable_bound: " "
     phoneme_bound: ""
+    word_column: 0
     tokens_to_remove: "_"
     include_tones: true
     """
@@ -56,7 +73,12 @@ def main(args):
                           output_config=output_config)
 
     with open(args.lexicon, "r") as tsvin, open(args.outputFile, "w") as tsvout:
-        tsvin = csv.reader(tsvin, delimiter=input_config.pronunciation_bound)
+        csv.register_dialect('my_dialect', 
+                quoting=csv.QUOTE_NONE, 
+                doublequote=False,
+                delimiter=input_config.pronunciation_bound)
+
+        tsvin = csv.reader(tsvin, dialect='my_dialect')
         tsvout = csv.writer(tsvout, delimiter=output_config.pronunciation_bound)
 
         for entry in tsvin:

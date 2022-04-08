@@ -12,12 +12,14 @@ class Lexicon(Enum):
 @dataclass
 class Configuration:
     lexicon: Lexicon
+    word_bound: str
     pronunciation_bound: str
     syllable_bound: str
     phoneme_bound: str
+    word_column: int
     tokens_to_remove: str  # pattern, list? different name?
     include_tones: bool
-
+ 
 
 class LexiconIO:
 
@@ -36,23 +38,18 @@ class LexiconIO:
         return (word, output_pronunciation)
 
     def deserialize(self, entry):
-        word = entry[1]
-        input_pronunciations = entry[2:]
+        word = entry[self.input_config.word_column]
+        input_pronunciations = entry[self.input_config.word_column+1:]
 
-        pronunciations = []
-        for pronunciation in input_pronunciations:
+        output_pronunciations = []
+        for p in input_pronunciations:
+            p = p.replace(self.input_config.word_bound, self.input_config.syllable_bound)
             syll_phonemes = [s.split(self.input_config.phoneme_bound)
-                             for s in pronunciation.split(self.input_config.syllable_bound)]
+                             for s in p.split(self.input_config.syllable_bound)]
 
-            # temp workaround
-            for i, elem in enumerate(syll_phonemes):
-                if len(elem) < 2 or len(elem) > 4:
-                    print(
-                        f"Syllable {elem} has {len(elem)} phonemes, dropping from dict")
-                    syll_phonemes.pop(i)
+            syllables = (SyllableBuilder.from_phonemes_2(phonemes)
+                    for phonemes in syll_phonemes)
+            syllables = list(filter(lambda x: x is not None, syllables))
+            output_pronunciations.append(syllables)
 
-            syllables = [SyllableBuilder.from_phonemes(phonemes)
-                         for phonemes in syll_phonemes]
-            pronunciations.append(syllables)
-
-        return (word, pronunciations)
+        return (word, output_pronunciations)
