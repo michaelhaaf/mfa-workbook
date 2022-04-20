@@ -21,17 +21,16 @@ with CorpusContext(corpus_name) as c:
 phone_set = [x.values[0] for x in phone_results]
 print(phone_set)
 
-# we now use a regular expression to find all the non-speech phones
-non_speech_regex = '[<s]'
-non_speech_set = [re.search(non_speech_regex, x).string
-                  for x in phone_set
-                  if re.search(non_speech_regex, x) != None]
+# specify non-speech phones for this corpus:
+non_speech_set = ['<SIL>', 'sil', 'spn']
 
 # in turn, use a regular expression to find all the vowel phones
-vowel_regex = '[AEOUIaeoui]'
+vowel_regex = '^[AEOUI].[0-9]'
 vowel_set = [re.search(vowel_regex, x).string
              for x in phone_set
-             if re.search(vowel_regex, x) != None and re.search(non_speech_regex, x) == None]
+             if re.search(vowel_regex, x) != None
+             and x not in non_speech_set]
+print(vowel_set)
 
 # we now enrich the corpus with syllable annotations
 # to do this, we create a phone subset called vowel
@@ -50,6 +49,10 @@ with CorpusContext(corpus_name) as c:
 with CorpusContext(corpus_name) as c:
     c.encode_pauses(non_speech_set)
     c.encode_utterances(min_pause_length=0.15)
+
+with CorpusContext(corpus_name) as c:
+    c.encode_rate('utterance', 'syllable', 'speech_rate')
+
 
 # speaker information
 print("Speaker enrichment begun...")
@@ -70,7 +73,7 @@ with CorpusContext(corpus_name) as c:
     q = q.columns(c.phone.speaker.name.column_name('speaker'),
                   c.phone.speaker.sex.column_name('speaker_sex'),
                   c.phone.discourse.name.column_name('file'),
-                  c.phone.utterance.rate.column_name('speech_rate'),
+                  c.phone.utterance.speech_rate.column_name('speech_rate'),
                   c.phone.word.label.column_name('word'),
                   c.phone.label.column_name('phone'),
                   c.phone.previous.label.column_name('previous'),
