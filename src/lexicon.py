@@ -47,7 +47,7 @@ class LexiconIO:
             syll_phonemes = [s.split(self.input_config.phoneme_bound)
                              for s in p.split(self.input_config.syllable_bound)]
 
-            syllables = (SyllableBuilder.from_phonemes_2(phonemes)
+            syllables = (SyllableBuilder.from_phonemes_3(phonemes)
                     for phonemes in syll_phonemes)
             syllables = list(filter(lambda x: x is not None, syllables))
             output_pronunciations.append(syllables)

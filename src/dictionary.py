@@ -15,7 +15,7 @@ class PronunciationDict:
 
 class WikiPronPronunciationDict(PronunciationDict):
     def __init__(self):
-        tone_dict = {
+        tone_dict = { # TODO: extract to config
             "˧": "33",     # mid
             "˨˩": "21",    # low
             "˩": "21",
@@ -26,7 +26,6 @@ class WikiPronPronunciationDict(PronunciationDict):
             "˩˦": "323"
         }
         col_name = "wp_tone"
-
         super().__init__(tone_dict, col_name)
 
     def create_df_from_file(self, file_path):
@@ -40,7 +39,7 @@ class WikiPronPronunciationDict(PronunciationDict):
 
 class GlobalPhonePronunciationDict(PronunciationDict):
     def __init__(self):
-        tone_dict = {
+        tone_dict = { # TODO: extact to config
             "1": "1",
             "2": "2",
             "3": "3",
@@ -48,9 +47,9 @@ class GlobalPhonePronunciationDict(PronunciationDict):
             "0": "0"
         }
         col_name = "gp_tone"
-
         super().__init__(tone_dict, col_name)
 
+    # Weird global phone processing magic
     def create_df_from_file(self, file_path):
         word_cleanup_pattern = re.compile(r'\(\d+\)')
         line_break_pattern = re.compile(r'\}\s+')

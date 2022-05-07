@@ -1,12 +1,12 @@
 from dataclasses import dataclass
 
-# @dataclass
-# class Configuration:
-#     syllable_builder: SyllableBuilder
+@dataclass
+class Configuration:
+    syllable_builder: SyllableBuilder
 
 class Syllable:
 
-    def __init__(self, nucleus, tone, onset="", coda=""):
+    def __init__(self, nucleus, tone, onset=[], coda=[]):
         self.onset = onset
         self.nucleus = nucleus
         self.coda = coda
@@ -19,11 +19,44 @@ class Syllable:
                 self.coda == other.coda and
                 self.tone == other.tone)
 
-    def serialize(self):
+    def serialize(self): # TODO: might not play well as lists but it's the right thing
         return f"{self.onset} {self.nucleus}{self.tone} {self.coda}".strip()
 
 
 class SyllableBuilder:
+
+    # Helper method to split phonemes into partitions (onset, nucleus, coda)
+    def _partition(phonemes, indices):
+        return [phonemes[i:j] for i, j in zip([0]+indices, indices+[None])]
+
+
+    def from_phonemes_3(phonemes):
+        vowel_indices =  [i for i, x in enumerate(map(_contains_vowel, phonemes)) if x]
+        sonorant_indicies =  [i for i, x in enumerate(map(_contains_sonorant, phonemes)) if x]
+
+        onset = phonemes[0:vowel_indices[0]]
+        nucleus = phonemes[] # TODO the cases
+        coda = phonemes[] # TODO what reimans
+
+        # determine nucleus (in order)
+            # vowel + sonorant
+            # two sequential vowels
+            # any vowel
+        
+        # onset: everything before nucleus
+        # coda: everything after nucleus
+
+        # remove tones
+
+        # if time:
+
+        # nucleus length -> "vowel" length
+
+        # if starts with ": stressed
+        # else, unstressed
+
+        # if contains "_R": rising
+        # if contains "_F" falling
 
     # Input: a list of strings (each string a phoneme)
     def from_phonemes_2(phonemes):
@@ -70,14 +103,13 @@ class SyllableBuilder:
                 )
 
         else:
-            # print(
-            #     f"Syllable {phonemes} has {len(phonemes)} phonemes; syllables can have 2, 3, or 4 phonemes only. Dropping from dictionary.")
+            print(
+                f"Syllable {phonemes} has {len(phonemes)} phonemes; syllables can have 2, 3, or 4 phonemes only. Dropping from dictionary.")
             return None
 
 
     # Input: a list of strings (each string a phoneme)
     def from_phonemes(phonemes):
-
         if len(phonemes) == 2:
             return Syllable(
                 nucleus=phonemes[0],
@@ -113,10 +145,16 @@ class SyllableBuilder:
                 f"Syllable {phonemes} has {len(phonemes)} phonemes; syllables can have 2, 3, or 4 phonemes only.")
 
 
+
+
 class SyllableException(ValueError):
     pass
 
 
+def _contains_sonorant(phoneme):
+    vowels = "rlmn" # TODO load from config
+    return any(letter.lower() in vowels for letter in phoneme)
+
 def _contains_vowel(phoneme):
     vowels = "aeiou"
-    return any(letter in vowels for letter in phoneme)
+    return any(letter.lower() in vowels for letter in phoneme)
