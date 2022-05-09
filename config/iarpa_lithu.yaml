@@ -1,0 +1,10 @@
+lexicon: IARPA_LITHU
+pronunciation_bound: "\t"
+word_bound: " # "
+syllable_bound: " . "
+phoneme_bound: " "
+word_column: 0
+tone_characters: '"|_R|_F'
+include_tones: true
+sonorants: "rlmn"
+vowels: "aeoiu{"

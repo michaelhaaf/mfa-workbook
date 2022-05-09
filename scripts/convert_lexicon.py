@@ -11,70 +11,30 @@ from pathlib import Path
 path_root = Path(__file__).parents[1]
 sys.path.append(str(path_root))
 
-from src.lexicon import Lexicon, LexiconIO, Configuration
+from src.lexicon import LexiconIO
+from src.models import Lexicon, Configuration
 
 def main(args):
 
-    # # TODO: move to actual yaml files, load programmatically from user input
-    # input_cfg = yaml.safe_load(
-    #     """
-    # lexicon: IARPA_CANTO
-    # pronunciation_bound: "\t"
-    # syllable_bound: " . "
-    # phoneme_bound: " "
-    # word_column: 1
-    # tokens_to_remove: ""
-    # include_tones: true
-    # """
-    # )
-
-    # TODO: move to actual yaml files, load programmatically from user input
-    input_cfg = yaml.safe_load(
-        """
-    lexicon: IARPA_LITHU
-    pronunciation_bound: "\t"
-    word_bound: " # "
-    syllable_bound: " . "
-    phoneme_bound: " "
-    word_column: 0
-    tokens_to_remove: ""
-    include_tones: true
-    """
-    )
-
-    output_cfg = yaml.safe_load(
-        """
-    lexicon: MFA
-    pronunciation_bound: "\t"
-    word_bound: ""
-    syllable_bound: " "
-    phoneme_bound: ""
-    word_column: 0
-    tokens_to_remove: "_"
-    include_tones: true
-    """
-    )
-
-    converters = {Lexicon: lambda x: Lexicon[x]}
-
-    output_config = dacite.from_dict(
-        data_class=Configuration,
-        data=output_cfg,
-        config=dacite.Config(type_hooks=converters)
-    )
-
-    input_config = dacite.from_dict(
-        data_class=Configuration,
-        data=input_cfg,
-        config=dacite.Config(type_hooks=converters)
-    )
+    with open(f"config/{args.format.lower()}.yaml", "r") as input_config, open("config/mfa.yaml", "r") as output_config:
+        converters = {Lexicon: lambda x: Lexicon[x]}
+        output_config = dacite.from_dict(
+            data_class=Configuration,
+            data=yaml.safe_load(output_config),
+            config=dacite.Config(type_hooks=converters)
+        )
+        input_config = dacite.from_dict(
+            data_class=Configuration,
+            data=yaml.safe_load(input_config),
+            config=dacite.Config(type_hooks=converters)
+        )
 
     lexiconIO = LexiconIO(input_config=input_config,
                           output_config=output_config)
 
     with open(args.lexicon, "r") as tsvin, open(args.outputFile, "w") as tsvout:
-        csv.register_dialect('my_dialect', 
-                quoting=csv.QUOTE_NONE, 
+        csv.register_dialect('my_dialect',
+                quoting=csv.QUOTE_NONE,
                 doublequote=False,
                 delimiter=input_config.pronunciation_bound)
 
@@ -90,6 +50,7 @@ def main(args):
 
 # Usage
 # python process-lexicon.py -i input.txt -o output.txt -f INPUT_LEXICON_FORMAT
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
@@ -107,6 +68,7 @@ if __name__ == "__main__":
                         dest='outputFile'
                         )
     parser.add_argument('-f',
+                        required=True,
                         dest='format',
                         help='input lexicon format',
                         choices=Lexicon.__members__
