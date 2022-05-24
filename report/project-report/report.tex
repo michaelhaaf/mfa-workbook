@@ -1,0 +1,378 @@
+\documentclass[twoside,11pt]{article}
+
+% Any additional packages needed should be included after jmlr2e.
+% Note that jmlr2e.sty includes epsfig, amssymb, natbib and graphicx,
+% and defines many common macros, such as 'proof' and 'example'.
+%
+% It also sets the bibliographystyle to plainnat; for more information on
+% natbib citation styles, see the natbib documentation, a copy of which
+% is archived at http://www.jmlr.org/format/natbib.pdf
+
+\usepackage{jmlr2e}
+% Definitions of handy macros can go here
+\usepackage{subfig}
+\newcommand{\dataset}{{\cal D}}
+\newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
+
+\begin{document}
+\title{MSc. Project Report Winter 2022}
+\ShortHeadings{MSc. Project Report Winter 2022, McGill University}{}
+\author{Author: Michael Haaf \textit{(michael.haaf@mail.mcgill.ca)} \\ Supervisor: Morgan Sonderegger \textit{(morgan.sonderegger@mcgill.ca)}}
+
+\maketitle
+
+
+\section{Intro (purpose of work, overview main experiments/systems built, results)}
+
+A huge and ever-increasing pool of speech data annotated at
+least with an orthographic transcription exists in the world,
+from public speech datasets, academic laboratories, online me-
+dia archives, and other sources. This pool spans languages,
+speech styles, and historical time. At the same time, increas-
+ingly accurate automatic tools exist to align these speech cor-
+pora [1, 2, 3, 4] and measure the standard variables used in lan-
+guage research (e.g. vowel formants, f0, VOT: [1, 5, 6]). This
+confluence of ‘big data’ and speech processing tools has signifi-
+cant scientific potential, by enabling linguists and speech scien-
+tists to study spoken language at a much larger scale than pre-
+viously possible [7, 8]. While such ‘large scale’ studies have
+begun to be conducted (e.g. [9, 10]), they remain limited to
+technically-skilled researchers and corpora of similar formats,
+due to practical barriers described below. Realizing this poten-
+tial requires software for unified corpus analysis: integrating
+speech corpora, enriching them with measures of interest, and
+querying across them.
+<++> (note: copied! revise!)
+
+\section{Literature Review}
+
+(briefly summarize state of the field, where else experiments like this can be found with PolyglotDB or similar software. Establish that work builds on MMCauliffe experiments, explain reproduction introuce contributions)
+
+SCT). 1 These tools are motivated by two aspects of speech cor-
+pora that act as barriers to large-scale studies.
+First, speech corpora are large. While any individual corpus
+can be processed on a modern laptop, storage and processing
+time become issues when working with many corpora at once.
+Thus, key goals of Polyglot-SCT are scalability and speed: per-
+formance in reasonable time as the amount of data grows.
+Second, speech corpora are complex and heterogeneous.
+Directory structure, metadata, and annotation files can all be
+highly structured. Dozens of formats have been used to store
+speech corpora over the past 25+ years. These factors make
+studies using data from many corpora practically difficult, with
+researchers writing extensive scripts to perform similar oper-
+ations on different corpora, despite substantial structural sim-
+ilarities across all speech corpora. The scripting involved in
+corpus work is time-consuming for technical users, and a deal-
+breaker for non-technical users. Thus, two goals of Polyglot-
+SCT are minimizing scripting and abstraction away from cor-
+pus format. Users should need minimal technical skill, and
+should be able to interact with corpora without understanding
+particularities of their formats (as for textual corpora in NLTK
+[11]). Technically-skilled users should be able to avoid rewrit-
+ing scripts with similar functionality.
+<++> (note: copied! revise!)
+
+Several other systems for management and analysis of speech
+corpora exist (e.g. [15, 16, 17, 18, 19]), including three systems
+which are most similar to Polyglot-SCT.
+Phon [15] is a system for creating and querying corpora.
+Phon uses a relational database to store data, but does not adopt
+the annotation graph formalism. Phon is integrated with Praat
+[20], and allows for a range of acoustic analyses and linguistic
+analyses (e.g. syllabification) across many languages. LaBB-
+CAT [16] stores recordings and associated transcriptions as an-
+notation graphs in a relational database. In addition to import,
+export, and querying, LaBB-CAT can enrich a corpus in vari-
+ous ways (e.g. forced alignment, syllabification), and offers in-
+tegration with Praat and lexical databases. EMU-SDMS [17]
+is a system consisting of an R [21] package, to simplify the
+full pipeline of corpus research to a single environment for data
+preparation and analysis, and a web application for annotation
+and file inspection. EMU also uses annotation graphs, which
+are stored in JSON files, as are subsequent measurements (f0,
+etc.) made using a signal processing library. Querying is done
+through a custom query language.
+Polyglot-SCT differs from other systems in its goals: it is
+optimized for large-scale studies across many corpora, maxi-
+mizing scalability, speed, and ease of use. Polyglot-SCT is not
+integrated with annotation or statistical data analysis, assumes
+that human annotation is complete, and carries out only data
+processing that can be done automatically. This design antici-
+pates planned future development, to allow working with cor-
+pora without access to the raw data.
+<++> (note: copied! revise!)
+
+\section{Speech Analysis Pipeline}
+
+Technical explanation of the problems raised in previous sections. In this section I explain the problem overall, showing where canonical solutions exist and indicating where my project makes contributions to explain in subsequent sections (particularly: 3.2/3.3/3.4/3.5/3.6). If we have time, hopefully I can make a quick contribution for 3.7, otherwise I'll point the way for future work.
+
+We can take corpora of from the IARPA <++> (link) dataset as a starting point, though the procedure is general for all speech corpora. IARPA corpora are organized in the following manner:
+
+\begin{verbatim}
+corpus/
+|-- scripted/
+|   |-- reference_materials/
+|   |   |   `-- lexicon.txt
+|   |   |   `-- lexicon.sub-train.txt
+|   |-- training/
+|   |   |-- audio/
+|   |   |   `-- recording1.sph
+|   |   |   `-- recording2.sph
+|   |   |   `-- ...
+|   |   |-- transcript_roman/
+|   |   |   `-- recording1.txt
+|   |   |   `-- recording2.txt
+|   |   |   `-- ...
+\end{verbatim}
+
+The Montreal Forced Aligner assumes its own particular format [corpus structure](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/formats/corpus_structure.html):
+
+\begin{verbatim}
+`--pronunciation_dictionary.txt
+`--textgrid_corpus/
+|   `-- recording1.wav
+|   `-- recording1.TextGrid
+|   `-- recording2.wav
+|   `-- recording2.TextGrid
+|   `-- ...
+\end{verbatim}
+
+That is, the following steps need to be taken:
+
+- [Convert bulk generic audio files to 16kHz .wav files](#bulk-audio-conversion)
+- [Convert bulk .txt transcripts to .TextGrids](#bulk-transcript-conversion)
+- [Convert Iarpa corpus lexicon to MFA-ready pronunciation dictionary](#iarpa-lexicon-to-mfa-dictionary)
+- [Prepare all of the above for alignment with MFA](#preparation)
+
+Instructions for each step, using the code in this repository, are given below. You can follow the steps with the data contained in the sample-data directory to get a sense of the process. Sample results for this dataset are also given in the sample-data directory.
+
+
+\subsection{Speech Corpora Acquisition and Organization}
+
+- Download from the internet (discoverability, formats, etc.)
+- Occassional need to filter based on what you already have (see the dl.sh script I created that's currently in the google drive)
+
+\subsection{Transcript to `TextGrid` Conversion}
+
+The import step implements Polyglot-SCT’s goal of abstraction
+away from corpus format: speech corpora in different formats
+(as in Fig 1b) are imported into a standardized database for-
+mat, using pre-written importers. Currently the default importer
+loads Praat [20] TextGrids, and allows for structuring ‘tiers’ in
+the TextGrid into the more meaningful hierarchy defined in the
+database format (e.g. each phone token belongs to a correspond-
+ing word). TextGrid-based formats which are output from var-
+ious programs are also supported: the MFA [3], Prosodylab-
+Aligner [4], and FAVE [1] forced aligners, as well as LaBB-
+CAT. Importers also exist for corpora in BAS Partitur format
+[24], as well as for the TIMIT and Buckeye corpora [25, 26].
+<++> (note: copied! revise!)
+
+Iarpa transcript files are stored as `.txt`. These files need to be converted to `.TextGrid`.
+
+The python library `praatio` has useful utilities for performing this conversion. The `txt-to-textgrid.py` script makes use of these utilities to convert a specified directory of `.txt` files to the `.TextGrid` format. The script also converts Iarpa tags (e.g. '\<breath\>') to their MFA equivalent (e.g. '{LG}') along with other syntax related substitutions.
+
+
+\subsection{Audio Signal Processing}
+
+Iarpa corpus audio files are stored as `.sph` files with an 8kHz sample rate. These files need to be converted to `.wav` and resampled to 16kHz to be recognizable to MFA.
+
+There exist many tools to convert and resample audio formats, but none that can specifically (1) convert .sph to .wav (2) resample .wav to 16kHz without corrupting the pitch/speed of the audio file (3) handle gigabytes of audio files in bulk without running into RAM issues.
+
+The `bulk_sph_resample` script performs all three functions using (1) [sph2pipe](https://github.com/burrmill/sph2pipe) for conversion (2) [praat](https://www.fon.hum.uva.nl/praat/) for resampling and (3) bash to manage praat scripts as independent shell processes. This allows praat to run resampling on each file individually, preventing all files in the directory from loading into memory at the same time.
+
+\subsection{Pronunciation Dictionary Production}
+
+MFA pronunciation dictionaries are two-column files, where the columns represent a many to many mapping from words to pronunciations. The lexicon from the Cantonese speech corpus seems to be noncompliant with MFA pronunciation dictionaries in two ways: it includes tone markers (which do not correspond to phonemes), and it contains an extra column, containing what I believe to be latin-script transliterations of the utterance pronunciations.
+
+dacite dependency <++> (part of explanation of implementation)
+
+\subsection{Alignment Production}
+
+Note well: the sample-data/ given in this repository (10 randomly chosen ~10second speech files) is no where near enough data to train a performant model. With this data we are simply verifying that there are no syntax/format issues with your workflow. Once that is verified, you will need to acquire more data to train a performant model. See [this blog post](https://memcauliffe.com/how-much-data-do-you-need-for-a-good-mfa-alignment.html#summing-up) for rough guidelines as to the magnitude of data required to train a model for alignment/general usage.
+
+
+\subsection{Aligned Speech Corpora Storage}
+
+Putting the aligned .wavs and .textgrids into polyglotDB for further analysis
+
+\subsection{Linguistic Analysis}
+
+Basic demonstration of the formants working for engl, canto, lithu
+
+\subsection{Discussion}
+
+\subsection{Generalization to New Languages and Corpora}
+
+Implementation details for getting corpuses ready for alignment (scripts, new src modules with flexible business logic for configuration by non experts, unit testing, etc.)
+
+    * [X] review phoneset, syllables, tone rules, etc.  #cf4b65ab
+    * [X] check 'no syllables begin with " and end with :R or _F'  #095b708f
+    * [X] multiple lines per pronunciation  #795875ca
+    * [X] remove word boundaries ("#", see e.g.)  #e50586dd
+    * [X] pipe into Cantonese-wrap-up process  #2cd75774
+
+
+\subsection{PolyglotDB Package Management}
+
+Implementation details of transition to conda, multiple architectures, integration into development and production usage.
+\subsubsection{Dependency Management}
+\subsubsection{Development Environment}
+\subsubsection{Upgrading to a Modern Python setup environment}
+
+* used to be pip install, but external dependencies with Kaldi. They were precompiled manually
+* now: MFA 2.0 is in condaforge (big undertaking)
+* same problem as MFA 1.0 exists for polyglotdb today
+* is this a potential project? in fact yes!
+
+\subsubsection{Support for Multiple Architectures}
+
+- canadacompute
+- roquefort
+- os x
+- windows
+- intel/amd linux
+- that other type of processor which is flash based that i forget
+
+\section{Experiments}
+
+Overview of experiments reproduced/conducted.
+
+\subsection{Introduction: Reproduction of Existing Experiments}
+
+Allude to the earlier section results. The following will be further developments on the LibriSpeech english dataset to see what else is possible with these tools.
+
+A freshly-imported corpus will result in a database containing at
+a minimum the word and phone levels (see Figure 1 right) and
+any other information from the corpus’ annotation files. Any
+other information is added in the enrichment phase.
+Polyglot-SCT databases can be enriched in many ways, by
+adding structure and measures that are often used in linguistic
+studies. First, new annotations can be created. Larger connected
+speech chunks, termed utterances, can be created as parents of
+word annotations (as in Fig. 1 right). Utterances are created by
+encoding speech versus non-speech elements in each file, then
+specifying the minimum duration of non-speech elements corre-
+sponding to an utterance boundary. Syllable annotations, which
+are parents of phones, can also be created using the maximum
+onset algorithm. We plan to add other algorithms for marking
+boundaries and for syllabification in the future.
+Second, measures based on hierarchical relations can be
+calculated and stored. For instance, once utterances and syl-
+lables have been created, speech rate can be calculated as sylla-
+bles per second in the utterance, and stored as a property of the
+utterance. Count and position of lower elements within higher
+elements can be encoded, such as syllable position within a
+word or number of syllables in a word (properties of the syl-
+lable and word, respectively).
+Third, properties of lexical items, segments, and metadata
+about speakers or sound files can be added—such as from lex-
+icons (e.g. frequency, part of speech) or files listing properties
+of phones (e.g. phonological features).
+Fourth, acoustic measurements from the sound files can
+be calculated and stored. Currently, f0 (using Praat or Reaper
+[5]), intensity, and formants (using Praat) are supported. Other
+acoustic measurements will be added in future work, by incor-porating external tools (e.g. for VOT, pitch accent detection:
+[6, 27]) and further integration with Praat.
+Finally, ‘relativized’ versions of measures calculated in en-
+richment can be calculated. For example, it is often of interest
+in phonetic studies to know how long a phone (token) is relative
+to its mean duration in the corpus, or an utterance’s speech rate
+relative to the speaker’s mean rate.
+Anything encoded as part of enrichment is saved and can
+be queried in the future. The intended use case for Polyglot-
+SCT is for import and enrichment to be done once per corpus.
+These steps can be slow (see Table 1), but require minimal in-
+put from the user. By contrast, querying and exporting are fast,
+and can be done many times, in different studies with different
+goals. This design allows users to not repeat work like recalcu-
+lating measures (e.g. pitch tracks) for each new study, which is
+important for scalability to large-scale studies.
+<++> (note: copied! revise!)
+
+\subsection{Formant Analysis}
+\subsection{Pitch Analysis}
+\subsection{Future Work}
+
+* Imbert Orchard, 2700 hours audiotape (available for purchase on DVD. Uploaded/available for download?)
+* Very similar line of work to what I'm thinking: https://langmusecad.wordpress.com/tag/university-of-victoria/ 
+* idea?: speech to wordvector tutorial? different in speech and in text, could be something there
+* idea?: people as "vectors", output of MFA without polyglot
+* note: SPADE uses polyglot under the hood, would be nice to ... 
+    * replicate dataset/analyses that are already on SPADE, 
+    * make something not just for experts, shows you how to work with your own corpus to see
+* idea: time dimensions for datasets not yet examined (related to Peace River corpus)
+
+* analyze pitch: something like the chodroff tutorial (see slack), a working script with known input/output
+* 5 or 10 examples like this well documented
+* extension with time: Mark Liberman projects ("breakfast experiment"). How to facilitate?
+* Actually realize some of these projects and document them for others. Cool end goal.
+
+
+
+\section{Conclusions}
+
+Summarize results and contributions, indicate future work, acknowledgements, etc.
+
+\section{Appendix (TODO: properly)}
+
+"Program listings should only be attached as appendices."
+
+\section{Detailed description of the repository (TODO: add other repos worked on)}
+\label{sec:repository}
+
+Experiment code can be viewed here: \\ \href{https://github.com/michaelhaaf/mfa-workbook}. The following describes the usage of each component of this code:
+
+\begin{verbatim}
+ |-README.md
+ |-requirements.txt
+ |-scripts/
+ | |-bulk_sph_resample
+ | |-create_random_subset
+ | |-lexicon_to_dict.py
+ | |-transcripts_to_textgrids.py
+ | |-resample.praat
+ |-src/
+ | |-dictionary.py
+ | |-models.py
+ | |-syllable.py
+ | |-lexicon.py
+ |-test
+ | |-test_dictionary.py
+ | |-test_models.py
+ | |-test_syllable.py
+ | |-test_lexicon.py
+ | |-test_transcripts_to_textgrids.py
+ |-experiments/
+ | |-scripts/
+ | | |-tutorial_first_steps.py
+ | | |-tutorial_enrichment.py
+ | | |-tutorial_formants.py
+ | | |-tutorial_pitch.py
+ | |-analysis/
+ | | |-tutorial_first_steps.Rmd
+ | | |-tutorial_enrichment.Rmd
+ | | |-tutorial_formants.Rmd
+ | | |-tutorial_pitch.Rmd
+ | |-results/
+ | | |-tutorial_first_steps.html
+ | | |-tutorial_enrichment.html
+ | | |-tutorial_formants.html
+ | | |-tutorial_pitch.html
+ |-sample-data/
+ | |-canto-pd.txt
+ | |-lithu-pd.txt
+ | |-iarpa-corpora/
+ | | |-lithu/
+ | | |-canto/
+ | |-aligned-corpora/
+ | | |-lithu/
+ | | |-canto/
+\end{verbatim}
+
+
+% \vskip 0.2in
+% \bibliography{sample}
+
+\end{document}

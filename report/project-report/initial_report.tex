@@ -1,0 +1,122 @@
+\documentclass[twoside,11pt]{article}
+
+% Any additional packages needed should be included after jmlr2e.
+% Note that jmlr2e.sty includes epsfig, amssymb, natbib and graphicx,
+% and defines many common macros, such as 'proof' and 'example'.
+%
+% It also sets the bibliographystyle to plainnat; for more information on
+% natbib citation styles, see the natbib documentation, a copy of which
+% is archived at http://www.jmlr.org/format/natbib.pdf
+
+\usepackage{jmlr2e}
+% Definitions of handy macros can go here
+\usepackage{subfig}
+\newcommand{\dataset}{{\cal D}}
+\newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
+
+\begin{document}
+\title{MSc. Project Report Winter 2022}
+\ShortHeadings{MSc. Project Report Winter 2022, McGill University}{}
+\author{Author: Michael Haaf \textit{(michael.haaf@mail.mcgill.ca)} \\ Supervisor: Morgan Sonderegger \textit{(morgan.sonderegger@mcgill.ca)}}
+
+\maketitle
+
+
+\section{Intro (purpose of work, overview main experiments/systems built, results)}
+
+(Content: Introduce speech analysis NLP broadly. explain difference in state of the field between Text NLP (more common, canonical solutions) and speech NLP. This project is a set of experiments, modules, and scripts which demonstrate and overcome difficulties in data management for speech analysis NLP, especially given non-CS background of most practitioners in the field.)
+
+
+\section{Literature Review}
+
+(briefly summarize state of the field, where else experiments like this can be found with PolyglotDB or similar software. Establish that work builds on MMCauliffe experiments, explain reproduction introuce contributions)
+
+\section{Speech Analysis Pipeline}
+
+Technical explanation of the problems raised in previous sections. In this section I explain the problem overall, showing where canonical solutions exist and indicating where my project makes contributions to explain in subsequent sections (particularly: 3.2/3.3/3.4/3.5/3.6). If we have time, hopefully I can make a quick contribution for 3.7, otherwise I'll point the way for future work.
+
+
+\subsection{acquiring/storing large corpora}
+\subsection{preparing TextGrids}
+
+This guide assumes you are starting with a corpus in the IARPA format:
+
+\begin{verbatim}
+corpus/
+|-- scripted/
+|   |-- reference_materials/
+|   |   |   `-- lexicon.txt
+|   |   |   `-- lexicon.sub-train.txt
+|   |-- training/
+|   |   |-- audio/
+|   |   |   `-- recording1.sph
+|   |   |   `-- recording2.sph
+|   |   |   `-- ...
+|   |   |-- transcript_roman/
+|   |   |   `-- recording1.txt
+|   |   |   `-- recording2.txt
+|   |   |   `-- ...
+\end{verbatim}
+
+
+\subsection{audio signal processing}
+\subsection{pronunciation dictionary derivation}
+\subsection{MFA alignment}
+\subsection{store for experiment using PolyglotDB}
+\subsection{linguistic analysis of results with RMD}
+
+
+\section{Alignment Procedure Implementation}
+
+Implementation details for getting corpuses ready for alignment (scripts, new src modules with flexible business logic for configuration by non experts, unit testing, etc.)
+\
+
+\section{PolyglotDB Package Management}
+
+Implementation details of transition to conda, multiple architectures, integration into development and production usage.
+\subsection{Dependency Management}
+\subsection{Development Environment}
+\subsection{Upgrading to a Modern Python setup environment}
+\subsection{Support for Multiple Architectures}
+
+\section{Experiments}
+
+Overview of experiments reproduced/conducted.
+
+\subsection{Formant Analysis}
+\subsection{Pitch Analysis}
+\subsection{Future Work}
+
+\section{Conclusions}
+
+Summarize results and contributions, indicate future work, acknowledgements, etc.
+
+\section{Appendix (TODO: properly)}
+
+"Program listings should only be attached as appendices."
+
+\section{Detailed description of the repository (TODO: add other repos worked on)}
+\label{sec:repository}
+
+Experiment code can be viewed here: \\ \href{https://github.com/michaelhaaf/mfa-workbook}. The following describes the usage of each component of this code:
+
+\begin{verbatim}
+ |-requirements.txt     # External libraries to be installed
+ |-test                 # Unit test files
+ | |-
+ |-scripts    
+ | |-
+ |-experiments  # PolyglotDB experiments/reproductions/README
+ | |-
+ |-sample-data
+ | |-
+ |-src               # Directory containing contributed modules
+ | |-
+ |-README.md
+\end{verbatim}
+
+
+% \vskip 0.2in
+% \bibliography{sample}
+
+\end{document}
