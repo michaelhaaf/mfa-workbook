@@ -7,6 +7,7 @@ import sys
 import yaml
 import dacite
 
+
 from pathlib import Path
 path_root = Path(__file__).parents[1]
 sys.path.append(str(path_root))
@@ -14,25 +15,30 @@ sys.path.append(str(path_root))
 from src.lexicon import LexiconIO
 from src.models import Lexicon, Configuration
 
-def main(args):
 
-    with open(f"config/{args.format.lower()}.yaml", "r") as input_config, open("config/mfa.yaml", "r") as output_config:
+def load_config(format):
+    with open(f"config/{format}.yaml", "r") as input_config, open("config/mfa.yaml", "r") as output_config:
         converters = {Lexicon: lambda x: Lexicon[x]}
         output_config = dacite.from_dict(
-            data_class=Configuration,
-            data=yaml.safe_load(output_config),
-            config=dacite.Config(type_hooks=converters)
-        )
+                data_class=Configuration,
+                data=yaml.safe_load(output_config),
+                config=dacite.Config(type_hooks=converters)
+                )
         input_config = dacite.from_dict(
-            data_class=Configuration,
-            data=yaml.safe_load(input_config),
-            config=dacite.Config(type_hooks=converters)
-        )
+                data_class=Configuration,
+                data=yaml.safe_load(input_config),
+                config=dacite.Config(type_hooks=converters)
+                )
+        return input_config, output_config
 
+
+def main(args):
+
+    input_config, output_config = load_config(args.format.lower())
     lexiconIO = LexiconIO(input_config=input_config,
                           output_config=output_config)
 
-    with open(args.lexicon, "r") as tsvin, open(args.outputFile, "w") as tsvout:
+    with open(args.lexicon, "r") as tsvin, open(args.output_dict, "w") as tsvout:
         csv.register_dialect('my_dialect',
                 quoting=csv.QUOTE_NONE,
                 doublequote=False,
@@ -50,11 +56,10 @@ def main(args):
 
 # Usage
 # python process-lexicon.py -i input.txt -o output.txt -f INPUT_LEXICON_FORMAT
-
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
-        description='uses Lexicon and Syllable libraries to convert lexicon of specified format and language to MFA pronunciation dictionary')
+        description='Convert lexicon of specified format and language to MFA pronunciation dictionary')
     parser.add_argument('-i',
                         required=True,
                         help='lexicon txt file',
@@ -65,7 +70,7 @@ if __name__ == "__main__":
                         required=True,
                         help='mfa-ready output destination',
                         type=str,
-                        dest='outputFile'
+                        dest='output_dict'
                         )
     parser.add_argument('-f',
                         required=True,
@@ -74,5 +79,4 @@ if __name__ == "__main__":
                         choices=Lexicon.__members__
                         )
     args = parser.parse_args()
-
     main(args)
