@@ -1,4 +1,4 @@
-\documentclass[twoside,11pt]{article}
+\documentclass[11pt]{article}
 
 % Any additional packages needed should be included after jmlr2e.
 % Note that jmlr2e.sty includes epsfig, amssymb, natbib and graphicx,
@@ -9,6 +9,8 @@
 % is archived at http://www.jmlr.org/format/natbib.pdf
 
 \usepackage{jmlr2e}
+\usepackage{hyperref}
+
 % Definitions of handy macros can go here
 \usepackage{subfig}
 \newcommand{\dataset}{{\cal D}}
@@ -23,6 +25,8 @@
 
 
 \section{Intro (purpose of work, overview main experiments/systems built, results)}
+
+
 
 A huge and ever-increasing pool of speech data annotated at
 least with an orthographic transcription exists in the world,
@@ -126,7 +130,7 @@ corpus/
 |   |   |   `-- ...
 \end{verbatim}
 
-The Montreal Forced Aligner assumes its own particular format [corpus structure](https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/formats/corpus_structure.html):
+The Montreal Forced Aligner assumes its own particular format \href{https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/formats/corpus_structure.html}{corpus structure}
 
 \begin{verbatim}
 `--pronunciation_dictionary.txt
@@ -140,10 +144,10 @@ The Montreal Forced Aligner assumes its own particular format [corpus structure]
 
 That is, the following steps need to be taken:
 
-- [Convert bulk generic audio files to 16kHz .wav files](#bulk-audio-conversion)
-- [Convert bulk .txt transcripts to .TextGrids](#bulk-transcript-conversion)
-- [Convert Iarpa corpus lexicon to MFA-ready pronunciation dictionary](#iarpa-lexicon-to-mfa-dictionary)
-- [Prepare all of the above for alignment with MFA](#preparation)
+- Convert bulk generic audio files to 16kHz .wav files
+- Convert bulk .txt transcripts to .TextGrids
+- Convert Iarpa corpus lexicon to MFA-ready pronunciation dictionary
+- Prepare all of the above for alignment with MFA
 
 Instructions for each step, using the code in this repository, are given below. You can follow the steps with the data contained in the sample-data directory to get a sense of the process. Sample results for this dataset are also given in the sample-data directory.
 
@@ -171,7 +175,7 @@ CAT. Importers also exist for corpora in BAS Partitur format
 
 Iarpa transcript files are stored as `.txt`. These files need to be converted to `.TextGrid`.
 
-The python library `praatio` has useful utilities for performing this conversion. The `txt-to-textgrid.py` script makes use of these utilities to convert a specified directory of `.txt` files to the `.TextGrid` format. The script also converts Iarpa tags (e.g. '\<breath\>') to their MFA equivalent (e.g. '{LG}') along with other syntax related substitutions.
+The python library `praatio` has useful utilities for performing this conversion. The `txt-to-textgrid.py` script makes use of these utilities to convert a specified directory of `.txt` files to the `.TextGrid` format. The script also converts Iarpa tags to their MFA equivalent along with other syntax related substitutions.
 
 
 \subsection{Audio Signal Processing}
@@ -179,8 +183,6 @@ The python library `praatio` has useful utilities for performing this conversion
 Iarpa corpus audio files are stored as `.sph` files with an 8kHz sample rate. These files need to be converted to `.wav` and resampled to 16kHz to be recognizable to MFA.
 
 There exist many tools to convert and resample audio formats, but none that can specifically (1) convert .sph to .wav (2) resample .wav to 16kHz without corrupting the pitch/speed of the audio file (3) handle gigabytes of audio files in bulk without running into RAM issues.
-
-The `bulk_sph_resample` script performs all three functions using (1) [sph2pipe](https://github.com/burrmill/sph2pipe) for conversion (2) [praat](https://www.fon.hum.uva.nl/praat/) for resampling and (3) bash to manage praat scripts as independent shell processes. This allows praat to run resampling on each file individually, preventing all files in the directory from loading into memory at the same time.
 
 \subsection{Pronunciation Dictionary Production}
 
@@ -190,7 +192,7 @@ dacite dependency <++> (part of explanation of implementation)
 
 \subsection{Alignment Production}
 
-Note well: the sample-data/ given in this repository (10 randomly chosen ~10second speech files) is no where near enough data to train a performant model. With this data we are simply verifying that there are no syntax/format issues with your workflow. Once that is verified, you will need to acquire more data to train a performant model. See [this blog post](https://memcauliffe.com/how-much-data-do-you-need-for-a-good-mfa-alignment.html#summing-up) for rough guidelines as to the magnitude of data required to train a model for alignment/general usage.
+Note well: the sample-data/ given in this repository (10 randomly chosen ~10second speech files) is no where near enough data to train a performant model. With this data we are simply verifying that there are no syntax/format issues with your workflow. Once that is verified, you will need to acquire more data to train a performant model. See \href{https://memcauliffe.com/how-much-data-do-you-need-for-a-good-mfa-alignment.html}{this blog post} for rough guidelines as to the magnitude of data required to train a model for alignment/general usage.
 
 
 \subsection{Aligned Speech Corpora Storage}
@@ -207,11 +209,11 @@ Basic demonstration of the formants working for engl, canto, lithu
 
 Implementation details for getting corpuses ready for alignment (scripts, new src modules with flexible business logic for configuration by non experts, unit testing, etc.)
 
-    * [X] review phoneset, syllables, tone rules, etc.  #cf4b65ab
-    * [X] check 'no syllables begin with " and end with :R or _F'  #095b708f
-    * [X] multiple lines per pronunciation  #795875ca
-    * [X] remove word boundaries ("#", see e.g.)  #e50586dd
-    * [X] pipe into Cantonese-wrap-up process  #2cd75774
+    * [X] review phoneset, syllables, tone rules, etc.
+    * [X] tone charter markers
+    * [X] multiple lines per pronunciation
+    * [X] remove word boundaries ("\#", see e.g.)
+    * [X] pipe into Cantonese-wrap-up process
 
 
 \subsection{PolyglotDB Package Management}
