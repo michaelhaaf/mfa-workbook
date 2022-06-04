@@ -10,6 +10,23 @@
 
 \usepackage{jmlr2e}
 \usepackage{hyperref}
+\usepackage{setspace} \doublespacing
+
+% todonotes
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+\usepackage[pdftex,dvipsnames]{xcolor}  % Coloured text etc.
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+
+% margins for todonotes
+\paperwidth=\dimexpr \paperwidth + 6cm\relax
+\oddsidemargin=\dimexpr\oddsidemargin + 3cm\relax
+\evensidemargin=\dimexpr\evensidemargin + 3cm\relax
+\marginparwidth=\dimexpr \marginparwidth + 3cm\relax
 
 % Definitions of handy macros can go here
 \usepackage{subfig}
@@ -23,30 +40,17 @@
 
 \maketitle
 
+\section{Intro}
 
-\section{Intro (purpose of work, overview main experiments/systems built, results)}
+\nocite{*}
 
+Natural language is predominantly a spoken phenomena, while the most commons tools for computational natural language processing are predominantly text based. \change{citations/discussion needed in this section}Tools that represent, store, and process audio signals associated with spoken natural language have not always existed and are not trivial to implement relative to comparable text-based processing tools. The reasons for this are straightforward: text-based data is comparably smaller in storage size and less demsnding in memory to process. Moreover, speech-based data have much more complicated metadeta and preprocessing requirements than text-based data, many of these complications being out of the reach of amateur or non-technically proficient researchers. Speech transcription, aligning transcription with speech audio, audio signal processing, and non-uniform metadata/data storage standards are just some of the complications of speech-based natural language processing compared to text-based natural language processing. Given these obstacles, it is not surprising that more tools are researched, written, and developed for text-based corpora than for speech-based corpora in both natural language processing research and industry.
 
+The availability of speech-based corpora and automated tools to make use of them is increasing\change{use zotera references}\footnote{corpora sources , automated alignment , standard variable measurement }, enabling linguists and speech scientists to study spoken language at a much larger scale than previously possible\footnote{large scale studies}. It remains challenging, however, to surmount the obstacles described above (and developed in the body of this report) without technical know-how in both linguistics and computer science: namelyThis report builds on previous software for unified corpus analysis: integrating speech corpora, enriching them with measures of interest, and querying across them.
 
-A huge and ever-increasing pool of speech data annotated at
-least with an orthographic transcription exists in the world,
-from public speech datasets, academic laboratories, online me-
-dia archives, and other sources. This pool spans languages,
-speech styles, and historical time. At the same time, increas-
-ingly accurate automatic tools exist to align these speech cor-
-pora [1, 2, 3, 4] and measure the standard variables used in lan-
-guage research (e.g. vowel formants, f0, VOT: [1, 5, 6]). This
-confluence of ‘big data’ and speech processing tools has signifi-
-cant scientific potential, by enabling linguists and speech scien-
-tists to study spoken language at a much larger scale than pre-
-viously possible [7, 8]. While such ‘large scale’ studies have
-begun to be conducted (e.g. [9, 10]), they remain limited to
-technically-skilled researchers and corpora of similar formats,
-due to practical barriers described below. Realizing this poten-
-tial requires software for unified corpus analysis: integrating
-speech corpora, enriching them with measures of interest, and
-querying across them.
-<++> (note: copied! revise!)
+The main systems built were\ldots \change{finish this paragraph}
+
+The results were\ldots\change {finish this paragraph}
 
 \section{Literature Review}
 
@@ -215,10 +219,10 @@ Implementation details for getting corpuses ready for alignment (scripts, new sr
     * [X] remove word boundaries ("\#", see e.g.)
     * [X] pipe into Cantonese-wrap-up process
 
-
 \subsection{PolyglotDB Package Management}
 
 Implementation details of transition to conda, multiple architectures, integration into development and production usage.
+
 \subsubsection{Dependency Management}
 \subsubsection{Development Environment}
 \subsubsection{Upgrading to a Modern Python setup environment}
@@ -374,7 +378,7 @@ Experiment code can be viewed here: \\ \href{https://github.com/michaelhaaf/mfa-
 \end{verbatim}
 
 
-% \vskip 0.2in
-% \bibliography{sample}
+\vskip 0.2in
+\bibliography{sample}
 
 \end{document}
