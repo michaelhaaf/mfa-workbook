@@ -160,7 +160,7 @@ Confirm that your textgrids look correct using a text editor.
 The Iarpa lexicon format needs to be converted to an MFA pronunciation dictionary.
 
 ```shell_session
-python3 src/process_lexicon.py -i sample-data/iarpa_corpus/scripted/reference_materials/lexicon.txt -o ./sample-data/pd.txt
+python3 scripts/process_lexicon.py -i sample-data/iarpa_corpus/scripted/reference_materials/lexicon.txt -o ./sample-data/pd.txt
 ```
 
 Confirm that your pronunciation dictionary look correct using a text editor.
