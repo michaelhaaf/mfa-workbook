@@ -33,20 +33,25 @@
 \newcommand{\dataset}{{\cal D}}
 \newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
 
+\renewcommand*\contentsname{Table of Contents}
+
 \begin{document}
 \title{MSc. Project Report Winter 2022}
 \ShortHeadings{MSc. Project Report Winter 2022, McGill University}{}
 \author{Author: Michael Haaf \textit{(michael.haaf@mail.mcgill.ca)} \\ Supervisor: Morgan Sonderegger \textit{(morgan.sonderegger@mcgill.ca)}}
 
 \maketitle
+\begin{singlespace}
+\tableofcontents
+\end{singlespace}
 
-\section{Intro}
+\section{Introduction}
 
 \nocite{*}
 
 Natural language is predominantly a spoken phenomena, while the most commons tools for computational natural language processing are predominantly text based. \change{citations/discussion needed in this section}Tools that represent, store, and process audio signals associated with spoken natural language have not always existed and are not trivial to implement relative to comparable text-based processing tools. The reasons for this are straightforward: text-based data is comparably smaller in storage size and less demsnding in memory to process. Moreover, speech-based data have much more complicated metadeta and preprocessing requirements than text-based data, many of these complications being out of the reach of amateur or non-technically proficient researchers. Speech transcription, aligning transcription with speech audio, audio signal processing, and non-uniform metadata/data storage standards are just some of the complications of speech-based natural language processing compared to text-based natural language processing. Given these obstacles, it is not surprising that more tools are researched, written, and developed for text-based corpora than for speech-based corpora in both natural language processing research and industry.
 
-The availability of speech-based corpora and automated tools to make use of them is increasing\change{use zotera references}\footnote{corpora sources , automated alignment , standard variable measurement }, enabling linguists and speech scientists to study spoken language at a much larger scale than previously possible\footnote{large scale studies}. It remains challenging, however, to surmount the obstacles described above (and developed in the body of this report) without technical know-how in both linguistics and computer science: namelyThis report builds on previous software for unified corpus analysis: integrating speech corpora, enriching them with measures of interest, and querying across them.
+The availability of speech-based corpora and automated tools to make use of them is increasing\change{use zotera references}\footnote{corpora sources , automated alignment , standard variable measurement }, enabling linguists and speech scientists to study spoken language at a much larger scale than previously possible\footnote{large scale studies}. It remains challenging, however, to surmount the obstacles described above (and developed in the body of this report) without technical know-how in both linguistics and computer science: namely: \change{finish this paragraph}.
 
 The main systems built were\ldots \change{finish this paragraph}
 
@@ -54,69 +59,20 @@ The results were\ldots\change {finish this paragraph}
 
 \section{Literature Review}
 
-(briefly summarize state of the field, where else experiments like this can be found with PolyglotDB or similar software. Establish that work builds on MMCauliffe experiments, explain reproduction introuce contributions)
+This section describes the main speech corpora software that this project work made use of (Montreal Forced Aligner and PolyglotDB). This section will also describe comparable software. \change{finish this section}.
 
-SCT). 1 These tools are motivated by two aspects of speech cor-
-pora that act as barriers to large-scale studies.
-First, speech corpora are large. While any individual corpus
-can be processed on a modern laptop, storage and processing
-time become issues when working with many corpora at once.
-Thus, key goals of Polyglot-SCT are scalability and speed: per-
-formance in reasonable time as the amount of data grows.
-Second, speech corpora are complex and heterogeneous.
-Directory structure, metadata, and annotation files can all be
-highly structured. Dozens of formats have been used to store
-speech corpora over the past 25+ years. These factors make
-studies using data from many corpora practically difficult, with
-researchers writing extensive scripts to perform similar oper-
-ations on different corpora, despite substantial structural sim-
-ilarities across all speech corpora. The scripting involved in
-corpus work is time-consuming for technical users, and a deal-
-breaker for non-technical users. Thus, two goals of Polyglot-
-SCT are minimizing scripting and abstraction away from cor-
-pus format. Users should need minimal technical skill, and
-should be able to interact with corpora without understanding
-particularities of their formats (as for textual corpora in NLTK
-[11]). Technically-skilled users should be able to avoid rewrit-
-ing scripts with similar functionality.
-<++> (note: copied! revise!)
+The key contributions of the Polyglot system are to meet scalability and speed expectations (performance in reasonable time as the amount of data grows) while also minimizing scripting through abstraction away from corpus format. Users should need minimal technical skill, and should be able to interact with corpora without understanding particularities of their formats (as for textual corpora in NLTK[11]). Technically-skilled users should be able to avoid rewriting scripts with similar functionality. \change{don't plagiarise this section}
 
-Several other systems for management and analysis of speech
-corpora exist (e.g. [15, 16, 17, 18, 19]), including three systems
-which are most similar to Polyglot-SCT.
-Phon [15] is a system for creating and querying corpora.
-Phon uses a relational database to store data, but does not adopt
-the annotation graph formalism. Phon is integrated with Praat
-[20], and allows for a range of acoustic analyses and linguistic
-analyses (e.g. syllabification) across many languages. LaBB-
-CAT [16] stores recordings and associated transcriptions as an-
-notation graphs in a relational database. In addition to import,
-export, and querying, LaBB-CAT can enrich a corpus in vari-
-ous ways (e.g. forced alignment, syllabification), and offers in-
-tegration with Praat and lexical databases. EMU-SDMS [17]
-is a system consisting of an R [21] package, to simplify the
-full pipeline of corpus research to a single environment for data
-preparation and analysis, and a web application for annotation
-and file inspection. EMU also uses annotation graphs, which
-are stored in JSON files, as are subsequent measurements (f0,
-etc.) made using a signal processing library. Querying is done
-through a custom query language.
-Polyglot-SCT differs from other systems in its goals: it is
-optimized for large-scale studies across many corpora, maxi-
-mizing scalability, speed, and ease of use. Polyglot-SCT is not
-integrated with annotation or statistical data analysis, assumes
-that human annotation is complete, and carries out only data
-processing that can be done automatically. This design antici-
-pates planned future development, to allow working with cor-
-pora without access to the raw data.
-<++> (note: copied! revise!)
+Given that speech corpora are complex and heterogeneous (metadata, database directories, and annotation files can all be highly varied in structure. Dozens of formats have been used to store speech corpora over the past three decades. These factors make studies using data from many corpora practically difficult, with researchers writing extensive scripts to perform similar operations on different corpora, despite substantial structural similarities across all speech corpora. The scripting involved in corpus work is time-consuming for technical users, and a deal-breaker for non-technical users.
+
+Several other systems for management and analysis of speech corpora exist (e.g. [15, 16, 17, 18, 19]), including three systems which are most similar to Polyglot-SCT. Phon [15] is a system for creating and querying corpora. Phon uses a relational database to store data, but does not adopt the annotation graph formalism. Phon is integrated with Praat [20], and allows for a range of acoustic analyses and linguistic analyses (e.g. syllabification) across many languages. LaBB-CAT [16] stores recordings and associated transcriptions as annotation graphs in a relational database. In addition to import, export, and querying, LaBB-CAT can enrich a corpus in various ways (e.g. forced alignment, syllabification), and offers integration with Praat and lexical databases. EMU-SDMS [17] is a system consisting of an R [21] package, to simplify the full pipeline of corpus research to a single environment for data preparation and analysis, and a web application for annotation and file inspection. EMU also uses annotation graphs, which are stored in JSON files, as are subsequent measurements (f0, etc.) made using a signal processing library. Querying is done through a custom query language. Polyglot-SCT differs from other systems in its goals: it is optimized for large-scale studies across many corpora, maximizing scalability, speed, and ease of use. \change{don't plagiarise this section; tweek for relevancy/actually do a review}
 
 \section{Speech Analysis Pipeline}
 
 Technical explanation of the problems raised in previous sections. In this section I explain the problem overall, showing where canonical solutions exist and indicating where my project makes contributions to explain in subsequent sections (particularly: 3.2/3.3/3.4/3.5/3.6). If we have time, hopefully I can make a quick contribution for 3.7, otherwise I'll point the way for future work.
 
 We can take corpora of from the IARPA <++> (link) dataset as a starting point, though the procedure is general for all speech corpora. IARPA corpora are organized in the following manner:
-
+\begin{singlespace}
 \begin{verbatim}
 corpus/
 |-- scripted/
@@ -133,9 +89,11 @@ corpus/
 |   |   |   `-- recording2.txt
 |   |   |   `-- ...
 \end{verbatim}
+\end{singlespace}
 
-The Montreal Forced Aligner assumes its own particular format \href{https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/formats/corpus_structure.html}{corpus structure}
+The Montreal Forced Aligner assumes its own particular format corpus structure:\footnote{https://montreal-forced-aligner.readthedocs.io/en/latest/user\_guide/formats/corpus\_structure.html}
 
+\begin{singlespace}
 \begin{verbatim}
 `--pronunciation_dictionary.txt
 `--textgrid_corpus/
@@ -145,6 +103,7 @@ The Montreal Forced Aligner assumes its own particular format \href{https://mont
 |   `-- recording2.TextGrid
 |   `-- ...
 \end{verbatim}
+\end{singlespace}
 
 That is, the following steps need to be taken:
 
@@ -163,30 +122,25 @@ Instructions for each step, using the code in this repository, are given below. 
 
 \subsection{Transcript to `TextGrid` Conversion}
 
-The import step implements Polyglot-SCT’s goal of abstraction
-away from corpus format: speech corpora in different formats
-(as in Fig 1b) are imported into a standardized database for-
-mat, using pre-written importers. Currently the default importer
-loads Praat [20] TextGrids, and allows for structuring ‘tiers’ in
-the TextGrid into the more meaningful hierarchy defined in the
-database format (e.g. each phone token belongs to a correspond-
-ing word). TextGrid-based formats which are output from var-
-ious programs are also supported: the MFA [3], Prosodylab-
-Aligner [4], and FAVE [1] forced aligners, as well as LaBB-
-CAT. Importers also exist for corpora in BAS Partitur format
-[24], as well as for the TIMIT and Buckeye corpora [25, 26].
-<++> (note: copied! revise!)
+Praat \change{find citation [20]} TextGrids, and allows for structuring ‘tiers’ in the TextGrid into the more meaningful hierarchy defined in the database format (e.g. each phone token belongs to a corresponding word). TextGrid-based formats which are output from various programs are also supported: the MFA [3], Prosodylab-Aligner [4], and FAVE [1] forced aligners, as well as LaBB-CAT. Importers also exist for corpora in BAS Partitur format [24], as well as for the TIMIT and Buckeye corpora [25, 26].
 
-Iarpa transcript files are stored as `.txt`. These files need to be converted to `.TextGrid`.
+Generally, transcripts for audio corpora are not made available in TextGrid format. The conversion from general transcript files to TextGrids does not exist, since metadata and formatting can vary from transcript to transcript. This project contributes a general method for specifying the input transcript file properties, such that a variety of audio corporas can have their transcripts converted to the textgrid format. A technical description of this work follows:
 
-The python library `praatio` has useful utilities for performing this conversion. The `txt-to-textgrid.py` script makes use of these utilities to convert a specified directory of `.txt` files to the `.TextGrid` format. The script also converts Iarpa tags to their MFA equivalent along with other syntax related substitutions.
+The Python library `praatio` \change{find citation} has useful utilities for performing this conversion. These include \change{find what these include}. The `txt-to-textgrid.py` script makes use of these utilities to convert a specified directory of `.txt` files to the `.TextGrid` format. The script also converts Iarpa tags to their MFA equivalent along with other syntax related substitutions.
 
+Description/sample usage/results here: \change{complete this paragraph}
 
 \subsection{Audio Signal Processing}
 
-Iarpa corpus audio files are stored as `.sph` files with an 8kHz sample rate. These files need to be converted to `.wav` and resampled to 16kHz to be recognizable to MFA.
+Aligning audio recordings with text transcriptions is a complicated signal processing task. Uniform standards for time frequency are given by file formant standards (what?? maybe do some reading??).
 
-There exist many tools to convert and resample audio formats, but none that can specifically (1) convert .sph to .wav (2) resample .wav to 16kHz without corrupting the pitch/speed of the audio file (3) handle gigabytes of audio files in bulk without running into RAM issues.
+To align generic audio recordings with generic text transcriptions, there are two prerequisites: a known sampling frequency, and a known file format (What??). In this project, the Montreal Forced Aligner is used, which runs optimally using 16kHz sampling frequency and the .wav audio standard. While many other combinations of frequency and format are possible in principle, some standard must be applied in order for measurement to take place, in turn allowing automated alignment to take place. This section concerns the problem of transforming a large set of audio files to a common sampling frequency and a common file format standard.
+
+For example, the IARPA corpus stores audio files using the `.sph` file format standard, with audio recorded at an 8kHz sample rate. This corpus therefore demonstrates a key example of a corpus needing tranformations in both crucial metrics. Conversion from this format to the standard established above requires scripting: while there exist many tools to convert and resample audio formats, there are none that, crucially, (1) convert arbitrary audio formats to a chosen standard (in this case, .wav); (2) resample .wav from arbitrary sampling frequency to a chosen standard (in this case, 16kHz) without altering the pitch nor speed of the audio file; (3) handle gigabytes of audio files in bulk without running into RAM issues on ordinary machines (16GB RAM).
+
+By point of comparison, the Praat tool can do (1) and (2) but not (3), since Praat scripts, in an effort to produce a non-technical user experience, do not offer memory management or lazy/dynamic loading of audio files at runtime which woudl be required to fulfill requirement (3).
+
+
 
 \subsection{Pronunciation Dictionary Production}
 
@@ -207,8 +161,6 @@ Putting the aligned .wavs and .textgrids into polyglotDB for further analysis
 
 Basic demonstration of the formants working for engl, canto, lithu
 
-\subsection{Discussion}
-
 \subsection{Generalization to New Languages and Corpora}
 
 Implementation details for getting corpuses ready for alignment (scripts, new src modules with flexible business logic for configuration by non experts, unit testing, etc.)
@@ -221,18 +173,9 @@ Implementation details for getting corpuses ready for alignment (scripts, new sr
 
 \subsection{PolyglotDB Package Management}
 
-Implementation details of transition to conda, multiple architectures, integration into development and production usage.
+Implementation details of transition to conda: dependency management, creating a development environment, future suport for multiple architectures, integration into development and production usage.
 
-\subsubsection{Dependency Management}
-\subsubsection{Development Environment}
-\subsubsection{Upgrading to a Modern Python setup environment}
-
-* used to be pip install, but external dependencies with Kaldi. They were precompiled manually
-* now: MFA 2.0 is in condaforge (big undertaking)
-* same problem as MFA 1.0 exists for polyglotdb today
-* is this a potential project? in fact yes!
-
-\subsubsection{Support for Multiple Architectures}
+The PolyglotDB package used to be installed using pip. There were problems with external dependencies (Kaldi) requiring manual precompilation.
 
 - canadacompute
 - roquefort
@@ -245,7 +188,7 @@ Implementation details of transition to conda, multiple architectures, integrati
 
 Overview of experiments reproduced/conducted.
 
-\subsection{Introduction: Reproduction of Existing Experiments}
+\subsection{Reproduction of Existing Experiments}
 
 Allude to the earlier section results. The following will be further developments on the LibriSpeech english dataset to see what else is possible with these tools.
 
@@ -298,7 +241,9 @@ important for scalability to large-scale studies.
 <++> (note: copied! revise!)
 
 \subsection{Formant Analysis}
+
 \subsection{Pitch Analysis}
+
 \subsection{Future Work}
 
 * Imbert Orchard, 2700 hours audiotape (available for purchase on DVD. Uploaded/available for download?)
