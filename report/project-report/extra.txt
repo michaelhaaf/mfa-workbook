@@ -1,0 +1,103 @@
+
+Several other systems for management and analysis of speech corpora exist (e.g. [15, 16, 17, 18, 19]), including three systems which are most similar to Polyglot-SCT. Phon [15] is a system for creating and querying corpora. Phon uses a relational database to store data, but does not adopt the annotation graph formalism. Phon is integrated with Praat [20], and allows for a range of acoustic analyses and linguistic analyses (e.g. syllabification) across many languages. LaBB-CAT [16] stores recordings and associated transcriptions as annotation graphs in a relational database. In addition to import, export, and querying, LaBB-CAT can enrich a corpus in various ways (e.g. forced alignment, syllabification), and offers integration with Praat and lexical databases. EMU-SDMS [17] is a system consisting of an R [21] package, to simplify the full pipeline of corpus research to a single environment for data preparation and analysis, and a web application for annotation and file inspection. EMU also uses annotation graphs, which are stored in JSON files, as are subsequent measurements (f0, etc.) made using a signal processing library. Querying is done through a custom query language. Polyglot-SCT differs from other systems in its goals: it is optimized for large-scale studies across many corpora, maximizing scalability, speed, and ease of use. \change{don't plagiarise this section; tweek for relevancy/actually do a review}
+
+
+    - [X] tones removable (remove accent and stress)
+    - [ ] tones (highly lang specific, lithu below):
+        - [ ] short vowels: single character
+        - [ ] long vowels: any other nucleus
+        - [ ] stressed syllables: begin with "
+        - [ ] rising accent: contains "_R"
+        - [ ] falling accent: contains "_F"
+        - [ ] 1) short vowel, unstressed
+        - [ ] 2) short vowel, stressed
+        - [ ] 3) long vowel, unstressed
+        - [ ] 4) long vowel, rising accent
+        - [ ] 5) long vowel, falling accent
+
+              Now, for "tone".  My description above was incomplete / wrong.  In reality:
+              Lithuanian syllables can be "short" or "long".  Short = (I think!) nucleus is just a, E, I, O, U,
+              Long = any other nucleus: that includes ones like a r, i e, u o, o: ...
+              Short syllables can be "stressed" or "unstressed", but cannot bear "accent"
+              Long syllables can be stressed with "rising" accent, stressed with "falling" accent, or unstressed.
+
+
+        Here are some things to be aware of:
+        For parsing purposes we can think of Lithuanian as having four "tones" (which are actually combinations of stress and pitch accent):
+        1: syllable begins with ", does not end with :_R or :_F
+        2: syllable begins with ", ends with :_R
+        3: syllable begins with ", ends with :_F
+        4: all other syllables
+        There should be no syllables that end with :R or :_F but don't begin with " (get in touch if so)
+        You can use the notation above to make versions of the MFA lexicon with and without "tone", e.g.:
+        lexicon entry " n' E  -> n' E1
+        lexicon entry " A:_R . I r' . v' e: -> A:2 I r' v' e:
+        Some lines of the dictionary have multiple pronunciations (like "Afganistane"), which should be multiple lines in the MFA lexicon (one for each pronunciation)
+        word boundary. You can remove these. 
+        % Ex: entry A_R_V_I is " a # " E r_R # " v' e:_R # " I, which would become a1 E2 v' e:2 I1
+
+        So, once you determine the nucleus of a syllable, you can determine the onset and coda.  The nucleus is:
+        any vowel
+        a sequence of two vowels
+        (or) a sequence of one vowel + a sonorant: the phones r, l, m, n (p. 6 of PDF)
+        Some examples:
+        a . d o: . " m a_F I . t' I s : nuclei are a, o, a I , I
+        a n' . " d' r' o:_F . n' I . S' k' I s : nuclei are a, o:, I, I
+
+
+        So there are actually five cases, which we can call "tone" for comparability with Cantonese:
+        1. short vowel, unstressed
+        2. short vowel, stressed
+        3. long vowel, unstressed
+        4. long vowel, rising accent
+        5. long vowel, falling accent
+        Stressed syllables are those which begin with ", rising accent syllables contain _R and falling accent syllables contain _F.  (_R and _F don't need to be at the end of the syllable -- I was wrong above.)
+
+        \begin{singlespace}
+        \begin{verbatim}
+        |-README.md
+        |-requirements.txt
+        |-scripts/
+        | |-bulk_sph_resample
+        | |-create_random_subset
+        | |-lexicon_to_dict.py
+        | |-transcripts_to_textgrids.py
+        | |-resample.praat
+        |-src/
+        | |-dictionary.py
+        | |-models.py
+        | |-syllable.py
+        | |-lexicon.py
+        |-test
+        | |-test_dictionary.py
+        | |-test_models.py
+        | |-test_syllable.py
+        | |-test_lexicon.py
+        | |-test_transcripts_to_textgrids.py
+        |-experiments/
+        | |-scripts/
+        | | |-tutorial_first_steps.py
+        | | |-tutorial_enrichment.py
+        | | |-tutorial_formants.py
+        | | |-tutorial_pitch.py
+        | |-analysis/
+        | | |-tutorial_first_steps.Rmd
+        | | |-tutorial_enrichment.Rmd
+        | | |-tutorial_formants.Rmd
+        | | |-tutorial_pitch.Rmd
+        | |-results/
+        | | |-tutorial_first_steps.html
+        | | |-tutorial_enrichment.html
+        | | |-tutorial_formants.html
+        | | |-tutorial_pitch.html
+        |-sample-data/
+        | |-canto-pd.txt
+        | |-lithu-pd.txt
+        | |-iarpa-corpora/
+        | | |-lithu/
+        | | |-canto/
+        | |-aligned-corpora/
+        | | |-lithu/
+        | | |-canto/
+        \end{verbatim}
+        \end{singlespace}

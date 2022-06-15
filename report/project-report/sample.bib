@@ -1,6 +1,128 @@
-@article{polyglotDB2017,
-  title={Polyglot and Speech Corpus Tools: a system for representing, integrating, and querying speech corpora},
-  author={McAuliffe, Michael, Elias Stengel-Eskin, Michaela Socolof, and Morgan Sonderegger},
-  year={2017},
-  journal={In Proceedings of Interspeech}
+
+@inproceedings{panayotov_librispeech_2015,
+	address = {South Brisbane, Queensland, Australia},
+	title = {Librispeech: {An} {ASR} corpus based on public domain audio books},
+	isbn = {978-1-4673-6997-8},
+	shorttitle = {Librispeech},
+	url = {http://ieeexplore.ieee.org/document/7178964/},
+	doi = {10.1109/ICASSP.2015.7178964},
+	abstract = {This paper introduces a new corpus of read English speech, suitable for training and evaluating speech recognition systems. The LibriSpeech corpus is derived from audiobooks that are part of the LibriVox project, and contains 1000 hours of speech sampled at 16 kHz. We have made the corpus freely available for download, along with separately prepared language-model training data and pre-built language models. We show that acoustic models trained on LibriSpeech give lower error rate on the Wall Street Journal (WSJ) test sets than models trained on WSJ itself. We are also releasing Kaldi scripts that make it easy to build these systems.},
+	language = {en},
+	urldate = {2022-06-14},
+	booktitle = {2015 {IEEE} {International} {Conference} on {Acoustics}, {Speech} and {Signal} {Processing} ({ICASSP})},
+	publisher = {IEEE},
+	author = {Panayotov, Vassil and Chen, Guoguo and Povey, Daniel and Khudanpur, Sanjeev},
+	month = apr,
+	year = {2015},
+	pages = {5206--5210},
+	file = {Panayotov et al. - 2015 - Librispeech An ASR corpus based on public domain .pdf:/home/michael/Zotero/storage/Q5HAH7GY/Panayotov et al. - 2015 - Librispeech An ASR corpus based on public domain .pdf:application/pdf},
+}
+
+@book{bain_emergent_2008,
+	address = {Upper Saddle River, N.J.},
+	series = {Net {Objectives} product development series},
+	title = {Emergent design : the evolutionary nature of professional software development},
+	isbn = {978-0-321-55372-0 0-321-55372-1 81-317-3606-7 978-81-317-3606-7},
+	url = {http://www.myilibrary.com?id=264869},
+	language = {English},
+	publisher = {Addison-Wesley},
+	author = {Bain, Scott L.},
+	year = {2008},
+}
+
+@book{freeman_head_2004,
+	address = {Sebastopol, CA},
+	edition = {1st ed.},
+	series = {Head first series},
+	title = {Head {First} design patterns},
+	isbn = {0-596-00712-4 978-0-596-00712-6},
+	url = {http://catdir.loc.gov/catdir/enhancements/fy1305/2005280819-t.html},
+	language = {English},
+	publisher = {O'Reilly},
+	author = {Freeman, Eric 1965- and Robson, Elisabeth. and Sierra, Kathy. and Bates, Bert.},
+	year = {2004},
+	note = {Section: xxxvi, 638 pages : illustrations ; 24 cm.},
+}
+
+@misc{mcauliffe_playing_2021,
+	title = {Playing around with {PolyglotDB}},
+	url = {https://memcauliffe.com/playing-around-with-polyglotdb.html},
+	abstract = {Following some updates to PolyglotDB, let's play around with some recordings and extract some acoustic measures},
+	language = {en},
+	urldate = {2022-06-14},
+	journal = {Michael McAuliffe},
+	author = {McAuliffe, Michael},
+	month = aug,
+	year = {2021},
+	note = {Section: Blog},
+	file = {Snapshot:/home/michael/Zotero/storage/6S3UU5L2/playing-around-with-polyglotdb.html:text/html},
+}
+
+@book{fromkin_introduction_2006,
+	address = {Boston, MA},
+	edition = {3e.},
+	title = {An introduction to language},
+	language = {English},
+	publisher = {Wadsworth/Cengage Learning},
+	author = {Fromkin, Victoria and Rodman, Robert and Hyams, Nina},
+	year = {2006},
+}
+
+@misc{noauthor_praat_nodate,
+	title = {Praat: doing {Phonetics} by {Computer}},
+	url = {https://www.fon.hum.uva.nl/praat/},
+	urldate = {2022-06-15},
+	file = {Praat\: doing Phonetics by Computer:/home/michael/Zotero/storage/JW5EH2CT/praat.html:text/html},
+}
+
+@misc{noauthor_nltk_nodate,
+	title = {{NLTK} :: {Natural} {Language} {Toolkit}},
+	url = {https://www.nltk.org/},
+	urldate = {2022-06-15},
+	file = {NLTK \:\: Natural Language Toolkit:/home/michael/Zotero/storage/29564J2E/www.nltk.org.html:text/html},
+}
+
+@inproceedings{mcauliffe_polyglot_2017,
+	title = {Polyglot and {Speech} {Corpus} {Tools}: {A} {System} for {Representing}, {Integrating}, and {Querying} {Speech} {Corpora}},
+	shorttitle = {Polyglot and {Speech} {Corpus} {Tools}},
+	doi = {10.21437/INTERSPEECH.2017-1390},
+	abstract = {This work introduces open-source software for unified corpus analysis: integrating speech corpora and querying across them, and describes the software, two case studies using it to examine effects on pitch and duration across languages, and outline planned future development. Speech datasets from many languages, styles, and sources exist in the world, representing significant potential for scientific studies of speech—particularly given structural similarities among all speech datasets. However, studies using multiple speech corpora remain difficult in practice, due to corpus size, complexity, and differing formats. We introduce open-source software for unified corpus analysis: integrating speech corpora and querying across them. Corpora are stored in a custom ‘polyglot persistence’ scheme that combines three sub-databases mirroring different data types: a Neo4j graph database to represent temporal annotation graph structure, and SQL and InfluxDB databases to represent metaand acoustic data. This scheme abstracts away from the idiosyncratic formats of different speech corpora, while mirroring the structure of different data types improves speed and scalability. A Python API and a GUI both allow for: enriching the database with positional, hierarchical, temporal, and signal measures (e.g. utterance boundaries, f0) that are useful for linguistic analysis; querying the database using a simple query language; and exporting query results to standard formats for further analysis. We describe the software, summarize two case studies using it to examine effects on pitch and duration across languages, and outline planned future development.},
+	booktitle = {{INTERSPEECH}},
+	author = {McAuliffe, Michael and Stengel-Eskin, Elias and Socolof, Michaela and Sonderegger, Morgan},
+	year = {2017},
+}
+
+@misc{mcauliffe_montreal_nodate,
+	title = {Montreal {Forced} {Aligner} 2.0.0 documentation},
+	url = {https://montreal-forced-aligner.readthedocs.io/en/latest/index.html},
+	urldate = {2022-06-15},
+	author = {McAuliffe, Michael},
+	file = {Montreal Forced Aligner documentation — Montreal Forced Aligner 2.0.0 documentation:/home/michael/Zotero/storage/HIR22T7K/index.html:text/html},
+}
+
+@misc{benowitz_iarpa_2019,
+	title = {{IARPA} {Babel} {Lithuanian} {Language} {Pack} {IARPA}-babel304b-v1.0b {LDC2019S03}},
+	shorttitle = {{IARPA} {Babel} {Lithuanian} {Language} {Pack}},
+	url = {https://catalog.ldc.upenn.edu/LDC2019S03},
+	publisher = {Philadelphia: Linguistic Data Consortium},
+	author = {Benowitz, et al., Daniel and {et al.}},
+	year = {2019},
+	note = {Web Download.},
+}
+
+@misc{andrus_iarpa_2016,
+	title = {{IARPA} {Babel} {Cantonese} {Language} {Pack} {IARPA}-babel101b-v0.4c {LDC2016S02}},
+	shorttitle = {{IARPA} {Babel} {Lithuanian} {Language} {Pack}},
+	url = {https://catalog.ldc.upenn.edu/LDC2016S02},
+	publisher = {Philadelphia: Linguistic Data Consortium},
+	author = {Andrus, Tony and {et al.}},
+	year = {2016},
+	note = {Web Download.},
+}
+
+@misc{tim_mahrt_praatio_2016,
+	title = {{PraatIO}},
+	url = {https://github.com/timmahrt/praatIO},
+	author = {{Tim Mahrt}},
+	year = {2016},
 }
