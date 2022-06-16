@@ -11,6 +11,7 @@
 \usepackage{jmlr2e}
 \usepackage{hyperref}
 \usepackage{bookmark}
+\usepackage{multicol}
 \usepackage{setspace} \doublespacing
 
 % todonotes
@@ -51,74 +52,100 @@
 
 \nocite{*}
 
-Natural language is predominantly a spoken phenomena, while the most commons tools for computational natural language processing are predominantly text based. Tools that represent, store, and process audio signals associated with spoken natural language have not always existed and are not trivial to implement relative to comparable text-based processing tools. The reasons for this are straightforward: text-based data is comparably smaller in storage size and less demsnding in memory to process. Moreover, speech-based data have much more complicated metadeta and preprocessing requirements than text-based data, many of these complications being out of the reach of amateur or non-technically proficient researchers. Speech transcription, aligning transcription with speech audio, audio signal processing, and non-uniform metadata/data storage standards are just some of the complications of speech-based natural language processing compared to text-based natural language processing. Given these obstacles, it is not surprising that more tools are researched, written, and developed for text-based corpora than for speech-based corpora in both natural language processing research and industry.
+Natural language is a spoken phenomena, while the most commons tools for computational natural language processing are predominantly text based. Tools that represent, store, and process audio signals associated with spoken natural language have not always existed and are not trivial to implement relative to comparable text-based processing tools. The reasons for this are straightforward: text-based data is comparably smaller in storage size and less demsnding in memory to process. Moreover, speech-based data have much more complicated metadeta and preprocessing requirements than text-based data, many of these complications being out of the reach of amateur or non-technically proficient researchers. Speech transcription, aligning transcription with speech audio, audio signal processing, and non-uniform metadata/data storage standards are just some of the complications of speech-based natural language processing compared to text-based natural language processing. Given these obstacles, it is not surprising that more tools are researched, written, and developed for text-based corpora than for speech-based corpora in both natural language processing research and industry.
 
-The availability of speech-based corpora and automated tools to make use of them is increasing\footnote{corpora sources , automated alignment , standard variable measurement }, enabling linguists and speech scientists to study spoken language at a much larger scale than previously possible\footnote{large scale studies}. There remains, however, a significant gap between the availability of speech data corpora and their general usability for researchers across disciplines. While libraries like NLTK\cite{noauthor_nltk_nodate} have bridged this gap with large accessible text-based natural language corpora and comprehensive tutorials for their usage, the same does not yet exist for speech data corpora.
+While the availability of speech-based corpora and automated tools to make use of them is increasing\cite{mcauliffe_polyglot_2017}, there remains a significant gap between the availability of speech data corpora and their general usability for researchers across disciplines. While libraries like NLTK\cite{noauthor_nltk_nodate} have bridged this gap with large accessible text-based natural language corpora and comprehensive tutorials for their usage, the same does not yet exist for speech data corpora.
 
-This report documents work undertaken over a semester in the MCQLL Lab to perform experiments and develop software to help bridge this gap; particularly to the preparation problems of corpora storage and speech-text alignment. This project focused on the tools PolyglotDB\cite{mcauliffe_polyglot_2017} and Montreal Forced Aligner\cite{mcauliffe_montreal_nodate}, which respectively address the storage and alignment problems described. The steps taken to use these tools for facilitation of a pipeline, from publicly-available corpora acquisition to concrete linguistic analysis, is described technically, demonstrated experimentally, and documented in this report. This report constitutes a technical description of work undertaken with these tools for reproduction, reuse, and as a basis for streamlining the investigation of more advanced linguistics problems that require similar speech data preparation and analysis techniques.
+This report documents work undertaken over a semester in the MCQLL Lab to perform experiments and develop software to help bridge this gap; particularly to the preparation problems of corpora storage and speech-text alignment. This project focused on the tools PolyglotDB\cite{mcauliffe_polyglot_2017} and Montreal Forced Aligner\cite{mcauliffe_montreal_nodate}, which respectively address the storage and alignment problems described. The aim of this project is to experiment and enhance these tools to extend their usability among nonexpert researchers. Throughout the project, tutorials of the experiment progress were reproduced and updated.\footnote{https://polyglotdb.readthedocs.io/en/latest/tutorial.html} Additionally, experiments using PolyglotDB to analyze formants in a publically available dataset were performed successfully and documented in this report, to be published as tutorials in the near future. Overall summary of the deliverables and results of these efforts are elaborated in \hyperlink{section.5}{Section 5}.
 
-This report additionally describes the software design approaches taken throughout the experimental process to motivate the contribution of the set of tools written by the author and to document their workings for future users, experimenters and developers. These tools are made available in a public repository. Alongside PolyglotDB and Montreal Forced Aligner, they facilitate the generalization of the experimental procedure taken across corpora and languages beyond those covered in the report experiments. This generalization is accomplished by abstracting the differences between corpora (varied in format and language) to a set of configuration files adaptable to the requirements of large sets of known public corpora. Differences in corpora that cannot be abstracted to configuration, especially morphological differences in syllable representation across languages, are implemented using a pattern-based approach, streamlining the introduction of new client logic for new corpora to the adaptation of a testable and flexible template class. This approach aims to contribute a code-base that can dynamically adapt to and reliably implement future client requirements when new corpora necessitate novel business logic in configuration and linguistic structure.
+The goal of increasing the accessibility of speech-data corpora software was addressed by performing experiments using publically available corpora, and documenting steps taken to use these tools for facilitation of a pipeline from these public corpora to concrete linguistic analysis. These experiments, which demonstrate the ability to take public corpora and to answer interesting research questions, are verified experimentally and documented in \hyperlink{section.3}{Section 3} of this report. This report constitutes a technical description of work undertaken with these tools for reproduction, reuse, and as a basis for streamlining the investigation of more advanced linguistics problems that require similar speech data preparation and analysis techniques.
 
-The design approach described arose emergently from the set of challenging problems produced by the varied and rich nature of speech data corpora. These problems surround the automation of various steps in corpora preparation for storage, alignment, and analysis: transcript encoding, audio signal processing, and pronunciation dictionary convention generalization. These problems and their relation to the problems of speech data alignment, storage, and analysis are described in this report, alongside the software contributed to resolve these problems.
+In \hyperlink{section.4}{Section 4}, this report additionally describes the software design approaches taken throughout the experimental process to implement a generalizable system for performing analysis on new corpora while minimizing coding changes needed. These approaches culminated in the contribution of tools written by the author and made available in a public repository\footnote{https://github.com/michaelhaaf/mfa-workbook}, that are technically documented in this report for future users, experimenters and developers. Alongside PolyglotDB and Montreal Forced Aligner, these tools facilitate the generalization of the experimental procedure taken across corpora and languages beyond those covered in the report experiments. This generalization is accomplished by abstracting the differences between corpora (varied in format and language) to a set of configuration files adaptable to the requirements of large sets of known public corpora. Differences in corpora that cannot be abstracted to configuration, especially syllabic differences in syllable representation across languages, are implemented using a Strategy pattern-based approach. This approach, dubbed ``syllabifying" in this report, streamlines the introduction of new client logic for new corpora to the adaptation of a testable and flexible template class. This approach aims to contribute a code-base that can dynamically adapt to and reliably implement future client requirements when new corpora necessitate novel business logic in configuration and linguistic structure.
+
+The design approach described arose emergently from the set of challenging problems produced by the varied and rich nature of speech data corpora. These problems surround the automation of various steps in corpora preparation for storage, alignment, and analysis: transcript encoding, audio signal processing, and pronunciation dictionary convention generalization. These problems and their relation to the problems of speech data alignment, storage, and analysis are described in \hyperlink{section.2}{Section 2}, alongside discussion of the software contributed to resolve these problems and results indicating succes in resolving them.
 
 \section{Speech Data Preparation Pipeline}
 
 While speech corpora are comprised of substantially the same basic elements across corpora and languages, speech corpora are also complex and heterogeneous in a variety of their features: metadata, directory structure, annotation files, documentation, for just some examples. Dozens of formats have been used to store speech corpora over the past several decades. These variations guarantee that workflow of getting general corpora ready for linguistic analysis is not homogenous -- rather, complications introduced by these variations make manual workflows for general corpus work enormously labour-inducing. Researchers are often required to write scripts in order to make their workflow tenable.
 
-This project indeed required scripting in order to prepare the corpora in question for linguistic analysis. This project used Emergent Design Principles\cite{bain_emergent_2008} to adapt the generalizability of the code written as the complication of the requirements became more clear. More details about the implementation are discussed in \hyperlink{section.4}{Section 5: Software Design}. These practises and principles of software develop aim to allow future investigation into this work to extend the functionality developed during this project easily and reliably.
+For the research questions in this project, namely speech analysis of verb formants in spoken language across many speakers, it is assumed that an orthographic transcription of an audio file, time-aligned to the correct units of speech, is available to reliably associate sounds with known phonemes. This is not true of most publically available speech corpora. Tools like Montreal Forced Aligner (MFA)\cite{mcauliffe_montreal_nodate} exist to force-align orthographic transcription files to their corresponding audio files. While the experiments conducted in \hyperlink{section.3}{Section 3} were already aligned at the beginning of the project (using MFA), there exist many other corpora that could be prepared for linguistic analysis in a similar manner. 
 
-The result is a speech data preparation pipeline from publically available corpora to aligned speech-text corpora ready for analysis. A small example of the entire approach follows:
+Currently, preparing data for usage with MFA usually involves manual scripting and organization of files. This is because the lexicon used by MFA to perform force alignment, and the lexicons documented in publically available corpora, are never necessarily the same format, invoking the need to transform the metadata from one format to another. This creates classing parsing disambiguation problems to determine which token corresponds to which phoneme across pronunciation lexicon formats. To resolve these dynamic complications, and to pave the way for easier and more reliabe extension to new corpora in the future, this project used Emergent Design Principles\cite{bain_emergent_2008} to adapt the generalizability of the code written as the complication of the requirements became more clear, revealing the natural application of the Strategy Pattern\cite{freeman_head_2004} to ``syllabify" pronunciation lexicons using configuration and extendable template classes. This work is documented in \hyperlink{section.4}{Section 4}.
 
-\missingfigure{example canto alignments and data shown}
+The result is a speech data preparation pipeline from publically available corpora to aligned speech-text corpora ready for analysis. Some examples demonstrated in this project are documented in this section. We make use of the publically available IARPA BABEL corpora, particularly the Cantonese\cite{andrus_iarpa_2016} and Lithuanian\cite{benowitz_iarpa_2019} corpora, to demonstrate the procedure undertaken to prepare non-aligned corpora for linguistic analysis necessitating alignment.
 
-A typical outline of such a problem in general follows. We take corpora from the IARPA (link) dataset as a starting point, though the procedure is general for all speech corpora. IARPA corpora are organized in the following manner:
+The IARPA Babel Cantonese corpus contains scripted conversations recorded as audio files along with text file transcriptions of the conversations. Notably, the text files are not time-aligned with the .sph files, as they contain no time metadata at all. MFA is capable of time-aligning this corpora, but the file specifications for MFA are different than those for IARPA Babel; these differences are summarized in \hyperlink{table:corpus_format}{the table below.}\footnote{It should be noted that MFA does support automatic sampling frequency adjustments, and is not limited to 16kHz frequencies. 16kHz is the default, however, and we found that MFA performed better when the resampling took place in advance of the alignment.} 
 
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c c|} 
+ \hline
+ Corpus Parameter & MFA & IARPA Babel \\ [0.5ex] 
+ \hline
+ audio format & .wav & .sph \\
+ sampling frequency & 16kHz & 8kHz \\
+ transcript format & Praat\cite{noauthor_praat_nodate} TextGrid & .txt \\
+\hline
+\end{tabular}
+\caption{This table summarizes some example configuration differences that occur between speech data corpora formats. Praat TextGrids are transcriptions which contain hierarchical time metadata. Additionally, this table does not include the difference in lexicon formats between the two corpora, though this is the most significant difference to adapt to -- these file types and analysis are developed further on in this section.}
+\label{table:corpus_format}
+\end{table}
+
+The beginning task of the preparing corpora for alignment, then, is in part to convert corpora files to formats which MFA can recognize. Since natural language processing typically relies on large sample sets to draw reliable generalizations for automated tools, we are usually interested in large corpora, so these conversions should be implemented with an eye to perform efficiently at increasing scale.
+
+In addition to file conversions, speech data corpora can differ significantly in their directory structures. The sample corpora chosen, the IARPA Babel Cantonese corpus, is compared below with the directory structure used by MFA.
+
+\begin{multicols}{2}
 \begin{singlespace}
 \begin{verbatim}
-corpus/
+IARPABabelCorpus/
 |-- scripted/
 |   |-- reference_materials/
-|   |   |   `-- lexicon.txt
-|   |   |   `-- lexicon.sub-train.txt
+|   |   |   lexicon.txt
+|   |   |   lexicon.sub-train.txt
 |   |-- training/
 |   |   |-- audio/
-|   |   |   `-- recording1.sph
-|   |   |   `-- recording2.sph
-|   |   |   `-- ...
+|   |   |   |   recording1.sph
+|   |   |   |   recording2.sph
+|   |   |   |   ...
 |   |   |-- transcript_roman/
-|   |   |   `-- recording1.txt
-|   |   |   `-- recording2.txt
-|   |   |   `-- ...
+|   |   |   |   recording1.txt
+|   |   |   |   recording2.txt
+|   |   |   |   ...
 \end{verbatim}
 \end{singlespace}
-
-
-The Montreal Forced Aligner\cite{mcauliffe_montreal_nodate} assumes its own particular format corpus structure:
 
 \begin{singlespace}
 \begin{verbatim}
-`--pronunciation_dictionary.txt
-`--textgrid_corpus/
-|   `-- recording1.wav
-|   `-- recording1.TextGrid
-|   `-- recording2.wav
-|   `-- recording2.TextGrid
-|   `-- ...
+MFACorpus/
+|   pronunciation_dictionary.txt
+|-- textgrid_corpus/
+|   |    recording1.wav
+|   |    recording1.TextGrid
+|   |    recording2.wav
+|   |    recording2.TextGrid
+|   |...
+
+
+
+
+
+
 \end{verbatim}
 \end{singlespace}
+\end{multicols}
 
-That is, the following steps need to be taken: 
+That is, the following steps need to be taken, while the resulting files should be stored in an MFA compatible directory structure:
 
 \begin{singlespace}
 \begin{itemize}
   \item Convert generic audio files to 16kHz .wav files
-  \item .txt transcripts to .TextGrids files, with all text contained in a single time hierarchy (to be updated during alignment)
-  \item corpus lexicon to MFA-ready pronunciation dictionary
-  \item all of the above for alignment with MFA
+  \item Convert .txt transcripts to .TextGrid files, with all text contained in a single time hierarchy 
+  \item Convert corpus lexicon to MFA-ready pronunciation dictionary
 \end{itemize}
 \end{singlespace}
 
-The following subsections deal with each step of this pipeline in turn, making reference to code used and written throughout, and containing example results within each section.
+This pipeline prepares generic speech-data corpora with orthographic audio recordings for conversion to an MFA ready format. The following subsections deal with each step of this pipeline in turn, making reference to code used and written throughout, and containing example results within each section.
 
 \subsection{Speech Corpora Acquisition and Organization}
 
@@ -201,8 +228,11 @@ To demonstrate variation in tone, we can consider IARPA Cantonese and IARPA Lith
 
 \missingfigure{Lithu and Canto tones compared}
 
-While the structure of syllables is finite and tractable in scope, the variation in possible ordering and boundaries of phoneme tokens raises complications in simply reading tokens left to right to assign onset, nucleus, coda, and tone indicators. The software design approached to this problem is described in \hyperlink{section.4}{Section 5: Software Design}.
+While the structure of syllables is finite and tractable in scope, the variation in possible ordering and boundaries of phoneme tokens raises complications in simply reading tokens left to right to assign onset, nucleus, coda, and tone indicators. The software design approach to ``syllabifying", that is, translating pronunciations stored as text formats into data structures representing the phonetic structure of syllables, is described in \hyperlink{section.4}{Section 4: Software Design}.
 
+The steps to produce a pronunciation dictionary for unifying the corpus formats (IARPA Babel and MFA) automatically, with potential easy extention for future corpora, is the primary contribution of the software written for this project. While more complicated than anticipated, these efforts were ultimately successful: the software reliably creates MFA-ready pronunciation dictionaries for the corpora under study (IARPA Lithuanian and IARPA Babel) from their input lexicons. 
+
+Ultimately, the pronunciation dictionaries  we created now allow us to use MFA to produced aligned speech-text corpora.
 
 \subsection{Alignment Production}
 
@@ -220,11 +250,11 @@ This section begins with reproductions of existing PolyglotDB tutorials to demon
 
 \subsection{PolyglotDB Package Management}
 
-Before we move to the experiments performed, a quick note can be made about the development environment required to use these packages. PolyglotDB is a python package available for installation via pip, however, it does contain dependcies outside of the python ecosystem (a database managed by Java, for instance). These dependencies can be varied in their support by general developer operating system platforms, and prior to this project, there was no one process that would automatically resolve these dependencies for a given PolyglotDB installation.
+Before we move to the experiments performed, a quick note can be made about the development environment required to use these packages. PolyglotDB is a python package available for installation via pip, however, it does contain core dependencies that live outside of the python ecosystem; in particular, the NoSQL Java database library, InfluxDB. These dependencies can be varied in their support by general developer operating system platforms, and prior to this project, there was no one process that would automatically resolve these dependencies for a given PolyglotDB installation.
 
 This project contributes a small procedure to automatically resolve system dependencies on all platforms that support Conda. The operation of this procedure is now described on the PolyglotDB website\footnote{https://polyglotdb.readthedocs.io/en/latest/getting\_started.html\#conda-development-environment}.
 
-This project investigated a transition of the PolyglotDB platform from pip to modern python installation environments, such as condaforge, where Montreal Forced Aligner is already available. Time constraints prevented this transition from being completed by the end of the semester, but progress is ongoing and can be tracked here \footnote{https://github.com/conda-forge/staged-recipes/pull/18313https://github.com/conda-forge/staged-recipes/pull/18313}.
+This project investigated a transition of the PolyglotDB platform from pip to modern python installation environments, such as condaforge\cite{}, where Montreal Forced Aligner is already available. Time constraints prevented this transition from being completed by the end of the semester, but progress is ongoing and can be tracked here \footnote{https://github.com/conda-forge/staged-recipes/pull/18313}.
 
 Condaforge support for PolyglotDB would allow for automatic management of python and Java dependencies on any machine that supports conda. Future work could investigate installation of PolyglotDB on new server architectures, such as the increasingly available ARM64 platform. For the time being, the procedure now provided on the PolyglotDB website linked in the footnote above is the procedure taken for the following experiments, and should be reproducable on most machines just like an automatic conda installation. 
 
@@ -232,38 +262,51 @@ Condaforge support for PolyglotDB would allow for automatic management of python
 
 The problem of abstracting away manual scripting from performing linguistic analysis on an aligned speech-text corpora is addressed by PolyglotDB. To begin analysis, the corpora should be stored in a manner that allows reliable read/write querying for corpus investigation and enrichment. To facilitate this storage, this project followed existing PolyglotDB tutorials.\footnote{https://polyglotdb.readthedocs.io/en/latest/tutorial.html} This section overviews this process and summarizes the results.
 
+As described in the \hyperlink{section.22}{Data Acquisition} section of this report, a forced-aligned Librispeech test-clean English dataset was acquired from previous alignment efforts at MCQLL with basic shell scripting. While this dataset is force-aligned with phonemes in time, there is no other interesting metadata associated with speakers. Associating speaker metadata (age, gender, residence, etc.) with speech data is an important component of speech data research. This section described the procedure for storing aligned datasets, and enriching them for linguistic analysis, by importing them into a PolyglotDB instance. 
+
+PolyglotDB works by creating NoSQL time-series database in its development environment for speech data, and uses a SQL python library to wrap queries to speaker data stored in text files. Speech corpora can be imported and queried, with read/write permissions, using NoSQL under the hood, with queries wrapped in a python library for ease in interfacing with scripts and other software. Therefore, importing and enriching a corpora in a PolyglotDB database, then exporting the enriched corpora for analysis, can be done in a few lines of python, as shown in the tutorial. This tutorial was reproduced, with some typical examples of the kinds of queries that PolyglotDB supports:
+
+\missingfigure{stressed syllables beginning of words that are end of utterances, from tutorial 3}
+
+Now that it has been established we can import, enrich, and make simple queries to a PolyglotDB instance, more interesting linguistic analysis can be performed.
+
 \subsection{Formant Analysis}
 
-Following the analysis preparation performed in the previous steps, in this section we process the output of the same Polyglot database we enriched, and show how it can be used to address basic linguistics research questions involving variation between speakers in vowel space.\footnote{Most of the analysis in this section was prepared with direct assistance by Morgan Sonderegger}
+Following the analysis preparation performed in the previous steps, in this section we process the output of the same Polyglot database we enriched, and show how it can be used to address basic linguistics research questions involving variation between speakers in vowel space.\footnote{Most of the analysis in this section was adapted from analysis done by Morgan Sonderegger (McGill), which itself is analysis is partly adapted from course materials by Márton Sóskuthy (UBC).} For example, we could verify basic aggregate properties of our dataset by comparing vowel formant plots across speakers in our dataset, or apply statistical analysis to investigate more interesting questions about properties of speaker dialects.
 
-The Plot the raw data, assess how well the formant measurement algorithm did
-    Filter the data to a subset with reliable measurements
-    Use this subset to make vowel plots (in F1/F2 space) for each speaker
-    Illustrate a couple kinds of interspeaker variation (by dialect, gender)
+In this project, we carried out two such experiments: one to verify an expected property (do male speakers, on average, have lower vowel frequency utterances than female speakers?), and another to answer an interesting question about the speakers' dialects (which speakers exhibit the ``cot"--"caught" merger in their dialect?). This section explains our approach to addressing those questions with our corpus.
 
-This analysis is partly adapted from course materials by Márton Sóskuthy (UBC).
+We begin with the exported data from the previous step: a .csv containing vowel formant measurements for each phoneme in the dataset, associated with each speaker and speaker metadata. Some debugging in this step is required: forced-alignment is an automated, probabilistic process and like signal detection in general, will not make perfect predictions. Such alignment issues can carry over and be made visible by investigating timing/speech-rate calculation errors in particular. We carried out some sanitization measures dataset manually: correcting columns with invalid values, filtering duration/F1/F2/standard deviation outliers, in order to a reliable subset given noisy measurements. These steps require some domain knowledge and scripting capability, but this is the beginning of the scientific investigation, so that is to be expected.
+
+The filtered dataset was reduced to about 3/5 its original size, to 43758 measurements from 74001, increasing the coherence of the formant measurements graetly. The filtered dataset was happily significant enough to produce interesting results: we were able to observe coherent distinctions in speaker frequencies by sex, and in ``cot--caught" mergers by speaker dialect. These results are documented in the \hyperlink{fig:sex_formant}{figures} \hyperlink{fig:dialect-analysis}{below}.
+
+    \begin{figure}[h]
+      \centering
+      \includegraphics[scale=0.25]{sex_formant.png}
+      \caption{Comparing the vowel formant plot of male and female speakers, the vowel space is noticably shifted to lower F2 and F1 on average for male speakers compared to female speakers, verifying an expected result. Figure produced using code written by Morgan Sonderegger (McGill)}
+      \label{fig:sex_formant}
+    \end{figure}
+
+    \begin{figure}[h]
+      \centering
+      \includegraphics[scale=0.15]{dialect-analysis.png}
+      \caption{The ``Cot--caught merger" is a well-known drift in some English dialects, particularly American English. In this graph, we can measure the vowel space distance between AO (``caught") and AA (``cot") to determine which speakers have the cot--caught merger in their dialect. For example, speakers such as 237, 2830, and 6829 may have AO == AA, indicating a merge, while speakers 1221, 2094, and 8555 may have distinct AO and AA. Figure produced using code written by Morgan Sonderegger (McGill)}
+      \label{fig:dialect-analysis}
+    \end{figure}
+
+We can see that the enriched Polyglot database we enriched can be used to address basic linguistics research questions -- and these are just the tip of the iceberg. The following section indicates areas of future work, which could be done on this corpus, or any other force-aligned speech data corpora.
 
 \subsection{Future Work}
 
-- Condaforge wrapup for easy support on generic development machines
-- Prepare other IARPA Babel corpora for alignment (Mixtec, Totonac, Yoruba, Burmese)
-- Perform basic linguistic analysis on these aligned corpora as described in the Experiments section.
-- Extend Formant analysis with Pitch analysis in the vein of\footnote{https://memcauliffe.com/playing-around-with-polyglotdb.html}
-- Further advanced linguistic analysis experimentation.j
+The following tasks, some taken up partially, others planned but abandoned to project scoping, would be interesting lines of research using the tools and methods established in this report:
 
-* Imbert Orchard, 2700 hours audiotape (available for purchase on DVD. Uploaded/available for download?)
-* Very similar line of work to what I'm thinking: https://langmusecad.wordpress.com/tag/university-of-victoria/ 
-* idea?: speech to wordvector tutorial? different in speech and in text, could be something there
-* idea?: people as "vectors", output of MFA without polyglot
-* note: SPADE uses polyglot under the hood, would be nice to ... 
-    * replicate dataset/analyses that are already on SPADE, 
-    * make something not just for experts, shows you how to work with your own corpus to see
-* idea: time dimensions for datasets not yet examined (related to Peace River corpus)
-
-* analyze pitch: something like the chodroff tutorial (see slack), a working script with known input/output
-* 5 or 10 examples like this well documented
-* extension with time: Mark Liberman projects ("breakfast experiment"). How to facilitate?
-* Actually realize some of these projects and document them for others. Cool end goal.
+\begin{itemize}
+  \item As indicated in a previous section, completing the setup for PolyglotDB to be made available on condaforge would more reliably support this type of research on a wider array of development architectures
+  \item The IARPA Babel corpora set has many other languages documented aside from Cantonese and Lithuanian. Languages such as Mixtec, Totonac, Yoruba, and Burmese in the IARPA Babel set is also more easily available for this type of research following the methods developed in this project.
+  \item The Formant analysis performed in the previous section is just one example of an interesting linguistics question to investigate with corpora like these. Previous work has been done to demonstrate Pitch analysis\footnote{https://memcauliffe.com/playing-around-with-polyglotdb.html} using PolyglotDB, which provides further interesting data for analysis. These basic measurements open a wide range of research questions for amateur and expert researchers alike.
+  \item Relatively more advanced linguistic analysis research could be performed with datasets like these, or even more general speech aligned datasets. One such question of particular interest to the author would be investigation into time-differentiated datasets to measure dialect change in time.
+\item A bit more speculative, but is certainly more room for automated software tools and paradigms for speech datasets. Word-vector analysis has seen incredible results in text-data natural language processing, and a similar paradigm applied to general speech-data corpora could see similar results.
+\end{itemize}
 
 \section{Software Design}
 
@@ -281,9 +324,9 @@ Configurations are implemented as \verb|.yaml| files in this project. A sample c
 
 These configuration files allow for variation in high level abstract properties of corpora without the need to known anything about the underlying implementation of the code. This is useful for two reasons: to prevent new code from needing to be written for new corpora, and to make the addition of new corpora easier for researchers who are not familiar with programming themselves.
 
-Variation between corpora does not end, however, with changes in the format of the file nor simple properties of languages. We also saw in previous sections, particularly the \link{the Pronunciation Dictionary Production} section, that variation between languages and corpora is also observed in determining syllabic units for data representation. These variations are high-level abstractions themselves, more complicated than in-order processing: for one example, there is no inherent ordering to where tone makers are placed, as seen with the IARPA Cantonese and IARPA Lithuanian corpora. The method for which the syllabic units nucleus, coda, onset and tone are determined from language necessitates higher-order logic than configurational variation.
+Variation between corpora does not end, however, with changes in the format of the file nor simple properties of languages. We also saw in previous sections, particularly the \hyperlink{section.24}{Pronunciation Dictionary Production} section, that variation between languages and corpora is also observed in determining syllabic units for data representation. These variations are high-level abstractions themselves, more complicated than in-order processing: for one example, there is no inherent ordering to where tone makers are placed, as seen with the IARPA Cantonese and IARPA Lithuanian corpora. The method for which the syllabic units nucleus, coda, onset and tone are determined from language necessitates higher-order logic than configurational variation.
 
-One way we can consider this problem is that there is a single behavior, "syllablify", that is common across all corpora. This "syllabify" behavior should varying in implementation between corpora, but across corpora should have a common interface (a word/pronunciation pair) and reliably decompose the pronunciation into syllabic units so that these units can be used to produce uniform output. Moreover, we would like to decouple clients of this behavior from any one implementation -- at runtime, they should be able to specify which implementation without having to change any code. Finally, developers of the software should not have to change anything about the "syllabify" interface and usage in order to add new implementations. 
+One way we can consider this problem is that there is a single behavior, "syllablify", that is common across all corpora. This ``syllabify" behavior should varying in implementation between corpora, but across corpora should have a common interface (a word/pronunciation pair) and reliably decompose the pronunciation into syllabic units so that these units can be used to produce uniform output. Moreover, we would like to decouple clients of this behavior from any one implementation -- at runtime, they should be able to specify which implementation without having to change any code. Finally, developers of the software should not have to change anything about the ``syllabify" interface and usage in order to add new implementations. 
 
 These requirements naturally evoke the Strategy pattern\cite{freeman_head_2004}, a classic behavioral pattern for allowing variation in algorithm to be encapsulated by a generic "Strategy" class.
 
@@ -294,7 +337,9 @@ These requirements naturally evoke the Strategy pattern\cite{freeman_head_2004},
 \label{fig:strategy-pattern}
 \end{figure}
 
-The design is encapsulated because the various versions of the behavior, how many variations there are, which variation will be used under a given circumstance, and the design of each varying implementation are all hidden from the client. We may also encapsulate the fact that the behavior is varying at all, depending on implementation.
+The design is encapsulated because ``the various versions of the behavior, how many variations there are, which variation will be used under a given circumstance, and the design of each varying implementation are all hidden from the client"\cite{bain_emergent_2008}. That is, the varying corpora language properties and format distinctions for speech-data experiments can be abstracted to algorithms that are variable at run-time, decoupled from the generic behavior required to ``syllabify", and easily extensible to development in the future.
+
+Further details about design choices are elaborated in a complete UML diagram of the syllabify system in the \hyperlink{section.6}{Appendix, Section 6.1}.
 
 \section{Conclusions}
 
@@ -304,17 +349,17 @@ This report documents work undertaken over a semester in the MCQLL Lab to experi
 
 This report additionally describes the software design approaches taken throughout the experimental process to motivate the contribution of the set of tools written by the author and to document their workings for future users, experimenters and developers. These tools are made available in a public repository. Alongside PolyglotDB and Montreal Forced Aligner, they facilitate the generalization of the experimental procedure taken across corpora and languages beyond those covered in the report experiments. This generalization is accomplished by abstracting the differences between corpora (varied in format and language) to a set of configuration files adaptable to the requirements of large sets of known public corpora. Differences in corpora that cannot be abstracted to configuration, especially morphological differences in syllable representation across languages, are implemented using a pattern-based approach, streamlining the introduction of new client logic for new corpora to the adaptation of a testable and flexible template class. This approach aims to contribute a code-base that can dynamically adapt to and reliably implement future client requirements when new corpora necessitate novel business logic in configuration and linguistic structure. \\
 
-The design approach described arose emergently from the set of challenging problems produced by the varied and rich nature of speech data corpora. These problems surround the automation of various steps in corpora preparation for storage, alignment, and analysis: transcript encoding, audio signal processing, and pronunciation dictionary convention generalization. These problems and their relation to the problems of speech data alignment, storage, and analysis are described in this report, alongside the software contributed to resolve these problems. \\
+The design approach described emerged from the set of challenging problems produced by the varied and rich nature of speech data corpora. These problems surround the automation of various steps in corpora preparation for storage, alignment, and analysis: transcript encoding, audio signal processing, and pronunciation dictionary convention generalization. These problems and their relation to the problems of speech data alignment, storage, and analysis are described in this report, alongside the software contributed to resolve these problems. \\
 
 Overall, this report describes an approach and some software solutions to aid in the resolution, by non-expert and expert researchers alike, of preparing publicly available speech data for alignment, storage, and analysis using publicly available tools. \\
 
 \subsection{Acknowledgements}
 
-My supervisor Morgan, my advisor Ann, my mentor Jasmine, my partner Ma\"ia, and cherished family, colleagues, comrades, teachers, and friends who have all supported me in innumerable ways along the way.
+The completion of this report would have been impossible without the support of my supervisor Morgan, my advisor Ann, my mentor Jasmine, my partner Ma\"ia, and many cherished family, colleagues, comrades, teachers, and friends who are invaluable parts of my life and have supported me in innumerable ways along the way.
 
 \newpage
 \section{Appendix}
-\subsection{Extra Figures}
+\subsection{Syllabify System UML Diagram}
 \begin{figure}[h]
   \centering
   \includegraphics[scale=0.3]{UMLdiag.png}
