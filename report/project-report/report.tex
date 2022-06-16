@@ -50,9 +50,7 @@
 
 \section{Introduction}
 
-\nocite{*}
-
-Natural language is a spoken phenomena, while the most commons tools for computational natural language processing are predominantly text based. Tools that represent, store, and process audio signals associated with spoken natural language have not always existed and are not trivial to implement relative to comparable text-based processing tools. The reasons for this are straightforward: text-based data is comparably smaller in storage size and less demanding in memory to process. Moreover, speech-based data have much more complicated metadata and preprocessing requirements than text-based data, many of these complications being out of the reach of amateur or non-technically proficient researchers. Speech transcription, aligning transcription with speech audio, audio signal processing, and non-uniform metadata/data storage standards are just some of the complications of speech-based natural language processing compared to text-based natural language processing. Given these obstacles, it is not surprising that more tools are researched, written, and developed for text-based corpora than for speech-based corpora in both natural language processing research and industry.
+Natural language is a spoken phenomena, while the most common tools for computational natural language processing are predominantly text based. Tools that represent, store, and process audio signals associated with spoken natural language have not always existed and are not trivial to implement relative to comparable text-based processing tools. The reasons for this are straightforward: text-based data is comparably smaller in storage size and less demanding in memory to process. Moreover, speech-based data have much more complicated metadata and preprocessing requirements than text-based data; many of these complications put researcher out of the reach of amateur or non-technically proficient researchers. Speech transcription, aligning transcription with speech audio, audio signal processing, and non-uniform metadata/data storage standards are just some of the complications of speech-based natural language processing compared to text-based natural language processing. Given these obstacles, it is not surprising that more tools are researched, written, and developed for text-based corpora than for speech-based corpora in both natural language processing research and industry.
 
 While the availability of speech-based corpora and automated tools to make use of them is increasing\cite{mcauliffe_polyglot_2017}, there remains a significant gap between the availability of speech data corpora and their general usability for researchers across disciplines. While libraries like NLTK\cite{noauthor_nltk_nodate} have bridged this gap with large accessible text-based natural language corpora and comprehensive tutorials for their usage, the same does not yet exist for speech data corpora.
 
@@ -149,45 +147,27 @@ This pipeline prepares generic speech-data corpora with orthographic audio recor
 
 \subsection{Speech Corpora Acquisition and Organization}
 
-- Download from the internet (discoverability, formats, etc.)
-- Occassional need to filter based on what you already have (see the dl.sh script I created that's currently in the google drive)
+Two corpora sources were used in this study: IARPA Babel\cite{benowitz_iarpa_2019}\cite{andrus_iarpa_2016}, a US federal program to develop large-scale speech-data corpora for non English languages, as well as Librispeech test-clean\cite{panayotov_librispeech_2015}, a large-scale collection of dictated English speech. The corpora used ranged from 350MB to 890MB in total size, making these studies tractable for common development machines; part of the goal of this investigation is to determine if reliable and interesting analysis can be performant of data sets this small.
 
-How about using the test-clean subset of Librispeech? (Defined on the open-slr site). This will mean:
-You can make a CSV file with a gender and name corresponidng to each speaker (not much, but it's enough to demonstrate enrichment)
-There is a standard amount of speech per speaker (~8 min)
-It's a reasonable size for anyone to download (350 M)
+In this project, the IARPA Babel corpora have not been force aligned, and the goal of this project is to align them in preparation for linguistic analysis. For the Librispeech test-clean data set, a subset of the speakers have had this alignment preparation take place at the outset of the project; with some shell scripting, these speakers were filtered into a new data set for the experiments performed in \hyperlink{section.3}{Section 3}. To permit working in parallel on both tasks at the same time, this project made use of the already aligned subset of Librispeech, while preparing the two IARPA Babel corpora for analysis.
 
-And once you have some tutorial output working, we can see if it actually works as a demo (like, is 8 min of speech per person enough to show cool between-speaker differences, or should we do a subset that's ~25 min/person)
+The rest of this section concerns the concrete preparation steps required to align the two IARPA Babel corpora.
 
-I think you jus tneed to download the test-clean subset
-then match file names to /media/share/corpora/LibriSpeech
-so for example, test-clean/61/70968 has a bunch of flac files starting with 61-70968: 61-70968-0000, etc.
-These correspond to files in LibriSpeech on roquefort:
-LibriSpeech/61/61-70968-0000.TextGrid and LibriSpeech/61/61-70968-0000.wav
- LibriSpeech/61/61-70968-0001.TextGrid and LibriSpeech/61/61-70968-0001.wav
-and so on.  So a little shell scripting is required, but should be fast.  Make sense?
-(to spell it out more: what happened at some point was we took the flac file, converted to wav, turned the transcript into a lab file, and aligned the wav and lab using MFA, resulting in a TextGrid .  The lab, wav, and TextGrid files are what's now in the LibriSpeech subdirs. The exact format used for that LibriSpeech dir should let you just point polyglotdb at it as a corpus to import)
+\subsection{Transcript to TextGrid Conversion}
 
-\subsection{Transcript to `TextGrid` Conversion}
+Generally, transcripts for audio corpora are not made available in a particular format. Most often, they are text files unadorned with particular metadata. Since force-alignment is a time-series categorization of data, however, there does need to be some representation of time in speech-text corpora for alignment to take place. One common known file specification that resolves this problem is the Praat\cite{noauthor_praat_nodate} TextGrid format. TextGrids allow for structuring ‘tiers’ into a text based file, allowing for a meaningful hierarchy for storage; for example, each phone token belongs to a corresponding word, and all phone tokens are considered events which take place within a given time range.
 
-Praat\cite{noauthor_praat_nodate} TextGrids allows for structuring ‘tiers’ in the TextGrid into the more meaningful hierarchy defined in the database format (e.g. each phone token belongs to a corresponding word).
-
-Generally, transcripts for audio corpora are not made available in TextGrid format. The conversion from general transcript files to TextGrids does not exist, since metadata and formatting can vary from transcript to transcript. This project contributes a general method for specifying the input transcript file properties, such that a variety of audio corpora can have their transcripts converted to the TextGrid format. A technical description of this work follows:
-
-The Python library `praatio` \cite{tim_mahrt_praatio_2016} has useful utilities for performing this conversion.
-
-Description/sample usage/results here:
+The conversion from general transcript files to TextGrids does not exist, since metadata and formatting can vary from transcript to transcript. This project makes use of the Python library praatio\cite{tim_mahrt_praatio_2016} which has useful utilities for performing this conversion. This project contributes a script, \verb|transcripts_to_textgrids.py|\footnote{https://github.com/michaelhaaf/mfa-workbook/blob/main/scripts/transcripts\_to\_textgrids.py}, which uses the praatio library to convert, in bulk, a directory of text transcript files. This approach also allows tuning the transcript file to remove unwanted tokens and to perform other useful preprocessing steps.
 
 \subsection{Audio Signal Processing}
 
-Aligning audio recordings with text transcriptions is a complicated signal processing task. Uniform standards for time frequency are given by file formant standards (what?? maybe do some reading??).
+In addition to the text transcript files, the audio files of speech-text data corpora can vary in important properties. To align generic audio recordings with generic text transcriptions, there are two prerequisites: a known sampling frequency, and a known file format. As discussed in the preamble to this section, the Montreal Forced Aligner is used to perform force-alignments, which runs optimally using 16kHz sampling frequency and the .wav audio standard. While many other combinations of frequency and format are possible in principle, some standard must be applied in order for measurement to take place, in turn allowing automated alignment to take place. This section concerns the problem of transforming a large set of audio files to a common sampling frequency and a common file format standard.
 
-To align generic audio recordings with generic text transcriptions, there are two prerequisites: a known sampling frequency, and a known file format (What??). In this project, the Montreal Forced Aligner is used, which runs optimally using 16kHz sampling frequency and the .wav audio standard. While many other combinations of frequency and format are possible in principle, some standard must be applied in order for measurement to take place, in turn allowing automated alignment to take place. This section concerns the problem of transforming a large set of audio files to a common sampling frequency and a common file format standard.
-
-For example, the IARPA corpus stores audio files using the .sph file format standard, with audio recorded at an 8kHz sample rate. This corpus therefore demonstrates a key example of a corpus needing transformations in both crucial metrics. Conversion from this format to the standard established above requires scripting: while there exist many tools to convert and resample audio formats, there are none that, crucially, (1) convert arbitrary audio formats to a chosen standard (in this case, .wav); (2) resample .wav from arbitrary sampling frequency to a chosen standard (in this case, 16kHz) without altering the pitch nor speed of the audio file; (3) handle gigabytes of audio files in bulk without running into RAM issues on ordinary machines (16GB RAM).
+For example, the IARPA corpus stores audio files using the .sph file format standard, with audio recorded at an 8kHz sample rate. This corpus therefore demonstrates a key example of a corpus needing transformations in both metrics. Conversion from this format to the MFA standard above requires scripting: while there exist many tools to convert and resample audio formats, there are none that, crucially, (1) convert arbitrary audio formats to a chosen standard (in this case, .wav); (2) resample .wav from arbitrary sampling frequency to a chosen standard (in this case, 16kHz) without altering the pitch nor speed of the audio file; (3) handle gigabytes of audio files in bulk without running into RAM issues on ordinary machines (16GB RAM).
 
 By point of comparison, the Praat tool can do (1) and (2) but not (3), since Praat scripts, in an effort to produce a non-technical user experience, do not offer memory management or lazy/dynamic loading of audio files at runtime which would be required to fulfill requirement (3).
 
+This project developed a method for performing all three tasks, by combining the Praat library, the sph2pipe\footnote{https://github.com/burrmill/sph2pipe} library , and intermediate shell scripting. The result is a script with user-friendly prompts and error messages which allows for specifying a directory of audio files to be converted and resampled according to specification at the command line. The shell script uses POSIX specified shell idioms (the \verb|find -exec| command pattern) to manage running expensive memory options on large-scale corpora without running out of memory while maximizing parallelization in processing. This project contributes a script\footnote{https://github.com/michaelhaaf/mfa-workbook/blob/main/scripts/bulk\_sph\_resample} which can be reused to perform similar audio signal processing on large directories in the future.
 
 \subsection{Pronunciation Dictionary Production}
 
@@ -195,20 +175,26 @@ As discussed in a previous section, speech-text alignment matches sound to text 
 
 Speech data corpora under study in this project, such as the IARPA Babel corpus set, typically include a lexicon with a similar mapping as MFA. In the general case, however, the symbols and ordering of phonemes, and of syllabic structure, are nonstandard across corpora. A typical example follows:
 
-\missingfigure{straightforward Canto example}
+\begin{multicols}{2}
+  \begin{singlespace}
+    IARPA Babel Cantonese Lexicon
+    \begin{verbatim}
+    meng2	m E: N _2
+    m4chi5	m _4 . ts i: _5
+    \end{verbatim}
+  \end{singlespace}
+  \begin{singlespace}
+    MFA Pronunciation Dictionary
+    \begin{verbatim}
+    meng2	m E:2 N
+    m4chi5	m4 ts i:5
+    \end{verbatim}
+  \end{singlespace}
+\end{multicols}
 
 That is, the word/pronunciation mapping from the IARPA Babel corpus is transformed to an MFA-compatible word/pronunciation mapping for each entry in the IARPA Babel lexicon. This is the general task of the pronunciation dictionary production phase of the speech data preparation pipeline.
 
-Even within a single language and corpora, there can be interesting variation:
-
-\missingfigure{less straightforward canto example}
-
-The variation increases across language and corpora. See the IARPA Lithuanian corpus, for instance:
-
-\missingfigure{example}
-\missingfigure{example}
-
-In the more straightforward examples shown above, the problem appears to reduce to simple text manipulations to a standardized character set. The more complicated examples show that the ordering of tokens cannot be strictly assumed: without phonological theory, the ordering of tokens cannot be determined accurately. A brief summary of the necessary syllable structure assumptions follows:\cite{fromkin_introduction_2006}:
+In the example shown above, the problem appears to reduce to simple text manipulations to a standardized character set. The problem is inherently more complicated than this: close inspection of the examples above show that the ordering of tokens cannot be strictly assumed, especially when considering tones. Without phonological theory, the ordering of tokens cannot be determined accurately. A brief summary of the necessary syllable structure assumptions follows:\cite{fromkin_introduction_2006}:
 
 Across languages, words are composed of one or more syllables, which are in turn composed of one or more phonemes. Every syllable has a nucleus, which is itself composed of one or more phonemes. Syllable nucleus may be preceded by one or more phonemes grouped together as an onset, and nucleus may be followed by one or more phonemes grouped together as a coda. Syllables may also have tone/stress indicators, paired with the nucleus vowel.
 
@@ -223,9 +209,22 @@ Further complications arise in determining the boundary between syllabic units. 
 
 Tone, as indicated above, is more complicated. In this project, tone was often ignored in the early stages in order to produce results faster. However, tone (and related information for non-tonal language: stress and pitch) are often included in publicly available corpora and are useful for more accurate alignment results to disambiguate important semantic and pragmatic content.
 
-To demonstrate variation in tone, we can consider IARPA Cantonese and IARPA Lithuanian once again:
+To demonstrate variation in tone, we can consider the IARPA Lithuanian corpus, compared with the IARPA Cantonese corpus we saw previously: \\
 
-\missingfigure{Lithu and Canto tones compared}
+  \begin{singlespace}
+    \noindent IARPA Babel Lithuanian Lexicon
+    \begin{verbatim}
+    Adomaitis   a . d o: . " m a_F I . t' I s
+    \end{verbatim}
+    MFA Pronunciation Dictionary
+    \begin{verbatim}
+    Adomaitis   a1 d o:1 m a5 I t' I1 s
+    \end{verbatim}
+  \end{singlespace}
+
+  While we saw tone was marked explicitly in the Cantonese lexicon (although with an extra underscore token relative to the MFA format), in the Lithuanian lexicon tone is implicit -- this reflects that Lithuanian is not exactly a tonal language, but that there are 5 distinct stress markers which can be applied to Lithuanian syllables. These tone/stress markers are documented in the IARPA Babel Lithuanian corpus documentation\cite{benowitz_iarpa_2019}. 
+
+  In the example above, third syllable is: \verb|" m a_F I|. This syllable is of immediate interest for demonstration. The \verb|_F| character indicates a falling accent, which combined with a long nucleus (composed of the vowels \verb|a| and \verb|I|), indicates that this syllable is a long vowel stressed with a falling accent, which according to the IARPA Babel Lithuanian corpus documentation, corresponds to the discrete tone category \verb|5|. This is just one example demonstrative of just some of the variation in complexity for tone and syllabic unit determination. 
 
 While the structure of syllables is finite and tractable in scope, the variation in possible ordering and boundaries of phoneme tokens raises complications in simply reading tokens left to right to assign onset, nucleus, coda, and tone indicators. The software design approach to ``syllabifying", that is, translating pronunciations stored as text formats into data structures representing the phonetic structure of syllables, is described in \hyperlink{section.4}{Section 4: Software Design}.
 
@@ -235,9 +234,22 @@ Ultimately, the pronunciation dictionaries  we created now allow us to use MFA t
 
 \subsection{Alignment Production}
 
-Note well: the sample-data/ given in this repository (10 randomly chosen ~10second speech files) is no where near enough data to train a performant model. With this data we are simply verifying that there are no syntax/format issues with your workflow. Once that is verified, you will need to acquire more data to train a performant model. See \href{https://memcauliffe.com/how-much-data-do-you-need-for-a-good-mfa-alignment.html}{this blog post} for rough guidelines as to the magnitude of data required to train a model for alignment/general usage.
+The goal of the force-alignment procedure is demonstrated by the figures below:
 
-The Cantonese-scripted IARPA set has been aligned. Out of ~16000, there were about ~580 "no-speech" files that weren't aligned, as well as about 70 files with speech that weren't aligned. The rest of the set ~15500 seem to have been aligned successfully.
+\begin{figure}[h]
+\begin{minipage}[t]{.45\linewidth}
+\includegraphics[width=\linewidth]{nonaligned.png}
+\caption{An unsuccessful forced-alignment of a 12 second scripted recording} 
+\end{minipage}\hfill
+\begin{minipage}[b]{.45\linewidth}
+\includegraphics[width=\linewidth]{aligned.png}
+\caption{A successful forced-alignment of the same 12 second scripted recording.} 
+\end{minipage}
+\end{figure}
+
+Namely, the correct phonemes should be visibly matched with the corresponding audio signals. While there are automatic tools to detect out of vocabulary words and statistical measurements to the quality of alignment, a representative sample of alignments should be manually checked (and listened to) in order to verify that the force-alignment was carried out correctly.
+
+In this project, the entire Cantonese IARPA set was aligned, and the Lithuanian set was aligned as well pending verification. For the Cantonese data set, out of roughly 16000 speaker files, there were roughly 650 files whose alignments failed, leaving just over 15000 which were aligned successfully according to available metrics and visual inspection of a subset of the data. This is important: losing more data to alignment errors prevents us from building a significant enough data set using which we can perform experiments.
 
 \section{Experiments}
 
@@ -253,7 +265,7 @@ Before we move to the experiments performed, a quick note can be made about the 
 
 This project contributes a small procedure to automatically resolve system dependencies on all platforms that support Conda. The operation of this procedure is now described on the PolyglotDB website.\footnote{https://polyglotdb.readthedocs.io/en/latest/getting\_started.html\#conda-development-environment}
 
-This project investigated a transition of the PolyglotDB platform from pip to modern python installation environments, such as condaforge\cite{}, where Montreal Forced Aligner is already available. Time constraints prevented this transition from being completed by the end of the semester, but progress is ongoing.\footnote{https://github.com/conda-forge/staged-recipes/pull/18313}
+This project investigated a transition of the PolyglotDB platform from pip to modern python installation environments, such as condaforge\cite{conda_forge_community_2015_4774216}, where Montreal Forced Aligner is already available. Time constraints prevented this transition from being completed by the end of the semester, but progress is ongoing.\footnote{https://github.com/conda-forge/staged-recipes/pull/18313}
 
 Condaforge support for PolyglotDB would allow for automatic management of python and Java dependencies on any machine that supports conda. Future work could investigate installation of PolyglotDB on new server architectures, such as the increasingly available ARM64 platform. For the time being, the procedure now provided on the PolyglotDB website linked in the footnote above is the procedure taken for the following experiments, and should be reproducible on most machines just like an automatic Conda installation. 
 
@@ -263,9 +275,7 @@ The problem of abstracting away manual scripting from performing linguistic anal
 
 As described in the \hyperlink{section.22}{Data Acquisition} section of this report, a forced-aligned Librispeech test-clean English data set was acquired from previous alignment efforts at MCQLL with basic shell scripting. While this data set is force-aligned with phonemes in time, there is no other interesting metadata associated with speakers. Associating speaker metadata (age, gender, residence, etc.) with speech data is an important component of speech data research. This section described the procedure for storing aligned data sets, and enriching them for linguistic analysis, by importing them into a PolyglotDB instance. 
 
-PolyglotDB works by creating NoSQL time-series database in its development environment for speech data, and uses a SQL python library to wrap queries to speaker data stored in text files. Speech corpora can be imported and queried, with read/write permissions, using NoSQL under the hood, with queries wrapped in a python library for ease in interfacing with scripts and other software. Therefore, importing and enriching a corpora in a PolyglotDB database, then exporting the enriched corpora for analysis, can be done in a few lines of python, as shown in the tutorial. This tutorial was reproduced, with some typical examples of the kinds of queries that PolyglotDB supports:
-
-\missingfigure{stressed syllables beginning of words that are end of utterances, from tutorial 3}
+PolyglotDB works by creating NoSQL time-series database in its development environment for speech data, and uses a SQL python library to wrap queries to speaker data stored in text files. Speech corpora can be imported and queried, with read/write permissions, using NoSQL under the hood, with queries wrapped in a python library for ease in interfacing with scripts and other software. Therefore, importing and enriching a corpora in a PolyglotDB database, then exporting the enriched corpora for analysis, can be done in a few lines of python, as shown in the tutorial. This tutorial was reproduced, with some typical examples of the kinds of queries that PolyglotDB supports.
 
 Now that it has been established we can import, enrich, and make simple queries to a PolyglotDB instance, more interesting linguistic analysis can be performed.
 
@@ -304,7 +314,7 @@ The following tasks, some taken up partially, others planned but abandoned to pr
   \item The IARPA Babel corpora set has many other languages documented aside from Cantonese and Lithuanian. Languages such as Mixtec, Totonac, Yoruba, and Burmese in the IARPA Babel set is also more easily available for this type of research following the methods developed in this project.
   \item The Formant analysis performed in the previous section is just one example of an interesting linguistics question to investigate with corpora like these. Previous work has been done to demonstrate Pitch analysis\footnote{https://memcauliffe.com/playing-around-with-polyglotdb.html} using PolyglotDB, which provides further interesting data for analysis. These basic measurements open a wide range of research questions for amateur and expert researchers alike.
   \item Relatively more advanced linguistic analysis research could be performed with data sets like these, or even more general speech aligned data sets. One such question of particular interest to the author would be investigation into time-differentiated data sets to measure dialect change in time.
-\item A bit more speculative, but is certainly more room for automated software tools and paradigms for speech data sets. Word-vector analysis has seen incredible results in text-data natural language processing, and a similar paradigm applied to general speech-data corpora could see similar results.
+  \item A bit more speculative, but is certainly more room for automated software tools and paradigms for speech data sets. Word-vector analysis has seen incredible results in text-data natural language processing, and a similar paradigm applied to general speech-data corpora could see similar results.
 \end{itemize}
 
 \section{Software Design}
@@ -367,11 +377,11 @@ Further details about design choices are elaborated in a complete UML diagram of
 
 This report outlined some novel complications introduced by the adaptation of speech-text corpora varying across language and formatting conventions for concrete linguistic analysis. While tools exist for the preparation problems of corpora storage and speech-text alignment, there remains manual scripting involved to adequately create a development environment for interesting linguistic research. This project developed a procedure, applied to two corpora of varying format and language, which enabled automation in the preparation of speech corpora for forced-alignment, as well as the procedure for performing basic linguistic analysis on aligned speech corpora.
 
-This procedure surrounds the automation of various steps in corpora preparation: corpora acquisition and normalization, transcript encoding, audio signal processing, and lexicon convention generalization. While many of these variations were abstractable to configuration, parsing lexicon files to create phonetically valid data representations for conversion between formats proved to be a high-level abstract which required designed software to perform reliably. The software contributed in this report aims to fill just that gap: to provide automation general enough to extend to corpora varying in language and format, to further the accessibility of research on corpora requiring alignment.
+This procedure surrounds the automation of various steps in corpora preparation: corpora acquisition and normalization, transcript encoding, audio signal processing, and lexicon convention generalization. While many of these variations can be abstracted to configuration, parsing lexicon files to create phonetically valid data representations for conversion between formats proved to be a high-level abstract which required designed software to perform reliably. The software contributed in this report aims to fill just that gap: to provide automation general enough to extend to corpora varying in language and format, to further the accessibility of research on corpora requiring alignment.
 
 This required generalization is accomplished by abstracting differences between corpora to both configuration and to a Strategy pattern-based python library. Using this approach, new corpora can be supported by modifying a template configuration file and adding a single subclass, rather than modifying existing scripts or code. The software developed to perform this task is made available for study, use, and extension in a public repository.
 
-The upshot of corpora preparation was also analysed in this report. Experiments demonstrating the usage of PolyglotDB with similar corpora showed that investigation into interesting linguistic questions, namely: (1) formant frequency aggregated across a large sample of speakers, and (2) dialect feature detection through measurement of variation in pronunciation across a large sample of speakers.can be attained and the procedure for preparation automated across corpora, is possible with existing speech-text software tools.
+The upshot of corpora preparation was also analysed in this report. Experiments demonstrating the usage of PolyglotDB with similar corpora verified known experimental results in order to show that investigation into interesting linguistic questions, namely: (1) formant frequency aggregated across a large sample of speakers, and (2) dialect feature detection through measurement of variation in pronunciation across a large sample of speakers.can be attained and the procedure for preparation automated across corpora, is possible with existing speech-text software tools.
 
 Some of the aims set at the outset of the project were not reached: the procedure developed here invites investigation and publication of research into even more profound linguistic questions that can be studied through publicly available corpora beyond Librispeech. This report outlined some possible avenues for future work, as well as some suggested improvements to the software contributed in this project.
 
@@ -395,6 +405,7 @@ The completion of this report would have been impossible without the support of 
 \newpage
 
 \vskip 0.2in
+\bibliographystyle{unsrt}
 \bibliography{sample}
 
 \end{document}
