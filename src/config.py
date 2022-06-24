@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+# TODO: use enum again for mapping config to syllable builder
 @dataclass
 class Config:
     pronunciation_bound: str
