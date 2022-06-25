@@ -32,7 +32,6 @@ def load_configs(input_format, output_format):
         return input_config, output_config
 
 
-
 def main(args):
 
     input_config, output_config = load_configs(args.format.lower(), "mfa")
