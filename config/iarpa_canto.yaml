@@ -1,4 +1,3 @@
-lexicon: IARPA_CANTO
 pronunciation_bound: "\t"
 word_bound: ""
 syllable_bound: " . "
@@ -7,4 +6,4 @@ word_column: 1
 tone_characters: '_[0-9]'
 include_tones: true
 sonorants: ""
-vowels: "aeoiu69"
+vowels: "aeoiuy69"

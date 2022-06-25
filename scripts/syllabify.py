@@ -11,21 +11,22 @@ from pathlib import Path
 path_root = Path(__file__).parents[1]
 sys.path.append(str(path_root))
 
-from src.corpus import Corpus, CorpusFactory
+from src.corpus import Corpus, CorpusEnum, CorpusFactory
 from src.io import FileIO, Request, SyllableRequest
 from src.config import Config
+from enum import Enum
 
 
 # TODO: might not need dacite afterall
 def load_configs(input_format, output_format):
     with open(f"config/{input_format}.yaml", "r") as input_config, open(f"config/{output_format}.yaml", "r") as output_config:
         output_config = dacite.from_dict(
-                data_class=Configuration,
+                data_class=Config,
                 data=yaml.safe_load(output_config),
                 config=dacite.Config()
                 )
         input_config = dacite.from_dict(
-                data_class=Configuration,
+                data_class=Config,
                 data=yaml.safe_load(input_config),
                 config=dacite.Config()
                 )
@@ -34,15 +35,15 @@ def load_configs(input_format, output_format):
 
 def main(args):
 
-    input_config, output_config = load_configs(args.format.lower(), "mfa")
-    input_corpus = CorpusFactory().create(input_config)
-    output_corpus = CorpusFactory().create(output_config)
+    input_config, output_config = load_configs(args.format.lower(), CorpusEnum.MFA.name.lower())
+    input_corpus = CorpusFactory(input_config).create(args.format.upper())
+    output_corpus = CorpusFactory(output_config).create(CorpusEnum.MFA.name.upper())
     fileio = FileIO(input_config, output_config)
 
-    requests = fileio.import(args.input_lexicon)
-    syllable_requests = [input_corpus.syllabify(r) for r in requests]
+    requests = fileio.import_file(args.input_lexicon)
+    syllable_requests = filter(None, (input_corpus.syllabify(r) for r in requests))
     responses = [output_corpus.desyllabify(r) for r in syllable_requests]
-    fileio.export(args.output_dict, responses)
+    fileio.export_file(args.output_dict, responses)
 
 
 # Usage
@@ -55,7 +56,7 @@ if __name__ == "__main__":
                         required=True,
                         help='lexicon txt file',
                         type=str,
-                        dest='lexicon'
+                        dest='input_lexicon'
                         )
     parser.add_argument('-o',
                         required=True,
@@ -67,7 +68,7 @@ if __name__ == "__main__":
                         required=True,
                         dest='format',
                         help='input lexicon format',
-                        choices=Lexicon.__members__
+                        choices=CorpusEnum.__members__
                         )
     args = parser.parse_args()
     main(args)

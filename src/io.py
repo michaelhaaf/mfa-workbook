@@ -29,12 +29,12 @@ class FileIO:
         self.output_config = output_config
 
 
-    def import(self, filename: str) -> list[Request]:
+    def import_file(self, filename: str) -> list[Request]:
         with open(filename, "r") as tsvin:
             csv.register_dialect('my_dialect',
                     quoting=csv.QUOTE_NONE,
                     doublequote=False,
-                    delimiter=input_config.pronunciation_bound)
+                    delimiter=self.input_config.pronunciation_bound)
             tsvin = csv.reader(tsvin, dialect='my_dialect')
 
             requests=[]
@@ -51,11 +51,9 @@ class FileIO:
             return requests
 
 
-    def export(self, output_filename: str, responses: list[Responses]) -> Void:
-        with open(args.output_dict, "w") as tsvout:
-            tsvout = csv.writer(tsvout, delimiter=output_config.pronunciation_bound)
+    def export_file(self, output_filename: str, responses: list[Response]):
+        with open(output_filename, "w") as tsvout:
+            tsvout = csv.writer(tsvout, delimiter=self.output_config.pronunciation_bound)
             output_entries = [(r.word, r.pronunciation) for r in responses]
             for p in output_entries:
                 tsvout.writerow(p)
-
-

@@ -1,8 +1,9 @@
+import re
 from src.config import Config
 from src.model import Syllable, Pronunciation
 
 
-class SyllableBuilder:
+class SyllableBuilderInterface:
 
     def __init__(self, config: Config):
         self.config = config
@@ -14,7 +15,18 @@ class SyllableBuilder:
         pass
 
 
-    """ Helper Methods (inherited by subclasses)"""
+class SyllableBuilder(SyllableBuilderInterface):
+    """ Abstract class containing common helper hethods to be inherited by subclasses"""
+
+    def __init__(self, config: Config):
+        self.config = config
+
+    def from_phonemes(self, phonemes: list[str]) -> Syllable:
+        pass
+
+    def to_phonemes(self, pronunciation: Pronunciation) -> str:
+        pass
+
 
     def contains_vowel(self, phoneme):
         vowels = self.config.vowels
@@ -41,7 +53,7 @@ class SyllableBuilder:
     def extract_vowel_indices(self, phonemes):
         indices = [i for i, x in enumerate(map(self.contains_vowel, phonemes)) if x]
         if not indices:
-            raise SyllabifyException(f"Cannot process phoneme {phoneme}: contains no vowels.")
+            raise SyllableBuilderException(f"Syllable phonemes {phonemes} contain no vowels.")
         return indices
 
     def extract_sonorant_indices(self, phonemes):
@@ -51,7 +63,7 @@ class SyllableBuilder:
         return phonemes[0:vowel_indices[0]]
 
     def extract_nucleus_coda(self, phonemes, vowel_indices, sonorant_indices):
-        if self._is_long_vowel(vowel_indices, sonorant_indices):
+        if self.is_long_vowel(vowel_indices, sonorant_indices):
             nucleus = phonemes[vowel_indices[0]:vowel_indices[0]+2]
             coda = phonemes[vowel_indices[0]+2:]
             return nucleus, coda
@@ -59,3 +71,7 @@ class SyllableBuilder:
             nucleus = [phonemes[vowel_indices[0]]]
             coda = phonemes[vowel_indices[0]+1:]
             return nucleus, coda
+
+class SyllableBuilderException(ValueError):
+    pass
+

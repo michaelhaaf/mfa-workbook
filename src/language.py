@@ -73,6 +73,7 @@ class Language:
 # TODO: inherit language as an interface so that all languages must implement
 #       common methods
 class Lithuanian:
+
     def extract_tone(self, phonemes, vowel_indices, sonorant_indices):
         tone = ""
             if self._is_long_vowel(vowel_indices, sonorant_indices):

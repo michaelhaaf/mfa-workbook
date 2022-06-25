@@ -1,7 +1,3 @@
-class Pronunciation:
-    def __init__(self, syllables: list[Syllable]):
-        self.syllables = syllables
-
 class Syllable:
 
     def __init__(self, nucleus, tone="", onset=[], coda=[]):
@@ -16,3 +12,9 @@ class Syllable:
                 self.nucleus == other.nucleus and
                 self.coda == other.coda and
                 self.tone == other.tone)
+
+
+class Pronunciation:
+    def __init__(self, syllables: list[Syllable]):
+        self.syllables = syllables
+

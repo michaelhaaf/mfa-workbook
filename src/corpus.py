@@ -1,11 +1,22 @@
+from enum import Enum, auto
+from src.model import Pronunciation
 from src.config import Config
 from src.io import Request, SyllableRequest, Response
-from src.syllableBuilder import SyllableBuilder
+from src.syllable_builders.syllable_builder import SyllableBuilderInterface, SyllableBuilder, SyllableBuilderException
+from src.syllable_builders.iarpa_canto import IARPA_Canto_Builder
+from src.syllable_builders.iarpa_lithu import IARPA_Lithu_Builder
+from src.syllable_builders.mfa import MFA_Builder
+
+
+class CorpusEnum(Enum):
+    MFA = auto()
+    IARPA_CANTO = auto()
+    IARPA_LITHU = auto()
 
 
 class Corpus:
 
-    def __init__(self, syllable_builder: SyllableBuilder):
+    def __init__(self, syllable_builder: SyllableBuilderInterface):
         self.syllable_builder = syllable_builder
 
 
@@ -15,7 +26,12 @@ class Corpus:
         return the word and its pronunciation (a SyllableRequest
         object) transformed to an output format specified by the Config object.
         """
-        syllables = [self.syllable_builder.from_phonemes(request.phonemes)]
+        try:
+            syllables = [self.syllable_builder.from_phonemes(p) for p in request.phonemes]
+        except SyllableBuilderException as ex:
+            print(f"Skipping entry: \n\t{request} \n\t{ex}")
+            return None
+
         pronunciation = Pronunciation(syllables)
         return SyllableRequest(request.word, pronunciation)
 
@@ -31,13 +47,15 @@ class Corpus:
 
 
 class CorpusFactory:
+
     def __init__(self, config: Config):
         self.config = config
+        self.corpus_mapping = {
+            CorpusEnum.MFA: MFA_Builder(config),
+            CorpusEnum.IARPA_LITHU: IARPA_Lithu_Builder(config),
+            CorpusEnum.IARPA_CANTO: IARPA_Canto_Builder(config)
+            }
 
-    def create(self) -> Corpus:
-        # TODO: map syllableBuilder to config, use this to get the correct
-        # syllableBuilder in the corpus initialization
-        pass
 
-
-
+    def create(self, corpus: str) -> Corpus:
+        return Corpus(self.corpus_mapping[CorpusEnum[corpus]])

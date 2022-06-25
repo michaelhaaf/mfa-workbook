@@ -1,9 +1,9 @@
 from src.config import Config
 from src.model import Syllable, Pronunciation
-from src.syllable_builders import SyllableBuilder
+from src.syllable_builders.syllable_builder import SyllableBuilder
 
 
-class MFA(SyllableBuilder):
+class MFA_Builder(SyllableBuilder):
 
     def _init__(self, config: Config):
         self.config = config
@@ -13,11 +13,13 @@ class MFA(SyllableBuilder):
 
     def to_phonemes(self, pronunciation: Pronunciation) -> str:
         phonemes = ""
-        for syllable in pronunciation:
+        for syllable in pronunciation.syllables:
             nucleus = syllable.nucleus
             nucleus[0] = f"{nucleus[0] + syllable.tone}"
-            pronunciation += config.phoneme_bound.join(syllable.onset) + config.phoneme_bound
-            pronunciation += config.phoneme_bound.join(nucleus) + config.phoneme_bound
-            pronunciation += config.phoneme_bound.join(syllable.coda)
-            pronunciation += config.syllable_bound
-        return phonemes
+            if syllable.onset:
+                phonemes += self.config.phoneme_bound.join(syllable.onset).strip() + self.config.phoneme_bound
+            phonemes += self.config.phoneme_bound.join(nucleus).strip() + self.config.phoneme_bound
+            phonemes += self.config.phoneme_bound.join(syllable.coda).strip()
+            phonemes = phonemes.strip()
+            phonemes += self.config.syllable_bound
+        return phonemes.strip()
