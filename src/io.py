@@ -29,6 +29,7 @@ class FileIO:
         self.output_config = output_config
 
 
+    # TODO: needs refactoring
     def import_file(self, filename: str) -> list[Request]:
         with open(filename, "r") as tsvin:
             csv.register_dialect('my_dialect',
@@ -44,6 +45,8 @@ class FileIO:
 
                 phonemes=[]
                 for p in pronunciations:
+                    if self.input_config.word_bound:
+                        p = p.replace(self.input_config.word_bound, self.input_config.syllable_bound)
                     phonemes = [s.split(self.input_config.phoneme_bound)
                             for s in p.split(self.input_config.syllable_bound)]
                     requests.append(Request(word, phonemes))

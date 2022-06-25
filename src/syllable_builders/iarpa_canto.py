@@ -30,8 +30,6 @@ class IARPA_Canto_Builder(SyllableBuilder):
         tone = self.extract_tone(phonemes)
         onset = super().extract_onset(phonemes_no_tones, vowel_indices)
         nucleus, coda = super().extract_nucleus_coda(phonemes_no_tones, vowel_indices, sonorant_indices)
-        if phonemes[0].lower() in ('n', 'm') and len(phonemes) < 3:
-            print(f"{phonemes}, {tone}, {onset}, {nucleus}, {coda}")
 
         return Syllable(onset=onset, nucleus=nucleus, coda=coda, tone=tone)
 
