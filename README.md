@@ -17,8 +17,9 @@ Ensure all of the following programs are discoverable on your terminal PATH. Ins
 ### Instructions
 
 - Clone this directory: `git clone https://github.com/michaelhaaf/mfa-workbook.git`
-- Run pip install -r requirements.txt in your preferred python environment
-- Run python -m unittest to see sample use cases for each script/source file.
+- Run `pip install -r requirements.txt` in your preferred python environment
+- Ensure your preferred python environment is version 3.9 or greater
+- Run `python -m unittest` to see sample use cases for each script/source file.
 
 ## Usage
 
@@ -160,10 +161,10 @@ Confirm that your textgrids look correct using a text editor.
 The Iarpa lexicon format needs to be converted to an MFA pronunciation dictionary.
 
 ```shell_session
-python3 scripts/process_lexicon.py -i sample-data/iarpa_corpus/scripted/reference_materials/lexicon.txt -o ./sample-data/pd.txt
+python scripts/syllabify.py -i sample-data/iarpa_canto_corpus/scripted/reference_materials/lexicon.txt -o ./sample-data/pd-test.txt
 ```
 
-Confirm that your pronunciation dictionary look correct using a text editor.
+Confirm that your pronunciation dictionary look correct using a text editor (`vimdiff ./sample-data/pd.txt ./sample-data/pd-test.txt`, for example).
 
 ## Preparation
 
