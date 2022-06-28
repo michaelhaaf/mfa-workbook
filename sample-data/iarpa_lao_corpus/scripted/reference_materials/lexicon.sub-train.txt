@@ -1,0 +1,1725 @@
+<hes>	<hes>	? A n _3 . n A _2	? A _2	k A ? _2	? 7: _6
+ກຣີນ	kri1n	k l i: n _6
+ກຣຸບ	krub	k l u p _2
+ກວດກາ	kwdkA	k u@ t _5 . k A: _6
+ກວ່າ	kw3A	k w A: _1	k u@ _1
+ກວ່າຈະ	kw3Aca	k w A: _1 . c A ? _2	k u@ _1 . c A ? _2	k w A _1 . c A ? _2
+ກວ້າງ	kw4AN	k w A: N _4	k u@ N _4
+ກອງ	kON	k O: N _6	k O: N _3
+ກອນ	kOn	k O: n _6	k O: n _3
+ກອມມູນິດ	kOmmu1nid	k O: m _6 . m u: _2 . n i t _1	k O: m _6 . m u _1 . n i t _1
+ກະຈາຍ	kacAJ	k A _2 . c A: j _6	k A _1 . c A: j _6
+ກະຊວງ	kas1wN	k A _2 . s u@ N _2	k A _1 . s u@ N _2
+ກະຊວງຕ່າງປະເທດ	kas1wNt3ANpaeT1d	k A _2 . s u@ N _2 . t A: N _1 . p A _2 . t_h e: t _4	k A _2 . s u@ N _2 . t A: N _1 . p A _1 . t_h e: t _4
+ກະຕັນຍູ	kata1nJu1	k A _2 . t A n _6 . J u: _2	k A _1 . t A n _6 . J u: _2
+ກະທົບ	kaT1ob	k A _2 . t_h o p _1	k A _1 . t_h o p _1
+ກະສິກຳ	kasikA1	k A _2 . s i _2 . k A m _6	k A _1 . s i _1 . k A m _6
+ກະແສໄຟຟ້າ	kae1sI1ff4A	k A _2 . s E: _3 . f A j _2 . f A: _4	k A _1 . s E _1 . f A j _2 . f A: _4
+ກັນ	ka1n	k A n _6	k A n _3
+ກັນຍາ	ka1nJA	k A n _6 . J A: _2
+ກັບ	ka1b	k A p _2
+ກັບຕັນ	ka1bta1n	k A p _2 . t A n _6
+ກັ່ນ	ka13n	k A n _1
+ກາຍ	kAJ	k A: j _6	k A: j _3
+ການ	kAn	k A: n _6	k A: n _3
+ການກິນດື່ມ	kAnkindY13m	k A: n _6 . k i n _6 . d M: m _1
+ການກຽມ	kAnkjm	k A: n _6 . k i@ m _6
+ການຂຸດຄົ້ນ	kAnKudK1o4n	k A: n _6 . k_h u t _2 . k_h o n _4
+ການຂໍ	kAnKO1	k A: n _6 . k_h O: _3
+ການຄ້າ	kAnK14A	k A: n _6 . k_h A: _4
+ການຈະເລີນເຕີບໂຕ	kAncaeli1neti1bo1t	k A: n _6 . c A _2 . l 7: n _2 . t 7: p _5 . t o: _6	k A: n _6 . c A _1 . l 7: n _2 . t 7: p _5 . t o: _6
+ການຊ່ວຍເຫຼືອ	kAns13wJehl1Y1O	k A: n _6 . s u@ j _1 . l M@ _3
+ການຍອມຮັບ	kAnJOmh1a1b	k A: n _6 . J O: m _2 . h A p _1
+ການຍົກລະດັບ	kAnJoklada1b	k A: n _6 . J o k _1 . l A _1 . d A p _2
+ການຍ້ອງຍໍ	kAnJ4ONJO1	k A: n _6 . J O: N _4 . J O: _2
+ການດຳລົງຊີວິດ	kAndA1loNs1i1wid	k A: n _6 . d A m _6 . l o N _2 . s i: _2 . w i t _1	k A: n _6 . d A m _6 . l o N _2 . s i _1 . w i t _1
+ການດຳເນີນງານ	kAndA1eni1nNAn	k A: n _6 . d A m _6 . n 7: n _2 . N A: n _2
+ການດູແລເບິ່ງແຍງ	kAndu1e1lebi3Ne1JN	k A: n _6 . d u: _6 . l E: _2 . b 7 N _1 . J E: N _2	k A: n _6 . d u _1 . l E _1 . b 7 N _1 . J E: N _2
+ການຕິດຕັ້ງ	kAntidta14N	k A: n _6 . t i t _2 . t A N _4
+ການຕົກລົງ	kAntokloN	k A: n _6 . t o k _2 . l o N _2
+ການຕ້ອນຮັບ	kAnt4Onh1a1b	k A: n _6 . t O: n _4 . h A p _1
+ການຖົມ	kAnTom	k A: n _6 . t_h o m _3
+ການນຳພາ	kAnnA1P1A	k A: n _6 . n A m _2 . p_h A: _2
+ການນຳເຂົ້າ	kAnnA1eKo4A	k A: n _6 . n A m _2 . k_h A w _5	k A: n _6 . n A m _2 . k_h Ao _5
+ການນຸ່ງຖື	kAnnu3NTY1	k A: n _6 . n u N _1 . t_h M: _3
+ການປະກອບສ່ວນ	kAnpakObs3wn	k A: n _6 . p A _2 . k O: p _5 . s u@ n _1	k A: n _6 . p A _1 . k O: p _5 . s u@ n _1
+ການປະຕິວັດ	kAnpatiwa1d	k A: n _6 . p A _2 . t i _2 . w A t _1	k A: n _6 . p A _1 . t i _1 . w A t _1
+ການປະຕິຮູບ	kAnpatih1u1b	k A: n _6 . p A _2 . t i _2 . h u: p _4	k A: n _6 . p A _1 . t i _1 . h u: p _4
+ການປະເຊີນໜ້າ	kAnpaes1i1nn14A	k A: n _6 . p A _2 . s 7: n _2 . n A: _5	k A: n _6 . p A _1 . s 7: n _2 . n A: _5
+ການປຶກສາຫາລື	kAnpYksAhAlY1	k A: n _6 . p M k _2 . s A: _3 . h A: _3 . l M: _2	k A: n _6 . p M k _2 . s A _1 . h A _1 . l M: _2
+ການປູກ	kAnpu1k	k A: n _6 . p u: k _5
+ການປົກຄອງ	kAnpokK1ON	k A: n _6 . p o k _2 . k_h O: N _2
+ການປົກປັກຮັກສາ	kAnpokpa1kh1a1ksA	k A: n _6 . p o k _2 . p A k _2 . h A k _1 . s A: _3
+ການຜະລິດ	kAnPalid	k A: n _6 . p_h A _2 . l i t _1	k A: n _6 . p_h A _1 . l i t _2
+ການພົວພັນ	kAnP1owP1a1n	k A: n _6 . p_h u@ _2 . p_h A n _2
+ການພົວພັນຮ່ວມມື	kAnP1owP1a1nh13wmmY1	k A: n _6 . p_h u@ _2 . p_h A n _2 . h u@ m _1 . m M: _2
+ການຢັ້ງຢືນ	kAnya14NyY1n	k A: n _6 . j A N _4 . j M: n _6	k A: n _6 . j A N _4 . j M: n _3
+ການຢາ	kAnyA	k A: n _6 . j A: _6
+ການລວງ	kAnlwN	k A: n _6 . l u@ N _2
+ການລັກລອບ	kAnla1klOb	k A: n _6 . l A k _1 . l O: p _4
+ການລັກເອົາ	kAnla1keOoA	k A: n _6 . l A k _1 . ? A w _6	k A: n _6 . l A k _1 . ? Ao _6
+ການວິພາກວິຈານ	kAnwiP1AkwicAn	k A: n _6 . w i _1 . p_h A: k _4 . w i _1 . c A: n _6
+ການວິໄຈ	kAnwiI1c	k A: n _6 . w i _1 . c A j _6
+ການສຶກສາ	kAnsYksA	k A: n _6 . s M k _2 . s A: _3
+ການສຶກສາຮ່ຳຮຽນ	kAnsYksAh13A1h1jn	k A: n _6 . s M k _2 . s A: _3 . h A m _1 . h i@ n _2	k A: n _6 . s M k _2 . s A _1 . h A m _1 . h i@ n _2
+ການສົ່ງອອກ	kAnso3NOOk	k A: n _6 . s o N _1 . ? O: k _5
+ການສົ່ງເສີມ	kAnso3Nesi1m	k A: n _6 . s o N _1 . s 7: m _3
+ການສ້າງຕັ້ງ	kAns4ANta14N	k A: n _6 . s A: N _5 . t A N _4
+ການຫຼຸດຜ່ອນ	kAnhl1udP3On	k A: n _6 . l u t _2 . p_h O: n _1
+ການອະນຸຍາດ	kAnOanuJAd	k A: n _6 . ? A _2 . n u _1 . J A: t _4	k A: n _6 . ? A _1 . n u _1 . J A: t _4
+ການອະນຸມັດ	kAnOanuma1d	k A: n _6 . ? A _2 . n u _1 . m A t _1	k A: n _6 . ? A _1 . n u _1 . m A t _1
+ການຮັກສາ	kAnh1a1ksA	k A: n _6 . h A k _1 . s A: _3
+ການຮັບໃຊ້	kAnh1a1bIs14	k A: n _6 . h A p _1 . s A j _4
+ການຮຽນ	kAnh1jn	k A: n _6 . h i@ n _2
+ການຮ່ວມ	kAnh13wm	k A: n _6 . h u@ m _1
+ການຮ່ຳຮຽນ	kAnh13A1h1jn	k A: n _6 . h A m _1 . h i@ n _2
+ການາດາ	kAnAdA	k A: _6 . n A: _2 . d A: _6	k A: _6 . n A _1 . d A: _6	k A: _6 . n A: _2 . d A: _4	k A: _6 . n A _1 . d A: _4
+ການເກີດ	kAneki1d	k A: n _6 . k 7: t _5
+ການເຂົ້າຮ່ວມ	kAneKo4Ah13wm	k A: n _6 . k_h A w _5 . h u@ m _1	k A: n _6 . k_h Ao _5 . h u@ m _1
+ການເຄື່ອນໄຫວ	kAneK1Y13OnI1hw	k A: n _6 . k_h M@ n _1 . w A j _3
+ການເງິນ	kAneNin	k A: n _6 . N 7 n _2
+ການເຊັນສັນຍາ	kAnes1a1nsa1nJA	k A: n _6 . s e n _2 . s A n _3 . J A: _2
+ການເດີນທາງ	kAnedi1nT1AN	k A: n _6 . d 7: n _6 . t_h A: N _2
+ການເຕີບໂຕ	kAneti1bo1t	k A: n _6 . t 7: p _5 . t o: _6
+ການເພີ່ມທະວີ	kAneP1i13mT1awi1	k A: n _6 . p_h 7: m _1 . t_h A _1 . w i: _2
+ການເມືອງ	kAnemY1ON	k A: n _6 . m M@ N _2
+ການເລືອກຕັ້ງ	kAnelY1Okta14N	k A: n _6 . l M@ k _4 . t A N _4
+ການເຮັດ	kAneh1a1d	k A: n _6 . h e t _1
+ການເຮັດວຽກເຮັດການ	kAneh1a1dwjkeh1a1dkAn	k A: n _6 . h e t _1 . w i@ k _4 . h e t _1 . k A: n _6	k A: n _6 . h e t _1 . w i@ k _4 . h e t _1 . k A: n _3
+ການແຂ່ງຂັນ	kAne1K3NKa1n	k A: n _6 . k_h E: N _1 . k_h A n _3
+ການແລກປ່ຽນ	kAne1lkp3jn	k A: n _6 . l E: k _4 . p i@ n _1
+ການໂຄສະນາ	kAno1K1sanA	k A: n _6 . k_h o: _2 . s A _2 . n A: _2	k A: n _6 . k_h o _1 . s A _1 . n A: _2
+ກາເຟ	kAef	k A: _6 . f e: _2	k A _1 . f e: _2
+ກຳນົດ	kA1nod	k A m _6 . n o t _1
+ກຳລັງການຜະລິດ	kA1la1NkAnPalid	k A m _6 . l A N _2 . k A: n _6 . p_h A _2 . l i t _1	k A m _6 . l A N _2 . k A: n _6 . p_h A _1 . l i t _1
+ກຳແພງເພັດ	kA1e1P1NeP1a1d	k A m _6 . p_h E: N _2 . p_h e t _1
+ກິດຈະກຳ	kidcakA1	k i t _2 . c A _1 . k A m _6	k i t _2 . c A _2 . k A m _6
+ກິນກຸດ	kinkud	k i n _6 . k u t _2
+ກິນທານ	kinT1An	k i n _6 . t_h A: n _2
+ກິລາ	kilA	k i _2 . l A: _2	k i _1 . l A: _2
+ກິໂລແມັດ	kio1le1ma1d	k i _2 . l o: _2 . m E t _1	k i _1 . l o _1 . m E t _1
+ກິ່ງ	ki3N	k i N _1
+ກີບ	ki1b	k i: p _5
+ກຸດ	kud	k u t _2
+ກຸມພາ	kumP1A	k u m _6 . p_h A: _2
+ກຸ່ມ	ku3m	k u m _1
+ກຸ້ມ	ku4m	k u m _4
+ກູເກິນ	ku1ekin	k u: _6 . k 7 n _6	k u _1 . k 7 n _4
+ກູໂກ	ku1o1k	k u: _6 . k o: _6	k u _1 . k o: _4
+ກູ້ຢືມ	ku14yY1m	k u: _4 . j M: m _6	k u _1 . j M: m _6	k u: _4 . j M: m _3	k u _1 . j M: m _3
+ກົງກັນຂ້າມ	koNka1nK4Am	k o N _6 . k A n _6 . k_h A: m _5
+ກົດ	kod	k o t _2
+ກົດບັດ	kodba1d	k o t _2 . b A t _2
+ກົດໝາຍ	kodm1AJ	k o t _2 . m A: j _3
+ກົນອຸບາຍ	konOubAJ	k o n _6 . ? u _2 . b A: j _6	k o n _6 . ? u _1 . b A: j _6
+ກົນໄກ	konI1k	k o n _6 . k A j _6
+ກົບ	kob	k o p _2
+ກຽງມິງລາວ	kjNmiNlAw	k i@ N _6 . m i N _2 . l A: w _2
+ກຽດ	kjd	k i@ t _5
+ກຽດຄ້ານ	kjdK14An	k i@ t _5 . k_h A: n _4
+ກຽມ	kjm	k i@ m _6
+ກ່ອນ	k3On	k O: n _1
+ກ່ອມ	k3Om	k O: m _1
+ກ່າວ	k3Aw	k A: w _1
+ກ່ຽວ	k3jw	k i@ w _1
+ກ່ຽວກັບ	k3jwka1b	k i@ w _1 . k A p _2
+ກ້ານ	k4An	k A: n _4
+ກ້າວ	k4Aw	k A: w _4
+ກ້າວໜ້າ	k4Awn14A	k A: w _4 . n A: _5
+ກ້ຽວ	k4jw	k i@ w _4
+ກໍ	kO1	k O: _6	k O: _3
+ກໍລະກົດ	kO1lakod	k O: _6 . l A _1 . k o t _2	k O _1 . l A _1 . k o t _2
+ກໍລະນີ	kO1lani1	k O: _6 . l A _1 . n i: _2	k O _1 . l A _1 . n i: _2
+ກໍ່	kO13	k O: _1
+ກໍ່ສ້າງ	kO13s4AN	k O: _1 . s A: N _5	k O _1 . s A: N _5
+ຂອງ	KON	k_h O: N _3
+ຂອງທີ່ລະລຶກ	KONT1i13lalYk	k_h O: N _3 . t_h i: _1 . l A _1 . l M k _1	k_h O: N _3 . t_h i _1 . l A _1 . l M k _1
+ຂອບເຂດ	KObeKd	k_h O: p _5 . k_h e: t _5
+ຂອບໃຈ	KObIc	k_h O: p _5 . c A j _6	k_h O: p _5 . c A j _3
+ຂະ	Ka	k_h A ? _2
+ຂະບວນ	Kabwn	k_h A _2 . b u@ n _6	k_h A _1 . b u@ n _6
+ຂະບວນການຈັດຕັ້ງ	KabwnkAnca1dta14N	k_h A _2 . b u@ n _6 . k A: n _6 . c A t _2 . t A N _4	k_h A _1 . b u@ n _6 . k A: n _6 . c A t _2 . t A N _4
+ຂະຫຍາຍ	KahJAJ	k_h A _2 . J A: j _3	k_h A _1 . J A: j _3
+ຂະຫຍາຍຕົວ	KahJAJtow	k_h A _2 . J A: j _3 . t u@ _6	k_h A _1 . J A: j _3 . t u@ _6
+ຂະແໜງ	Kae1n1N	k_h A _2 . n E: N _3	k_h A _1 . n E: N _3
+ຂະໂມຍ	Kao1mJ	k_h A _2 . m o: j _2	k_h A _1 . m o: j _2
+ຂະໜາດ	Kan1Ad	k_h A _2 . n A: t _5	k_h A _1 . n A: t _5
+ຂັນ	Ka1n	k_h A n _3
+ຂັບຂີ່	Ka1bKi13	k_h A p _2 . k_h i: _1
+ຂັ້ນ	Ka14n	k_h A n _5
+ຂັ້ນເທິງ	Ka14neT1iN	k_h A n _5 . t_h 7 N _2
+ຂາຍ	KAJ	k_h A: j _3
+ຂາດ	KAd	k_h A: t _5
+ຂາດເຂີນ	KAdeKi1n	k_h A: t _5 . k_h 7: n _3
+ຂາວ	KAw	k_h A: w _3
+ຂາອອກ-ຂາເຂົ້າ	KAOOk-KAeKo4A	k_h A: _3 . ? O: k _5 . k_h A: _3 . k_h A w _5	k_h A: _3 . ? O: k _5 . k_h A: _3 . k_h Ao _5
+ຂາເຂົ້າ-ຂາອອກ	KAeKo4A-KAOOk	k_h A: _3 . k_h A w _5 . k_h A: _3 . ? O: k _5	k_h A: _3 . k_h Ao _5 . k_h A: _3 . ? O: k _5
+ຂີ້ເຫຍື້ອ	Ki14ehJY14O	k_h i: _5 . J M@ _5	k_h i _1 . J M@ _5
+ຂຶ້ນ	KY4n	k_h M n _5
+ຂົງເຂດ	KoNeKd	k_h o N _3 . k_h e: t _5
+ຂົດລວດ	Kodlwd	k_h o t _2 . l u@ t _4
+ຂຽນ	Kjn	k_h i@ n _3
+ຂ່າວ	K3Aw	k_h A: w _1
+ຂ່າວສານ	K3AwsAn	k_h A: w _1 . s A: n _3
+ຂ້ອງ	K4ON	k_h O: N _5
+ຂ້ອຍ	K4OJ	k_h O: J _5	k_h O J _5
+ຂ້ອນແຈ້ງ	K4One1c4N	k_h O: n _5 . c E: N _4
+ຂ້າງເທິງ	K4ANeT1iN	k_h A: N _5 . t_h 7 N _2
+ຂ້າພະເຈົ້າ	K4AP1aeco4A	k_h A: _5 . p_h A _1 . c A w _4	k_h A: _5 . p_h A _1 . c Ao _4	k_h A _1 . p_h A _1 . c A w _4	k_h A _1 . p_h A _1 . c Ao _4
+ຂໍ	KO1	k_h O: _3
+ຂໍ້ຕົກລົງ	KO14tokloN	k_h O: _5 . t o k _2 . l o N _2	k_h O _1 . t o k _2 . l o N _2
+ຂໍ້ມູນ	KO14mu1n	k_h O: _5 . m u: n _2	k_h O _1 . m u: n _2
+ຄລິນ	K1lin	k_h l i n _2
+ຄວນ	K1wn	k_h u@ n _2
+ຄວາມ	K1wAm	k_h w A: m _2	k_h u@ m _2
+ຄວາມຂອບໃຈ	K1wAmKObIc	k_h w A: m _2 . k_h O: p _5 . c A j _6	k_h u@ m _2 . k_h O: p _5 . c A j _6
+ຄວາມງາມ	K1wAmNAm	k_h w A: m _2 . N A: m _2	k_h u@ m _2 . N A: m _2
+ຄວາມງ່າຍດາຍ	K1wAmN3AJdAJ	k_h w A: m _2 . N A: j _1 . d A: j _6	k_h u@ m _2 . N A: j _1 . d A: j _6	k_h w A: m _2 . N A: j _1 . d A: j _3	k_h u@ m _2 . N A: j _1 . d A: j _3
+ຄວາມຈະເລີນ	K1wAmcaeli1n	k_h w A: m _2 . c A _2 . l 7: n _2	k_h u@ m _2 . c A _2 . l 7: n _2	k_h w A: m _2 . c A _1 . l 7: n _2	k_h u@ m _2 . c A _1 . l 7: n _2
+ຄວາມຊ່ວຍເຫຼືອ	K1wAms13wJehl1Y1O	k_h w A: m _2 . s u@ j _1 . l M@ _3	k_h u@ m _2 . s u@ j _1 . l M@ _3
+ຄວາມຍິນດີ	K1wAmJindi1	k_h w A: m _2 . J i n _2 . d i: _6	k_h u@ m _2 . J i n _2 . d i: _6
+ຄວາມດຶງດູດ	K1wAmdYNdu1d	k_h w A: m _2 . d M N _6 . d u: t _5	k_h u@ m _2 . d M N _6 . d u: t _5
+ຄວາມຕ້ອງການ	K1wAmt4ONkAn	k_h w A: m _2 . t O: N _4 . k A: n _6	k_h u@ m _2 . t O: N _4 . k A: n _6	k_h w A: m _2 . t O: N _4 . k A: n _3	k_h u@ m _2 . t O: N _4 . k A: n _3
+ຄວາມທຸກຍາກ	K1wAmT1ukJAk	k_h w A: m _2 . t_h u k _1 . J A: k _4	k_h u@ m _2 . t_h u k _1 . J A: k _4
+ຄວາມນິຍົມ	K1wAmniJom	k_h w A: m _2 . n i _1 . J o m _2	k_h u@ m _2 . n i _1 . J o m _2
+ຄວາມບໍ່ສະຫງົບ	K1wAmbO13sahNob	k_h w A: m _2 . b O: _1 . s A _2 . N o p _2	k_h u@ m _2 . b O: _1 . s A _2 . N o p _2	k_h w A: m _2 . b O _1 . s A _2 . N o p _2	k_h u@ m _2 . b O _1 . s A _2 . N o p _2
+ຄວາມປອດໄພ	K1wAmpOdI1P1	k_h w A: m _2 . p O: t _5 . p_h A j _2	k_h u@ m _2 . p O: t _5 . p_h A j _2
+ຄວາມຜິດ	K1wAmPid	k_h w A: m _2 . p_h i t _2	k_h u@ m _2 . p_h i t _2
+ຄວາມພູມໃຈ	K1wAmP1u1mIc	k_h w A: m _2 . p_h u: m _2 . c A j _6	k_h u@ m _2 . p_h u: m _2 . c A j _6
+ຄວາມສະດວກ	K1wAmsadwk	k_h w A: m _2 . s A _2 . d u@ k _5	k_h u@ m _2 . s A _2 . d u@ k _5	k_h w A: m _2 . s A _1 . d u@ k _5	k_h u@ m _2 . s A _1 . d u@ k _5
+ຄວາມສະດວກສະບາຍ	K1wAmsadwksabAJ	k_h w A: m _2 . s A _2 . d u@ k _5 . s A _2 . b A: j _6	k_h u@ m _2 . s A _2 . d u@ k _5 . s A _2 . b A: j _6	k_h w A: m _2 . s A _1 . d u@ k _5 . s A _1 . b A: j _6	k_h u@ m _2 . s A _1 . d u@ k _5 . s A _1 . b A: j _6
+ຄວາມສະຫງົບ	K1wAmsahNob	k_h w A: m _2 . s A _2 . N o p _2	k_h u@ m _2 . s A _2 . N o p _2	k_h w A: m _2 . s A _1 . N o p _2	k_h u@ m _2 . s A _1 . N o p _2
+ຄວາມສະອາດ	K1wAmsaOAd	k_h w A: m _2 . s A _2 . ? A: t _5	k_h u@ m _2 . s A _2 . ? A: t _5	k_h w A: m _2 . s A _1 . ? A: t _5	k_h u@ m _2 . s A _1 . ? A: t _5
+ຄວາມສັບສົນ	K1wAmsa1bson	k_h w A: m _2 . s A p _2 . s o n _3	k_h u@ m _2 . s A p _2 . s o n _3
+ຄວາມສຳຄັນ	K1wAmsA1K1a1n	k_h w A: m _2 . s A m _3 . k_h A n _2	k_h u@ m _2 . s A m _3 . k_h A n _2
+ຄວາມຫຍຸ້ງຍາກ	K1wAmhJu4NJAk	k_h w A: m _2 . J u N _5 . J A: k _4	k_h u@ m _2 . J u N _5 . J A: k _4
+ຄວາມຮຸ່ງເຮືອງ	K1wAmh1u3Neh1Y1ON	k_h w A: m _2 . h u N _1 . h M@ N _2	k_h u@ m _2 . h u N _1 . h M@ N _2
+ຄວາມຮູ້	K1wAmh1u14	k_h w A: m _2 . h u: _4	k_h u@ m _2 . h u: _4
+ຄວາມເຂັ້ມແຂງ	K1wAmeKa14me1KN	k_h w A: m _2 . k_h e m _5 . k_h E: N _3	k_h u@ m _2 . k_h e m _5 . k_h E: N _3
+ຄວາມເຂົ້າໃຈ	K1wAmeKo4AIc	k_h w A: m _2 . k_h A w _5 . c A j _6	k_h u@ m _2 . k_h A w _5 . c A j _6	k_h w A: m _2 . k_h Ao _5 . c A j _6	k_h u@ m _2 . k_h Ao _5 . c A j _6
+ຄວາມເປັນລະບຽບ	K1wAmepa1nlabjb	k_h w A: m _2 . p e n _6 . l A _2 . b i@ p _5	k_h u@ m _2 . p e n _6 . l A _2 . b i@ p _5	k_h w A: m _2 . p e n _6 . l A _1 . b i@ p _5	k_h u@ m _2 . p e n _6 . l A _1 . b i@ p _5
+ຄວາມເສຍຫາຍ	K1wAmesJhAJ	k_h w A: m _2 . s i@ _3 . h A: j _3	k_h u@ m _2 . s i@ _3 . h A: j _3
+ຄວາມເຫັນ	K1wAmeha1n	k_h w A: m _2 . h e n _3	k_h u@ m _2 . h e n _3
+ຄວາມເໝາະສົມ	K1wAmem1Aasom	k_h w A: m _2 . m O _2 . s o m _3	k_h u@ m _2 . m O _2 . s o m _3	k_h w A: m _2 . m O _1 . s o m _3	k_h u@ m _2 . m O _1 . s o m _3
+ຄວາມໄວ	K1wAmI1w	k_h w A: m _2 . w A j _2	k_h u@ m _2 . w A j _2
+ຄວາມໝາຍ	K1wAmm1AJ	k_h w A: m _2 . m A: j _3	k_h u@ m _2 . m A: j _3
+ຄອງ	K1ON	k_h O: N _2
+ຄອນ	K1On	k_h O: n _2
+ຄອນກຣີດ	K1Onkri1d	k_h O: n _2 . k l i: t _5
+ຄອນສະຫວັນ	K1Onsahwa1n	k_h O: n _2 . s A _2 . w A n _3	k_h O: n _2 . s A _1 . w A n _3
+ຄອບຄົວ	K1ObK1ow	k_h O: p _4 . k_h u@ _2
+ຄະດີອາຍາ	K1adi1OAJA	k_h A _1 . d i: _6 . ? A: _6 . J A: _2	k_h A _1 . d i _1 . ? A _1 . J A: _2
+ຄະນະ	K1ana	k_h A _1 . n A ? _1
+ຄະນະກຳມະການ	K1anakA1makAn	k_h A _1 . n A _1 . k A m _6 . m A _1 . k A: n _6
+ຄັກ	K1a1k	k_h A k _1
+ຄັນ	K1a1n	k_h A n _2
+ຄັ້ງ	K1a14N	k_h A N _4
+ຄາດວ່າ	K1Adw3A	k_h A: t _4 . w A: _1
+ຄຳ	K1A1	k_h A m _2
+ຄຳຄິດຄຳເຫັນ	K1A1K1idK1A1eha1n	k_h A m _2 . k_h i t _1 . k_h A m _2 . h e n _3
+ຄຳຄິດເຫັນ	K1A1K1ideha1n	k_h A m _2 . k_h i t _1 . h e n _3
+ຄຳພັນ	K1A1P1a1n	k_h A m _2 . p_h A n _2
+ຄຳພິກ	K1A1P1ik	k_h A m _2 . p_h i k _1
+ຄຳຟອງ	K1A1fON	k_h A m _2 . f O: N _2
+ຄຳມະນີ	K1A1mani1	k_h A m _2 . m A _1 . n i: _2
+ຄຳມີໄຊ	K1A1mi1I1s1	k_h A m _2 . m i: _2 . s A j _2	k_h A m _2 . m i _1 . s A j _2
+ຄຳມ່ວນ	K1A1m3wn	k_h A m _2 . m u@ n _1
+ຄຳສຸກ	K1A1suk	k_h A m _2 . s u k _2
+ຄຳສົມແພງ	K1A1some1P1N	k_h A m _2 . s o m _3 . p_h E: N _2
+ຄຳອວຍພອນ	K1A1OwJP1On	k_h A m _2 . ? u@ j _6 . p_h O: n _2
+ຄຳເກີດ	K1A1eki1d	k_h A m _2 . k 7: t _5
+ຄຳແພງ	K1A1e1P1N	k_h A m _2 . p_h E: N _2
+ຄຳໂອ້ລົມ	K1A1o1O4lom	k_h A m _2 . ? o: _4 . l o m _2	k_h A m _2 . ? o _1 . l o m _2
+ຄິດ	K1id	k_h i t _1
+ຄື	K1Y1	k_h M: _2
+ຄືກັນ	K1Y1ka1n	k_h M: _2 . k A n _6	k_h M _1 . k A n _6	k_h M: _2 . k A n _3	k_h M _1 . k A n _3
+ຄືນ	K1Y1n	k_h M: n _2
+ຄຸນປະໂຫຍດ	K1unpao1hJd	k_h u n _2 . p A _2 . J o: t _5	k_h u n _2 . p A _1 . J o: t _5
+ຄຸນສົມບັດ	K1unsomba1d	k_h u n _2 . s o m _3 . b A t _2
+ຄຸ້ມ	K1u4m	k_h u m _4
+ຄູນ	K1u1n	k_h u: n _2
+ຄູວຽງ	K1u1wjN	k_h u: _2 . w i@ N _2	k_h u _1 . w i@ N _2
+ຄູອາຈານ	K1u1OAcAn	k_h u: _2 . ? A: _6 . c A: n _6	k_h u _1 . ? A _1 . c A: n _6	k_h u: _2 . ? A: _6 . c A: n _3	k_h u _1 . ? A _1 . c A: n _3
+ຄູ່	K1u13	k_h u: _1
+ຄົງ	K1oN	k_h o N _2
+ຄົງໄດ້	K1oNI1d4	k_h o N _2 . d A j _4
+ຄົນ	K1on	k_h o n _2
+ຄົ້ນຄວ້າ	K1o4nK1w4A	k_h o n _4 . k_h w A: _4	k_h o n _4 . k_h u@ _4
+ຄຽງຄູ່ກັນນີ້	K1jNK1u13ka1nni14	k_h i@ N _2 . k_h u: _1 . k A n _6 . n i: _4	k_h i@ N _2 . k_h u _1 . k A n _6 . n i: _4
+ຄ່ຳ	K13A1	k_h A m _1
+ຄ້າ	K14A	k_h A: _4
+ຄໍໂປເຣຊັນ	K1O1o1pers1a1n	k_h O: _2 . p o: _6 . l e: _2 . s A n _2	k_h O _1 . p o _1 . l e _1 . s A n _2	k_h O: _2 . p o: _6 . l e: _2 . s A n _4	k_h O _1 . p o _1 . l e _1 . s A n _4
+ງານ	NAn	N A: n _2
+ງານບຸນ	NAnbun	N A: n _2 . b u n _6	N A: n _2 . b u n _3
+ງານບຸນນະ	NAnbunna	N A: n _2 . b u n _6 . n A ? _1
+ງ່ອນ	N3On	N O: n _1
+ຈອມມະນີ	cOmmani1	c O: m _6 . m A _1 . n i: _2
+ຈອມເພັດ	cOmeP1a1d	c O: m _6 . p_h e t _1
+ຈະ	ca	c A ? _2
+ຈະລາ	calA	c A _2 . l A: _2	c A _1 . l A: _2
+ຈະເລີນ	caeli1n	c A _2 . l 7: n _2	c A _1 . l 7: n _2
+ຈັກ	ca1k	c A k _2
+ຈັດ	ca1d	c A t _2
+ຈັດຕັ້ງ	ca1dta14N	c A t _2 . t A N _4
+ຈັດສັນ	ca1dsa1n	c A t _2 . s A n _3
+ຈັນ	ca1n	c A n _6	c A n _3
+ຈັນທະ	ca1nT1a	c A n _6 . t_h A ? _1
+ຈັນທະບູລີ	ca1nT1abu1li1	c A n _6 . t_h A _1 . b u: _6 . l i: _2	c A n _6 . t_h A _1 . b u _1 . l i: _2
+ຈັນທະລາ	ca1nT1alA	c A n _6 . t_h A _1 . l A: _2
+ຈັບ	ca1b	c A p _2
+ຈັບຈ່າຍ	ca1bc3AJ	c A p _2 . c A: j _1
+ຈາກ	cAk	c A: k _5
+ຈຳນວນ	cA1nwn	c A m _6 . n u@ n _2
+ຈຳເປັນ	cA1epa1n	c A m _6 . p e n _6	c A m _6 . p e n _3
+ຈຳໜ່າຍ	cA1n13AJ	c A m _6 . n A: j _1
+ຈິງ	ciN	c i N _6	c i N _3
+ຈິດ	cid	c i t _2
+ຈິດໃຈ	cidIc	c i t _2 . c A j _6
+ຈີນ	ci1n	c i: n _6	c i: n _3
+ຈຶ່ງ	cY3N	c M N _1
+ຈຸດ	cud	c u t _2
+ຈຸດປະສົງ	cudpasoN	c u t _2 . p A _2 . s o N _3	c u t _2 . p A _1 . s o N _3
+ຈົນ	con	c o n _6	c o n _3
+ຈົບ	cob	c o p _2
+ຈົ່ງ	co3N	c o N _1
+ຈ່ອຍ	c3OJ	c O: j _1
+ຊອງ	s1ON	s O: N _2
+ຊອງເຟຍ	s1ONefJ	s O: N _2 . f i@ _2
+ຊະນະຄາມ	s1anaK1Am	s A _1 . n A _1 . k_h A: m _2
+ຊະນິດ	s1anid	s A _1 . n i t _1
+ຊັບພະຍາກອນ	s1a1bP1aJAkOn	s A p _1 . p_h A _1 . J A: _2 . k O: n _6	s A p _1 . p_h A _1 . J A: _2 . k O: n _3	s A p _1 . p_h A _1 . J A _1 . k O: n _6	s A p _1 . p_h A _1 . J A _1 . k O: n _3
+ຊັ້ນ	s1a14n	s A n _4
+ຊາຍ	s1AJ	s A: j _2
+ຊາດ	s1Ad	s A: t _4
+ຊານເດຍໂກ	s1AnedJo1k	s A: n _2 . d i@ _6 . k o: _6	s A: n _2 . d i@ _6 . k o: _4
+ຊາບ	s1Ab	s A: p _4
+ຊາບຊຶ້ງ	s1Abs1Y4N	s A: p _4 . s M N _4
+ຊາວ	s1Aw	s A: w _2
+ຊາວຈີນ	s1Awci1n	s A: w _2 . c i: n _6
+ຊາວນາ	s1AwnA	s A: w _2 . n A: _2
+ຊາວພັນ	s1AwP1a1n	s A: w _2 . p_h A n _2
+ຊາວສີ່	s1Awsi13	s A: w _2 . s i: _1
+ຊາວສີ່ພັນ	s1Awsi13P1a1n	s A: w _2 . s i: _1 . p_h A n _2	s A: w _2 . s i _1 . p_h A n _2
+ຊາວຫວຽດນາມ	s1AwhwjdnAm	s A: w _2 . w i@ t _5 . n A: m _2
+ຊາວເກົ້າພັນ	s1Aweko4AP1a1n	s A: w _2 . k A w _4 . p_h A n _2	s A: w _2 . k Ao _4 . p_h A n _2
+ຊາວໜຸ່ມ	s1Awn1u3m	s A: w _2 . n u m _1
+ຊຳເຄ້	s1A1eK14	s A m _2 . k_h e: _4
+ຊຳເໜືອ	s1A1en1Y1O	s A m _2 . n M@ _3
+ຊຳໃຕ້	s1A1It4	s A m _2 . t A j _4
+ຊິກໂກ້	s1iko1k4	s i k _1 . k o: _4
+ຊິນນະວັດ	s1innawa1d	s i n _2 . n A _1 . w A t _1
+ຊີວິດ	s1i1wid	s i: _2 . w i t _1	s i _1 . w i t _1
+ຊີສເທັມ	s1i1seT1a1m	s i: t _2 . t_h e m _2	s i t _1 . t_h e m _4
+ຊີໄອ	s1i1I1O	s i: _2 . ? A j _6	s i _1 . ? A j _6	s i: _2 . ? A j _3	s i _1 . ? A j _3
+ຊຶ່ງ	s1Y3N	s M N _1
+ຊື່	s1Y13	s M: _1
+ຊື່ນຊົມ	s1Y13ns1om	s M: n _1 . s o m _2
+ຊື່ສຽງ	s1Y13sjN	s M: _1 . s i@ N _3	s M _1 . s i@ N _3
+ຊື້	s1Y14	s M: _4
+ຊື້ຂາຍ	s1Y14KAJ	s M: _4 . k_h A: j _3	s M _1 . k_h A: j _3
+ຊຸກຍູ້	s1ukJu14	s u k _1 . J u: _4
+ຊຸນຕານ	s1untAn	s u n _2 . t A: n _6
+ຊົນນະບົດ	s1onnabod	s o n _2 . n A _1 . b o t _2
+ຊົນເຜົ່າ	s1onePo3A	s o n _2 . p_h A w _1	s o n _2 . p_h Ao _1
+ຊົມ	s1om	s o m _2
+ຊົມເຊີຍ	s1omes1i1J	s o m _2 . s 7: j _2
+ຊົ່ວໂມງ	s1o3wo1mN	s u@ _1 . m o: N _2
+ຊຽງຂວາງ	s1jNKwAN	s i@ N _2 . k_h w A: N _2	s i@ N _2 . k_h u@ N _2
+ຊຽງເງິນ	s1jNeNin	s i@ N _2 . N 7 n _2
+ຊຽງໄຮ້	s1jNI1h14	s i@ N _2 . h A j _4
+ຊ່ວງ	s13wN	s u@ N _1
+ຊ່ວຍ	s13wJ	s u@ j _1
+ຊ່ວຍເຫຼືອ	s13wJehl1Y1O	s u@ j _1 . l M@ _3
+ຊ່ອຍ	s13OJ	s O: j _1
+ຊ້າ	s14A	s A: _4
+ຊ້າງ	s14AN	s A: N _4
+ຊໍແນນ	s1O1e1nn	s O: _2 . n E: n _2	s O _1 . n E: n _2
+ຊໍແມນ	s1O1e1mn	s O: _2 . m E: n _2	s O _1 . m E: n _2
+ຍອດ	JOd	J O: t _4
+ຍອດຍິ່ງ	JOdJi3N	J O: t _4 . J i N _1
+ຍັງ	Ja1N	J A N _2
+ຍັງບໍ່ທັນ	Ja1NbO13T1a1n	J A N _2 . b O: _1 . t_h A n _2	J A N _2 . b O _1 . t_h A n _2
+ຍາ	JA	J A: _2
+ຍາດ	JAd	J A: t _4
+ຍາດພີ່ນ້ອງ	JAdP1i13n4ON	J A: t _4 . p_h i: _1 . n O: N _4	J A: t _4 . p_h i _1 . n O: N _4
+ຍາດແຍ່ງ	JAde1J3N	J A: t _4 . J E: N _1
+ຍາທ່ານ	JAT13An	J A: _2 . t_h A: n _1	J A _1 . t_h A: n _1
+ຍາມ	JAm	J A: m _2
+ຍິງ	JiN	J i N _2
+ຍິນດີ	Jindi1	J i n _2 . d i: _6
+ຍິ່ງ	Ji3N	J i N _1
+ຍິ່ງລັກ	Ji3Nla1k	J i N _1 . l A k _1
+ຍິ່ງໃຫຍ່	Ji3NIhJ3	J i N _1 . J A j _1
+ຍືນຍົງ	JY1nJoN	J M: n _2 . J o N _2
+ຍື່ນ	JY13n	J M: n _1
+ຍຸກ	Juk	J u k _1
+ຍຸດທະສາດ	JudT1asAd	J u t _1 . t_h A _1 . s A: t _5
+ຍຸດໂທບາຍ	Judo1T1bAJ	J u t _1 . t_h o: _2 . b A: j _6	J u t _1 . t_h o: _2 . b A: j _3	J u t _1 . t_h o _1 . b A: j _6	J u t _1 . t_h o _1 . b A: j _3
+ຍຸຕິທຳ	JutiT1A1	J u _1 . t i _2 . t_h A m _2	J u _1 . t i _1 . t_h A m _2
+ຍົກ	Jok	J o k _1
+ຍົກຍ້າຍ	JokJ4AJ	J o k _1 . J A: j _4
+ຍົກເລີກ	Jokeli1k	J o k _1 . l 7: k _4
+ຍົກເວັ້ນ	Jokewa14n	J o k _1 . w e n _4
+ຍ້ອນ	J4On	J O: n _4
+ຍ້ອນວ່າ	J4Onw3A	J O: n _4 . w A: _1
+ຍ້າຍ	J4AJ	J A: j _4
+ດ_ຣ	d_r	d O _6 . l O _2
+ດວງຈັນ	dwNca1n	d u@ N _6 . c A n _6
+ດວງພະຈັນ	dwNP1aca1n	d u@ N _6 . p_h A _1 . c A n _6
+ດວງມະໂນ	dwNmao1n	d u@ N _6 . m A _1 . n o: _2
+ດອກ	dOk	d O: k _5
+ດອກໄຟ	dOkI1f	d O: k _5 . f A j _2
+ດັດຊະນີ	da1ds1ani1	d A t _2 . s A _1 . n i: _2
+ດັດແກ້	da1de1k4	d A t _2 . k E: _4
+ດັອກເຕີ	da1Oketi1	d O k _2 . t 7: _4
+ດັ່ງກ່າວ	da13Nk3Aw	d A N _1 . k A: w _1
+ດັ່ງນັ້ນ	da13Nna14n	d A N _1 . n A n _4
+ດັ້ງເດີມ	da14Nedi1m	d A N _4 . d 7: m _6	d A N _4 . d 7: m _3
+ດາ	dA	d A: _6	d A: _3
+ດາວວອນ	dAwwOn	d A: w _6 . w O: n _2
+ດາວເຮືອງ	dAweh1Y1ON	d A: w _6 . h M@ N _2
+ດຳລົງ	dA1loN	d A m _6 . l o N _2
+ດຳເນີນ	dA1eni1n	d A m _6 . n 7: n _2
+ດຳເນີນຄະດີ	dA1eni1nK1adi1	d A m _6 . n 7: n _2 . k_h A _1 . d i: _6
+ດິນ	din	d i n _6	d i n _3
+ດີ	di1	d i: _6	d i: _3
+ດີໃຈ	di1Ic	d i: _6 . c A j _6	d i _1 . c A j _3	d i _1 . c A j _6
+ດີ້	di14	d i: _4
+ດຶງດູດ	dYNdu1d	d M N _6 . d u: t _5
+ດຸ່ງ	du3N	d u N _1
+ດູນ	du1n	d u: n _6	d u: n _3
+ດົງນາທອງ	doNnAT1ON	d o N _6 . n A: _2 . t_h O: N _2	d o N _6 . n A _1 . t_h O: N _2
+ດົງຫວາຍ	doNhwAJ	d o N _6 . w A: j _3
+ດົນ	don	d o n _6	d o n _3
+ດົນຕີ	donti1	d o n _6 . t i: _6	d o n _6 . t i: _3
+ດຽວ	djw	d i@ w _6	d i@ w _3
+ດຽວນີ້	djwni14	d i@ w _6 . n i: _4
+ດ້ວຍ	d4wJ	d u@ j _4
+ດ້ວຍກັນ	d4wJka1n	d u@ j _4 . k A n _6
+ດ້ານ	d4An	d A: n _4
+ດ້ານການເມືອງ	d4AnkAnemY1ON	d A: n _4 . k A: n _6 . m M@ N _2
+ຕອນ	tOn	t O: n _6	t O: n _3
+ຕອນປາຍ	tOnpAJ	t O: n _6 . p A: j _6	t O: n _6 . p A: j _3
+ຕອນສວາຍ	tOnswAJ	t O: n _6 . s u@ j _2	t O: n _6 . s w A: j _2
+ຕອບສະໜອງ	tObsan1ON	t O: p _5 . s A _2 . n O: N _3	t O: p _5 . s A _1 . n O: N _3
+ຕະວັນໄຊ	tawa1nI1s1	t A _2 . w A n _2 . s A j _2	t A _1 . w A n _2 . s A j _2
+ຕະຫຼອດ	tahl1Od	t A _2 . l O: t _5	t A _1 . l O: t _5
+ຕະຫຼາດ	tahl1Ad	t A _2 . l A: t _5	t A _1 . l A: t _5
+ຕັດ	ta1d	t A t _2
+ຕັ້ງ	ta14N	t A N _4
+ຕັ້ງໃຈ	ta14NIc	t A N _4 . c A j _6	t A N _4 . c A j _3
+ຕັ້ງໜ້າ	ta14Nn14A	t A N _4 . n A: _5
+ຕັ້ອມ	ta14Om	t O m _4
+ຕາ	tA	t A: _6	t A: _3
+ຕາງໜ້າ	tANn14A	t A: N _6 . n A: _5
+ຕາຝັ່ງ	tAf1a13N	t A: _6 . f A N _1	t A _1 . f A N _1
+ຕາມ	tAm	t A: m _6	t A: m _3
+ຕາມພາສາ	tAmP1AsA	t A: m _6 . p_h A: _2 . s A: _3	t A: m _6 . p_h A _1 . s A: _3
+ຕາມລຳດັບ	tAmlA1da1b	t A: m _6 . l A m _2 . d A p _2
+ຕາເວັນຕົກ	tAewa1ntok	t A: _6 . w e n _2 . t o k _2	t A _1 . w e n _2 . t o k _2
+ຕາເວັນອອກ	tAewa1nOOk	t A: _6 . w e n _2 . ? O: k _5	t A _1 . w e n _2 . ? O: k _5
+ຕຳຫຼວດ	tA1hl1wd	t A m _6 . l u@ t _5
+ຕຳແໜ່ງ	tA1e1n13N	t A m _6 . n E: N _1
+ຕິ	ti	t i ? _2
+ຕິກ	tik	t i k _2
+ຕິດ	tid	t i t _2
+ຕິດຕາມ	tidtAm	t i t _2 . t A: m _6
+ຕິດພັນ	tidP1a1n	t i t _2 . p_h A n _2
+ຕິວ	tiw	t i w _6	t i w _3
+ຕື່ນ	tY13n	t M: n _1
+ຕື່ນເຕັ້ນ	tY13neta14n	t M: n _1 . t e n _4
+ຕື່ມ	tY13m	t M: m _1
+ຕື້	tY14	t M: _4
+ຕຸລາ	tulA	t u _1 . l A: _2
+ຕົກ	tok	t o k _2
+ຕົກຄ້າງ	tokK14AN	t o k _2 . k_h A: N _4
+ຕົກລົງ	tokloN	t o k _2 . l o N _2
+ຕົງ	toN	t o N _6	t o N _3
+ຕົງດອກອອກຜົນ	toNdOkOOkPon	t o N _6 . d O: k _5 . ? O: k _5 . p_h o n _3
+ຕົນ	ton	t o n _6
+ຕົນເອງ	toneON	t o n _6 . ? e: N _6	t o n _6 . ? e: N _3
+ຕົບແຕ່ງ	tobe1t3N	t o p _2 . t E: N _1
+ຕົວ	tow	t u@ _6	t u@ _3
+ຕົວເມືອງ	towemY1ON	t u@ _6 . m M@ N _2
+ຕົ້ນທາງ	to4nT1AN	t o n _4 . t_h A: N _2
+ຕົ້ນທຶນ	to4nT1Yn	t o n _4 . t_h M n _2
+ຕຽມ	tjm	t i@ m _6	t i@ m _3
+ຕ່າງ	t3AN	t A: N _1
+ຕ່າງດ້າວ	t3ANd4Aw	t A: N _1 . d A: w _4
+ຕ່າຍ	t3AJ	t A: j _1
+ຕ່ຳ	t3A1	t A m _1
+ຕ້ອງ	t4ON	t O: N _4
+ຕ້ອນຮັບ	t4Onh1a1b	t O: n _4 . h A p _1
+ຕ້າ	t4A	t A: _4
+ຕ້ານ	t4An	t A: n _4
+ຕໍ່	tO13	t O: _1
+ຕໍ່ມາ	tO13mA	t O: _1 . m A: _2
+ຕໍ່ເນື່ອງ	tO13enY13ON	t O: _1 . n M@ N _1	t O _1 . n M@ N _1
+ຕໍ່ໄປ	tO13I1p	t O: _1 . p A j _6	t O _1 . p A j _6	t O: _1 . p A j _3	t O _1 . p A j _3
+ຕໍ່ໜ້າ	tO13n14A	t O: _1 . n A: _5	t O _1 . n A: _5
+ຖະແຫຼງຂ່າວ	Tae1hl1NK3Aw	t_h A _2 . l E: N _3 . k_h A: w _1	t_h A _1 . l E: N _3 . k_h A: w _1
+ຖະໜົນ	Tan1on	t_h A _2 . n o n _3	t_h A _1 . n o n _3
+ຖະໜົນຫົນທາງ	Tan1onhonT1AN	t_h A _2 . n o n _3 . h o n _3 . t_h A: N _2	t_h A _1 . n o n _3 . h o n _3 . t_h A: N _2
+ຖານ	TAn	t_h A: n _3
+ຖານະ	TAna	t_h A: _3 . n A ? _1	t_h A _1 . n A ? _1
+ຖາມ	TAm	t_h A: m _3
+ຖື	TY1	t_h M: _3
+ຖືກ	TY1k	t_h M: k _5
+ຖືວ່າ	TY1w3A	t_h M: _3 . w A: _1	t_h M _1 . w A: _1
+ຖືເປັນ	TY1epa1n	t_h M: _3 . p e n _6	t_h M _1 . p e n _6	t_h M: _3 . p e n _3	t_h M _1 . p e n _3
+ຖົມ	Tom	t_h o m _3
+ຖ່ານຫີນ	T3Anhi1n	t_h A: n _1 . h i: n _3
+ຖ້ວມ	T4wm	t_h u@ m _5
+ຖ້າ	T4A	t_h A: _5
+ທຣານ	T1rAn	t_h l A: n _2
+ທອງ	T1ON	t_h O: N _2
+ທອງປານ	T1ONpAn	t_h O: N _2 . p A: n _6	t_h O: N _2 . p A: n _3
+ທອງລຸນ	T1ONlun	t_h O: N _2 . l u n _2
+ທອງສິງ	T1ONsiN	t_h O: N _2 . s i N _3
+ທອງແດງ	T1ONe1dN	t_h O: N _2 . d E: N _6	t_h O: N _2 . d E: N _3
+ທອນ	T1On	t_h O: n _2
+ທະຍາລາດ	T1aJAlAd	t_h A _1 . J A: _2 . l A: t _4	t_h A _1 . J A _1 . l A: t _4
+ທະນາຄານ	T1anAK1An	t_h A _1 . n A: _2 . k_h A: n _2	t_h A _1 . n A _1 . k_h A: n _2
+ທະນູສອນ	T1anu1sOn	t_h A _1 . n u: _2 . s O: n _3	t_h A _1 . n u _1 . s O: n _3
+ທະນົງສັກ	T1anoNsa1k	t_h A _1 . n o N _2 . s A k _2
+ທະບວງ	T1abwN	t_h A _1 . b u@ N _6
+ທະວີ	T1awi1	t_h A _1 . w i: _2
+ທະວີບ	T1awi1b	t_h A _1 . w i: p _4
+ທະວີໄຊ	T1awi1I1s1	t_h A _1 . w i: _2 . s A j _2	t_h A _1 . w i _1 . s A j _2
+ທັງ	T1a1N	t_h A N _2
+ທັງສອງ	T1a1NsON	t_h A N _2 . s O: N _3
+ທັງຫຼາຍ	T1a1Nhl1AJ	t_h A N _2 . l A: j _3
+ທັງໝົດ	T1a1Nm1od	t_h A N _2 . m o t _2
+ທັນ	T1a1n	t_h A n _2
+ທັນວາ	T1a1nwA	t_h A n _2 . w A: _2
+ທັນເວລາ	T1a1newlA	t_h A n _2 . w e: _2 . l A: _2	t_h A n _2 . w e _1 . l A: _2
+ທັບ	T1a1b	t_h A p _1
+ທັ່ງ	T1a13N	t_h A N _1
+ທາງ	T1AN	t_h A: N _2
+ທາງດ້ານ	T1ANd4An	t_h A: N _2 . d A: n _4
+ທາງເລືອກ	T1ANelY1Ok	t_h A: N _2 . l M@ k _4
+ທາດຫຼວງ	T1Adhl1wN	t_h A: t _4 . l u@ N _3
+ທາບ	T1Ab	t_h A: p _4
+ທຳ	T1A1	t_h A m _2
+ທຳມະຊາດ	T1A1mas1Ad	t_h A m _2 . m A _1 . s A: t _4
+ທຳມະວົງ	T1A1mawoN	t_h A m _2 . m A _1 . w o N _2
+ທຳລາຍ	T1A1lAJ	t_h A m _2 . l A: j _2
+ທຳອິດ	T1A1Oid	t_h A m _2 . ? i t _2
+ທຳເລ	T1A1el	t_h A m _2 . l e: _2
+ທິງ	T1iN	t_h i N _2
+ທິດ	T1id	t_h i t _1
+ທິດຕາເວັນຕົກ	T1idtAewa1ntok	t_h i t _1 . t A: _6 . w e n _2 . t o k _2	t_h i t _1 . t A _1 . w e n _2 . t o k _2
+ທິດທາງ	T1idT1AN	t_h i t _1 . t_h A: N _2
+ທິດໃຕ້	T1idIt4	t_h i t _1 . t A j _4
+ທິນນະກອນ	T1innakOn	t_h i n _2 . n A _1 . k O: n _6
+ທິບພະວັນ	T1ibP1awa1n	t_h i p _1 . p_h A _1 . w A n _2
+ທີ	T1i1	t_h i: _2
+ທີສອງ	T1i1sON	t_h i: _2 . s O: N _3	t_h i _1 . s O: N _3
+ທີ່	T1i13	t_h i: _1
+ທີ່ຕັ້ງ	T1i13ta14N	t_h i: _1 . t A N _4	t_h i _1 . t A N _4
+ທີ່ສຸດ	T1i13sud	t_h i: _1 . s u t _2	t_h i _1 . s u t _2
+ທຶນ	T1Yn	t_h M n _2
+ທຶນຮອນ	T1Ynh1On	t_h M n _2 . h O: n _2
+ທຸກ	T1uk	t_h u k _1
+ທຸກຖ້ວນໜ້າ	T1ukT4wnn14A	t_h u k _1 . t_h u@ n _5 . n A: _5
+ທຸກທຸກຄົນ	T1ukT1ukK1on	t_h u k _1 . t_h u k _1 . k_h o n _2
+ທຸງ	T1uN	t_h u N _2
+ທຸລະກິດ	T1ulakid	t_h u _1 . l A _1 . k i t _2
+ທຸ່ມເທ	T1u3meT1	t_h u m _1 . t_h e: _2
+ທູດ	T1u1d	t_h u: t _4
+ທົ່ງ	T1o3N	t_h o N _1
+ທົ່ວ	T1o3w	t_h u@ _1
+ທົ່ວໂລກ	T1o3wo1lk	t_h u@ _1 . l o: k _4
+ທຽນລອງການຄ້າ	T1jnlONkAnK14A	t_h i@ n _2 . l O: N _2 . k A: n _6 . k_h A: _4
+ທຽບເທົ່າ	T1jbeT1o3A	t_h i@ p _4 . t_h A w _1	t_h i@ p _4 . t_h Ao _1
+ທ່ອງທ່ຽວ	T13ONT13jw	t_h O: N _1 . t_h i@ w _1
+ທ່ອງທ່ຽວດອນໂຂງ	T13ONT13jwdOno1KN	t_h O: N _1 . t_h i@ w _1 . d O: n _6 . k_h o: N _3
+ທ່າງ່ອນ	T13AN3On	t_h A: _1 . N O: n _1	t_h A _1 . N O: n _1
+ທ່ານ	T13An	t_h A: n _1	t_h A n _1
+ທ່ານຄູ	T13AnK1u1	t_h A: n _1 . k_h u: _2
+ທ່າພະບາດ	T13AP1abAd	t_h A: _1 . p_h A _1 . b A: t _5	t_h A _1 . p_h A _1 . b A: t _5
+ທ່າແຕ່ງ	T13Ae1t3N	t_h A: _1 . t E: N _1	t_h A _1 . t E: N _1
+ທ່ຽວ	T13jw	t_h i@ w _1
+ທ້າຍ	T14AJ	t_h A: j _4
+ທ້າທາຍ	T14AT1AJ	t_h A: _4 . t_h A: j _2	t_h A _1 . t_h A: j _2
+ທ້າວ	T14Aw	t_h A: w _4
+ນອກຈາກນັ້ນ	nOkcAkna14n	n O: k _4 . c A: k _5 . n A n _4
+ນອກຈາກນີ້	nOkcAkni14	n O: k _4 . c A: k _5 . n i: _4
+ນອງ	nON	n O: N _2
+ນອນບໍ່ຫຼັບ	nOnbO13hl1a1b	n O: n _2 . b O: _1 . l A p _2	n O: n _2 . b O _1 . l A p _2
+ນອນຫຼັບ	nOnhl1a1b	n O: n _2 . l A p _2
+ນະ	na	n A ? _1	n A _1
+ນະຄອນ	naK1On	n A _1 . k_h O: n _2
+ນະຄອນຫຼວງ	naK1Onhl1wN	n A _1 . k_h O: n _2 . l u@ N _3
+ນະມັດສະການ	nama1dsakAn	n A _1 . m A t _1 . s A _2 . k A: n _6	n A _1 . m A t _1 . s A _2 . k A: n _3	n A _1 . m A t _1 . s A _1 . k A: n _6	n A _1 . m A t _1 . s A _1 . k A: n _3
+ນະໂຍບາຍ	nao1JbAJ	n A _1 . J o: _2 . b A: j _6	n A _1 . J o _1 . b A: j _6	n A _1 . J o: _2 . b A: j _3	n A _1 . J o _1 . b A: j _3
+ນັກທຸລະກິດ	na1kT1ulakid	n A k _1 . t_h u _1 . l A _1 . k i t _2
+ນັກລົງທຶນ	na1kloNT1Yn	n A k _1 . l o N _2 . t_h M n _2
+ນັກສຶກສາ	na1ksYksA	n A k _1 . s M k _2 . s A: _3
+ນັກຮົບ	na1kh1ob	n A k _1 . h o p _1
+ນັກຮຽນ	na1kh1jn	n A k _1 . h i@ n _2
+ນັກຮ້ອງ	na1kh14ON	n A k _1 . h O: N _4
+ນັບມື້	na1bmY14	n A p _1 . m M: _4
+ນັ່ງ	na13N	n A N _1
+ນັ້ນ	na14n	n A n _4
+ນາ	nA	n A: _2
+ນາກ	nAk	n A: k _4
+ນາກາຊາກິ	nAkAs1Aki	n A: _2 . k A: _6 . s A: _2 . k i ? _2	n A _1 . k A _1 . s A _1 . k i ? _2
+ນາງ	nAN	n A: N _2
+ນາຍຊ້າງ	nAJs14AN	n A: j _2 . s A: N _4
+ນາຍພານ	nAJP1An	n A: j _2 . p_h A: n _2
+ນາຍພົນ	nAJP1on	n A: j _2 . p_h o n _2
+ນາຍົກລັດຖະມົນຕີ	nAJokla1dTamonti1	n A: _2 . J o k _1 . l A t _1 . t_h A _2 . m o n _2 . t i: _6	n A _1 . J o k _1 . l A t _1 . t_h A _1 . m o n _2 . t i: _6	n A: _2 . J o k _1 . l A t _1 . t_h A _2 . m o n _2 . t i: _3	n A _1 . J o k _1 . l A t _1 . t_h A _1 . m o n _2 . t i: _3
+ນາທີ	nAT1i1	n A: _2 . t_h i: _2	n A _1 . t_h i: _2
+ນາມ້າງ	nAm4AN	n A: _2 . m A: N _4	n A _1 . m A: N _4
+ນາວຽງຄຳ	nAwjNK1A1	n A: _2 . w i@ N _2 . k_h A m _2	n A _1 . w i@ N _2 . k_h A m _2
+ນາສ້າງເຫວີຍ	nAs4ANehwi1J	n A: _2 . s A: N _5 . w 7: j _3	n A _1 . s A: N _5 . w 7: j _3
+ນາຫຼວງ	nAhl1wN	n A: _2 . l u@ N _3	n A _1 . l u@ N _3
+ນາແງ	nAe1N	n A: _2 . N E: _2	n A _1 . N E: _2
+ນາແລ	nAe1l	n A: _2 . l E: _2	n A _1 . l E: _2
+ນາໄຊ	nAI1s1	n A: _2 . s A j _2	n A _1 . s A j _2
+ນຳ	nA1	n A m _2
+ນຳກັນ	nA1ka1n	n A m _2 . k A n _6
+ນຳເອົາ	nA1eOoA	n A m _2 . ? A w _6	n A m _2 . ? Ao _6	n A m _2 . ? A w _3	n A m _2 . ? Ao _3
+ນິກ	nik	n i k _1
+ນິດຊະວັດ	nids1awa1d	n i t _1 . s A _1 . w A t _1
+ນິພາພອນ	niP1AP1On	n i _1 . p_h A: _2 . p_h O: n _2	n i _1 . p_h A _1 . p_h O: n _2
+ນິລະນາມ	nilanAm	n i _1 . l A _1 . n A: m _2
+ນີ້	ni14	n i: _4
+ນຸ	nu	n u ? _1
+ນຸ່ງ	nu3N	n u N _1
+ນຸ່ຍ	nu3J	n u j _1
+ນ້ອງ	n4ON	n O: N _4
+ນ້ອຍ	n4OJ	n O: j _4
+ນ້ຳ	n4A1	n A m _4
+ນ້ຳຂອງ	n4A1KON	n A m _4 . k_h O: N _3
+ນ້ຳຄານ	n4A1K1An	n A m _4 . k_h A: n _2
+ນ້ຳຕົກ	n4A1tok	n A m _4 . t o k _2
+ນ້ຳມັນ	n4A1ma1n	n A m _4 . m A n _2
+ນ້ຳໜັກ	n4A1n1a1k	n A m _4 . n A k _2
+ນໍ້	nO14	n O: _4
+ບວກ	bwk	b u@ k _5
+ບອກ	bOk	b O: k _5
+ບອດຕາ	bOdtA	b O: t _5 . t A: _6
+ບັກ	ba1k	b A k _2
+ບັນຍາກາດ	ba1nJAkAd	b A n _6 . J A: _2 . k A: t _5	b A n _6 . J A _1 . k A: t _5
+ບັນດາ	ba1ndA	b A n _6 . d A: _6
+ບັນທຶກ	ba1nT1Yk	b A n _6 . t_h M k _1
+ບັນຫາ	ba1nhA	b A n _6 . h A: _3
+ບາງ	bAN	b A: N _6	b A: N _3
+ບາງກອກ	bANkOk	b A: N _6 . k O: k _5
+ບິວຕີ້	biwti14	b i w _6 . t i: _4
+ບຶງຄະຫຍອງ	bYNK1ahJON	b M N _6 . k_h A _3 . J O: N _3	b M N _6 . k_h A _1 . J O: N _3
+ບຶງທາດຫຼວງ	bYNT1Adhl1wN	b M N _6 . t_h A: t _4 . l u@ N _3
+ບຸກທະລຸ	bukT1alu	b u k _2 . t_h A _1 . l u ? _1
+ບຸນ	bun	b u n _6	b u n _3
+ບຸນຍະລິດ	bunJalid	b u n _6 . J A _1 . l i t _1
+ບຸນຕິ	bunti	b u n _6 . t i ? _2
+ບຸນຕີ	bunti1	b u n _6 . t i: _6
+ບຸນມະນັດສະການ	bunmana1dsakAn	b u n _6 . m A _1 . n A t _1 . s A _2 . k A: n _6	b u n _6 . m A _1 . n A t _1 . s A _1 . k A: n _6
+ບຸນຫໍ່ເຂົ້າປະດັບດິນ	bunhO13eKo4Apada1bdin	b u n _6 . h O: _1 . k_h A w _5 . p A _2 . d A p _2 . d i n _6	b u n _6 . h O: _1 . k_h Ao _5 . p A _2 . d A p _2 . d i n _6	b u n _6 . h O _1 . k_h A w _5 . p A _2 . d A p _2 . d i n _6	b u n _6 . h O _1 . k_h Ao _5 . p A _2 . d A p _2 . d i n _6
+ບຸນເລີດ	buneli1d	b u n _6 . l 7: t _4
+ບຸລີ	buli1	b u _2 . l i: _2	b u _1 . l i: _2
+ບູລະນະ	bu1lana	b u: _6 . l A _1 . n A ? _1	b u _1 . l A _1 . n A ? _1
+ບູຮານຄະດີ	bu1h1AnK1adi1	b u: _6 . h A: n _2 . k_h A _1 . d i: _6	b u _1 . h A: n _2 . k_h A _1 . d i: _6	b u: _6 . h A: n _2 . k_h A _1 . d i: _3	b u _1 . h A: n _2 . k_h A _1 . d i: _3
+ບົກ	bok	b o k _2
+ບົດ	bod	b o t _2
+ບົດຖະແຫຼງ	bodTae1hl1N	b o t _2 . t_h A _2 . l E: N _3	b o t _2 . t_h A _1 . l E: N _3
+ບົດບາດ	bodbAd	b o t _2 . b A: t _5
+ບົດຮຽນ	bodh1jn	b o t _2 . h i@ n _2
+ບົດເລື່ອງ	bodelY13ON	b o t _2 . l M@ N _1
+ບົວຈັນ	bowca1n	b u@ _6 . c A n _6
+ບົວລະພາ	bowlaP1A	b u@ _6 . l A _1 . p_h A: _2
+ບ່ອນ	b3On	b O: n _1	b O n _1
+ບ້ານ	b4An	b A: n _4
+ບ້ານເກີດ	b4Aneki1d	b A: n _4 . k 7: t _5
+ບໍລິການ	bO1likAn	b O: _6 . l i _1 . k A: n _6	b O _1 . l i _1 . k A: n _6
+ບໍລິສັດ	bO1lisa1d	b O: _6 . l i _1 . s A t _2	b O _1 . l i _1 . s A t _2
+ບໍລິສຸດ	bO1lisud	b O: _6 . l i _1 . s u t _2	b O _1 . l i _1 . s u t _2
+ບໍລິຫານ	bO1lihAn	b O: _6 . l i _1 . h A: n _3	b O _1 . l i _1 . h A: n _3
+ບໍ່	bO13	b O: _1	b O _1
+ບໍ່ແຮ່	bO13e1h13	b O: _1 . h E: _1	b O _1 . h E: _1
+ປວດ	pwd	p u@ t _5
+ປອນ	pOn	p O: n _6	p O: n _3
+ປອມ	pOm	p O: m _6	p O: m _3
+ປະ	pa	p A ? _2
+ປະກອບ	pakOb	p A _2 . k O: p _5	p A _1 . k O: p _5
+ປະກອບສ່ວນ	pakObs3wn	p A _2 . k O: p _5 . s u@ n _1	p A _1 . k O: p _5 . s u@ n _1
+ປະກັນ	paka1n	p A _2 . k A n _6	p A _1 . k A n _6
+ປະກັນສັງຄົມ	paka1nsa1NK1om	p A _2 . k A n _6 . s A N _3 . k_h o m _2	p A _1 . k A n _6 . s A N _3 . k_h o m _2
+ປະກາດ	pakAd	p A _2 . k A: t _5	p A _1 . k A: t _5
+ປະຈຳ	pacA1	p A _2 . c A m _6	p A _1 . c A m _6
+ປະຊາຊົນ	pas1As1on	p A _1 . s A: _2 . s o n _2	p A _1 . s A _1 . s o n _2
+ປະຊຸມ	pas1um	p A _2 . s u m _2	p A _1 . s u m _2
+ປະດັບ	pada1b	p A _2 . d A p _2	p A _1 . d A p _2
+ປະຕິບັດ	patiba1d	p A _2 . t i _2 . b A t _2	p A _1 . t i _1 . b A t _2
+ປະຕິບັດການ	patiba1dkAn	p A _2 . t i _2 . b A t _2 . k A: n _6	p A _1 . t i _1 . b A t _2 . k A: n _6
+ປະຕິວັດ	patiwa1d	p A _2 . t i _2 . w A t _1	p A _1 . t i _1 . w A t _1
+ປະຕູ	patu1	p A _2 . t u: _6	p A _1 . t u: _6	p A _2 . t u: _3	p A _1 . t u: _3
+ປະຖົມ	paTom	p A _2 . t_h o m _3	p A _1 . t_h o m _3
+ປະທານ	paT1An	p A _2 . t_h A: n _2	p A _1 . t_h A: n _2
+ປະທານາທິບໍດີ	paT1AnAT1ibO1di1	p A _2 . t_h A: _2 . n A: _2 . t_h i _1 . b O: _6 . d i: _6	p A _1 . t_h A: _2 . n A _1 . t_h i _1 . b O _1 . d i: _6
+ປະມານ	pamAn	p A _2 . m A: n _2	p A _1 . m A: n _2
+ປະລິນຍາໂທ	palinJAo1T1	p A _2 . l i n _2 . J A: _2 . t_h o: _2	p A _1 . l i n _2 . J A _1 . t_h o: _2
+ປະວໍລະນາ	pawO1lanA	p A _2 . w O: _2 . l A _1 . n A: _2	p A _1 . w O _1 . l A _1 . n A: _2
+ປະສານສົມທົບ	pasAnsomT1ob	p A _2 . s A: n _3 . s o m _3 . t_h o p _1	p A _1 . s A: n _3 . s o m _3 . t_h o p _1
+ປະສິດທິພາບ	pasidT1iP1Ab	p A _2 . s i t _2 . t_h i _1 . p_h A: p _4	p A _1 . s i t _2 . t_h i _1 . p_h A: p _4
+ປະຫຍົບ	pahJob	p A _2 . J o p _2	p A _1 . J o p _2
+ປະເທດ	paeT1d	p A _2 . t_h e: t _4	p A _1 . t_h e: t _4
+ປະເທດຊາດ	paeT1ds1Ad	p A _2 . t_h e: t _4 . s A: t _4	p A _1 . t_h e: t _4 . s A: t _4
+ປະເທດລາວ	paeT1dlAw	p A _2 . t_h e: t _4 . l A: w _2	p A _1 . t_h e: t _4 . l A: w _2
+ປະເທດໄທ	paeT1dI1T1	p A _2 . t_h e: t _4 . t_h A j _2	p A _1 . t_h e: t _4 . t_h A j _2
+ປະເພດ	paeP1d	p A _2 . p_h e: t _4	p A _1 . p_h e: t _4
+ປະເພນີ	paeP1ni1	p A _1 . p_h e: _2 . n i: _2	p A _1 . p_h e _1 . n i: _2
+ປະເສີດໂຟມ	paesi1do1fm	p A _2 . s 7: t _5 . f o: m _2	p A _1 . s 7: t _5 . f o: m _2
+ປະໂຫຍກ	pao1hJk	p A _2 . J o: k _5	p A _1 . J o: k _5
+ປະໝາດ	pam1Ad	p A _2 . m A: t _5	p A _1 . m A: t _5
+ປັດຈຸບັນ	pa1dcuba1n	p A t _2 . c u _2 . b A n _6	p A t _2 . c u _1 . b A n _6	p A t _2 . c u _2 . b A n _3	p A t _2 . c u _1 . b A n _3
+ປັບປຸງ	pa1bpuN	p A p _2 . p u N _6	p A p _2 . p u N _3
+ປາ	pA	p A: _6	p A: _3
+ປາກງື່ມ	pAkNY13m	p A: k _5 . N M: m _1
+ປາກທ່າ	pAkT13A	p A: k _5 . t_h A: _1
+ປາກົດການ	pAkodkAn	p A: _6 . k o t _2 . k A: n _6	p A _1 . k o t _2 . k A: n _6	p A: _6 . k o t _2 . k A: n _3	p A _1 . k o t _2 . k A: n _3
+ປາກເປົ່າ	pAkepo3A	p A: k _5 . p A w _1	p A: k _5 . p Ao _1
+ປາງ	pAN	p A: N _6	p A: N _3
+ປາຊີຟິກ	pAs1i1fik	p A: _6 . s i: _2 . f i k _1	p A _1 . s i _1 . f i k _1
+ປາຍ	pAJ	p A: j _6	p A: j _3
+ປານ	pAn	p A: n _6	p A: n _3
+ປາສະຈາກ	pAsacAk	p A: _6 . s A _2 . c A: k _5	p A _1 . s A _2 . c A: k _5
+ປິ່ນປົວ	pi3npow	p i n _1 . p u@ _6
+ປີ	pi1	p i: _6	p i: _3
+ປີກາຍນີ້	pi1kAJni14	p i: _6 . k A: j _6 . n i: _4	p i _1 . k A: j _6 . n i: _4
+ປຶກ	pYk	p M k _2
+ປຶກສາຫາລື	pYksAhAlY1	p M k _2 . s A: _3 . h A: _3 . l M: _2	p M k _2 . s A _1 . h A _1 . l M: _2	p M k _2 . s A: _3 . h A _1 . l M: _2
+ປຶ້ມ	pY4m	p M m _4
+ປຸງແຕ່ງ	puNe1t3N	p u N _6 . t E: N _1
+ປູກ	pu1k	p u: k _5
+ປູກຝັງ	pu1kf1a1N	p u: k _5 . f A N _3
+ປົກຄອງ	pokK1ON	p o k _2 . k_h O: N _2
+ປົກປັກຮັກສາ	pokpa1kh1a1ksA	p o k _2 . p A k _2 . h A k _1 . s A: _3
+ປົກປ້ອງ	pokp4ON	p o k _2 . p O: N _4
+ປ່ອຍໃຫ້	p3OJIh4	p O: j _1 . h A j _5
+ປ່າພ້າວ	p3AP14Aw	p A: _1 . p_h A: w _4	p A _1 . p_h A: w _4
+ປ່າໄມ້	p3AI1m4	p A: _1 . m A j _4	p A _1 . m A j _4
+ປ່ຽນແປງ	p3jne1pN	p i@ n _1 . p E: N _6
+ປ້ອງ	p4ON	p O: N _4
+ປ້ອງກັນ	p4ONka1n	p O: N _4 . k A n _6	p O N _4 . k A n _6
+ປ້າ	p4A	p A: _4
+ປໍ	pO1	p O: _6	p O: _3
+ປໍສະຫວັດດີ	pO1sahwa1ddi1	p O: _6 . s A _2 . w A t _2 . d i: _6	p O _1 . s A _1 . w A t _2 . d i: _6	p O: _6 . s A _2 . w A t _2 . d i: _1	p O _1 . s A _1 . w A t _2 . d i: _1
+ຜະລິດ	Palid	p_h A _1 . l i t _1	p_h A _2 . l i t _1
+ຜະລິດຕະພັນ	PalidtaP1a1n	p_h A _2 . l i t _1 . t A _2 . p_h A n _2	p_h A _1 . l i t _2 . t A _1 . p_h A n _2
+ຜາເຈົ້າ	PAeco4A	p_h A: _3 . c A w _4	p_h A: _3 . c Ao _4	p_h A _1 . c A w _4	p_h A _1 . c Ao _4
+ຜິດ	Pid	p_h i t _2
+ຜູ້	Pu14	p_h u: _5
+ຜູ້ຄົນ	Pu14K1on	p_h u: _5 . k_h o n _2	p_h u _1 . k_h o n _2
+ຜູ້ຊື້	Pu14s1Y14	p_h u: _5 . s M: _4	p_h u _1 . s M: _4
+ຜູ້ຕາງໜ້າ	Pu14tANn14A	p_h u: _5 . t A: N _6 . n A: _5	p_h u _1 . t A: N _6 . n A: _5
+ຜູ້ຖືກ	Pu14TY1k	p_h u: _5 . t_h M: k _5	p_h u _1 . t_h M: k _5
+ຜູ້ນຳ	Pu14nA1	p_h u: _5 . n A m _2	p_h u _1 . n A m _2
+ຜູ້ບໍລິໂພກ	Pu14bO1lio1P1k	p_h u: _5 . b O: _6 . l i _1 . p_h o: k _4	p_h u _1 . b O _1 . l i _1 . p_h o: k _4
+ຜູ້ປະກອບການ	Pu14pakObkAn	p_h u: _5 . p A _2 . k O: p _5 . k A: n _6	p_h u _1 . p A _2 . k O: p _5 . k A: n _6	p_h u: _5 . p A _2 . k O: p _5 . k A: n _3	p_h u _1 . p A _2 . k O: p _5 . k A: n _3
+ຜູ້ປະສົບໄພ	Pu14pasobI1P1	p_h u: _5 . p A _2 . s o p _2 . p_h A j _2	p_h u _1 . p A _2 . s o p _2 . p_h A j _2
+ຜູ້ຟັງ	Pu14fa1N	p_h u: _5 . f A N _2	p_h u _1 . f A N _2
+ຜູ້ມີພະຄຸນ	Pu14mi1P1aK1un	p_h u: _5 . m i: _2 . p_h A _1 . k_h u n _2	p_h u _1 . m i _1 . p_h A _1 . k_h u n _2
+ຜູ້ອອກແຮງງານ	Pu14OOke1h1NNAn	p_h u: _5 . ? O: k _5 . h E: N _2 . N A: n _2	p_h u _1 . ? O: k _5 . h E: N _2 . N A: n _2
+ຜູ້ແທນ	Pu14e1T1n	p_h u: _5 . t_h E: n _2	p_h u _1 . t_h E: n _2
+ຜູ້ໄດ້ຮັບບາດເຈັບ	Pu14I1d4h1a1bbAdeca1b	p_h u: _5 . d A j _4 . h A p _1 . b A: t _5 . c e p _2	p_h u _1 . d A j _4 . h A p _1 . b A: t _5 . c e p _2
+ຜູ້ໜຶ່ງ	Pu14n1Y3N	p_h u: _5 . n M N _1	p_h u _1 . n M N _1
+ຜົນ	Pon	p_h o n _3
+ຜົນປະໂຫຍດ	Ponpao1hJd	p_h o n _3 . p A _2 . J o: t _5	p_h o n _3 . p A _1 . J o: t _5
+ຜົນສຳເລັດ	PonsA1ela1d	p_h o n _3 . s A m _3 . l e t _1
+ຜົວ	Pow	p_h u@ _3
+ຜົ້ງສາລີ	Po4NsAli1	p_h o N _5 . s A: _3 . l i: _2	p_h o N _5 . s A _1 . l i: _2
+ຜ່ອນ	P3On	p_h O: n _1
+ຜ່ານມາ	P3AnmA	p_h A: n _1 . m A: _2
+ຝັ່ງ	f1a13N	f A N _1
+ຝາກ	f1Ak	f A: k _5
+ຝຶກອົບຮົມ	f1YkOobh1om	f M k _2 . ? o p _2 . h o m _2
+ຝົນ	f1on	f o n _3
+ຝ່າຍ	f13AJ	f A: j _1
+ພລາສຕິກ	P1lAstik	p_h l A: t _4 . t i k _2
+ພວກ	P1wk	p_h u@ k _4
+ພວກເຈົ້າ	P1wkeco4A	p_h u@ k _4 . c A w _4	p_h u@ k _4 . c Ao _4
+ພວກເພິ່ນ	P1wkeP1i3n	p_h u@ k _4 . p_h 7 n _1
+ພວກເຮົາ	P1wkeh1oA	p_h u@ k _4 . h A w _2	p_h u@ k _4 . h Ao _2
+ພວງ	P1wN	p_h u@ N _2
+ພວງງາມ	P1wNNAm	p_h u@ N _2 . N A: m _2
+ພວງມາລາ	P1wNmAlA	p_h u@ N _2 . m A: _2 . l A: _2	p_h u@ N _2 . m A _1 . l A: _2
+ພວມ	P1wm	p_h u@ m _2
+ພອນ	P1On	p_h O: n _2
+ພອນທະວີໄຊ	P1OnT1awi1I1s1	p_h O: n _2 . t_h A _1 . w i: _2 . s A j _2	p_h O: n _2 . t_h A _1 . w i _1 . s A j _2
+ພອນສະຖຽນ	P1OnsaTjn	p_h O: n _2 . s A _2 . t_h i@ n _3	p_h O: n _2 . s A _1 . t_h i@ n _3
+ພອນສະຫວັນ	P1Onsahwa1n	p_h O: n _2 . s A _2 . w A n _3	p_h O: n _2 . s A _1 . w A n _3
+ພອນສຸກ	P1Onsuk	p_h O: n _2 . s u k _2
+ພອນແກ້ວ	P1One1k4w	p_h O: n _2 . k E: w _4
+ພະຈິກ	P1acik	p_h A _1 . c i k _2
+ພະຍາ	P1aJA	p_h A _1 . J A: _2
+ພະທາດສີໂຄດຕະບອງ	P1aT1Adsi1o1K1dtabON	p_h A _1 . t_h A: t _4 . s i: _3 . k_h o: t _4 . t A _2 . b O: N _6	p_h A _1 . t_h A: t _4 . s i _1 . k_h o: t _4 . t A _1 . b O: N _6	p_h A _1 . t_h A: t _4 . s i: _3 . k_h o: t _4 . t A _2 . b O: N _3	p_h A _1 . t_h A: t _4 . s i _1 . k_h o: t _4 . t A _1 . b O: N _3
+ພະທາດຫຼວງ	P1aT1Adhl1wN	p_h A _1 . t_h A: t _4 . l u@ N _3
+ພະນະທ່ານ	P1anaT13An	p_h A _1 . n A _1 . t_h A: n _1
+ພະນັກງານ	P1ana1kNAn	p_h A _1 . n A k _1 . N A: n _2
+ພະບາດ	P1abAd	p_h A _1 . b A: t _5
+ພະບາດໂພນສັນ	P1abAdo1P1nsa1n	p_h A _1 . b A: t _5 . p_h o: n _2 . s A n _3
+ພະພຸດທະຮູບ	P1aP1udT1ah1u1b	p_h A _1 . p_h u t _1 . t_h A _1 . h u: p _4
+ພະພຸດທະເຈົ້າ	P1aP1udT1aeco4A	p_h A _1 . p_h u t _1 . t_h A _1 . c A w _4	p_h A _1 . p_h u t _1 . t_h A _1 . c Ao _4
+ພະລັງງານ	P1ala1NNAn	p_h A _1 . l A N _2 . N A: n _2
+ພະຫັດ	P1aha1d	p_h A _1 . h A t _2
+ພັກ	P1a1k	p_h A k _1
+ພັກພວກ	P1a1kP1wk	p_h A k _1 . p_h u@ k _4
+ພັກລັດ	P1a1kla1d	p_h A k _1 . l A t _1
+ພັດທະນາ	P1a1dT1anA	p_h A t _1 . t_h A _1 . n A: _2
+ພັດທະນາການ	P1a1dT1anAkAn	p_h A t _1 . t_h A _1 . n A: _2 . k A: n _6	p_h A t _1 . t_h A _1 . n A _1 . k A: n _6	p_h A t _1 . t_h A _1 . n A: _2 . k A: n _3	p_h A t _1 . t_h A _1 . n A _1 . k A: n _3
+ພັນ	P1a1n	p_h A n _2
+ພັນທະ	P1a1nT1a	p_h A n _2 . t_h A ? _1
+ພັນທະວົງ	P1a1nT1awoN	p_h A n _2 . t_h A _1 . w o N _2
+ພັນສາ	P1a1nsA	p_h A n _2 . s A: _3
+ພາກ	P1Ak	p_h A: k _4
+ພາກພື້ນ	P1AkP1Y14n	p_h A: k _4 . p_h M: n _4
+ພາກັນ	P1Aka1n	p_h A: _2 . k A n _6	p_h A _1 . k A n _6
+ພາຍ	P1AJ	p_h A: j _2
+ພາຍນອກ	P1AJnOk	p_h A: j _2 . n O: k _4
+ພາຍຸ	P1AJu	p_h A: _2 . J u ? _1	p_h A _1 . J u ? _1
+ພາຍໃຕ້	P1AJIt4	p_h A: j _2 . t A j _4
+ພາຍໃນ	P1AJIn	p_h A: j _2 . n A j _2
+ພານຸເດດ	P1Anuedd	p_h A: _2 . n u _1 . d e: t _5	p_h A _1 . n u _1 . d e: t _5
+ພາບ	P1Ab	p_h A: p _4
+ພາລະກິດ	P1Alakid	p_h A: _2 . l A _1 . k i t _2	p_h A _1 . l A _1 . k i t _2
+ພາສາ	P1AsA	p_h A: _2 . s A: _3	p_h A _1 . s A: _3
+ພາໃຫ້	P1AIh4	p_h A: _2 . h A j _5	p_h A _1 . h A j _5
+ພິກຸນທອງ	P1ikunT1ON	p_h i _1 . k u n _6 . t_h O: N _2
+ພິຈາລະນາ	P1icAlanA	p_h i _1 . c A: _6 . l A _1 . n A: _2	p_h i _1 . c A _1 . l A _1 . n A: _2
+ພິດ	P1id	p_h i t _1
+ພິທີ	P1iT1i1	p_h i _1 . t_h i: _2
+ພິມພັນ	P1imP1a1n	p_h i m _2 . p_h A n _2
+ພິເສດ	P1iesd	p_h i _1 . s e: t _5
+ພີວີ	P1i1wi1	p_h i: _2 . w i: _2	p_h i _1 . w i: _2
+ພີ່ນ້ອງ	P1i13n4ON	p_h i: _2 . n O: N _4	p_h i _1 . n O: N _4	p_h i: _1 . n O: N _4
+ພຶດສະພາ	P1YdsaP1A	p_h M t _1 . s A _2 . p_h A: _2	p_h M t _1 . s A _1 . p_h A: _2
+ພືດ	P1Y1d	p_h M: t _4
+ພື້ນຖານ	P1Y14nTAn	p_h M: n _4 . t_h A: n _3
+ພື້ນທີ່	P1Y14nT1i13	p_h M: n _4 . t_h i: _1
+ພຸດ	P1ud	p_h u t _1
+ພຸດທະການ	P1udT1akAn	p_h u t _1 . t_h A _1 . k A: n _6
+ພຸດມາລີ	P1udmAli1	p_h u t _1 . m A: _2 . l i: _2
+ພຸ້ນ	P1u4n	p_h u n _4
+ພູ	P1u1	p_h u: _2
+ພູກູດ	P1u1ku1d	p_h u: _2 . k u: t _5	p_h u _1 . k u: t _5
+ພູນ	P1u1n	p_h u: n _2
+ພູນສະຫວັນ	P1u1nsahwa1n	p_h u: n _2 . s A _2 . w A n _3	p_h u: n _2 . s A _1 . w A n _3
+ພູມ	P1u1m	p_h u: m _2
+ພູເຂົາ	P1u1eKoA	p_h u: _2 . k_h A w _3	p_h u: _2 . k_h Ao _3	p_h u _1 . k_h A w _3	p_h u _1 . k_h Ao _3
+ພົງ	P1oN	p_h o N _2
+ພົງສະຫວັດ	P1oNsahwa1d	p_h o N _2 . s A _2 . w A t _2	p_h o N _2 . s A _1 . w A t _2
+ພົງອຸດົມ	P1oNOudom	p_h o N _2 . ? u _2 . d o m _6	p_h o N _2 . ? u _1 . d o m _6
+ພົບ	P1ob	p_h o p _1
+ພົມພິພັກ	P1omP1iP1a1k	p_h o m _2 . p_h i _1 . p_h A k _1
+ພົມມະຈັນ	P1ommaca1n	p_h o m _2 . m A _1 . c A n _6
+ພົມວິຫານ	P1omwihAn	p_h o m _2 . w i _1 . h A: n _3
+ພົວພັນ	P1owP1a1n	p_h u@ _2 . p_h A n _2
+ພຽງ	P1jN	p_h i@ N _2
+ພຽງພໍ	P1jNP1O1	p_h i@ N _2 . p_h O: _2
+ພ້ອມ	P14Om	p_h O: m _4
+ພ້ອມກັນ	P14Omka1n	p_h O: m _4 . k A n _6	p_h O: m _4 . k A n _3
+ພ້ອມທັງ	P14OmT1a1N	p_h O: m _4 . t_h A N _2
+ພໍ	P1O1	p_h O: _2
+ພໍ່	P1O13	p_h O: _1
+ພໍ່ຄ້າ	P1O13K14A	p_h O: _1 . k_h A: _4	p_h O _1 . k_h A: _4
+ພໍ່ຕູ້	P1O13tu14	p_h O: _1 . t u: _4	p_h O _1 . t u: _4
+ພໍ່ເຖົ້າ	P1O13eTo4A	p_h O: _1 . t_h A w _5	p_h O: _1 . t_h Ao _5	p_h O _1 . t_h A w _5	p_h O _1 . t_h Ao _5
+ພໍ່ແມ່	P1O13e1m3	p_h O: _1 . m E: _1	p_h O _1 . m E: _1
+ຟັງ	fa1N	f A N _2
+ຟິລິບປິນ	filibpin	f i _1 . l i p _1 . p i n _6
+ຟ້ອນ	f4On	f O: n _4
+ຟ້າ	f4A	f A: _4
+ມວນຊົນ	mwns1on	m u@ n _2 . s o n _2
+ມອນ	mOn	m O: n _2
+ມອບ	mOb	m O: p _4
+ມະນີ	mani1	m A _1 . n i: _2
+ມະນີວົງສາ	mani1woNsA	m A _1 . n i: _2 . w o N _2 . s A: _3	m A _1 . n i _1 . w o N _2 . s A: _3
+ມະນຸດ	manud	m A _1 . n u t _1
+ມະຫາຊົນ	mahAs1on	m A _1 . h A: _3 . s o n _2	m A _1 . h A _1 . s o n _2
+ມະຫາວິທະຍາໄລ	mahAwiT1aJAI1l	m A _1 . h A: _3 . w i _1 . t_h A _1 . J A: _2 . l A j _2
+ມະຫາໄຊ	mahAI1s1	m A _1 . h A: _3 . s A j _2	m A _1 . h A _1 . s A j _2
+ມັກ	ma1k	m A k _1
+ມັງກອນ	ma1NkOn	m A N _2 . k O: n _6
+ມັດທະຍົມ	ma1dT1aJom	m A t _1 . t_h A _1 . J o m _2
+ມັນ	ma1n	m A n _2
+ມາ	mA	m A: _2
+ມາດ	mAd	m A: t _4
+ມາດຕະການ	mAdtakAn	m A: t _4 . t A _2 . k A: n _6	m A: t _4 . t A _1 . k A: n _6
+ມິດຕະພາບ	midtaP1Ab	m i t _1 . t A _2 . p_h A: p _4	m i t _1 . t A _1 . p_h A: p _4
+ມິຖຸນາ	miTunA	m i _1 . t_h u _2 . n A: _2	m i _1 . t_h u _1 . n A: _2
+ມີ	mi1	m i: _2
+ມີນາ	mi1nA	m i: _2 . n A: _2	m i _1 . n A: _2
+ມີໄຊ	mi1I1s1	m i: _2 . s A j _2	m i _1 . s A j _2
+ມຶງ	mYN	m M N _2
+ມຶນເມົາ	mYnemoA	m M n _2 . m A w _2	m M n _2 . m Ao _2
+ມື	mY1	m M: _2
+ມື້	mY14	m M: _4
+ມື້ຄືນນີ້	mY14K1Y1nni14	m M: _4 . k_h M: n _2 . n i: _4	m M _1 . k_h M: n _2 . n i ? _1	m M _1 . k_h M: n _2 . n i: _4
+ມື້ພັກ	mY14P1a1k	m M: _4 . p_h A k _1	m M _1 . p_h A k _1
+ມື້ອື່ນ	mY14OY13n	m M: _4 . ? M: n _1	m M _1 . ? M n _1	m M _1 . ? M: n _1
+ມື້ຮື	mY14h1Y1	m M: _4 . h M: _2	m M _1 . h M: _2	m M _1 . h i: _2
+ມູນຄ່າ	mu1nK13A	m u: n _2 . k_h A: _1
+ມົນຕີ	monti1	m o n _2 . t i: _6
+ມຽນມ້າ	mjnm4A	m i@ n _2 . m A: _4
+ມ່ວນຊື່ນ	m3wns1Y13n	m u@ n _1 . s M: n _1
+ມ້າງເພ	m4ANeP1	m A: N _4 . p_h e: _2
+ຢາກ	yAk	j A: k _5
+ຢາສູບ	yAsu1b	j A: _6 . s u: p _5	j A _1 . s u: p _5
+ຢູລີ	yu1li1	j u: _6 . l i: _2	j u _1 . l i: _2
+ຢູໂຣ	yu1o1r	j u: _6 . l o: _2	j u _1 . l o: _2	j u: _1 . l o: _2
+ຢູ່	yu13	j u: _1
+ຢຽບ	yjb	j i@ p _5
+ຢ່າງ	y3AN	j A: N _1
+ຢ່າງຍິ່ງ	y3ANJi3N	j A: N _1 . J i N _1
+ຢ່າງດີ	y3ANdi1	j A: N _1 . d i: _6
+ຢ່າງແທ້ຈິງ	y3ANe1T14ciN	j A: N _1 . t_h E: _4 . c i N _6	j A: N _1 . t_h E _1 . c i N _6	j A: N _1 . t_h E: _4 . c i N _3	j A: N _1 . t_h E _1 . c i N _3
+ຢ້ານ	y4An	j A: n _4
+ຢ້ຽມຂ່ຳນັບ	y4jmK3A1na1b	j i@ m _4 . k_h A m _1 . n A p _1
+ຢ້ຽມຢາມ	y4jmyAm	j i@ m _4 . j A: m _6
+ລວມ	lwm	l u@ m _2
+ລວມໄປເຖິງ	lwmI1peTiN	l u@ m _2 . p A j _6 . t_h 7 N _3
+ລອງເຢຍ	lONeyJ	l O: N _2 . j i@ _4	l O: N _2 . j i@ _6
+ລອນດອນ	lOndOn	l O: n _2 . d O: n _6	l O: n _2 . d O: n _4
+ລະ	la	l A ? _1	l A ? _2
+ລະດູ	ladu1	l A _1 . d u: _6
+ລະດົມ	ladom	l A _1 . d o m _6
+ລະບອບ	labOb	l A _1 . b O: p _5
+ລະບາຍ	labAJ	l A _1 . b A: j _6
+ລະບົບ	labob	l A _1 . b o p _2
+ລະບຽບການ	labjbkAn	l A _1 . b i@ p _5 . k A: n _6
+ລະວັງຕົວ	lawa1Ntow	l A _1 . w A N _2 . t u@ _6	l A _1 . w A N _2 . t u@ _3
+ລະອຽດ	laOjd	l A _1 . ? i@ t _5
+ລະເບີດ	laebi1d	l A _1 . b 7: t _5
+ລັກ	la1k	l A k _1
+ລັດ	la1d	l A t _1
+ລັດຖະທຳມະນູນ	la1dTaT1A1manu1n	l A t _1 . t_h A _2 . t_h A m _2 . m A _1 . n u: n _2	l A t _1 . t_h A _1 . t_h A m _2 . m A _1 . n u: n _2
+ລັດຖະບານ	la1dTabAn	l A t _1 . t_h A _2 . b A: n _6	l A t _1 . t_h A _1 . b A: n _6
+ລັດຖະມົນຕີ	la1dTamonti1	l A t _1 . t_h A _2 . m o n _2 . t i: _6	l A t _1 . t_h A _1 . m o n _2 . t i: _6
+ລັດລ້ອງ	la1dl4ON	l A t _1 . l O: N _4
+ລັດເຊຍ	la1des1J	l A t _1 . s i@ _2
+ລັ້ອນ	la14On	l O n _4
+ລາຊະການ	lAs1akAn	l A: _2 . s A _1 . k A: n _6	l A _1 . s A _1 . k A: n _6	l A: _2 . s A _1 . k A: n _3	l A _1 . s A _1 . k A: n _3
+ລາຍ	lAJ	l A: j _2
+ລາຍການ	lAJkAn	l A: j _2 . k A: n _6	l A: j _2 . k A: n _3
+ລາຍງານ	lAJNAn	l A: j _2 . N A: n _2
+ລາມ	lAm	l A: m _2
+ລາວ	lAw	l A: w _2
+ລາວ-ສິງກະໂປ	lAw-siNkao1p	l A: w _2 . s i N _3 . k A _2 . p o: _6	l A: w _2 . s i N _3 . k A _1 . p o: _6
+ລາວອາດມີເດຍ	lAwOAdmi1edJ	l A: w _2 . ? A: t _5 . m i: _2 . d i@ _6	l A: w _2 . ? A: t _4 . m i: _2 . d i@ _6	l A: w _2 . ? A: t _1 . m i _1 . d i@ _6
+ລຳ	lA1	l A m _2
+ລຳຄານ	lA1K1An	l A m _2 . k_h A: n _2
+ລີ	li1	l i: _2
+ລີ້	li14	l i: _4
+ລຶບລ້າງ	lYbl4AN	l M p _1 . l A: N _4
+ລືມ	lY1m	l M: m _2
+ລຸກ	luk	l u k _1
+ລຸກຂຶ້ນ	lukKY4n	l u k _1 . k_h M n _5
+ລຸງ	luN	l u N _2
+ລຸ່ມ	lu3m	l u m _1
+ລູກ	lu1k	l u: k _4	l u k _4
+ລູກຄ້າ	lu1kK14A	l u: k _4 . k_h A: _4
+ລູກຫຼານ	lu1khl1An	l u: k _4 . l A: n _3
+ລົງ	loN	l o N _2
+ລົງທຶນ	loNT1Yn	l o N _2 . t_h M n _2
+ລົດ	lod	l o t _1
+ລົດເມ	lodem	l o t _1 . m e: _2
+ລົດໄຟ	lodI1f	l o t _1 . f A j _2
+ລ່ອງ	l3ON	l O: N _1
+ລ້ອຍ	l4OJ	l O: j _4
+ລ້ານ	l4An	l A: n _4
+ລ້ານຊ້າງ	l4Ans14AN	l A: n _4 . s A: N _4
+ລ້ຳ	l4A1	l A m _4
+ລ້ຽງ	l4jN	l i@ N _4
+ລໍຖ້າ	lO1T4A	l O: _2 . t_h A: _5	l O _1 . t_h A: _5
+ວອນ	wOn	w O: n _2
+ວັດ	wa1d	w A t _1
+ວັດຖຸດິບ	wa1dTudib	w A t _1 . t_h u _2 . d i p _2	w A t _1 . t_h u _1 . d i p _2
+ວັດຖຸບູຮານ	wa1dTubu1h1An	w A t _1 . t_h u _2 . b u: _6 . h A: n _2	w A t _1 . t_h u _2 . b u _1 . h A: n _2
+ວັດຖຸອຸປະກອນ	wa1dTuOupakOn	w A t _1 . t_h u _2 . ? u _2 . p A _2 . k O: n _6	w A t _1 . t_h u _2 . ? u _2 . p A _1 . k O: n _6	w A t _1 . t_h u _2 . ? u _2 . p A _2 . k O: n _3	w A t _1 . t_h u _2 . ? u _2 . p A _1 . k O: n _3
+ວັດທະນະທຳ	wa1dT1anaT1A1	w A t _1 . t_h A _1 . n A _1 . t_h A m _2
+ວັດທາດ	wa1dT1Ad	w A t _1 . t_h A: t _4
+ວັດນາກ	wa1dnAk	w A t _1 . n A: k _4
+ວັນ	wa1n	w A n _2
+ວັນກຳມະກອນສາກົນ	wa1nkA1makOnsAkon	w A n _2 # k A m _6 . m A _1 . k O: n _6 # s A: _3 . k o n _6	w A n _2 # k A m _6 . m A _1 . k O: n _6 # s A _1 . k o n _6
+ວັນຄູແຫ່ງຊາດ	wa1nK1u1e1h3Ns1Ad	w A n _2 . k_h u: _2 . h E: N _1 . s A: t _4	w A n _2 . k_h u _1 . h E: N _1 . s A: t _4
+ວັນຈັນ	wa1nca1n	w A n _2 . c A n _6
+ວັນທີ	wa1nT1i1	w A n _2 . t_h i: _2
+ວັນນະລີວົງ	wa1nnali1woN	w A n _2 . n A _1 . l i: _2 . w o N _2	w A n _2 . n A _1 . l i _1 . w o N _2
+ວັນນະສອນ	wa1nnasOn	w A n _2 . n A _1 . s O: n _3
+ວັນນາໄຊ	wa1nnAI1s1	w A n _2 . n A: _2 . s A j _2	w A n _2 . n A _1 . s A j _2
+ວັນນິດາ	wa1nnidA	w A n _2 . n i _1 . d A: _6	w A n _2 . n i _1 . d A: _3
+ວັນປູກຕົ້ນໄມ້	wa1npu1kto4nI1m4	w A n _2 . p u: k _5 . t o n _4 . m A j _4
+ວັນປູກຕົ້ນໄມ້ແຫ່ງຊາດ	wa1npu1kto4nI1m4e1h3Ns1Ad	w A n _2 . p u: k _5 . t o n _4 . m A j _4 . h E: N _1 . s A: t _4
+ວັນພຸດ	wa1nP1ud	w A n _2 . p_h u t _1
+ວັນສຸກ	wa1nsuk	w A n _2 . s u k _2
+ວັນອາທິດ	wa1nOAT1id	w A n _2 . ? A: _6 . t_h i t _1	w A n _2 . ? A _1 . t_h i t _1
+ວັນເສົາ	wa1nesoA	w A n _2 . s A w _3	w A n _2 . s Ao _3
+ວາງ	wAN	w A: N _2
+ວາງສະແດງ	wANsae1dN	w A: N _2 . s A _2 . d E: N _6	w A: N _2 . s A _1 . d E: N _6	w A: N _2 . s A _2 . d E: N _3	w A: N _2 . s A _1 . d E: N _3
+ວານນີ້	wAnni14	w A: n _2 . n i: _4
+ວິຊາສະເພາະ	wis1AsaeP1Aa	w i _1 . s A: _2 . s A _1 . p_h O ? _1	w i _1 . s A _1 . s A _1 . p_h O ? _1
+ວິທະຍາໄລ	wiT1aJAI1l	w i _1 . t_h A _1 . J A: _2 . l A j _2	w i _1 . t_h A _1 . J A _1 . l A j _2
+ວິວ	wiw	w i w _2
+ວິສາຫະກິດ	wisAhakid	w i _1 . s A: _3 . h A _2 . k i t _2	w i _1 . s A _1 . h A _1 . k i t _2
+ວິໄລ	wiI1l	w i _1 . l A j _2
+ວິໄລທອງ	wiI1lT1ON	w i _1 . l A j _2 . t_h O: N _2
+ວິໄລສານ	wiI1lsAn	w i _1 . l A j _2 . s A: n _3
+ວີ	wi1	w i: _2
+ວົງຄຳຊາວ	woNK1A1s1Aw	w o N _2 . k_h A m _2 . s A: w _2
+ວົງຈັນ	woNca1n	w o N _2 . c A n _6
+ວົງທະວີໄຊ	woNT1awi1I1s1	w o N _2 . t_h A _1 . w i: _2 . s A j _2
+ວຽກ	wjk	w i@ k _4
+ວຽກງານ	wjkNAn	w i@ k _4 . N A: n _2
+ວຽງຈັນ	wjNca1n	w i@ N _2 . c A n _6	w i@ N _2 . c A n _3
+ວຽງນະຄອນ	wjNnaK1On	w i@ N _2 . n A _1 . k_h O: n _2
+ວ່າ	w3A	w A: _1
+ວ່າການ	w3AkAn	w A: _1 . k A: n _6	w A _1 . k A: n _6
+ວ່າດ້ວຍ	w3Ad4wJ	w A: _1 . d u@ j _4	w A _1 . d u@ j _4
+ສ_ປ	s_p	s O _3 . p O _6	s O _1 . p O _2
+ສ_ປ_ປ	s_p_p	s O _3 . p O _6 . p O _6	s O _1 . p O _1 . p O _2
+ສວຍງາມ	swJNAm	s u@ j _3 . N A: m _2
+ສວນຫຼວງ	swnhl1wN	s u@ n _3 . l u@ N _3
+ສອງ	sON	s O: N _3
+ສອງຮ້ອຍ	sONh14OJ	s O: N _3 . h O: j _4
+ສອງແສນ	sONe1sn	s O: N _3 . s E: n _3
+ສອດຄ່ອງ	sOdK13ON	s O: t _5 . k_h O: N _1
+ສອນ	sOn	s O: n _3
+ສອບເສັງ	sObesa1N	s O: p _5 . s e N _3
+ສະກຸນ	sakun	s A _2 . k u n _6	s A _1 . k u n _6
+ສະຕິ	sati	s A _2 . t i ? _2	s A _1 . t i ? _2
+ສະຖານທີ່	saTAnT1i13	s A _2 . t_h A: n _3 . t_h i: _1	s A _1 . t_h A: n _3 . t_h i: _1
+ສະຖານທູດ	saTAnT1u1d	s A _2 . t_h A: n _3 . t_h u: t _4	s A _1 . t_h A: n _3 . t_h u: t _4
+ສະຖາບັນ	saTAba1n	s A _2 . t_h A: _3 . b A n _6	s A _1 . t_h A _1 . b A n _6	s A _2 . t_h A: _3 . b A n _3	s A _1 . t_h A _1 . b A n _3
+ສະຖິຕິ	saTiti	s A _2 . t_h i _2 . t i ? _2	s A _1 . t_h i _1 . t i ? _2
+ສະນັ້ນ	sana14n	s A _2 . n A n _4	s A _1 . n A n _4
+ສະບັບ	saba1b	s A _2 . b A p _2	s A _1 . b A p _2
+ສະບາຍດີ	sabAJdi1	s A _2 . b A: j _6 . d i: _6	s A _1 . b A: j _6 . d i: _6
+ສະພາບ	saP1Ab	s A _2 . p_h A: p _4	s A _1 . p_h A: p _4
+ສະພາແຫ່ງຊາດ	saP1Ae1h3Ns1Ad	s A _2 . p_h A: _2 . h E: N _1 . s A: t _4	s A _1 . p_h A _1 . h E: N _1 . s A: t _4
+ສະມາຊິກ	samAs1ik	s A _1 . m A: _2 . s i k _1	s A _1 . m A _1 . s i k _1
+ສະຫງວນ	sahNwn	s A _2 . N u@ n _3	s A _1 . N u@ n _3
+ສະຫງ່າ	sahN3A	s A _2 . N A: _1	s A _1 . N A: _1
+ສະຫງ່າຜ່າເຜີຍ	sahN3AP3AePi1J	s A _2 . N A: _1 . p_h A: _1 . p_h 7: j _3	s A _1 . N A _1 . p_h A _1 . p_h 7: j _3
+ສະຫວັນ-ເຊໂນ	sahwa1n-es1o1n	s A _2 . w A n _3 . s e: _2 . n o: _2	s A _1 . w A n _3 . s e: _2 . n o: _2
+ສະຫະພັນ	sahaP1a1n	s A _2 . h A _2 . p_h A n _2	s A _1 . h A _1 . p_h A n _2
+ສະຫັດສະວັດ	saha1dsawa1d	s A _2 . h A t _2 . s A _2 . w A t _1	s A _1 . h A t _2 . s A _1 . w A t _1
+ສະຫາຍ	sahAJ	s A _2 . h A: j _3	s A _1 . h A: j _3
+ສະຫຼາກ	sahl1Ak	s A _2 . l A: k _5	s A _1 . l A: k _5
+ສະຫຼາດ	sahl1Ad	s A _2 . l A: t _5	s A _1 . l A: t _5
+ສະເພາະ	saeP1Aa	s A _2 . p_h O ? _1	s A _1 . p_h O ? _1
+ສະເລ່ຍ	sael3J	s A _2 . l i@ _1	s A _1 . l i@ _1
+ສະເຫຼີມສະຫຼອງ	saehl1i1msahl1ON	s A _2 . l 7: m _3 . s A _2 . l O: N _3	s A _1 . l 7: m _3 . s A _1 . l O: N _3
+ສະເໜີ	saen1i1	s A _2 . n 7: _3	s A _1 . n 7: _3
+ສະແດງ	sae1dN	s A _2 . d E: N _6	s A _1 . d E: N _6
+ສະໄໝ	saI1m1	s A _2 . m A j _3	s A _1 . m A j _3
+ສະໄໝນິຍົມ	saI1m1niJom	s A _2 . m A j _3 . n i _1 . J o m _2	s A _1 . m A j _3 . n i _1 . J o m _2
+ສະໜອງ	san1ON	s A _2 . n O: N _3	s A _1 . n O: N _3
+ສະໜາມ	san1Am	s A _2 . n A: m _3	s A _1 . n A: m _3
+ສະໜິດສະໜົມ	san1idsan1om	s A _2 . n i t _2 . s A _2 . n o m _3	s A _1 . n i t _2 . s A _1 . n o m _3
+ສະໝອນ	sam1On	s A _2 . m O: n _3	s A _1 . m O: n _3
+ສະໝັກ	sam1a1k	s A _2 . m A k _2	s A _1 . m A k _2
+ສະໝັກໃຈ	sam1a1kIc	s A _2 . m A k _2 . c A j _6	s A _1 . m A k _2 . c A j _6
+ສັກ	sa1k	s A k _2
+ສັງຂານ	sa1NKAn	s A N _3 . k_h A: n _3
+ສັງຄົມ	sa1NK1om	s A N _3 . k_h o m _2
+ສັງເກດ	sa1Nekd	s A N _3 . k e: t _5
+ສັດ	sa1d	s A t _2
+ສັດຕູ	sa1dtu1	s A t _2 . t u: _6
+ສັນຍະລັກ	sa1nJala1k	s A n _3 . J A _1 . l A k _1
+ສັນຕິພາບ	sa1ntiP1Ab	s A n _3 . t i _2 . p_h A: p _4	s A n _3 . t i _1 . p_h A: p _4
+ສັນລະເສີນ	sa1nlaesi1n	s A n _3 . l A _1 . s 7: n _3
+ສັນເຕ້ລາວ	sa1net4lAw	s A n _3 . t e: _4 . l A: w _2	s A n _3 . t e _1 . l A: w _2
+ສັ່ງ	sa13N	s A N _1
+ສາ	sA	s A: _3	s A _2
+ສາກົນ	sAkon	s A: _3 . k o n _6	s A _1 . k o n _6	s A: _3 . k o n _3	s A _1 . k o n _3
+ສາຍ	sAJ	s A: j _3
+ສາຍທາລາ	sAJT1AlA	s A: j _3 . t_h A: _2 . l A: _2	s A: j _3 . t_h A _1 . l A: _2
+ສາຍພົວພັນ	sAJP1owP1a1n	s A: j _3 . p_h u@ _2 . p_h A n _2
+ສາຍແກ້ວໄຍແສງ	sAJe1k4wI1Je1sN	s A: j _3 . k E: w _4 . J A j _2 . s E: N _3
+ສາທາລະນະ	sAT1Alana	s A: _3 . t_h A: _2 . l A _1 . n A ? _1	s A _1 . t_h A _1 . l A _1 . n A ? _1
+ສານ	sAn	s A: n _3
+ສານຕາຕັ້ງ	sAntAta14N	s A: n _3 . t A: _6 . t A N _4	s A: n _3 . t A _1 . t A N _4
+ສາມ	sAm	s A: m _3
+ສາມລ້ານ	sAml4An	s A: m _3 . l A: n _4
+ສາມສິບ	sAmsib	s A: m _3 . s i p _2
+ສາມສິບພັນ	sAmsibP1a1n	s A: m _3 . s i p _2 . p_h A n _2
+ສາມສິບຫົກພັນ	sAmsibhokP1a1n	s A: m _3 . s i p _2 . h o k _2 . p_h A n _2
+ສາມສິບຫ້າພັນ	sAmsibh4AP1a1n	s A: m _3 . s i p _2 . h A: _5 . p_h A n _2	s A: m _3 . s i p _2 . h A _1 . p_h A n _2
+ສາມສິບເຈັດພັນ	sAmsibeca1dP1a1n	s A: m _3 . s i p _2 . c e t _2 . p_h A n _2
+ສາມສິບເອັດພັນ	sAmsibeOa1dP1a1n	s A: m _3 . s i p _2 . ? e t _2 . p_h A n _2
+ສາມສິບແປດພັນ	sAmsibe1pdP1a1n	s A: m _3 . s i p _2 . p E: t _5 . p_h A n _2
+ສາມຮ້ອຍ	sAmh14OJ	s A: m _3 . h O: j _4
+ສາມາດ	sAmAd	s A: _3 . m A: t _4	s A _1 . m A: t _4
+ສາມແສນ	sAme1sn	s A: m _3 . s E: n _3
+ສາລະວັນ	sAlawa1n	s A: _3 . l A _1 . w A n _2	s A _1 . l A _1 . w A n _2
+ສາລີ	sAli1	s A: _3 . l i: _2	s A _1 . l i: _2
+ສາວ	sAw	s A: w _3
+ສຳຄັນ	sA1K1a1n	s A m _3 . k_h A n _2
+ສຳນັກງານ	sA1na1kNAn	s A m _3 . n A k _1 . N A: n _2
+ສຳຜັດ	sA1Pa1d	s A m _3 . p_h A t _2
+ສຳພັນ	sA1P1a1n	s A m _3 . p_h A n _2
+ສຳມະນາ	sA1manA	s A m _3 . m A _1 . n A: _2
+ສຳລັບ	sA1la1b	s A m _3 . l A p _1
+ສຳເລັດ	sA1ela1d	s A m _3 . l e t _1
+ສິງກະໂປ	siNkao1p	s i N _3 . k A _2 . p o: _6	s i N _3 . k A _1 . p o: _6
+ສິງຫາ	siNhA	s i N _3 . h A: _3
+ສິດທິ	sidT1i	s i t _2 . t_h i ? _1
+ສິນ	sin	s i n _3
+ສິນຄ້າ	sinK14A	s i n _3 . k_h A: _4
+ສິນໃຈ	sinIc	s i n _3 . c A j _6
+ສິບ	sib	s i p _2
+ສິບພັນ	sibP1a1n	s i p _2 . p_h A n _2
+ສິບລ້ານ	sibl4An	s i p _2 . l A: n _4
+ສິບສອງພັນ	sibsONP1a1n	s i p _2 . s O: N _3 . p_h A n _2
+ສິບສາມພັນ	sibsAmP1a1n	s i p _2 . s A: m _3 . p_h A n _2
+ສິບສີ່ພັນ	sibsi13P1a1n	s i p _2 . s i: _1 . p_h A n _2	s i p _2 . s i _1 . p_h A n _2
+ສິບຫົກພັນ	sibhokP1a1n	s i p _2 . h o k _2 . p_h A n _2
+ສິບເກົ້າພັນ	sibeko4AP1a1n	s i p _2 . k A w _4 . p_h A n _2	s i p _2 . k Ao _4 . p_h A n _2
+ສິບແປດພັນ	sibe1pdP1a1n	s i p _2 . p E: t _5 . p_h A n _2
+ສິລະປະ	silapa	s i _2 . l A _1 . p A ? _2	s i n _2 . l A _1 . p A ? _2
+ສິລີນທອນການຄ້າ	sili1nT1OnkAnK14A	s i _2 . l i: n _2 . t_h O: n _2 . k A: n _6 . k_h A: _4	s i _1 . l i: n _2 . t_h O: n _2 . k A: n _6 . k_h A: _4
+ສິ່ງ	si3N	s i N _1
+ສິ່ງແວດລ້ອມ	si3Ne1wdl4Om	s i N _1 . w E: t _4 . l O: m _4
+ສີ	si1	s i: _3
+ສີວິໄຊ	si1wiI1s1	s i: _3 . w i _1 . s A j _2	s i _1 . w i _1 . s A j _2
+ສີວິໄລ	si1wiI1l	s i: _3 . w i _1 . l A j _2	s i _1 . w i _1 . l A j _2
+ສີສະຫວັດ	si1sahwa1d	s i: _3 . s A _2 . w A t _2	s i _1 . s A _2 . w A t _2
+ສີສະຫວັນ	si1sahwa1n	s i: _3 . s A _2 . w A n _3	s i _1 . s A _2 . w A n _3
+ສີສັດຕະນາກ	si1sa1dtanAk	s i: _3 . s A t _2 . t A _2 . n A: k _4	s i _1 . s A t _2 . t A _2 . n A: k _4
+ສີສຸລິດ	si1sulid	s i: _3 . s u _2 . l i t _1	s i _1 . s u _2 . l i t _1
+ສີສຸວັນ	si1suwa1n	s i: _3 . s u _2 . w A n _2	s i _1 . s u _2 . w A n _2
+ສີຫາວົງ	si1hAwoN	s i: _3 . h A: _3 . w o N _2	s i _1 . h A _1 . w o N _2
+ສີເຈນ	si1ecn	s i: _3 . c e: n _6	s i _1 . c e: n _6
+ສີເມືອງກຣຸບ	si1emY1ONkrub	s i: _3 . m M@ N _2 . k l u p _2
+ສີໂຄດ	si1o1K1d	s i: _3 . k_h o: t _4	s i _1 . k_h o: t _4
+ສີໂຄດຕະບອງ	si1o1K1dtabON	s i: _3 . k_h o: t _4 . t A _2 . b O: N _6	s i _1 . k_h o: t _4 . t A _1 . b O: N _6
+ສີ່	si13	s i: _1
+ສີ່ພັນ	si13P1a1n	s i: _1 . p_h A n _2	s i _1 . p_h A n _2
+ສີ່ລ້ານ	si13l4An	s i: _1 . l A: n _4	s i _1 . l A: n _4
+ສີ່ສິບ	si13sib	s i: _1 . s i p _2	s i _1 . s i p _2
+ສີ່ສິບພັນ	si13sibP1a1n	s i: _1 . s i p _2 . p_h A n _2	s i _1 . s i p _2 . p_h A n _2
+ສີ່ສິບສີ່ພັນ	si13sibsi13P1a1n	s i: _1 . s i p _2 . s i: _1 . p_h A n _2	s i _1 . s i p _2 . s i _1 . p_h A n _2
+ສີ່ສິບເອັດພັນ	si13sibeOa1dP1a1n	s i: _1 . s i p _2 . ? e t _2 . p_h A n _2	s i _1 . s i p _2 . ? e t _2 . p_h A n _2
+ສີ່ສິບແປດພັນ	si13sibe1pdP1a1n	s i: _1 . s i p _2 . p E: t _5 . p_h A n _2	s i _1 . s i p _2 . p E: t _5 . p_h A n _2
+ສີ່ຮ້ອຍ	si13h14OJ	s i: _1 . h O: j _4	s i _1 . h O: j _4
+ສີ່ແສນ	si13e1sn	s i: _1 . s E: n _3	s i _1 . s E: n _3
+ສຶກ	sYk	s M k _2
+ສຶກສາ	sYksA	s M k _2 . s A: _3
+ສຶກສາທິການ	sYksAT1ikAn	s M k _2 . s A: _3 . t_h i _1 . k A: n _6	s M k _2 . s A _1 . t_h i _1 . k A: n _6	s M k _2 . s A: _3 . t_h i _1 . k A: n _3	s M k _2 . s A _1 . t_h i _1 . k A: n _3
+ສືບຕໍ່	sY1btO13	s M: p _5 . t O: _1
+ສື່	sY13	s M: _1
+ສຸ	su	s u ? _2
+ສຸກ	suk	s u k _2
+ສຸກສົມບູນ	suksombu1n	s u k _2 . s o m _3 . b u: n _6
+ສຸຂະພາບ	suKaP1Ab	s u _2 . k_h A _2 . p_h A: p _4	s u k _2 . k_h A _1 . p_h A: p _4
+ສຸດ	sud	s u t _2
+ສຸດທ້າຍ	sudT14AJ	s u t _2 . t_h A: j _4
+ສຸດາລັກ	sudAla1k	s u _2 . d A: _6 . l A k _1	s u _2 . d A _1 . l A k _1
+ສຸພາລັກ	suP1Ala1k	s u _2 . p_h A: _2 . l A k _1	s u _2 . p_h A _1 . l A k _1
+ສຸພາວັນ	suP1Awa1n	s u _2 . p_h A: _2 . w A n _2	s u _2 . p_h A _1 . w A n _2
+ສຸພາສອນ	suP1AsOn	s u _2 . p_h A: _2 . s O: n _3	s u _2 . p_h A _1 . s O: n _3
+ສຸມ	sum	s u m _3
+ສຸລິຍະຈັນ	suliJaca1n	s u _2 . l i _1 . J A _1 . c A n _6	s u _1 . l i _1 . J A _1 . c A n _6	s u _2 . l i _1 . J A _1 . c A n _3	s u _1 . l i _1 . J A _1 . c A n _3
+ສຸລິຍາ	suliJA	s u _2 . l i _1 . J A: _2	s u _1 . l i _1 . J A: _2
+ສຸວັນ	suwa1n	s u _2 . w A n _2	s u _1 . w A n _2
+ສຸເທບ	sueT1b	s u _2 . t_h e: p _4	s u _1 . t_h e: p _4
+ສູງ	su1N	s u: N _3
+ສູນ	su1n	s u: n _3
+ສູນ_ສາມ_ໜຶ່ງ	su1n_sAm_n1Y3N	s u: n _3 . s A: m _3 . n M N _1
+ສູນກາງ	su1nkAN	s u: n _3 . k A: N _6	s u: n _3 . k A: N _3
+ສູນການຄ້າ	su1nkAnK14A	s u: n _3 . k A: n _6 . k_h A: _4
+ສູ່	su13	s u: _1
+ສູ້ຊົນ	su14s1on	s u: _5 . s o n _2	s u _1 . s o n _2
+ສົບເບົາ	sobeboA	s o p _2 . b A w _6	s o p _2 . b Ao _6
+ສົມ	som	s o m _3
+ສົມນຶກ	somnYk	s o m _3 . n M k _1
+ສົມບູນ	sombu1n	s o m _3 . b u: n _6	s o m _3 . b u: n _3
+ສົມພອນ	somP1On	s o m _3 . p_h O: n _2
+ສົມສະນຸກ	somsanuk	s o m _3 . s A _2 . n u k _1	s o m _3 . s A _1 . n u k _1
+ສົມສຸກ	somsuk	s o m _3 . s u k _2
+ສົມຮູ້ຮ່ວມຄິດ	somh1u14h13wmK1id	s o m _3 . h u: _4 . h u@ m _1 . k_h i t _1	s o m _3 . h u _1 . h u@ m _1 . k_h i t _1
+ສົມເດັດ	someda1d	s o m _3 . d e t _2
+ສົມໝາຍ	somm1AJ	s o m _3 . m A: j _3
+ສົ່ງ	so3N	s o N _1
+ສົ່ງເສີມ	so3Nesi1m	s o N _1 . s 7: m _3
+ສຽງ	sjN	s i@ N _3
+ສ່ວນ	s3wn	s u@ n _1
+ສ່ວນຕົວ	s3wntow	s u@ n _1 . t u@ _6	s u@ n _1 . t u@ _3
+ສ່ວນລວມ	s3wnlwm	s u@ n _1 . l u@ m _2
+ສ່ອງໃສ	s3ONIs	s O: N _1 . s A j _3
+ສ່ຳໃດ	s3A1Id	s A m _1 . d A j _6	s A m _1 . d A j _3
+ສ່ຽງ	s3jN	s i@ N _1
+ສ່ຽວ	s3jw	s i@ w _1
+ສ້າງ	s4AN	s A: N _5
+ສ້າງຂຶ້ນ	s4ANKY4n	s A: N _5 . k_h M n _5
+ສ້າງຊາດ	s4ANs1Ad	s A: N _5 . s A: t _4
+ສ້າງສັນ	s4ANsa1n	s A: N _5 . s A n _3
+ສ້າງສາ	s4ANsA	s A: N _5 . s A: _3
+ສໍ	sO1	s O: _3
+ຫງອຍ	hNOJ	N O: j _3
+ຫຍັງ	hJa1N	J A N _3
+ຫຍິບ	hJib	J i p _2
+ຫຍ້າ	hJ4A	J A: _5
+ຫຍໍ້ທໍ້	hJO14T1O14	J O: _5 . t_h O: _4	J O _1 . t_h O: _4
+ຫວາ	hwA	w A: _3	w A _3
+ຫວານ	hwAn	w A: n _3
+ຫວຽດ	hwjd	w i@ t _5
+ຫວຽດນາມ	hwjdnAm	w i@ t _5 . n A: m _2
+ຫວ່າງ	hw3AN	w A: N _1
+ຫອມ	hOm	h O: m _3
+ຫັນ	ha1n	h A n _3
+ຫາ	hA	h A: _3	h A _3
+ຫາກະ	hAka	h A: _3 . k A ? _2	h A _1 . k A ? _2
+ຫາຍ	hAJ	h A: j _3
+ຫາຍໂສກ	hAJo1sk	h A: j _3 . s o: k _5
+ຫາດຊາຍຟອງ	hAds1AJfON	h A: t _5 . s A: j _2 . f O: N _2
+ຫຸມພັນ	humP1a1n	h u m _3 . p_h A n _2
+ຫົກ	hok	h o k _2
+ຫົກພັນ	hokP1a1n	h o k _2 . p_h A n _2
+ຫົກລ້ອຍ	hokl4OJ	h o k _2 . l O: j _4
+ຫົກລ້ານ	hokl4An	h o k _2 . l A: n _4
+ຫົກສິບ	hoksib	h o k _2 . s i p _2
+ຫົກສິບພັນ	hoksibP1a1n	h o k _2 . s i p _2 . p_h A n _2
+ຫົກສິບສີ່ພັນ	hoksibsi13P1a1n	h o k _2 . s i p _2 . s i: _1 . p_h A n _2	h o k _2 . s i p _2 . s i _1 . p_h A n _2
+ຫົກສິບຫົກພັນ	hoksibhokP1a1n	h o k _2 . s i p _2 . h o k _2 . p_h A n _2
+ຫົກສິບຫ້າພັນ	hoksibh4AP1a1n	h o k _2 . s i p _2 . h A: _5 . p_h A n _2	h o k _2 . s i p _2 . h A _1 . p_h A n _2
+ຫົກສິບເກົ້າພັນ	hoksibeko4AP1a1n	h o k _2 . s i p _2 . k A w _4 . p_h A n _2	h o k _2 . s i p _2 . k Ao _4 . p_h A n _2
+ຫົກສິບເຈັດພັນ	hoksibeca1dP1a1n	h o k _2 . s i p _2 . c e t _2 . p_h A n _2
+ຫົກຮ້ອຍ	hokh14OJ	h o k _2 . h O: j _4
+ຫົກແສນ	hoke1sn	h o k _2 . s E: n _3
+ຫົງສາ	hoNsA	h o N _3 . s A: _3
+ຫົນທາງ	honT1AN	h o n _3 . t_h A: N _2
+ຫົວເມືອງຂຶ້ນ	howemY1ONKY4n	h u@ _3 . m M@ N _2 . k_h M n _5
+ຫົວໜ້າ	hown14A	h u@ _3 . n A: _5
+ຫົວໜ້າກົມ	hown14Akom	h u@ _3 . n A: _5 . k o m _6	h u@ _3 . n A _1 . k o m _6	h u@ _3 . n A: _5 . k o m _3	h u@ _3 . n A _1 . k o m _3
+ຫຼວງພະບາງ	hl1wNP1abAN	l u@ N _3 . p_h A _1 . b A: N _6	l u@ N _3 . p_h A _1 . b A: N _3
+ຫຼວງຫຼາຍ	hl1wNhl1AJ	l u@ N _3 . l A: j _3
+ຫຼັກ	hl1a1k	l A k _2
+ຫຼັກການ	hl1a1kkAn	l A k _2 . k A: n _6
+ຫຼັງ	hl1a1N	l A N _3
+ຫຼາຍ	hl1AJ	l A: j _3
+ຫຼານ	hl1An	l A: n _3
+ຫຼິ້ນ	hl1i4n	l i n _5
+ຫຼີກລ້ຽງ	hl1i1kl4jN	l i: k _5 . l i@ N _4
+ຫຼື	hl1Y1	l M: _3
+ຫຼືວ່າ	hl1Y1w3A	l M: _3 . w A: _1	l M _1 . w A: _1
+ຫຼຸດລົງ	hl1udloN	l u t _2 . l o N _2
+ຫຼຽນໄຊ	hl1jnI1s1	l i@ n _3 . s A j _2
+ຫຼ້າ	hl14A	l A: _5
+ຫຼ້າສຸດ	hl14Asud	l A: _5 . s u t _2	l A _1 . s u t _2	l A _4 . s u t _2
+ຫ້ວຍ	h4wJ	h u@ j _5
+ຫ້ວຍກາງ	h4wJkAN	h u@ j _5 . k A: N _6
+ຫ້ອງ	h4ON	h O: N _5
+ຫ້ອງການ	h4ONkAn	h O: N _5 . k A: n _6
+ຫ້ອງນ້ຳ	h4ONn4A1	h O: N _5 . n A m _4	h O: N _5 . n A: m _4
+ຫ້ອງປະຊຸມ	h4ONpas1um	h O: N _5 . p A _2 . s u m _2	h O: N _5 . p A _1 . s u m _2
+ຫ້ອງວ່າການ	h4ONw3AkAn	h O: N _5 . w A: _1 . k A: n _6	h O: N _5 . w A _1 . k A: n _6
+ຫ້າ	h4A	h A: _5
+ຫ້າງຫາກະກຽມ	h4ANhAkakjm	h A: N _5 . h A: _3 . k A _2 . k i@ m _6	h A: N _5 . h A _1 . k A _2 . k i@ m _6	h A: N _5 . h A: _3 . k A _2 . k i@ m _3	h A: N _5 . h A _1 . k A _2 . k i@ m _3
+ຫ້າພັນ	h4AP1a1n	h A: _5 . p_h A n _2	h A _1 . p_h A n _2
+ຫ້າມ	h4Am	h A: m _5
+ຫ້າລ້ານ	h4Al4An	h A: _5 . l A: n _4	h A _1 . l A: n _4
+ຫ້າສິບ	h4Asib	h A: _5 . s i p _2	h A _1 . s i p _2
+ຫ້າສິບພັນ	h4AsibP1a1n	h A: _5 . s i p _2 . p_h A n _2	h A _1 . s i p _2 . p_h A n _2
+ຫ້າສິບສີ່ພັນ	h4Asibsi13P1a1n	h A: _5 . s i p _2 . s i: _1 . p_h A n _2	h A _1 . s i p _2 . s i _1 . p_h A n _2
+ຫ້າສິບຫົກລ້ານ	h4Asibhokl4An	h A: _5 . s i p _2 . h o k _2 . l A: n _4	h A _1 . s i p _2 . h o k _2 . l A: n _4
+ຫ້າຮ້ອຍ	h4Ah14OJ	h A: _5 . h O: j _4	h A _1 . h O: j _4
+ຫ້າແສນ	h4Ae1sn	h A: _5 . s E: n _3	h A _1 . s E: n _3
+ຫໍ່	hO13	h O: _1	h O _1
+ອວດ	Owd	? u@ t _5
+ອອກ	OOk	? O: k _5
+ອອກມາ	OOkmA	? O: k _5 . m A: _2
+ອອກໄປ	OOkI1p	? O: k _5 . p A j _6
+ອະນາຄົດ	OanAK1od	? A _2 . n A: _2 . k_h o t _1	? A _1 . n A _1 . k_h o t _1
+ອະນຸຍາດ	OanuJAd	? A _2 . n u _1 . J A: t _4	? A _1 . n u _1 . J A: t _4
+ອະນຸບານ	OanubAn	? A _2 . n u _1 . b A: n _6
+ອະນຸມັດ	Oanuma1d	? A _2 . n u _1 . m A t _1	? A _1 . n u _1 . m A t _1
+ອະນຸລັກ	Oanula1k	? A _2 . n u _1 . l A k _1	? A _1 . n u _1 . l A k _1
+ອະນຸສອນ	OanusOn	? A _2 . n u _1 . s O: n _3	? A _1 . n u _1 . s O: n _3
+ອະນຸສາວະລີ	OanusAwali1	? A _2 . n u _1 . s A: _3 . w A _1 . l i: _2	? A _1 . n u _1 . s A _1 . w A _1 . l i: _2
+ອະນຸໄຊ	OanuI1s1	? A _2 . n u _1 . s A j _2	? A _1 . n u _1 . s A j _2
+ອັງກິດ	Oa1Nkid	? A N _6 . k i t _2
+ອັງຄານ	Oa1NK1An	? A N _6 . k_h A: n _2
+ອັດ	Oa1d	? A t _2
+ອັນ	Oa1n	? A n _6	? A n _3
+ອັນຕະລາຍ	Oa1ntalAJ	? A n _6 . t A _2 . l A: j _2	? A n _6 . t A _1 . l A: j _2
+ອັນຖືກຕ້ອງ	Oa1nTY1kt4ON	? A n _6 . t_h M: k _5 . t O: N _4
+ອັນນ່າ	Oa1nn3A	? A n _6 . n A: _1
+ອັ່ງ	Oa13N	? A N _1
+ອາ	OA	? A: _6	? A: _3
+ອາກາດ	OAkAd	? A: _6 . k A: t _5	? A _1 . k A: t _5
+ອາການ	OAkAn	? A: _6 . k A: n _6	? A _1 . k A: n _6
+ອາຄານ	OAK1An	? A: _6 . k_h A: n _2	? A _1 . k_h A: n _2
+ອາຊີ	OAs1i1	? A: _6 . s i: _2	? A _1 . s i: _2
+ອາຊຽນ	OAs1jn	? A: _6 . s i@ n _2	? A _1 . s i@ n _2	? A: _6 . s i@ n _4	? A _1 . s i@ n _4
+ອາຊຽນມໍ	OAs1jnmO1	? A: _6 . s i@ n _2 . m O: _2	? A _1 . s i@ n _4 . m O: _2
+ອາຍຸ	OAJu	? A: _6 . J u ? _1
+ອາດ	OAd	? A: t _5
+ອາດຈະ	OAdca	? A: t _5 . c A ? _2
+ອາທິດ	OAT1id	? A: _6 . t_h i t _1	? A _1 . t_h i t _1
+ອານາຈັກ	OAnAca1k	? A: _6 . n A: _2 . c A k _2	? A _1 . n A _1 . c A k _2
+ອານຸສອນ	OAnusOn	? A _2 . n u _1 . s O: n _3	? A _1 . n u _1 . s O: n _3
+ອານຸສັກ	OAnusa1k	? A _2 . n u _1 . s A k _2	? A _1 . n u _1 . s A k _2
+ອາລິພອນ	OAliP1On	? A: _6 . l i _1 . p_h O: n _2	? A _1 . l i _1 . p_h O: n _2
+ອາລົມ	OAlom	? A: _6 . l o m _2	? A _1 . l o m _2
+ອາວຸໂສ	OAwuo1s	? A: _6 . w u _1 . s o: _3	? A _1 . w u _1 . s o: _3
+ອາຫານ	OAhAn	? A: _6 . h A: n _3	? A _1 . h A: n _3
+ອາເຊັມ	OAes1a1m	? A: _6 . s e m _2	? A _1 . s e m _2
+ອຳນວຍການ	OA1nwJkAn	? A m _6 . n u@ j _2 . k A: n _6
+ອຳນາດ	OA1nAd	? A m _6 . n A: t _4
+ອິນຄຳວົງ	OinK1A1woN	? i n _6 . k_h A m _2 . w o N _2
+ອິນທະວົງ	OinT1awoN	? i n _6 . t_h A _1 . w o N _2
+ອິນທາໂກ	OinT1Ao1k	? i n _6 . t_h A: _2 . k o: _6	? i n _6 . t_h A _1 . k o: _6	? i n _6 . t_h A: _2 . k o: _3	? i n _6 . t_h A _1 . k o: _3
+ອິນເດຍ	OinedJ	? i n _6 . d i@ _6
+ອິນເຕີ	Oineti1	? i n _6 . t 7: _6
+ອິນໂດຄຣຸດ	Oino1dK1rud	? i n _6 . d o: _6 . k_h l u t _1
+ອິນໂດເນເຊຍ	Oino1denes1J	? i n _6 . d o: _6 . n e: _2 . s i@ _2	? i n _6 . d o _1 . n e _1 . s i@ _2
+ອິນໂດໄຊນາ	Oino1dI1s1nA	? i n _6 . d o: _6 . s A j _2 . n A: _2
+ອີກ	Oi1k	? i: k _5
+ອີກຕື່ມ	Oi1ktY13m	? i: k _5 . t M: m _1
+ອີກໃຫ້	Oi1kIh4	? i: k _5 . h A j _5
+ອີ່ໄລ	Oi13I1l	? i: _1 . l A j _2	? i _1 . l A j _2
+ອື່ນ	OY13n	? M: n _1	? M n _1
+ອຸດອນ	OudOn	? u _2 . d O: n _6	? u _1 . d O: n _6
+ອຸດົມສັກ	Oudomsa1k	? u _2 . d o m _6 . s A k _2	? u _1 . d o m _6 . s A k _2
+ອຸດົມໄຊ	OudomI1s1	? u _2 . d o m _6 . s A j _2	? u _1 . d o m _6 . s A j _2
+ອຸດໜູນ	Oudn1u1n	? u t _2 . n u: n _3
+ອຸບັດເຫດ	Ouba1dehd	? u _2 . b A t _2 . h e: t _5	? u _1 . b A t _2 . h e: t _5
+ອຸປະກອນ	OupakOn	? u _2 . p A _2 . k O: n _6	? u _1 . p A _1 . k O: n _6	? u _2 . p A _2 . k O: n _3	? u _1 . p A _1 . k O: n _3
+ອຸປະສັກ	Oupasa1k	? u _2 . p A _2 . s A k _2	? u _1 . p A _1 . s A k _2
+ອູ່	Ou13	? u: _1
+ອົງກອນ	OoNkOn	? o N _6 . k O: n _6	? o N _6 . k O: n _3
+ອົງການ	OoNkAn	? o N _6 . k A: n _6	? o N _6 . k A: n _3
+ອົບ	Oob	? o p _2
+ອົບອຸ່ນ	OobOu3n	? o p _2 . ? u n _1
+ອ່ອນ	O3On	? O: n _1
+ອ່ອນລາວົງ	O3OnlAwoN	? O: n _1 . l A: _2 . w o N _2	? O: n _1 . l A _1 . w o N _2
+ອ່ານ	O3An	? A: n _1
+ອ້າຍ	O4AJ	? A: j _4
+ອໍເກັນ	OO1eka1n	? O: _6 . k e n _6	? O _1 . k e n _6
+ຮວບຮວມ	h1wbh1wm	h u@ p _4 . h u@ m _2
+ຮອງ	h1ON	h O: N _2
+ຮອງປະທານປະເທດ	h1ONpaT1AnpaeT1d	h O: N _2 . p A _2 . t_h A: n _2 . p A _2 . t_h e: t _4	h O: N _2 . p A _1 . t_h A: n _2 . p A _1 . t_h e: t _4
+ຮອດ	h1Od	h O: t _4
+ຮອບດ້ານ	h1Obd4An	h O: p _4 . d A: n _4
+ຮັກ	h1a1k	h A k _1
+ຮັກພົມທອງ	h1a1kP1omT1ON	h A k _1 . p_h o m _2 . t_h O: N _2
+ຮັກສາ	h1a1ksA	h A k _1 . s A: _3
+ຮັດແໜ້ນ	h1a1de1n14n	h A t _1 . n E: n _5
+ຮັບ	h1a1b	h A p _1
+ຮັບປະທານ	h1a1bpaT1An	h A p _1 . p A _2 . t_h A: n _2	h A p _1 . p A _1 . t_h A: n _2
+ຮັບຮອງ	h1a1bh1ON	h A p _1 . h O: N _2
+ຮາຈິຮັດຊາ	h1Acih1a1ds1A	h A: _2 . c i _2 . h A t _1 . s A: _2	h A _1 . c i _2 . h A t _1 . s A _4
+ຮື້ຟື້ນ	h1Y14fY14n	h M: _4 . f M: n _4	h M _1 . f M: n _4
+ຮູບ	h1u1b	h u: p _4	h u p _4
+ຮູບການ	h1u1bkAn	h u: p _4 . k A: n _6	h u: p _4 . k A: n _3
+ຮູບຊົງ	h1u1bs1oN	h u: p _4 . s o N _2
+ຮູ້	h1u14	h u: _4
+ຮູ້ສຶກ	h1u14sYk	h u: _4 . s M k _2	h u _1 . s M k _2
+ຮົ່ມ	h1o3m	h o m _1
+ຮຽກຮ້ອງ	h1jkh14ON	h i@ k _4 . h O: N _4
+ຮຽນ	h1jn	h i@ n _2
+ຮຽນຕໍ່	h1jntO13	h i@ n _2 . t O: _1
+ຮຽນຮູ້	h1jnh1u14	h i@ n _2 . h u: _4
+ຮຽບຮ້ອຍ	h1jbh14OJ	l i@ p _4 . l O: j _4
+ຮຽມ	h1jm	h i@ m _2
+ຮ່ວມ	h13wm	h u@ m _1
+ຮ່ອງ	h13ON	h O: N _1
+ຮ່ອງຮອຍ	h13ONh1OJ	h O: N _1 . h O: j _2
+ຮ່າງ	h13AN	h A: N _1
+ຮ່ຳຮຽນ	h13A1h1jn	h A m _1 . h i@ n _2
+ຮ້ອຍ	h14OJ	h O: j _4
+ຮ້ານ	h14An	h A: n _4
+ຮ້ານຄ້າ	h14AnK14A	h A: n _4 . k_h A: _4
+ຮ້ານສັບພະສິນຄ້າ	h14Ansa1bP1asinK14A	h A: n _4 . s A p _2 . p_h A _1 . s i n _3 . k_h A: _4
+ເກດ	ekd	k e: t _5
+ເກີດ	eki1d	k 7: t _5
+ເກີນ	eki1n	k 7: n _6	k 7: n _3
+ເກືອບ	ekY1Ob	k M@ p _5
+ເກົ່າ	eko3A	k A w _1	k Ao _1
+ເກົ້າ	eko4A	k A w _4	k Ao _4
+ເກົ້າພັນ	eko4AP1a1n	k A w _4 . p_h A n _2	k Ao _4 . p_h A n _2
+ເກົ້າລ້ອຍ	eko4Al4OJ	k A w _4 . l O: j _4	k Ao _4 . l O: j _4
+ເກົ້າລ້ານ	eko4Al4An	k A w _4 . l A: n _4	k Ao _4 . l A: n _4
+ເກົ້າສິບ	eko4Asib	k Ao _4 . s i p _2	k A w _4 . s i p _2
+ເກົ້າສິບເອັດພັນ	eko4AsibeOa1dP1a1n	k A w _4 . s i p _2 . ? e t _2 . p_h A n _2	k Ao _4 . s i p _2 . ? e t _2 . p_h A n _2
+ເກົ້າຮ້ອຍ	eko4Ah14OJ	k A w _4 . h O: j _4	k Ao _4 . h O: j _4
+ເຂດ	eKd	k_h e: t _5
+ເຂັມ	eKa1m	k_h e m _3
+ເຂື່ອນໄຟຟ້ານ້ຳຕົກ	eKY13OnI1ff4An4A1tok	k_h M@ n _1 . f A j _2 . f A: _4 . n A m _4 . t o k _2	k_h M@ n _1 . f A j _2 . f A _1 . n A m _4 . t o k _2
+ເຂົາ	eKoA	k_h A w _3	k_h Ao _3
+ເຂົາເຈົ້າ	eKoAeco4A	k_h A w _3 . c A w _4	k_h Ao _3 . c Ao _4
+ເຂົ້າ	eKo4A	k_h A w _5	k_h Ao _5
+ເຂົ້ານາແຊງ	eKo4AnAe1s1N	k_h A w _5 . n A: _2 . s E: N _2	k_h Ao _5 . n A: _2 . s E: N _2	k_h A w _5 . n A _1 . s E: N _2	k_h Ao _5 . n A _1 . s E: N _2
+ເຂົ້າອົກເຂົ້າໃຈ	eKo4AOokeKo4AIc	k_h A w _5 . ? o k _2 . k_h A w _5 . c A j _6	k_h A w _5 . ? o k _2 . k_h A w _5 . c A j _3	k_h Ao _5 . ? o k _2 . k_h Ao _5 . c A j _6	k_h Ao _5 . ? o k _2 . k_h Ao _5 . c A j _3
+ເຂົ້າໜົມ	eKo4An1om	k_h A w _5 . n o m _3	k_h Ao _5 . n o m _3	k_h A w _1 . n o m _3	k_h Ao _1 . n o m _3
+ເຄາະຮ້າຍ	eK1Aah14AJ	k_h O _1 . h A: j _4
+ເຄິ່ງ	eK1i3N	k_h 7 N _1
+ເຄີຍ	eK1i1J	k_h 7: j _2
+ເຄືອງ	eK1Y1ON	k_h M@ N _2
+ເຄືອເຂົາວັນ	eK1Y1OeKoAwa1n	k_h M@ _2 . k_h A w _3 . w A n _2
+ເຄື່ອງ	eK1Y13ON	k_h M@ N _1
+ເຄື່ອນ	eK1Y13On	k_h M@ n _1
+ເຄື່ອນຍ້າຍ	eK1Y13OnJ4AJ	k_h M@ n _1 . J A: j _4
+ເຄື່ອນທີ່	eK1Y13OnT1i13	k_h M@ n _1 . t_h i: _1
+ເງິນ	eNin	N 7 n _2
+ເງິນກູ້	eNinku14	N 7 n _2 . k u: _4
+ເງື່ອນໄຂ	eNY13OnI1K	N M@ n _1 . k_h A j _3
+ເຈ	ec	c e: _6	c e: _3
+ເຈັດ	eca1d	c e t _2
+ເຈັດພັນ	eca1dP1a1n	c e t _2 . p_h A n _2
+ເຈັດລ້ອຍ	eca1dl4OJ	c e t _2 . l O: j _4
+ເຈັດລ້ານ	eca1dl4An	c e t _2 . l A: n _4
+ເຈັດສິບ	eca1dsib	c e t _2 . s i p _2
+ເຈັດສິບພັນ	eca1dsibP1a1n	c e t _2 . s i p _2 . p_h A n _2
+ເຈັດຮ້ອຍ	eca1dh14OJ	c e t _2 . h O: j _4
+ເຈັດແສນ	eca1de1sn	c e t _2 . s E: n _3
+ເຈັບເປັນ	eca1bepa1n	c e p _2 . p e n _6	c e p _2 . p e n _3
+ເຈື່ອນ	ecY13On	c M@ n _1
+ເຈົ້າ	eco4A	c A w _4	c Ao _4
+ເຈົ້າການ	eco4AkAn	c A w _4 . k A: n _6	c Ao _4 . k A: n _6
+ເຈົ້າຂອງ	eco4AKON	c A w _4 . k_h O: N _3	c Ao _4 . k_h O: N _3
+ເຈົ້າຊາຍ	eco4As1AJ	c A w _4 . s A: j _2	c Ao _4 . s A: j _2
+ເຈົ້າຍິງ	eco4AJiN	c A w _4 . J i N _2	c Ao _4 . J i N _2
+ເຈົ້າພາບ	eco4AP1Ab	c A w _4 . p_h A: p _4	c Ao _4 . p_h A: p _4
+ເຈົ້າແຂວງ	eco4Ae1KwN	c A w _4 . k_h w E: N _3	c A w _4 . k_h u _2 . w E: N _3	c A w _4 . k_h u _1 . w E: N _3	c A w _4 . k_h u _1 . ? E: N _3
+ເຈົ້າໜ້າທີ່	eco4An14AT1i13	c A w _4 . n A: _5 . t_h i: _1	c Ao _4 . n A: _5 . t_h i: _1	c A w _4 . n A _1 . t_h i: _1	c Ao _4 . n A _1 . t_h i: _1
+ເຈົ້າໝອມ	eco4Am1Om	c A w _4 . m O: m _3	c Ao _4 . m O: m _3
+ເຊກອງ	es1kON	s e: _2 . k O: N _6	s e _1 . k O: N _6	s e: _2 . k O: N _3	s e _1 . k O: N _3
+ເຊັນ	es1a1n	s e n _2
+ເຊັ່ນດຽວກັນ	es1a13ndjwka1n	s e n _1 . d i@ w _6 . k A n _6
+ເຊິ່ງ	es1i3N	s 7 N _1
+ເຊິ່ງກັນແລະກັນ	es1i3Nka1ne1laka1n	s 7 N _1 . k A n _6 . l E _1 . k A n _6
+ເຊີນ	es1i1n	s 7: n _2
+ເຊື່ອມ	es1Y13Om	s M@ m _1
+ເຊື່ອມຊຶມ	es1Y13Oms1Ym	s M@ m _1 . s M m _2
+ເຊື້ອຊາດ	es1Y14Os1Ad	s M@ _4 . s A: t _4
+ເຊົ້າ	es1o4A	s A w _4	s Ao _4
+ເຊໂປນ	es1o1pn	s e: _2 . p o: n _6	s e _1 . p o: n _6	s e: _2 . p o: n _3	s e _1 . p o: n _3
+ເຍົາວະຊົນ	eJoAwas1on	J A w _2 . w A _1 . s o n _2	J Ao _2 . w A _1 . s o n _2
+ເດັກ	eda1k	d e k _2
+ເດັກຊາຍ	eda1ks1AJ	d e k _2 . s A: j _2
+ເດັກນ້ອຍ	eda1kn4OJ	d e k _2 . n O: j _4
+ເດັດດ່ຽວ	eda1dd3jw	d e t _2 . d i@ w _1
+ເດິກ	edik	d 7 k _2
+ເດີນທາງ	edi1nT1AN	d 7: n _6 . t_h A: N _2
+ເດີ່ນ	edi13n	d 7: n _1
+ເດືອນ	edY1On	d M@ n _6	d M@ n _3
+ເດືອນສອງ	edY1OnsON	d M@ n _6 . s O: N _3
+ເດືອນສະຫວັນ	edY1Onsahwa1n	d M@ n _6 . s A _2 . w A n _3	d M@ n _6 . s A _1 . w A n _3
+ເດືອນສາມ	edY1OnsAm	d M@ n _6 . s A: m _3
+ເດືອນສິບ	edY1Onsib	d M@ n _6 . s i p _2
+ເດືອນສິບສອງ	edY1OnsibsON	d M@ n _6 . s i p _2 . s O: N _3
+ເດືອນສິບເອັດ	edY1OnsibeOa1d	d M@ n _6 . s i p _2 . ? e t _2
+ເດືອນສີ່	edY1Onsi13	d M@ n _6 . s i: _1
+ເດືອນຫົກ	edY1Onhok	d M@ n _6 . h o k _2
+ເດືອນຫ້າ	edY1Onh4A	d M@ n _6 . h A: _5
+ເດືອນເກົ້າ	edY1Oneko4A	d M@ n _6 . k A w _4	d M@ n _6 . k Ao _4
+ເດືອນເຈັດ	edY1Oneca1d	d M@ n _6 . c e t _2
+ເດືອນແປດ	edY1One1pd	d M@ n _6 . p E: t _5
+ເດືອນໜຶ່ງ	edY1Onn1Y3N	d M@ n _6 . n M N _1
+ເຕັກໂນໂລຊີ	eta1ko1no1ls1i1	t e k _2 . n o: _2 . l o: _2 . s i: _2	t e k _2 . n o _1 . l o _1 . s i: _2
+ເຕັ້ນ	eta14n	t e n _4
+ເຕີບໂຕ	eti1bo1t	t 7: p _5 . t o: _6	t 7: p _5 . t o: _3
+ເຕ້ຍ	et4J	t i@ _4
+ເຖິງ	eTiN	t_h 7 N _3
+ເຖິງວ່າ	eTiNw3A	t_h 7 N _3 . w A: _1
+ເຖິງແມ່ນວ່າ	eTiNe1m3nw3A	t_h 7 N _3 . m E: n _1 . w A: _1
+ເຖີດ	eTi1d	t_h 7: t _5
+ເທຣນ	eT1rn	t_h l e: _2
+ເທິງ	eT1iN	t_h 7 N _2
+ເທື່ອ	eT1Y13O	t_h M@ _1
+ເທົ່ານັ້ນ	eT1o3Ana14n	t_h A w _1 . n A n _4	t_h Ao _1 . n A n _4
+ເນື່ອງຈາກ	enY13ONcAk	n M@ N _1 . c A: k _5
+ເນື່ອງຈາກວ່າ	enY13ONcAkw3A	n M@ N _1 . c A: k _5 . w A: _1
+ເນື້ອໃນ	enY14OIn	n M@ _4 . n A j _2
+ເນົາວະລັດ	enoAwala1d	n A w _2 . w A _1 . l A t _1	n Ao _2 . w A _1 . l A t _1
+ເບຍ	ebJ	b i@ _6	b i@ _3
+ເບທາໂກ	ebT1Ao1k	b e: _6 . t_h A: _2 . k o: _6	b e _1 . t_h A _1 . k o: _4
+ເບິ່ງ	ebi3N	b 7 N _1
+ເບິ່ງຄື	ebi3NK1Y1	b 7 N _1 . k_h M: _2
+ເບື້ອງຕົ້ນ	ebY14ONto4n	b M@ N _4 . t o n _4
+ເບ້ຍ	eb4J	b i@ _4
+ເປັນ	epa1n	p e n _6	p e n _3
+ເປັນຕົ້ນ	epa1nto4n	p e n _6 . t o n _4
+ເປັນທາງການ	epa1nT1ANkAn	p e n _6 . t_h A: N _2 . k A: n _6	p e n _6 . t_h A: N _2 . k A: n _3
+ເປັນສ່ວນ	epa1ns3wn	p e n _6 . s u@ n _1
+ເປີດ	epi1d	p 7: t _5
+ເປົ້າ	epo4A	p A w _4	p Ao _4
+ເປົ້າໝາຍ	epo4Am1AJ	p A w _4 . m A: j _3	p Ao _4 . m A: j _3
+ເຜິ້ງ	ePi4N	p_h 7 N _5
+ເຜົ່າ	ePo3A	p_h A w _1	p_h Ao _1
+ເພງ	eP1N	p_h e: N _2	p_h e N _2
+ເພັງລາໄຊ	eP1a1NlAI1s1	p_h e N _2 . l A: _2 . s A j _2	p_h e N _2 . l A _1 . s A j _2
+ເພັດ	eP1a1d	p_h e t _1
+ເພັດຈະເລີນ	eP1a1dcaeli1n	p_h e t _1 . c A _2 . l 7: n _2	p_h e t _1 . c A _1 . l 7: n _2
+ເພັດສະໄໝ	eP1a1dsaI1m1	p_h e t _1 . s A _2 . m A j _3	p_h e t _1 . s A _1 . m A j _3
+ເພັດສະໝອນ	eP1a1dsam1On	p_h e t _1 . s A _2 . m O: n _3	p_h e t _1 . s A _1 . m O: n _3
+ເພັດສັງຫານ	eP1a1dsa1NhAn	p_h e t _1 . s A N _3 . h A: n _3
+ເພາະ	eP1Aa	p_h O ? _1
+ເພິ່ງ	eP1i3N	p_h 7 N _1
+ເພິ່ນ	eP1i3n	p_h 7 n _1
+ເພີ່ມ	eP1i13m	p_h 7: m _1
+ເພີ່ມຂຶ້ນ	eP1i13mKY4n	p_h 7: m _1 . k_h M n _5
+ເພືອພົມ	eP1Y1OP1om	p_h M@ _2 . p_h o m _2
+ເພື່ອ	eP1Y13O	p_h M@ _1
+ເມສາ	emsA	m e: _2 . s A: _3	m e _1 . s A: _3
+ເມືອ	emY1O	m M@ _2
+ເມືອງ	emY1ON	m M@ N _2
+ເມື່ອ	emY13O	m M@ _1
+ເມື່ອກ່ອນ	emY13Ok3On	m M@ _1 . k O: n _1
+ເຢຍລະມັນ	eyJlama1n	j i@ _6 . l A _1 . m A n _2
+ເຢັນ	eya1n	j e n _6	j e n _3
+ເລຂາ	elKA	l e: _2 . k_h A: _3	l e _1 . k_h A: _3
+ເລຂາທິການ	elKAT1ikAn	l e: _2 . k_h A: _3 . t_h i _1 . k A: n _6	l e _1 . k_h A _1 . t_h i _1 . k A: n _6	l e: _2 . k_h A: _3 . t_h i _1 . k A: n _3	l e _1 . k_h A _1 . t_h i _1 . k A: n _3
+ເລັກ	ela1k	l e k _1
+ເລັກນ້ອຍ	ela1kn4OJ	l e k _1 . n O: j _4
+ເລັ່ງ	ela13N	l e N _1
+ເລັ່ງລັດ	ela13Nla1d	l e N _1 . l A t _1
+ເລີກ	eli1k	l 7: k _4
+ເລີຍ	eli1J	l 7: j _2
+ເລີ່ມ	eli13m	l 7: m _1
+ເລືອກເຟັ້ນ	elY1Okefa14n	l M@ k _4 . f e n _4
+ເລື່ອງ	elY13ON	l M@ N _1
+ເລື້ອຍ	elY14OJ	l M@ j _4
+ເລົ່າງາມ	elo3ANAm	l A w _1 . N A: m _2	l Ao _1 . N A: m _2
+ເລ້	el4	l e: _4
+ເວທີ	ewT1i1	w e: _2 . t_h i: _2	w e _1 . t_h i: _2
+ເວລາ	ewlA	w e: _2 . l A: _2
+ເວົ້າ	ewo4A	w A w _4	w Ao _4
+ເສຍ	esJ	s i@ _3
+ເສຍສະລະ	esJsala	s i@ _3 . s A _2 . l A ? _1	s i@ _3 . s A _1 . l A ? _1
+ເສດຖະກິດ	esdTakid	s e: t _5 . t_h A _2 . k i t _2	s e: t _5 . t_h A _1 . k i t _2
+ເສລີພາບ	esli1P1Ab	s e: _3 . l i: _2 . p_h A: p _4
+ເສັ້ນທາງ	esa14nT1AN	s e n _5 . t_h A: N _2
+ເສິເຕີ້ໝຶ່ງ	esieti14m1Y3N	s 7 _2 . t 7: _4 . m M N _1	s 7 _2 . t 7 _1 . m M N _1
+ເສິເຕີໝິງ	esieti1m1iN	s 7 _2 . t 7: _6 . m i N _3	s 7 _2 . t 7 _1 . m i N _3
+ເສີມ	esi1m	s 7: m _3
+ເສີມສ້າງ	esi1ms4AN	s 7: m _3 . s A: N _5
+ເຫຍື່ອ	ehJY13O	J M@ _1
+ເຫດ	ehd	h e: t _5
+ເຫັນ	eha1n	h e n _3
+ເຫັນໃຈ	eha1nIc	h e n _3 . c A j _6	h e n _3 . c A j _3
+ເຫັນໄດ້	eha1nI1d4	h e n _3 . d A j _4
+ເຫື່ອແຮງ	ehY13Oe1h1N	h M@ _1 . h E: N _2
+ເຫຼັກກ້າ	ehl1a1kk4A	l e k _2 . k A: _4
+ເຫຼົ່ານີ້	ehl1o3Ani14	l A w _1 . n i: _4	l Ao _1 . n i: _4
+ເຫຼົ້າ	ehl1o4A	l A w _5	l Ao _5
+ເອກ	eOk	? e: k _5
+ເອກະຊົນ	eOkas1on	? e: _6 . k A _2 . s o n _2	? e _1 . k A _1 . s o n _2	? e: k _5 . k A _2 . s o n _2	? e k _1 . k A _1 . s o n _2
+ເອກະພາບ	eOkaP1Ab	? e: _6 . k A _1 . p_h A: p _4	? e _1 . k A _1 . p_h A: p _4	? e: k _5 . k A _1 . p_h A: p _4
+ເອກະລັກ	eOkala1k	? e: _6 . k A _2 . l A k _1	? e: k _5 . k A _1 . l A k _1
+ເອກະສານ	eOkasAn	? e: _6 . k A _1 . s A: n _3	? e _1 . k A _1 . s A: n _3
+ເອງ	eON	? e: N _6	? e: N _3
+ເອັດ	eOa1d	? e t _2
+ເອັດສະເພຣສ	eOa1dsaeP1rs	? e t _2 . s A _1 . p_h l e: t _4
+ເອັມພານຸພາກ	eOa1mP1AnuP1Ak	? e m _6 . p_h A: _2 . n u _1 . p_h A: k _4	? e m _6 . p_h A _1 . n u _1 . p_h A: k _4
+ເອີ	eOi1	? 7: _6	? 7: _1	? 7: _3	? 7 _1
+ເອີຣົບ	eOi1rob	? 7: _6 . l o p _1	? 7 _1 . l o p _1
+ເອີ້ນວ່າ	eOi14nw3A	? 7: n _4 . w A: _1
+ເອົາ	eOoA	? A w _6	? Ao _6	? A w _3	? Ao _3
+ເອົາໃຈໃສ່	eOoAIcIs3	? A w _6 . c A j _6 . s A j _1	? Ao _6 . c A j _6 . s A j _1
+ເອົ້າ	eOo4A	? Ao _4	? A w _4
+ເຮຮາ	eh1h1A	h e: _2 . h A: _2	h e _1 . h A: _2
+ເຮັດ	eh1a1d	h e t _1
+ເຮືອ	eh1Y1O	h M@ _2
+ເຮືອງ	eh1Y1ON	h M@ N _2
+ເຮືອນ	eh1Y1On	h M@ n _2
+ເຮືອນຄຽງ	eh1Y1OnK1jN	h M@ n _2 . k_h i@ N _2
+ເຮືອນຢູ່ອາໄສ	eh1Y1Onyu13OAI1s	h M@ n _2 . j u: _1 . ? A: _6 . s A j _3	h M@ n _2 . j u _1 . ? A _1 . s A j _3
+ເຮົາ	eh1oA	h A w _2	h Ao _2
+ເໝາະ	em1Aa	m O ? _2
+ເໝາະສົມ	em1Aasom	m O _2 . s o m _3	m O _1 . s o m _3
+ແກ່	e1k3	k E: _1
+ແກ່ນປະເສີດກໍ່ສ້າງ	e1k3npaesi1dkO13s4AN	k E: n _1 . p A _2 . s 7: t _5 # k O: _1 . s A: N _5	k E: n _1 . p A _2 . s 7: t _5 # k O _1 . s A: N _5
+ແກ້ວ	e1k4w	k E: w _4
+ແກ້ວກາງເພັງ	e1k4wkANeP1a1N	k E: w _4 . k A: N _6 . p_h e N _2
+ແກ້ວດາລາແສງ	e1k4wdAlAe1sN	k E: w _4 . d A: _6 . l A: _2 . s E: N _3	k E: w _4 . d A _1 . l A _1 . s E: N _3
+ແກ້ວປັນຍາ	e1k4wpa1nJA	k E: w _4 . p A n _6 . J A: _2
+ແກ້ວມີໄຊ	e1k4wmi1I1s1	k E: w _4 . m i: _2 . s A j _2	k E: w _4 . m i _1 . s A j _2
+ແກ້ວມຸກດາ	e1k4wmukdA	k E: w _4 . m u k _1 . d A: _6
+ແກ້ວອຸ່ນຄຳ	e1k4wOu3nK1A1	k E: w _4 . ? u n _1 . k_h A m _2
+ແກ້ວໄຊຍະຈັກ	e1k4wI1s1Jaca1k	k E: w _4 . s A j _2 . J A _1 . c A k _2
+ແກ້ໄຂ	e1k4I1K	k E: _4 . k_h A j _3
+ແຂງແຮງ	e1KNe1h1N	k_h E: N _3 . h E: N _2
+ແຂວງ	e1KwN	k_h w E: N _3	k_h u _2 . w E: N _2	k_h u _1 . w E: N _2	k_h u _1 . ? E: N _2
+ແຄມ	e1K1m	k_h E: m _2
+ແຈັກ	e1ca1k	c E k _2
+ແຈ້ງ	e1c4N	c E: N _4
+ແຊ່	e1s13	s E: _1
+ແຍກ	e1Jk	J E: k _4
+ແຍ້	e1J4	J E: _4
+ແດນ	e1dn	d E: n _6	d E: n _3
+ແດວຕາ	e1dwtA	d E: w _6 . t A: _6
+ແດວູ	e1dwu1	d E: _6 . w u: _2	d E _1 . w u: _4
+ແດ່	e1d3	d E: _1	d E _1
+ແຕກ	e1tk	t E: k _5
+ແຕ່	e1t3	t E: _1	t E _1
+ແຕ່ກ່ອນ	e1t3k3On	t E: _1 . k O: n _1	t E _1 . k O: n _1
+ແຕ່ງກາຍ	e1t3NkAJ	t E: N _1 . k A: j _6
+ແຕ່ລະ	e1t3la	t E: _1 . l A ? _1	t E _1 . l A ? _1
+ແທນ	e1T1n	t_h E: n _2
+ແທ້	e1T14	t_h E: _4
+ແນວ	e1nw	n E: w _2
+ແນວຄວາມຄິດ	e1nwK1wAmK1id	n E: w _2 . k_h w A: m _2 . k_h i t _1	n E: w _2 . k_h u@ m _2 . k_h i t _1
+ແນວທາງ	e1nwT1AN	n E: w _2 . t_h A: N _2
+ແນະນຳ	e1nanA1	n E _1 . n A m _2
+ແນ່	e1n3	n E: _1
+ແບບ	e1bb	b E: p _5
+ແບບຮຽນ	e1bbh1jn	b E: p _5 . h i@ n _2
+ແປ	e1p	p E: _6	p E: _3
+ແປກ	e1pk	p E: k _5
+ແປດ	e1pd	p E: t _5
+ແປດພັນ	e1pdP1a1n	p E: t _5 . p_h A n _2
+ແປດລ້ານ	e1pdl4An	p E: t _5 . l A: n _4
+ແປດສິບ	e1pdsib	p E: t _5 . s i p _2
+ແປດສິບສາມພັນ	e1pdsibsAmP1a1n	p E: t _5 . s i p _2 . s A: m _3 . p_h A n _2
+ແປດສິບຫົກພັນ	e1pdsibhokP1a1n	p E: t _5 . s i p _2 . h o k _2 . p_h A n _2
+ແປດສິບຫ້າພັນ	e1pdsibh4AP1a1n	p E: t _5 . s i p _2 . h A: _5 . p_h A n _2	p E: t _5 . s i p _2 . h A _1 . p_h A n _2
+ແປດຮ້ອຍ	e1pdh14OJ	p E: t _5 . h O: j _4
+ແປດແສນ	e1pde1sn	p E: t _5 . s E: n _3
+ແຜນ	e1Pn	p_h E: n _3
+ແຜນການ	e1PnkAn	p_h E: n _3 . k A: n _6
+ແຜນຜັງ	e1PnPa1N	p_h E: n _3 . p_h A N _3
+ແຜ່	e1P3	p_h E: _1
+ແຜ່ນ	e1P3n	p_h E: n _1
+ແພດ	e1P1d	p_h E: t _4
+ແມສໂກ້	e1mso1k4	m E: s _4 . k o: _4	m E s _1 . k o: _4
+ແມັດ	e1ma1d	m E t _1
+ແມ່	e1m3	m E: _1	m E _1
+ແມ່ນ	e1m3n	m E: n _1
+ແມ່ນແຕ່	e1m3ne1t3	m E: n _1 . t E: _1
+ແມ່ເຫຼັກ	e1m3ehl1a1k	m E: _1 . l e k _2	m E _1 . l e k _2
+ແລກປ່ຽນ	e1lkp3jn	l E: k _4 . p i@ n _1
+ແລງ	e1lN	l E: N _2
+ແລະ	e1la	l E ? _1
+ແລ້ງ	e1l4N	l E: N _4
+ແລ້ວ	e1l4w	l E: w _4
+ແວວ	e1ww	w E: w _2
+ແວ່ນຕາ	e1w3ntA	w E: n _1 . t A: _6	w E: n _1 . t A: _3
+ແສງ	e1sN	s E: N _3
+ແສງງາມ	e1sNNAm	s E: N _3 . N A: m _2
+ແສງທອງ	e1sNT1ON	s E: N _3 . t_h O: N _2
+ແສງມີໄຊ	e1sNmi1I1s1	s E: N _3 . m i: _2 . s A j _2	s E: N _3 . m i _1 . s A j _2
+ແສງສະຫວ່າງ	e1sNsahw3AN	s E: N _3 . s A _1 . w A: N _1	s E: N _3 . s A _2 . w A: N _1
+ແສງສຸວັນ	e1sNsuwa1n	s E: N _3 . s u _1 . w A n _2	s E: N _3 . s u _2 . w A n _2
+ແສນ	e1sn	s E: n _3
+ແສນຊຸມ	e1sns1um	s E: n _3 . s u m _2
+ແຫວນ	e1hwn	w E: n _3
+ແຫ່ງ	e1h3N	h E: N _1	h E N _1
+ແຫ່ງຊາດ	e1h3Ns1Ad	h E: N _1 . s A: t _4
+ແຫ້ງ	e1h4N	h E: N _5
+ແອ	e1O	? E: _6	? E: _3
+ແອບເປິ້ນ	e1Obepi4n	? E: p _5 . p 7 n _4
+ແອ່ງ	e1O3N	? E: N _1
+ແຮງ	e1h1N	h E: N _2
+ແໜ	e1n1	n E: _6	n E: _3
+ໂກນເດິນ	o1knedin	k o: n _6 . d 7 n _6
+ໂຄງການ	o1K1NkAn	k_h o: N _2 . k A: n _6
+ໂຄຕ້າ	o1K1t4A	k_h o: _2 . t A: _4	k_h o _1 . t A: _4
+ໂຄສະນາ	o1K1sanA	k_h o: _2 . s A _2 . n A: _2	k_h o: _2 . s A _1 . n A: _2
+ໂຊກ	o1s1k	s o: k _4
+ໂຍທາທິການ	o1JT1AT1ikAn	J o: _2 . t_h A: _2 . t_h i _1 . k A: n _6	J o _1 . t_h A _1 . t_h i _1 . k A: n _6	J o: _2 . t_h A: _2 . t_h i _1 . k A: n _3	J o _1 . t_h A _1 . t_h i _1 . k A: n _3
+ໂດຍ	o1dJ	d o: j _6	d o: j _3	d o j _6
+ໂດຍສະເພາະ	o1dJsaeP1Aa	d o: j _6 . s A _2 . p_h O ? _1	d o: j _6 . s A _1 . p_h O ? _1
+ໂຕ	o1t	t o: _6	t o: _3	t o _1
+ໂຕນ	o1tn	t o: n _6	t o: n _3
+ໂຕ່	o1t3	t o: _1
+ໂຕ່ງ	o1t3N	t o: N _1
+ໂທລະສັບ	o1T1lasa1b	t_h o _2 . l A _1 . s A p _2
+ໂປ້	o1p4	p o: _4
+ໂພນຕ້ອງຈອມມະນີ	o1P1nt4ONcOmmani1	p_h o: n _2 . t O: N _4 . c O: m _6 . m A _1 . n i: _2
+ໂພນທັນ	o1P1nT1a1n	p_h o: n _2 . t_h A n _2
+ໂພນສະຫວັນ	o1P1nsahwa1n	p_h o: n _2 . s A _2 . w A n _3	p_h o: n _2 . s A _1 . w A n _3
+ໂພນສູງ	o1P1nsu1N	p_h o: n _2 . s u: N _3
+ໂພນໂຮງ	o1P1no1h1N	p_h o: n _2 . h o: N _2
+ໂພຣດັກ	o1P1rda1k	p_h o: n _2 . d A k _2
+ໂພໄຊ	o1P1I1s1	p_h o: _2 . s A j _2	p_h o _1 . s A j _2
+ໂມງ	o1mN	m o: N _2
+ໂລກ	o1lk	l o: k _4
+ໂລຫະ	o1lha	l o: _2 . h A ? _2	l o _1 . h A ? _2
+ໂອ	o1O	? o: _6	? o: _3	? o _1
+ໂອກາດ	o1OkAd	? o: _6 . k A: t _5	? o _1 . k A: t _5
+ໂອເຈລັກກີ້	o1Oecla1kki14	? o: _6 . c e: _6 . l A k _1 . k i: _4	? o _1 . c e _1 . l A k _1 . k i: _4
+ໂອ້ຍ	o1O4J	? o: j _4	? o: j _3
+ໂອ້ລົມ	o1O4lom	? o: _4 . l o m _2	? o _1 . l o m _2
+ໂຮງງານ	o1h1NNAn	h o: N _2 . N A: n _2
+ໂຮງຮຽນ	o1h1Nh1jn	h o: N _2 . h i@ n _2
+ໂຮມ	o1h1m	h o: m _2
+ໃກ້	Ik4	k A j _4
+ໃກ້ຊິດ	Ik4s1id	k A j _4 . s i t _1
+ໃຈ	Ic	c A j _6	c A j _3
+ໃຊ້	Is14	s A j _4
+ໃດ	Id	d A j _6	d A j _3
+ໃຕ້	It4	t A j _4
+ໃຕ້ຈິດສຳນຶກ	It4cidsA1nYk	t A j _4 . c i t _2 . s A m _3 . n M k _1
+ໃຕ້ຟ້າ	It4f4A	t A j _4 . f A: _4
+ໃນ	In	n A j _2
+ໃນຕອນຂ້ອນແຈ້ງ	IntOnK4One1c4N	n A j _2 . t O: n _6 . k_h O: n _5 . c E: N _4
+ໃນຕອນທ່ຽງ	IntOnT13jN	n A j _2 . t O: n _6 . t_h i@ N _1
+ໃນຕອນເດິກ	IntOnedik	n A j _2 . t O: n _6 . d 7 k _2
+ໃຜ	IP	p_h A j _3
+ໃສ່	Is3	s A j _1
+ໃຫຍ່	IhJ3	J A j _1
+ໃຫ້	Ih4	h A j _5
+ໃຫ້ເຊົ່າລົດ	Ih4es1o3Alod	h A j _5 . s A w _1 . l o t _1	h A j _5 . s Ao _1 . l o t _1
+ໃຫ້ໄດ້	Ih4I1d4	h A j _5 . d A j _4
+ໃໝ່	Im13	m A j _1
+ໄກສອນ	I1ksOn	k A j _6 . s O: n _3
+ໄກ່	I1k3	k A j _1
+ໄຂ	I1K	k_h A j _3
+ໄຂແສງ	I1Ke1sN	k_h A j _3 . s E: N _3
+ໄຊຍະບູລີ	I1s1Jabu1li1	s A j _2 . J A _1 . b u: _6 . l i: _2	s A j _2 . J A _1 . b u _1 . l i: _2
+ໄຊຍະລາສີ	I1s1JalAsi1	s A j _2 . J A _1 . l A: _2 . s i: _3	s A j _2 . J A _1 . l A _1 . s i: _3
+ໄຊຍະວົງ	I1s1JawoN	s A j _2 . J A _1 . w o N _2
+ໄຊຍະສາ	I1s1JasA	s A j _2 . J A _1 . s A: _3
+ໄຊຍະເດດ	I1s1Jaedd	s A j _2 . J A _1 . d e: t _5
+ໄຊທານີ	I1s1T1Ani1	s A j _2 . t_h A: _2 . n i: _2	s A j _2 . t_h A _1 . n i: _2
+ໄຊເສດຖາ	I1s1esdTA	s A j _2 . s e: t _5 . t_h A: _3
+ໄດ້	I1d4	d A j _4
+ໄທ	I1T1	t_h A j _2
+ໄທລື້	I1T1lY14	t_h A j _2 . l M: _4
+ໄປ	I1p	p A j _6	p A j _3
+ໄປເຖິງ	I1peTiN	p A j _6 . t_h 7 N _3
+ໄພ	I1P1	p_h A j _2
+ໄພພິບັດ	I1P1P1iba1d	p_h A j _2 . p_h i _1 . b A t _2
+ໄພພິບູນ	I1P1P1ibu1n	p_h A j _2 . p_h i _1 . b u: n _6
+ໄຟ	I1f	f A j _2
+ໄຟແດງ	I1fe1dN	f A j _2 . d E: N _6	f A j _2 . d E: N _3
+ໄຟໄໝ້	I1fI1m14	f A j _2 . m A j _5
+ໄມຕີຈິດ	I1mti1cid	m A j _2 . t i: _6 . c i t _2	m A j _2 . t i _1 . c i t _2
+ໄມ້	I1m4	m A j _4
+ໄມ້ປ່ອງ	I1m4p3ON	m A j _4 . p O: N _1
+ໄລຍະ	I1lJa	l A j _2 . J A ? _1
+ໄຫວ	I1hw	w A j _3
+ໄອ	I1O	? A j _6	? A j _3
+ໄອແພັດ	I1Oe1P1a1d	? A j _6 . p_h E t _1
+ໄອແລນເໜືອ	I1Oe1lnen1Y1O	? A j _6 . l E: n _2 . n M@ _3
+ໜອງບົກ	n1ONbok	n O: N _3 . b o k _2
+ໜອມ	n1Om	n O: m _3
+ໜັກ	n1a1k	n A k _2
+ໜັກໜ່ວງ	n1a1kn13wN	n A k _2 . n u@ N _1
+ໜັງສື	n1a1NsY1	n A N _3 . s M: _3
+ໜັງສືພິມ	n1a1NsY1P1im	n A N _3 . s M: _3 . p_h i m _2	n A N _3 . s M _1 . p_h i m _2
+ໜີ	n1i1	n i: _3
+ໜີ້ສິນ	n1i14sin	n i: _5 . s i n _3	n i _1 . s i n _3
+ໜຶ່ງ	n1Y3N	n M N _1
+ໜຶ່ງພັນ	n1Y3NP1a1n	n M N _1 . p_h A n _2
+ໜຶ່ງລ້ອຍ	n1Y3Nl4OJ	n M N _1 . l O: j _4
+ໜຶ່ງຮ້ອຍ	n1Y3Nh14OJ	n M N _1 . h O: j _4
+ໜຶ່ງແສນ	n1Y3Ne1sn	n M N _1 . s E: n _3
+ໜຶ່ງໝື່ນ	n1Y3Nm1Y13n	n M N _1 . m M: n _1
+ໜ້າ	n14A	n A: _5
+ໜ້າທີ່	n14AT1i13	n A: _5 . t_h i: _1	n A _1 . t_h i: _1
+ໜ້າທີ່ວຽກງານ	n14AT1i13wjkNAn	n A: _5 . t_h i: _1 . w i@ k _4 . N A: n _2	n A _1 . t_h i _1 . w i@ k _4 . N A: n _2
+ໝອກໃໝ່	m1OkIm13	m O: k _5 . m A j _1
+ໝັ້ນຍືນ	m1a14nJY1n	m A n _5 . J M: n _2
+ໝັ້ນທ່ຽງ	m1a14nT13jN	m A n _5 . t_h i@ N _1
+ໝາຍເຖິງ	m1AJeTiN	m A: j _3 . t_h 7 N _3
+ໝື່ນ	m1Y13n	m M: n _1
+ໝູ່	m1u13	m u: _1
+ໝໍດູ	m1O1du1	m O: _3 . d u: _6	m O _1 . d u: _6	m O: _3 . d u: _3	m O _1 . d u: _3
+ໝໍ້ໄຟ	m1O14I1f	m O: _5 . f A j _2	m O _1 . f A j _2
