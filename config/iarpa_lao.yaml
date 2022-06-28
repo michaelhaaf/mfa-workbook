@@ -1,0 +1,9 @@
+pronunciation_bound: "\t"
+word_bound: " # "
+syllable_bound: " . "
+phoneme_bound: " "
+word_column: 1
+tone_characters: '_[0-6]'
+include_tones: true
+sonorants: ""
+vowels: "ieEAMu7oO"

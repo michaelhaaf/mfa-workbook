@@ -5,6 +5,7 @@ from src.io import Request, SyllableRequest, Response
 from src.syllable_builders.syllable_builder import SyllableBuilderInterface, SyllableBuilder, SyllableBuilderException
 from src.syllable_builders.iarpa_canto import IARPA_Canto_Builder
 from src.syllable_builders.iarpa_lithu import IARPA_Lithu_Builder
+from src.syllable_builders.iarpa_lao import IARPA_Lao_Builder
 from src.syllable_builders.mfa import MFA_Builder
 
 
@@ -12,6 +13,7 @@ class CorpusEnum(Enum):
     MFA = auto()
     IARPA_CANTO = auto()
     IARPA_LITHU = auto()
+    IARPA_LAO = auto()
 
 
 class Corpus:
@@ -53,6 +55,7 @@ class CorpusFactory:
         self.corpus_mapping = {
             CorpusEnum.MFA: MFA_Builder(config),
             CorpusEnum.IARPA_LITHU: IARPA_Lithu_Builder(config),
+            CorpusEnum.IARPA_LAO: IARPA_Lao_Builder(config),
             CorpusEnum.IARPA_CANTO: IARPA_Canto_Builder(config)
             }
 

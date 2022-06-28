@@ -74,4 +74,3 @@ class SyllableBuilder(SyllableBuilderInterface):
 
 class SyllableBuilderException(ValueError):
     pass
-
