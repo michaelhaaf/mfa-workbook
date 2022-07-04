@@ -15,7 +15,8 @@ class MFA_Builder(SyllableBuilder):
         phonemes = ""
         for syllable in pronunciation.syllables:
             nucleus = syllable.nucleus
-            nucleus[0] = f"{nucleus[0] + syllable.tone}"
+            if self.config.include_tones:
+                nucleus[0] = f"{nucleus[0] + syllable.tone}"
             if syllable.onset:
                 phonemes += self.config.phoneme_bound.join(syllable.onset).strip() + self.config.phoneme_bound
             phonemes += self.config.phoneme_bound.join(nucleus).strip() + self.config.phoneme_bound
