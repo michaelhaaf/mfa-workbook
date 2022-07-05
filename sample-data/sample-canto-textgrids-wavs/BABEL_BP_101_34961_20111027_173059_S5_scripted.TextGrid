@@ -1,0 +1,18 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 11.689875 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 11.689875 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 11.689875 
+            text = "ji2neui5 jeung2daai6 yuk6 gap1 yuk6 jan3chi3chung1tin1 fu6mou5 pa3 ta1 hok6waai6 yi4 chyu3chyu3 gam1 jai3" 
