@@ -4,11 +4,11 @@ import os
 import sys
 import dataclasses
 
+parentdir = Path(__file__).parents[2]
+sys.path.append(parentdir)
 from src.syllable_builders.mfa import MFA_Builder
 from src.model import Syllable, Pronunciation
-
-parentdir = Path(__file__).parents[1]
-sys.path.append(parentdir)
+from src.config import Config
 
 
 class MFA_Builder_test(unittest.TestCase):
@@ -16,8 +16,15 @@ class MFA_Builder_test(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        self.test_dir = os.path.dirname(__file__)
+        print("Testing src.syllable_builders.mfa MFA_Builder:")
 
+    @classmethod
+    def tearDownClass(cls):
+        print("Finished testing src.syllable_builders.mfa MFA_Builder")
+        pass
+
+
+    def setUp(self):
         self.mfa_config = Config(
                 pronunciation_bound="\t",
                 word_bound="",
@@ -30,13 +37,6 @@ class MFA_Builder_test(unittest.TestCase):
                 vowels="")
         self.mfa_config_no_tones = dataclasses.replace(self.mfa_config, include_tones=False)
 
-
-    @classmethod
-    def tearDownClass(cls):
-        pass
-
-
-    def setUp(self):
         self.mfa_builder = MFA_Builder(self.mfa_config)
         self.mfa_builder_no_tones = MFA_Builder(self.mfa_config_no_tones)
 
@@ -48,7 +48,7 @@ class MFA_Builder_test(unittest.TestCase):
     def test_to_phonemes_only_nucleus(self):
 
         # setup
-        nucleus_syllable = Syllable(nucleus="a:j")
+        nucleus_syllable = Syllable(nucleus=["a:j"])
         test_pronunciation = Pronunciation(syllables=[nucleus_syllable])
 
         # test
@@ -65,7 +65,7 @@ class MFA_Builder_test(unittest.TestCase):
     def test_to_phonemes_nucleus_tone(self):
 
         # setup
-        nucleus_tone_syllable = Syllable(nucleus="a:j", tone="1")
+        nucleus_tone_syllable = Syllable(nucleus=["a:j"], tone="1")
         test_pronunciation = Pronunciation(syllables=[nucleus_tone_syllable])
 
         # test
@@ -82,7 +82,7 @@ class MFA_Builder_test(unittest.TestCase):
     def test_to_phonemes_onset_nucleus(self):
 
         # setup
-        onset_nucleus_syllable = Syllable(onset="g", nucleus="a:")
+        onset_nucleus_syllable = Syllable(onset=["g"], nucleus=["a:"])
         test_pronunciation = Pronunciation(syllables=[onset_nucleus_syllable])
 
         # test
@@ -99,7 +99,7 @@ class MFA_Builder_test(unittest.TestCase):
     def test_to_phonemes_onset_nucleus_tone(self):
 
         # setup
-        onset_nucleus_tone_syllable = Syllable(onset="g", nucleus="a:", tone="3")
+        onset_nucleus_tone_syllable = Syllable(onset=["g"], nucleus=["a:"], tone="3")
         test_pronunciation = Pronunciation(syllables=[onset_nucleus_tone_syllable])
 
         # test
@@ -115,7 +115,7 @@ class MFA_Builder_test(unittest.TestCase):
 
     def test_to_phonemes_nucleus_coda(self):
         # setup
-        nucleus_coda_syllable = Syllable(nucleus="E:", coda="m")
+        nucleus_coda_syllable = Syllable(nucleus=["E:"], coda=["m"])
         test_pronunciation = Pronunciation(syllables=[nucleus_coda_syllable])
 
         # test
@@ -131,7 +131,7 @@ class MFA_Builder_test(unittest.TestCase):
 
     def test_to_phonemes_nucleus_tone_coda(self):
         # setup
-        nucleus_tone_coda_syllable = Syllable(nucleus="E:", coda="m", tone="1")
+        nucleus_tone_coda_syllable = Syllable(nucleus=["E:"], coda=["m"], tone="1")
         test_pronunciation = Pronunciation(syllables=[nucleus_tone_coda_syllable])
 
         # test
@@ -147,7 +147,7 @@ class MFA_Builder_test(unittest.TestCase):
 
     def test_to_phonemes_onset_nucleus_coda(self):
         # setup
-        onset_nucleus_coda_syllable = Syllable(onset="ts", nucleus="6", coda="t")
+        onset_nucleus_coda_syllable = Syllable(onset=["ts"], nucleus=["6"], coda=["t"])
         test_pronunciation = Pronunciation(syllables=[onset_nucleus_coda_syllable])
 
         # test
@@ -163,7 +163,7 @@ class MFA_Builder_test(unittest.TestCase):
 
     def test_to_phonemes_onset_nucleus_tone_coda(self):
         # setup
-        onset_nucleus_tone_coda_syllable = Syllable(onset="ts", nucleus="6", coda="t", tone="1")
+        onset_nucleus_tone_coda_syllable = Syllable(onset=["ts"], nucleus=["6"], coda=["t"], tone="1")
         test_pronunciation = Pronunciation(syllables=[onset_nucleus_tone_coda_syllable])
 
         # test
@@ -181,15 +181,15 @@ class MFA_Builder_test(unittest.TestCase):
 
         # setup
         multiple_syllables = [
-                Syllable(onset="d", nucleus="9y", tone="6"),
-                Syllable(onset="dz", nucleus="9:", coda="N", tone="2")]
+                Syllable(onset=["d"], nucleus=["9y"], tone="6"),
+                Syllable(onset=["dz"], nucleus=["9:"], coda=["N"], tone="2")]
         multiple_syllable_pronunciation = Pronunciation(syllables=multiple_syllables)
 
         # test
         expectation = "d 9y6 dz 9:2 N"
-        result = self.mfa_builder.to_phonemes(test_pronunciation)
-        no_tones_expectation = "d 9y dz 9 N"
-        no_tones_result = self.mfa_builder_no_tones.to_phonemes(test_pronunciation)
+        result = self.mfa_builder.to_phonemes(multiple_syllable_pronunciation)
+        no_tones_expectation = "d 9y dz 9: N"
+        no_tones_result = self.mfa_builder_no_tones.to_phonemes(multiple_syllable_pronunciation)
 
         # assert
         self.assertEqual(result, expectation)

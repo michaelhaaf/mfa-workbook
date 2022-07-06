@@ -1,3 +1,4 @@
+import copy
 from src.config import Config
 from src.model import Syllable, Pronunciation
 from src.syllable_builders.syllable_builder import SyllableBuilder
@@ -14,7 +15,7 @@ class MFA_Builder(SyllableBuilder):
     def to_phonemes(self, pronunciation: Pronunciation) -> str:
         phonemes = ""
         for syllable in pronunciation.syllables:
-            nucleus = syllable.nucleus
+            nucleus = copy.copy(syllable.nucleus)
             if self.config.include_tones:
                 nucleus[0] = f"{nucleus[0] + syllable.tone}"
             if syllable.onset:
