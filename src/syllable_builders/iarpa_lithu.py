@@ -39,7 +39,7 @@ class IARPA_Lithu_Builder(SyllableBuilder):
 
     def extract_tone(self, phonemes, vowel_indices, sonorant_indices):
         tone = ""
-        if super().is_long_vowel(vowel_indices, sonorant_indices):
+        if self.is_heavy_syllable(phonemes, vowel_indices, sonorant_indices):
             if len([s for s in phonemes if '_R' in s]) > 0:
                 tone = "4"
             elif len([s for s in phonemes if '_F' in s]) > 0:
@@ -52,3 +52,10 @@ class IARPA_Lithu_Builder(SyllableBuilder):
             else:
                 tone = "1"
         return tone
+
+    def is_heavy_syllable(self, phonemes, vowel_indices, sonorant_indices):
+        return (
+                super().is_vowel_sequence(vowel_indices) or
+                super().is_sonorant(vowel_indices, sonorant_indices) or
+                any(":" in p for p in phonemes)
+        )

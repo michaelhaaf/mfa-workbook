@@ -17,10 +17,10 @@ class MFA_Builder(SyllableBuilder):
         for syllable in pronunciation.syllables:
             nucleus = copy.copy(syllable.nucleus)
             if self.config.include_tones:
-                nucleus[0] = f"{nucleus[0] + syllable.tone}"
+                nucleus.append(syllable.tone)
             if syllable.onset:
                 phonemes += self.config.phoneme_bound.join(syllable.onset).strip() + self.config.phoneme_bound
-            phonemes += self.config.phoneme_bound.join(nucleus).strip() + self.config.phoneme_bound
+            phonemes += ''.join(nucleus).strip() + self.config.phoneme_bound
             phonemes += self.config.phoneme_bound.join(syllable.coda).strip()
             phonemes = phonemes.strip()
             phonemes += self.config.syllable_bound

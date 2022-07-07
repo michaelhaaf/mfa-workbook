@@ -196,5 +196,29 @@ class MFA_Builder_test(unittest.TestCase):
         self.assertEqual(no_tones_result, no_tones_expectation)
 
 
+    def test_tone_bound_to_end_of_nucleus(self):
+
+        # setup
+        # corpus entry: a U k . " S t A:_R . d v a . r' I s
+        # desired MFA output: aU3 k S t A:2 d v a1 r' I1 s
+        aukstadvaris_syllables = [
+                Syllable(nucleus=["a", "U"], coda=["k"], tone="3"),
+                Syllable(onset=["S", "t"], nucleus=["A:"], tone="2"),
+                Syllable(onset=["d", "v"], nucleus=["a"], tone="1"),
+                Syllable(onset=["r'"], nucleus=["I"], coda=["s"], tone="1")
+                ]
+        aukstadvaris_pronunciation = Pronunciation(syllables=aukstadvaris_syllables)
+
+        # test
+        expectation = "aU3 k S t A:2 d v a1 r' I1 s"
+        result = self.mfa_builder.to_phonemes(aukstadvaris_pronunciation)
+        no_tones_expectation = "aU k S t A: d v a r' I s"
+        no_tones_result = self.mfa_builder_no_tones.to_phonemes(aukstadvaris_pronunciation)
+
+        # assert
+        self.assertEqual(result, expectation)
+        self.assertEqual(no_tones_result, no_tones_expectation)
+
+
 if __name__ == '__main__':
     unittest.main()

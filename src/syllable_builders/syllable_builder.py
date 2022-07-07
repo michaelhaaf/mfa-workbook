@@ -42,8 +42,8 @@ class SyllableBuilder(SyllableBuilderInterface):
     def is_sonorant(self, vowel_indices, sonorant_indices):
         return len(sonorant_indices) > 0 and sonorant_indices[0] - vowel_indices[0] == 1
 
-    def is_long_vowel(self, vowel_indices, sonorant_indices):
-        return self.is_vowel_sequence(vowel_indices) or self.is_sonorant(vowel_indices, sonorant_indices)
+    def is_diphthong(self, vowel_indices):
+        return self.is_vowel_sequence(vowel_indices)
 
     def remove_tones(self, phonemes):
         phonemes_no_tones = list(map(lambda x: re.sub(self.config.tone_characters, '', x), phonemes))
@@ -63,7 +63,7 @@ class SyllableBuilder(SyllableBuilderInterface):
         return phonemes[0:vowel_indices[0]]
 
     def extract_nucleus_coda(self, phonemes, vowel_indices, sonorant_indices):
-        if self.is_long_vowel(vowel_indices, sonorant_indices):
+        if self.is_diphthong(vowel_indices):
             nucleus = phonemes[vowel_indices[0]:vowel_indices[0]+2]
             coda = phonemes[vowel_indices[0]+2:]
             return nucleus, coda
