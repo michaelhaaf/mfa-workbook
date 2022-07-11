@@ -5,22 +5,23 @@ import sys
 
 parentdir = Path(__file__).parents[2]
 sys.path.append(parentdir)
-from src.syllable_builders.syllable_builder import SyllableBuilder
 
+from src.syllable_builders.default import Default_Builder
 
-class SyllableBuilderTest(unittest.TestCase):
+class Default_Builder_test(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        print("Testing src.syllable_builders.syllable_builder SyllableBuilder:")
+        pass
 
     @classmethod
     def tearDownClass(cls):
-        print("Finished testing src.syllable_builders.syllable_builder SyllableBuilder")
         pass
 
     def setUp(self):
-        pass
+        print(f"Testing {self.id()}")
 
+    def test_test(self):
+        pass
 
 if __name__ == '__main__':
     unittest.main()
