@@ -7,6 +7,7 @@ from src.syllable_builders.iarpa_canto import IARPA_Canto_Builder
 from src.syllable_builders.iarpa_lithu import IARPA_Lithu_Builder
 from src.syllable_builders.iarpa_lao import IARPA_Lao_Builder
 from src.syllable_builders.mfa import MFA_Builder
+from src.syllable_builders.default import Default_Builder
 
 
 class CorpusEnum(Enum):
@@ -14,6 +15,7 @@ class CorpusEnum(Enum):
     IARPA_CANTO = auto()
     IARPA_LITHU = auto()
     IARPA_LAO = auto()
+    DEFAULT = auto()
 
 
 class Corpus:
@@ -56,7 +58,8 @@ class CorpusFactory:
             CorpusEnum.MFA: MFA_Builder(config),
             CorpusEnum.IARPA_LITHU: IARPA_Lithu_Builder(config),
             CorpusEnum.IARPA_LAO: IARPA_Lao_Builder(config),
-            CorpusEnum.IARPA_CANTO: IARPA_Canto_Builder(config)
+            CorpusEnum.IARPA_CANTO: IARPA_Canto_Builder(config),
+            CorpusEnum.DEFAULT: Default_Builder(config)
             }
 
 

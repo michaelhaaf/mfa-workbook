@@ -6,4 +6,4 @@ word_column: 0
 tone_characters: '"|_R|_F'
 include_tones: true
 sonorants: "rlmn"
-vowels: "aeoiu{"
+vowels: "aAE{eiIoOUu"
