@@ -1,6 +1,6 @@
 from src.config import Config
 from src.model import Syllable, Pronunciation
-from src.syllable_builders.syllable_builder import SyllableBuilder
+from src.syllable_builders.syllable_builder import SyllableBuilder, SyllableBuilderException
 
 
 class IARPA_Canto_Builder(SyllableBuilder):

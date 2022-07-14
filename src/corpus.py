@@ -1,4 +1,6 @@
 from enum import Enum, auto
+import logging
+import src.logger
 from src.model import Pronunciation
 from src.config import Config
 from src.io import Request, SyllableRequest, Response
@@ -20,8 +22,9 @@ class CorpusEnum(Enum):
 
 class Corpus:
 
-    def __init__(self, syllable_builder: SyllableBuilderInterface):
+    def __init__(self, syllable_builder: SyllableBuilderInterface, logger_name: str):
         self.syllable_builder = syllable_builder
+        self.log = logging.getLogger(f"CORPUS_{logger_name}")
 
 
     def syllabify(self, request: Request) -> SyllableRequest:
@@ -33,7 +36,7 @@ class Corpus:
         try:
             syllables = [self.syllable_builder.from_phonemes(p) for p in request.phonemes]
         except SyllableBuilderException as ex:
-            print(f"Skipping entry: \n\t{request} \n\t{ex}")
+            self.log.debug(f"Skipping request: \n\t{request} \n\t{ex}")
             return None
 
         pronunciation = Pronunciation(syllables)
@@ -63,5 +66,5 @@ class CorpusFactory:
             }
 
 
-    def create(self, corpus: str) -> Corpus:
-        return Corpus(self.corpus_mapping[CorpusEnum[corpus]])
+    def create(self, corpus_name: str) -> Corpus:
+        return Corpus(self.corpus_mapping[CorpusEnum[corpus_name]], corpus_name)
