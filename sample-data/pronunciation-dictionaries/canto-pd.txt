@@ -1910,7 +1910,7 @@ dung1ji3	d u:1 N dz i:3
 bing1	b i:1 N
 bing1laang5	b i:1 N l a:5 N
 bing1leung4	b i:1 N l 9:4 N
-chung1chuet1	ts u:1 N ts u:1 E: t
+chung1chuet1	ts u:1 N ts u:E:1 t
 chung1gik1	ts u:1 N g i:1 k
 chung1dat6	ts u:1 N d 66 t
 kyut3ding6	k y:3 t d i:6 N
@@ -1964,10 +1964,10 @@ hoi2dik6	h O:j2 d i:6 k
 dang3	d 63 N
 hung1	h u:1 N
 chuet1	ts 9:1 t
-chuet1	ts u:1 E: t
+chuet1	ts u:E:1 t
 cheut1chau2	ts 9:1 t ts 6w2
 cheut1sai3	ts 9:1 t s 6j3
-chuet1yan4yi3biu1	ts u:1 E: t j 64 n j i:3 b iw1
+chuet1yan4yi3biu1	ts u:E:1 t j 64 n j i:3 b iw1
 cheut1yap6	ts 9:1 t j 66 p
 cheut1dung6	ts 9:1 t d u:6 N
 cheut1maai6	ts 9:1 t m a:j6
@@ -1980,11 +1980,11 @@ cheut1lei4	ts 9:1 t l ej4
 cheut1gwok3	ts 9:1 t gw O:3 k
 cheut1cheung4	ts 9:1 t ts 9:4 N
 cheut1tau4tin1	ts 9:1 t t 6w4 t i:1 n
-chuet1ga1yan4	ts u:1 E: t g a:1 j 64 n
+chuet1ga1yan4	ts u:E:1 t g a:1 j 64 n
 cheut1chaai1	ts 9:1 t ts a:j1
 cheut1nin2	ts 9:1 t n i:2 n
 cheut1loi4	ts 9:1 t l O:j4
-chuet1hoi2	ts u:1 E: t h O:j2
+chuet1hoi2	ts u:E:1 t h O:j2
 cheut1baan2se5	ts 9:1 t b a:2 n s E:5
 cheut1yin6	ts 9:1 t j i:6 n
 cheut1yin6jung1	ts 9:1 t j i:6 n dz u:1 N
@@ -4595,7 +4595,7 @@ dak1ha2	d 61 k h a:2
 dak1bat1dou3	d 61 k b 61 t d ow3
 dak1yi5	d 61 k j i:5
 dak1tai2	d 61 k t 6j2
-dak1chuet1	d 61 k ts u:1 E: t
+dak1chuet1	d 61 k ts u:E:1 t
 dak1lei6si1	d 61 k l ej6 s i:1
 dak1dou3	d 61 k d ow3
 dak1sat1	d 61 k s 61 t
@@ -5246,7 +5246,7 @@ jeung2gun2	dz 9:2 N g u:2 n
 jeung2man4ming6lei5	dz 9:2 N m 64 n m i:6 N l ej5
 tou4waat3	t ow4 w a:3 t
 paai4	p a:j4
-paai4chuet1	p a:j4 ts u:1 E: t
+paai4chuet1	p a:j4 ts u:E:1 t
 paai4fong3	p a:j4 f O:3 N
 paai4seui2	p a:j4 s 9y2
 paai4hang4	p a:j4 h 64 N
@@ -5381,7 +5381,7 @@ fong3	f O:3 N
 fong3ha6	f O:3 N h a:6
 fong3bat1ha2	f O:3 N b 61 t h a:2
 fong3bat1ha2	f O:3 N b 61 t h a:6
-fong3chuet1	f O:3 N ts u:1 E: t
+fong3chuet1	f O:3 N ts u:E:1 t
 fong3joi6	f O:3 N dz O:j6
 fong3daai6	f O:3 N d a:j6
 fong3hoi1	f O:3 N h O:j1
@@ -7561,7 +7561,7 @@ siu3seng1	s iw3 s E:1 N
 siu3yung4	s iw3 j y:4 N
 siu3bing3	s iw3 b i:3 N
 siu3wa6	s iw3 w a:6
-siu3wa6baak3chuet1	s iw3 w a:6 b a:3 k ts u:1 E: t
+siu3wa6baak3chuet1	s iw3 w a:6 b a:3 k ts u:E:1 t
 fu4hap6	f u:4 h 66 p
 ban6jung6	b 66 n dz u:6 N
 dai6	d 6j6
@@ -8054,7 +8054,7 @@ pei4hei3	p ej4 h ej3
 yiu1	j iw1
 yiu1gaan1	j iw1 g a:1 n
 fuk1dei6	f u:1 k d ej6
-tang4chuet1	t 64 N ts u:1 E: t
+tang4chuet1	t 64 N ts u:E:1 t
 teui2	t 9y2
 sat1koi3	s 61 t k O:j3
 paang4jeung3	p a:4 N dz 9:3 N
