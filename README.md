@@ -161,10 +161,10 @@ Confirm that your textgrids look correct using a text editor.
 The Iarpa lexicon format needs to be converted to an MFA pronunciation dictionary.
 
 ```shell_session
-python scripts/syllabify.py -i sample-data/iarpa_canto_corpus/scripted/reference_materials/lexicon.txt -o ./sample-data/pd-test.txt
+python ./syllabify.py -i sample-data/lexicons/canto.txt -o ./pd-test.txt -f iarpa_canto
 ```
 
-Confirm that your pronunciation dictionary look correct using a text editor (`vimdiff ./sample-data/pd.txt ./sample-data/pd-test.txt`, for example).
+Confirm that your pronunciation dictionary look corrects using a text editor (`vimdiff ./sample-data/pd.txt ./sample-data/pd-test.txt`, for example).
 
 ## Preparation
 
