@@ -7,7 +7,6 @@ import itertools
 
 parentdir = Path(__file__).parents[1]
 sys.path.append(parentdir)
-from scripts.syllabify import main
 
 
 class ProcessLexiconTest(unittest.TestCase):

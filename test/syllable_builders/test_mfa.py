@@ -16,11 +16,10 @@ class MFA_Builder_test(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        print("Testing src.syllable_builders.mfa MFA_Builder:")
+        pass
 
     @classmethod
     def tearDownClass(cls):
-        print("Finished testing src.syllable_builders.mfa MFA_Builder")
         pass
 
 

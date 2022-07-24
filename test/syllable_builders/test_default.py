@@ -18,7 +18,7 @@ class Default_Builder_test(unittest.TestCase):
         pass
 
     def setUp(self):
-        print(f"Testing {self.id()}")
+        pass
 
     def test_test(self):
         pass
