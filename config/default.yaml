@@ -3,7 +3,7 @@ word_bound: ""
 syllable_bound: " . "
 phoneme_bound: " "
 word_column: 1
-tone_characters: '_[0-9]'
-include_tones: true
+tone_characters: ""
+include_tones: false
 sonorants: ""
 vowels: "aeoiuy"
