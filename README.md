@@ -173,9 +173,12 @@ diff ./output.txt ./sample-data/pronunciation-dictionaries/tones/canto_pd.txt
 
 The default behavior for syllabify is to include tones in the output pronunciation dictionary. This behavior can be modified by configuration: [config/mfa.yaml](config/mfa.yaml) controls the formatting scheme for the MFA dictionary. the `include_tones` option can set to `true` or `false` as desired. This can be done via any text editor. If you prefer, there are `.yaml` processing tools like [yq](https://mikefarah.gitbook.io/yq/) which can make this task very quick:
 ```shell_session
-yq -i '.include_tones = false' config/mfa.yaml # update the property include_tones
-yq e '.' config/mfa.yaml  # verify that the include_tones property is false
-yq -i '.include_tones = true' config/mfa.yaml # to switch tones back on
+# update the property include_tones
+yq -i '.include_tones = false' config/mfa.yaml 
+# verify that the include_tones property is false
+yq e '.' config/mfa.yaml  
+# to switch tones back on
+yq -i '.include_tones = true' config/mfa.yaml 
 ```
 With this configuration change, the the syllabify MFA pronunciation dictionary output will no longer include tones.
 
