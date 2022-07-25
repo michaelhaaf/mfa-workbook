@@ -25,16 +25,17 @@ def parse_input(format):
         corpus_name = CorpusEnum.DEFAULT.name
 
     if f"{format.lower()}.yaml" in os.listdir("./config"):
-        config_filename = format.lower()
+        config_filename = f"{format.lower()}.yaml"
     else:
-        config_filename = CorpusEnum.DEFAULT.name.lower()
+        logger.info(f"{format.lower()}.yaml not present in config directory. Using default.yaml")
+        config_filename = f"{CorpusEnum.DEFAULT.name.lower()}.yaml"
 
     return config_filename, corpus_name
 
 
 # TODO: might not need dacite afterall
 def load_configs(input_format, output_format):
-    with open(f"config/{input_format}.yaml", "r") as input_config, open(f"config/{output_format}.yaml", "r") as output_config:
+    with open(f"config/{input_format}", "r") as input_config, open(f"config/{output_format}", "r") as output_config:
         output_config = dacite.from_dict(
                 data_class=Config,
                 data=yaml.safe_load(output_config),
@@ -52,9 +53,9 @@ def main(args):
 
     config_filename, corpus_name = parse_input(args.format)
     logger.addHandler(console_handler)
-    logger.info(f"Using config file {config_filename}.yaml and corpus {corpus_name}...")
+    logger.info(f"Using config file {config_filename} and corpus {corpus_name}...")
 
-    input_config, output_config = load_configs(config_filename, CorpusEnum.MFA.name.lower())
+    input_config, output_config = load_configs(config_filename, f"{CorpusEnum.MFA.name.lower()}.yaml")
     input_corpus = CorpusFactory(input_config).create(corpus_name)
     output_corpus = CorpusFactory(output_config).create(CorpusEnum.MFA.name.upper())
     fileio = FileIO(input_config, output_config)
