@@ -156,15 +156,21 @@ The `--input` and `--dest` arguments should be replaced by the path to the direc
 
 Confirm that your textgrids look correct using a text editor.
 
-## Iarpa lexicon to MFA dictionary
+## Syllabify: convert lexicon to MFA dictionary
 
-The Iarpa lexicon format needs to be converted to an MFA pronunciation dictionary.
+Corpus lexicons can be converted to MFA dictionaries using the `syllabify` module. The MFA dictionaries stored in `sample-data/pronunciation-dictionaries` were generated using `syllabify` and the example lexicons provided in `sample-data`, like so:
 
 ```shell_session
-python ./syllabify.py -i sample-data/lexicons/canto.txt -o ./pd-test.txt -f iarpa_canto
-```
+# Merge all lexicons into one file
+find sample-data/iarpa_canto_corpus/ -type f -name "*lexicon*" -exec cat {} + >> ./merged_canto_lexicon.txt
 
-Confirm that your pronunciation dictionary look corrects using a text editor (`vimdiff ./sample-data/pd.txt ./sample-data/pd-test.txt`, for example).
+# Run syllabify on the combined lexicon
+python ./syllabify.py -i ./merged_canto_lexicon.txt -o ./output.txt -f iarpa_canto
+
+# Compare MFA dictionary against the existing gold standard:
+diff ./output.txt ./sample-data/pronunciation-dictionaries/tones/canto_pd.txt
+```
+More configuration options (particularly the inclusion/rejection of tone markers) and instructions for adding support for new corpora can be found in the [config](config/README.md) and [src](src/README.md) directories.
 
 ## Preparation
 
