@@ -58,7 +58,7 @@ That is, the following steps need to be taken:
 
 - [Convert bulk generic audio files to 16kHz .wav files](#bulk-audio-conversion)
 - [Convert bulk .txt transcripts to .TextGrids](#bulk-transcript-conversion)
-- [Convert Iarpa corpus lexicon to MFA-ready pronunciation dictionary](#iarpa-lexicon-to-mfa-dictionary)
+- [Convert Iarpa corpus lexicon to MFA-ready pronunciation dictionary](#syllabify)
 - [Prepare all of the above for alignment with MFA](#preparation)
 
 Instructions for each step, using the code in this repository, are given below. You can follow the steps with the data contained in the sample-data directory to get a sense of the process. Sample results for this dataset are also given in the sample-data directory.
@@ -156,7 +156,7 @@ The `--input` and `--dest` arguments should be replaced by the path to the direc
 
 Confirm that your textgrids look correct using a text editor.
 
-## Syllabify: convert lexicon to MFA dictionary
+## Syllabify
 
 Corpus lexicons can be converted to MFA dictionaries using the `syllabify` module. The MFA dictionaries stored in `sample-data/pronunciation-dictionaries` were generated using `syllabify` and the example lexicons provided in `sample-data`, like so:
 
