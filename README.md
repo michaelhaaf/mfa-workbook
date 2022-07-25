@@ -170,7 +170,16 @@ python ./syllabify.py -i ./merged_canto_lexicon.txt -o ./output.txt -f iarpa_can
 # Compare MFA dictionary against the existing gold standard:
 diff ./output.txt ./sample-data/pronunciation-dictionaries/tones/canto_pd.txt
 ```
-More configuration options (particularly the inclusion/rejection of tone markers) and instructions for adding support for new corpora can be found in the [config](config/README.md) and [src](src/README.md) directories.
+
+The default behavior for syllabify is to include tones in the output pronunciation dictionary. This behavior can be modified by configuration: [config/mfa.yaml](config/mfa.yaml) controls the formatting scheme for the MFA dictionary. the `include_tones` option can set to `true` or `false` as desired. This can be done via any text editor. If you prefer, there are `.yaml` processing tools like [yq](https://mikefarah.gitbook.io/yq/) which can make this task very quick:
+```shell_session
+yq -i '.include_tones = false' config/mfa.yaml # update the property include_tones
+yq e '.' config/mfa.yaml  # verify that the include_tones property is false
+yq -i '.include_tones = true' config/mfa.yaml # to switch tones back on
+```
+With this configuration change, the the syllabify MFA pronunciation dictionary output will no longer include tones.
+
+More configuration options and instructions for adding support for new corpora can be found in the [config](config/README.md) and [src](src/README.md) directories.
 
 ## Preparation
 
